@@ -1,0 +1,309 @@
+
+fXWhen Professor Vasquez collapses at your party, the truth about his illness is revealed.*
+HY
+PORTRAIT_CHRISGE{base_url}/assets/portraits/{res}/portrait_romance_main_chris-v02.pngT
+DEP_PARTICLE_SUNLIGHT;9{base_url}/assets/ccbi_images/{res}/sunlight_particle.pnge
+PORTRAIT_BRANDONQO{base_url}/assets/portraits/{res}/portrait_romance_male_white_guy_suave-v01.pngJ
+MUSIC_COLLEGE_LOVE42{base_url}/assets/music/music_romance_love-v01.mp3Z
+MUSIC_COLLEGE_TENSE_ACTION<:{base_url}/assets/music/music_romance_tense_action-v01.mp3
+$DEP_BG_EXT_DORM_ROOFTOP_WINTER_NIGHTWU{base_url}/assets/backgrounds/{size}/bg_romance_ext_dorm_rooftop_winter_night-v01.jpgt
+PORTRAIT_VASQUEZ_PLISTZX{base_url}/assets/portraits/{res}/portrait_romance_male_hispanic_professor_old-v02.plistW
+PORTRAIT_ZACKFD{base_url}/assets/portraits/{res}/portrait_romance_main_zack-v02.pngo
+DEP_BG_LIGHTS_AMBIENCE_NIGHTOM{base_url}/assets/backgrounds/{size}/bg_romance_lights_ambience_night-v01.jpgn
+ BG_EXT_DORM_ROOFTOP_WINTER_NIGHTJH{base_url}/assets/ccbi/bg_romance_ext_dorm_rooftop_winter_night-v01.ccbim
+DEP_BG_INT_DORM_BEDROOM_DAYNL{base_url}/assets/backgrounds/{size}/bg_romance_int_dorm_bedroom_day-v01.jpgY
+PORTRAIT_ABBIEGE{base_url}/assets/portraits/{res}/portrait_romance_main_abbie-v01.pngl
+PORTRAIT_VASQUEZXV{base_url}/assets/portraits/{res}/portrait_romance_male_hispanic_professor_old-v02.pngT
+MUSIC_COLLEGE_TENSE_SAD97{base_url}/assets/music/music_romance_tense_sad-v01.mp3^
+BG_LIGHTS_AMBIENCE_NIGHTB@{base_url}/assets/ccbi/bg_romance_lights_ambience_night-v01.ccbiR
+MUSIC_COLLEGE_LOVE_SAD86{base_url}/assets/music/music_romance_love_sad-v01.mp3í
+ PORTRAIT_CUSTOM_YOU_HAIR_B_ASIANnl{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_b_black_long_straight-v02.png_
+PORTRAIT_ZACK_PLISTHF{base_url}/assets/portraits/{res}/portrait_romance_main_zack-v02.plisth
+BG_INT_COFFEE_SHOP_WINTER_DAYGE{base_url}/assets/ccbi/bg_romance_int_coffee_shop_winter_day-v01.ccbip
+PORTRAIT_KAITLYN_PLISTVT{base_url}/assets/portraits/{res}/portrait_romance_main_kaitlyn_jacket_red-v01.plistq
+DEP_BG_INT_DORM_BEDROOM_NIGHTPN{base_url}/assets/backgrounds/{size}/bg_romance_int_dorm_bedroom_night-v01.jpgk
+DEP_BG_INT_DORM_MAIN_NIGHTMK{base_url}/assets/backgrounds/{size}/bg_romance_int_dorm_main_night-v01.jpgZ
+BG_INT_DORM_MAIN_NIGHT@>{base_url}/assets/ccbi/bg_romance_int_dorm_main_night-v01.ccbih
+PORTRAIT_KAITLYNTR{base_url}/assets/portraits/{res}/portrait_romance_main_kaitlyn_jacket_red-v01.pnga
+PORTRAIT_ABBIE_PLISTIG{base_url}/assets/portraits/{res}/portrait_romance_main_abbie-v01.plistu
+DEP_BG_INT_OFFICE_PROFESSORVT{base_url}/assets/backgrounds/{size}/bg_romance_int_office_professor_neutral-v01.jpgê
+$PORTRAIT_CUSTOM_OUTFIT_CASUAL_TOMBOYhf{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_casual_tomboy-v01.pngY
+PORTRAIT_TYLERGE{base_url}/assets/portraits/{res}/portrait_romance_main_tyler-v01.pngL
+DEP_PARTICLE_STAR75{base_url}/assets/ccbi_images/{res}/star_particle.pnga
+PORTRAIT_TYLER_PLISTIG{base_url}/assets/portraits/{res}/portrait_romance_main_tyler-v01.plistN
+MUSIC_COLLEGE_WINTER64{base_url}/assets/music/music_romance_winter-v01.mp3k
+PORTRAIT_YASMINXV{base_url}/assets/portraits/{res}/portrait_romance_female_black_literary_agent-v01.png`
+BG_INT_DORM_BEDROOM_NIGHTCA{base_url}/assets/ccbi/bg_romance_int_dorm_bedroom_night-v01.ccbi`
+MUSIC_COLLEGE_COMEDY_MISCHIEF?={base_url}/assets/music/music_romance_comedy_mischief-v01.mp3l
+BG_EXT_CAMPUS_QUAD_WINTER_NIGHTIG{base_url}/assets/ccbi/bg_romance_ext_campus_quad_winter_night_v01.ccbih
+BG_INT_HOSPITAL_WAITING_NIGHTGE{base_url}/assets/ccbi/bg_romance_int_hospital_waiting_night-v01.ccbiY
+PORTRAIT_JAMESGE{base_url}/assets/portraits/{res}/portrait_romance_main_james-v01.pngô
+,PORTRAIT_CUSTOM_YOU_FACE_CAUCASIAN_RED_PLISTig{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_face_caucasian_pale-v02.plistu
+PORTRAIT_GABRIELA_PLISTZX{base_url}/assets/portraits/{res}/portrait_romance_female_hispanic_woman_tired-v01.plist\
+BG_INT_DORM_BEDROOM_DAYA?{base_url}/assets/ccbi/bg_romance_int_dorm_bedroom_day-v01.ccbia
+PORTRAIT_CHRIS_PLISTIG{base_url}/assets/portraits/{res}/portrait_romance_main_chris-v02.plistë
+&PORTRAIT_CUSTOM_YOU_FACE_CAUCASIAN_REDge{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_face_caucasian_pale-v02.pngs
+PORTRAIT_YASMIN_PLISTZX{base_url}/assets/portraits/{res}/portrait_romance_female_black_literary_agent-v01.plisty
+!DEP_BG_INT_COFFEE_SHOP_WINTER_DAYTR{base_url}/assets/backgrounds/{size}/bg_romance_int_coffee_shop_winter_day-v01.jpgú
+%PORTRAIT_CUSTOM_OUTFIT_WELCOME_JACKETsq{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_welcomeweek_jacket_khaki-v01.png}
+#DEP_BG_EXT_CAMPUS_QUAD_WINTER_NIGHTVT{base_url}/assets/backgrounds/{size}/bg_romance_ext_campus_quad_winter_night-v01.jpgë
+&PORTRAIT_CUSTOM_YOU_BODY_CAUCASIAN_REDge{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_body_caucasian_pale-v02.pngé
+#PORTRAIT_CUSTOM_OUTFIT_VEST_QUILTEDge{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_vest_quilted-v02.pngT
+MUSIC_COLLEGE_FUN_CHILL97{base_url}/assets/music/music_romance_fun_chill-v01.mp3m
+PORTRAIT_GABRIELAXV{base_url}/assets/portraits/{res}/portrait_romance_female_hispanic_woman_tired-v01.pngd
+BG_INT_OFFICE_PROFESSORIG{base_url}/assets/ccbi/bg_romance_int_office_professor_neutral-v01.ccbiL
+DEP_PARTICLE_FIRE75{base_url}/assets/ccbi_images/{res}/fire_particle.pngy
+!DEP_BG_INT_HOSPITAL_WAITING_NIGHTTR{base_url}/assets/backgrounds/{size}/bg_romance_int_hospital_waiting_night-v01.jpgí
+ PORTRAIT_CUSTOM_YOU_HAIR_F_ASIANnl{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_f_black_long_straight-v02.pngå
+"PORTRAIT_CUSTOM_PROP_F_TRANSPARENTfd{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_prop_f_transparent-v01.pngm
+PORTRAIT_BRANDON_PLISTSQ{base_url}/assets/portraits/{res}/portrait_romance_male_white_guy_suave-v01.plistå
+"PORTRAIT_CUSTOM_OUTFIT_PARKA_GREENfd{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_parka_green-v02.pnga
+PORTRAIT_JAMES_PLISTIG{base_url}/assets/portraits/{res}/portrait_romance_main_james-v01.plist"Ñ
+ PORTRAIT_CUSTOM_YOU_FACE_AFRICAN`^{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_face_african-v02.png"å
+&PORTRAIT_CUSTOM_YOU_FACE_AFRICAN_PLISTb`{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_face_african-v02.plist"ï
+"PORTRAIT_CUSTOM_YOU_HAIR_B_AFRICANom{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_b_brunette_short_curly-v02.png"Ñ
+ PORTRAIT_CUSTOM_YOU_BODY_AFRICAN`^{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_body_african-v02.png"ï
+"PORTRAIT_CUSTOM_YOU_HAIR_F_AFRICANom{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_f_brunette_short_curly-v02.png"Ä
+PORTRAIT_CUSTOM_YOU_FACE_ASIAN^\{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_face_asian-v02.png"à
+$PORTRAIT_CUSTOM_YOU_FACE_ASIAN_PLIST`^{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_face_asian-v02.plist"¢
+/PORTRAIT_CUSTOM_YOU_HAIR_B_AUBURN_LONG_STRAIGHTom{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_b_auburn_long_straight-v02.png"¢
+/PORTRAIT_CUSTOM_YOU_HAIR_F_AUBURN_LONG_STRAIGHTom{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_f_auburn_long_straight-v02.png"†
+.PORTRAIT_CUSTOM_YOU_HAIR_B_BLACK_LONG_STRAIGHTnl{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_b_black_long_straight-v02.png"†
+.PORTRAIT_CUSTOM_YOU_HAIR_F_BLACK_LONG_STRAIGHTnl{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_f_black_long_straight-v02.png"ú
+,PORTRAIT_CUSTOM_YOU_HAIR_B_BLONDE_SHORT_WAVYlj{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_b_blonde_short_wavy-v02.png"ú
+,PORTRAIT_CUSTOM_YOU_HAIR_F_BLONDE_SHORT_WAVYlj{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_f_blonde_short_wavy-v02.png"¶
+1PORTRAIT_CUSTOM_YOU_HAIR_B_BRUNETTE_LONG_STRAIGHTqo{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_b_brunette_long_straight-v02.png"¶
+1PORTRAIT_CUSTOM_YOU_HAIR_F_BRUNETTE_LONG_STRAIGHTqo{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_f_brunette_long_straight-v02.png"¢
+/PORTRAIT_CUSTOM_YOU_HAIR_B_BRUNETTE_SHORT_CURLYom{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_b_brunette_short_curly-v02.png"¢
+/PORTRAIT_CUSTOM_YOU_HAIR_F_BRUNETTE_SHORT_CURLYom{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_f_brunette_short_curly-v02.png"Ä
+PORTRAIT_CUSTOM_YOU_BODY_ASIAN^\{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_body_asian-v02.png"ñ
+)PORTRAIT_CUSTOM_YOU_FACE_CAUCASIAN_BLONDEig{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_face_caucasian_blonde-v01.png"û
+/PORTRAIT_CUSTOM_YOU_FACE_CAUCASIAN_BLONDE_PLISTki{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_face_caucasian_blonde-v01.plist"õ
++PORTRAIT_CUSTOM_YOU_HAIR_B_CAUCASIAN_BLONDElj{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_b_blonde_short_wavy-v02.png"ñ
+)PORTRAIT_CUSTOM_YOU_BODY_CAUCASIAN_BLONDEig{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_body_caucasian_blonde-v01.png"õ
++PORTRAIT_CUSTOM_YOU_HAIR_F_CAUCASIAN_BLONDElj{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_f_blonde_short_wavy-v02.png"õ
+(PORTRAIT_CUSTOM_YOU_HAIR_B_CAUCASIAN_REDom{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_b_auburn_long_straight-v02.png"õ
+(PORTRAIT_CUSTOM_YOU_HAIR_F_CAUCASIAN_REDom{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_f_auburn_long_straight-v02.png"Ü
+!PORTRAIT_CUSTOM_YOU_FACE_HISPANICa_{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_face_hispanic-v02.png"é
+'PORTRAIT_CUSTOM_YOU_FACE_HISPANIC_PLISTca{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_face_hispanic-v02.plist"ò
+#PORTRAIT_CUSTOM_YOU_HAIR_B_HISPANICqo{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_b_brunette_long_straight-v02.png"Ü
+!PORTRAIT_CUSTOM_YOU_BODY_HISPANICa_{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_body_hispanic-v02.png"ò
+#PORTRAIT_CUSTOM_YOU_HAIR_F_HISPANICqo{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_hair_f_brunette_long_straight-v02.png"ê
+$PORTRAIT_CUSTOM_OUTFIT_CASUAL_PREPPYhf{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_casual_preppy-v01.png"î
+&PORTRAIT_CUSTOM_OUTFIT_CASUAL_SUNDRESSjh{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_casual_sundress-v01.png"å
+"PORTRAIT_CUSTOM_OUTFIT_CASUAL_PUNKfd{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_casual_punk-v01.png"é
+#PORTRAIT_CUSTOM_OUTFIT_CASUAL_URBANge{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_casual_urban-v01.png"ê
+$PORTRAIT_CUSTOM_OUTFIT_CAMISOLE_GRAYhf{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_camisole_grey-v01.png"ê
+$PORTRAIT_CUSTOM_OUTFIT_CLUBBING_GOLDhf{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_clubbing_gold-v01.png"í
+%PORTRAIT_CUSTOM_OUTFIT_CLUBBING_WHITEig{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_clubbing_white-v01.png"ò
+$PORTRAIT_CUSTOM_OUTFIT_CLUBBING_FREEpn{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_clubbing_blouse_white-v01.png"í
+%PORTRAIT_CUSTOM_OUTFIT_DINNER_ELEGANTig{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_dinner_elegant-v01.png"ò
+(PORTRAIT_CUSTOM_OUTFIT_DINNER_EMBROIDERYlj{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_dinner_embroidery-v01.png"ì
+"PORTRAIT_CUSTOM_OUTFIT_DINNER_FREEmk{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_dinner_dress_green-v01.png"å
+"PORTRAIT_CUSTOM_OUTFIT_FORMAL_BLUEfd{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_formal_blue-v01.png"ä
+!PORTRAIT_CUSTOM_OUTFIT_FORMAL_REDec{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_formal_red-v01.png"é
+#PORTRAIT_CUSTOM_OUTFIT_FORMAL_WHITEge{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_formal_white-v01.png"í
+%PORTRAIT_CUSTOM_OUTFIT_SORORITY_BLACKig{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_sorority_black-v01.png"ê
+$PORTRAIT_CUSTOM_OUTFIT_SORORITY_BLUEhf{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_sorority_blue-v01.png"î
+&PORTRAIT_CUSTOM_OUTFIT_SORORITY_PURPLEjh{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_sorority_purple-v01.png"ê
+$PORTRAIT_CUSTOM_OUTFIT_SORORITY_RUSHhf{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_sorority_rush-v01.png"†
+,PORTRAIT_CUSTOM_OUTFIT_SORORITY_RUSH_SPARKLYpn{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_sorority_rush_sparkly-v01.png"õ
+)PORTRAIT_CUSTOM_OUTFIT_SORORITY_RUSH_FREEnl{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_sorority_rush_white-v01.png"å
+"PORTRAIT_CUSTOM_OUTFIT_PARTY_WHITEfd{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_party_white-v01.png"ê
+!PORTRAIT_CUSTOM_OUTFIT_PARTY_FREEki{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_party_shirt_grey-v02.png"é
+#PORTRAIT_CUSTOM_OUTFIT_PARTY_FLORALge{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_party_floral-v01.png"ç
+&PORTRAIT_CUSTOM_OUTFIT_UNDERWEAR_BLACKca{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_underwear_black-v01.png"å
+"PORTRAIT_CUSTOM_OUTFIT_BIKINI_NEONfd{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_bikini_neon-v02.png"ñ
+)PORTRAIT_CUSTOM_YOU_FACE_CAUCASIAN_NORMALig{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_face_caucasian_normal-v02.png"û
+/PORTRAIT_CUSTOM_YOU_FACE_CAUCASIAN_NORMAL_PLISTki{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_face_caucasian_normal-v02.plist"í
+'PORTRAIT_CUSTOM_YOU_FACE_CAUCASIAN_PALEge{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_face_caucasian_pale-v02.png"ö
+-PORTRAIT_CUSTOM_YOU_FACE_CAUCASIAN_PALE_PLISTig{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_face_caucasian_pale-v02.plist"í
+'PORTRAIT_CUSTOM_YOU_BODY_CAUCASIAN_PALEge{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_body_caucasian_pale-v02.png"g
+PORTRAIT_CHRIS_FORMALNL{base_url}/assets/portraits/{res}/portrait_romance_main_chris_formal-v02.png"o
+PORTRAIT_CHRIS_FORMAL_PLISTPN{base_url}/assets/portraits/{res}/portrait_romance_main_chris_formal-v02.plist"k
+PORTRAIT_CHRIS_FOOTBALLPN{base_url}/assets/portraits/{res}/portrait_romance_main_chris_football-v02.png"s
+PORTRAIT_CHRIS_FOOTBALL_PLISTRP{base_url}/assets/portraits/{res}/portrait_romance_main_chris_football-v02.plist"m
+PORTRAIT_CHRIS_SHIRTLESSQO{base_url}/assets/portraits/{res}/portrait_romance_main_chris_shirtless-v02.png"u
+PORTRAIT_CHRIS_SHIRTLESS_PLISTSQ{base_url}/assets/portraits/{res}/portrait_romance_main_chris_shirtless-v02.plist"g
+PORTRAIT_ABBIE_FORMALNL{base_url}/assets/portraits/{res}/portrait_romance_main_abbie_formal-v01.png"o
+PORTRAIT_ABBIE_FORMAL_PLISTPN{base_url}/assets/portraits/{res}/portrait_romance_main_abbie_formal-v01.plist"g
+PORTRAIT_JAMES_FORMALNL{base_url}/assets/portraits/{res}/portrait_romance_main_james_formal-v01.png"o
+PORTRAIT_JAMES_FORMAL_PLISTPN{base_url}/assets/portraits/{res}/portrait_romance_main_james_formal-v01.plist"m
+PORTRAIT_JAMES_SHIRTLESSQO{base_url}/assets/portraits/{res}/portrait_romance_main_james_shirtless-v01.png"u
+PORTRAIT_JAMES_SHIRTLESS_PLISTSQ{base_url}/assets/portraits/{res}/portrait_romance_main_james_shirtless-v01.plist"u
+PORTRAIT_MADISON_FORMALZX{base_url}/assets/portraits/{res}/portrait_romance_female_white_girl_mean_formal-v01.png"}
+PORTRAIT_MADISON_FORMAL_PLIST\Z{base_url}/assets/portraits/{res}/portrait_romance_female_white_girl_mean_formal-v01.plist"g
+PORTRAIT_TYLER_FORMALNL{base_url}/assets/portraits/{res}/portrait_romance_main_tyler_formal-v01.png"o
+PORTRAIT_TYLER_FORMAL_PLISTPN{base_url}/assets/portraits/{res}/portrait_romance_main_tyler_formal-v01.plist"e
+PORTRAIT_ZACK_FORMALMK{base_url}/assets/portraits/{res}/portrait_romance_main_zack_formal-v02.png"m
+PORTRAIT_ZACK_FORMAL_PLISTOM{base_url}/assets/portraits/{res}/portrait_romance_main_zack_formal-v02.plist"t
+PORTRAIT_BECCA_FORMAL[Y{base_url}/assets/portraits/{res}/portrait_romance_female_white_girl_ditzy_formal-v01.png"|
+PORTRAIT_BECCA_FORMAL_PLIST][{base_url}/assets/portraits/{res}/portrait_romance_female_white_girl_ditzy_formal-v01.plist"x
+PORTRAIT_LOGAN_FOOTBALL][{base_url}/assets/portraits/{res}/portrait_romance_male_asian_bro_athletic_football-v01.png"Ä
+PORTRAIT_LOGAN_FOOTBALL_PLIST_]{base_url}/assets/portraits/{res}/portrait_romance_male_asian_bro_athletic_football-v01.plist"k
+PORTRAIT_KAITLYN_FORMALPN{base_url}/assets/portraits/{res}/portrait_romance_main_kaitlyn_formal-v02.png"s
+PORTRAIT_KAITLYN_FORMAL_PLISTRP{base_url}/assets/portraits/{res}/portrait_romance_main_kaitlyn_formal-v02.plist"q
+PORTRAIT_KAITLYN_UNDERWEARSQ{base_url}/assets/portraits/{res}/portrait_romance_main_kaitlyn_underwear-v02.png"y
+ PORTRAIT_KAITLYN_UNDERWEAR_PLISTUS{base_url}/assets/portraits/{res}/portrait_romance_main_kaitlyn_underwear-v02.plist"Ç
+PORTRAIT_DARREN_FOOTBALLfd{base_url}/assets/portraits/{res}/portrait_romance_male_white_quarterback_confident_football-v01.png"ä
+PORTRAIT_DARREN_FOOTBALL_PLISThf{base_url}/assets/portraits/{res}/portrait_romance_male_white_quarterback_confident_football-v01.plist"~
+PORTRAIT_DARREN_FORMALdb{base_url}/assets/portraits/{res}/portrait_romance_male_white_quarterback_confident_formal-v01.png"Ü
+PORTRAIT_DARREN_FORMAL_PLISTfd{base_url}/assets/portraits/{res}/portrait_romance_male_white_quarterback_confident_formal-v01.plist"s
+PORTRAIT_BRANDON_FORMALXV{base_url}/assets/portraits/{res}/portrait_romance_male_white_guy_suave_formal-v01.png"{
+PORTRAIT_BRANDON_FORMAL_PLISTZX{base_url}/assets/portraits/{res}/portrait_romance_male_white_guy_suave_formal-v01.plist"é
+#PORTRAIT_CUSTOM_OUTFIT_LINGERIE_REDge{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_lingerie_red-v02.png"ü
+(PORTRAIT_CUSTOM_OUTFIT_COSTUME_VICTORIANsq{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_costume_victorian_silver-v02.png"o
+PORTRAIT_KAITLYN_PLAYVT{base_url}/assets/portraits/{res}/portrait_romance_main_kaitlyn_costume_play-v01.png"w
+PORTRAIT_KAITLYN_PLAY_PLISTXV{base_url}/assets/portraits/{res}/portrait_romance_main_kaitlyn_costume_play-v01.plist"o
+PORTRAIT_JAMES_MAKEOVERTR{base_url}/assets/portraits/{res}/portrait_romance_main_james_sweater_blue-v01.png"w
+PORTRAIT_JAMES_MAKEOVER_PLISTVT{base_url}/assets/portraits/{res}/portrait_romance_main_james_sweater_blue-v01.plist"î
+&PORTRAIT_CUSTOM_OUTFIT_CASTPARTY_PEACHjh{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_castparty_peach-v01.png"ñ
+$PORTRAIT_CUSTOM_OUTFIT_CASTPARTY_REDnl{base_url}/assets/portraits_custom/{res}/portrait_custom_romance_main_you_outfit_castparty_red_lacey-v01.png*	
+college24
+Zack,
+Zack$
+PORTRAIT_ZACKPORTRAIT_ZACK_PLIST28
+Tyler/
+Tyler&
+PORTRAIT_TYLERPORTRAIT_TYLER_PLIST2<
+Yasmin2
+Yasmin(
+PORTRAIT_YASMINPORTRAIT_YASMIN_PLIST2@
+Kaitlyn5
+Kaitlyn*
+PORTRAIT_KAITLYNPORTRAIT_KAITLYN_PLIST28
+Chris/
+Chris&
+PORTRAIT_CHRISPORTRAIT_CHRIS_PLIST2‚
+You3Ÿ
+You3"–
+,
+HAIR_B"
+ PORTRAIT_CUSTOM_YOU_HAIR_B_ASIAN
+0
+BODY(
+&PORTRAIT_CUSTOM_YOU_BODY_CAUCASIAN_RED
+^
+FACEV
+&PORTRAIT_CUSTOM_YOU_FACE_CAUCASIAN_RED,PORTRAIT_CUSTOM_YOU_FACE_CAUCASIAN_RED_PLIST
+0
+OUTFIT&
+$PORTRAIT_CUSTOM_OUTFIT_CASUAL_TOMBOY
+,
+HAIR_F"
+ PORTRAIT_CUSTOM_YOU_HAIR_F_ASIAN
+.
+PROP_F$
+"PORTRAIT_CUSTOM_PROP_F_TRANSPARENT2‚
+You2Ÿ
+You2"–
+,
+HAIR_B"
+ PORTRAIT_CUSTOM_YOU_HAIR_B_ASIAN
+0
+BODY(
+&PORTRAIT_CUSTOM_YOU_BODY_CAUCASIAN_RED
+^
+FACEV
+&PORTRAIT_CUSTOM_YOU_FACE_CAUCASIAN_RED,PORTRAIT_CUSTOM_YOU_FACE_CAUCASIAN_RED_PLIST
+0
+OUTFIT&
+$PORTRAIT_CUSTOM_OUTFIT_CASUAL_TOMBOY
+,
+HAIR_F"
+ PORTRAIT_CUSTOM_YOU_HAIR_F_ASIAN
+.
+PROP_F$
+"PORTRAIT_CUSTOM_PROP_F_TRANSPARENT2‚
+You1Ÿ
+You1"–
+,
+HAIR_B"
+ PORTRAIT_CUSTOM_YOU_HAIR_B_ASIAN
+0
+BODY(
+&PORTRAIT_CUSTOM_YOU_BODY_CAUCASIAN_RED
+^
+FACEV
+&PORTRAIT_CUSTOM_YOU_FACE_CAUCASIAN_RED,PORTRAIT_CUSTOM_YOU_FACE_CAUCASIAN_RED_PLIST
+0
+OUTFIT&
+$PORTRAIT_CUSTOM_OUTFIT_CASUAL_TOMBOY
+,
+HAIR_F"
+ PORTRAIT_CUSTOM_YOU_HAIR_F_ASIAN
+.
+PROP_F$
+"PORTRAIT_CUSTOM_PROP_F_TRANSPARENT2S
+VasquezH
+VasquezProfessor Vasquez*
+PORTRAIT_VASQUEZPORTRAIT_VASQUEZ_PLIST2@
+Brandon5
+Brandon*
+PORTRAIT_BRANDONPORTRAIT_BRANDON_PLIST28
+James/
+James&
+PORTRAIT_JAMESPORTRAIT_JAMES_PLIST28
+Abbie/
+Abbie&
+PORTRAIT_ABBIEPORTRAIT_ABBIE_PLIST2‡
+Youÿ
+You"–
+,
+HAIR_B"
+ PORTRAIT_CUSTOM_YOU_HAIR_B_ASIAN
+0
+BODY(
+&PORTRAIT_CUSTOM_YOU_BODY_CAUCASIAN_RED
+^
+FACEV
+&PORTRAIT_CUSTOM_YOU_FACE_CAUCASIAN_RED,PORTRAIT_CUSTOM_YOU_FACE_CAUCASIAN_RED_PLIST
+0
+OUTFIT&
+$PORTRAIT_CUSTOM_OUTFIT_CASUAL_TOMBOY
+,
+HAIR_F"
+ PORTRAIT_CUSTOM_YOU_HAIR_F_ASIAN
+.
+PROP_F$
+"PORTRAIT_CUSTOM_PROP_F_TRANSPARENT2D
+Gabriela8
+Gabriela,
+PORTRAIT_GABRIELAPORTRAIT_GABRIELA_PLIST:üõ	FadeMusicOfferRestartChapter
+EndChapterBgImage	PlayMusicEvtSetPrimaryCharBgDissolveColorBgDissolveImageDlg
+CreateMenuSetMenuCharacterAddMenuChoiceShowMenu
+MajorToast
+GetBookVarAddToBookVarAddMenuChoicePremiumBgPanCopyPortraitSetPortraitLayerCreateVisualMenuAddVisualChoicePortraitSetBookVarIntCHAPTER COMPLETEtYou've reached the end of the chapter. Restart this chapter to try other choices or continue on to the next chapter.Restart ChapterContinue OnBG_LIGHTS_AMBIENCE_NIGHTMUSIC_COLLEGE_TENSE_SADChapter Eight: The HospitalThe FreshmanYouBG_INT_HOSPITAL_WAITING_NIGHTkYou sit in the hospital's waiting room with James and Yasmin, the overhead fluorescents buzzing like flies.James3I can't believe it. He seemed fine earlier tonight.SAD@It's probably nothing, right? Just low blood sugar or something.It could be. Or...`Yasmin finishes speaking to the doctor nearby. She walks up to you and gives you a warning look.Yasmin\I'm sure the professor wouldn't want us discussing his <i>sensitive medical information.</i>ANGRYO-of course.	SURPRISEDkJames, it sounds like they'll be keeping him for evaluation for a few days, but you can go talk to him now.I'd like that.FWithout another word, James walks down the hall toward Vasquez's room.1Vasquez told me you're aware of his... condition.Yes. And apparently so are you.9It's my job to know these things. It affects my business.[It's also my job to keep my clients happy, and that means keeping Vasquez's cancer private.Sounds like...NEUTRALThis is all about money to you.You have a sense of loyalty.$That just shows how little you know.TIf I were trying to make a buck, I'd leak the news of Vasquez's cancer to the media.<Book sales would be up thirty percent by breakfast tomorrow.So why don't you?ABecause I play the long game. My clients know my word is my bond."If I lose that, I lose everything.,I'm a businesswoman, but my word is my bond.7I'll protect Vasquez's secret. And I hope you will too.1But what about James? Doesn't he deserve to know?$He deserves to hear it from Vasquez.)Just then, James walks out, smiling wide.NBased on the way he was berating the nurse, I'd say he's feeling a lot better.HAPPYiHe says the doctor gave him a clean bill of health. They're just keeping him here as an extra precaution.Oh... great.../He told me not to wait up. Should we head home?Sounds like a good idea.lYasmin shoots you one last stern glare before turning and leaving, her heels clicking on the hospital floor.BG_EXT_CAMPUS_QUAD_WINTER_NIGHTMUSIC_COLLEGE_LOVE_SAD4A little later, you and James arrive back on campus.YSo... what now? I'm sure the party is over if you want to head back to my place and talk.ÖI'm going to stop by Vasquez's office and pick up his laptop. If he goes more than a few hours without writing he gets pretty cranky.JWait. You mean this whole time I've been seeing him in a <i>good</i> mood?Heh. Exactly....James? Are you okay?%I'm sure it's nothing... it's just...XDespite everything Vasquez told me, I couldn't shake the feeling that something was off.Am I missing something here?BFor a moment, the world seems to stop, and you take a deep breath.I.../You can tell me anything. You know that, right?GYou take another breath and remember what Professor Vasquez told you...BG_INT_OFFICE_PROFESSOR9Oh my god... how long have you known? Does Gabriela know?VasquezNo, of course not.Does <i>James</i>?No... and you won't tell him.James, I...The truth is...Professor Vasquez has cancer.I don't know.Are... are you sure?Truth Teller#You told Vasquez's secret to James.Yes.How long have you known?Since last quarter.+So you've been lying to me this whole time?BHe's interrupted as you see a figure emerge from Vasquez's office.Gabriela...KCrying, Gabriela falls to her knees in the snow, dropping a stack of books.Gabriela! Are you okay?0Far from it. I just got the news about my dad...7He told me to come here and pick up some books, and I--^James helps her up. She groans under the weight of her pregnant belly as she gets to her feet.;Come on. Let's get you to the hospital. You should see him.I... I can get there on my own.'She looks at you with fury in her eyes.3My father told me <i>everything</i> over the phone.@You could have told me, you know. Back when you first found out.I guess we're both in the dark.Secret KeeperYou kept Vasquez's secret.Yeah...MUSIC_COLLEGE_TENSE_ACTION=You're interrupted by the sound of soft clapping from nearby.HBravo. My father mentioned that you'd taken up acting in his last email.$But I had no idea how good you were."Gabriela? What are you doing here?1My father has me listed as his emergency contact.WI was on the way to the hospital when he called and asked me to bring him a few things..Normally, I would have told him to go to hell.9But even I can't turn my back on him at a time like this.I'm confused. What's going on?nGo on, {You}. Tell him the truth. Just like you should have told <i>me</i> the truth when you first found out!ZI... he must have wanted to make sure he didn't upset you... with the baby coming and all.GToo late for that. The cat's out of the bag. My dad told me everything.1Now are you going to tell James, or do I have to?James, Professor Vasquez...He has cancer.How bad is it?	Terminal.Relationship Damaged.Your relationship with James will be affected.+So you've been lying to me this whole time?@I'll leave you two to sort this out. I'm going to see my father.BWithout another word, Gabriela trudges off toward the parking lot.IJames watches, looking shell-shocked as she disappears into the distance.Cancer? I can't believe it...James...Looking back...I should have told you sooner. I should have let Gabriela know.I did the right thing.You're right. You should have.But I can't change the past.I know.So where does that leave us?-Vasquez asked me to keep a secret. And I did.,Even though it meant lying to me for months.I didn't say it was easy....Please say something.What is there to say?sYou and Vasquez are the two most important people in my life at Hartfeld... and you've been lying to me for months.relationships-I... I thought maybe I even <i>loved</i> you.%But I guess I didn't know you at all.James, wait, I--=I'm sorry, {You}. I just need to be alone for a little while.But... what about us?I think we should take a break.^He turns and walks slowly into Vasquez's office, leaving you alone in the softly falling snow.Relationship SeveredYou and James are on a break.James...-I thought you were one of my closest friends.I am!I wish I could believe you.James...?Maybe it's better if we just don't hang out for a little bit...^He turns and walks slowly into Vasquez's office, leaving you alone in the softly falling snow.BG_INT_DORM_MAIN_NIGHTMUSIC_COLLEGE_FUN_CHILLPYou arrive back at your dorm to find your roommates cleaning up after the party.ChrisThere you are!AbbieWe were worried. Is Vasquez--He's okay. For now.ZackOh, {You}, come here. Zack pulls you in for a big hug.KaitlynFOkay, you're clearly in need of some serious suitemate TLC. Ice cream?QYou curl up on the couch. Over the next hour, you tell your friends everything...NHe told me to keep it a secret. He even threatened to revoke my scholarship...#I wish I could say I'm surprised....Gabriela looked so hurt. And I would be too...CImagine if some random girl kept <i>your</i> dad's cancer a secret."But it wasn't your secret to tell.
+Wasn't it?+And now James says that we're 'on a break.'0I didn't even know you were officially together.,Yeah, well, it lasted for about three hours.)That's pretty short even by my standards.*And James basically dumped me as a friend.CDon't worry. I'm sure he's just hurt. He'll forgive you eventually.TylerkI wouldn't be so sure. A cerebral guy like that? He could hold onto that kind of betrayal for <i>years.</i>,Tyler! We're supposed to be cheering her up!Oops. My bad!JCan we talk about something else? Like, Kaitlyn, what happened with Arjun?_Huh? Nothing happened. We hung out for a bit, shared some memories, and he eventually took off.So you didn't tell him--Uh... it didn't come up!BAnd what about you, Chris? How's the presidential campaign coming?0Heh. I guess I'd better start figuring that out.AI can't wait to see the look on Sebastian's face when I beat him.QSoon, you're lost in conversation and almost able to forget your talk with James.)I actually had a great time at the party.ZI spent like an hour listening to Edgar and Leila argue about the definition of 'organic.'TIt was like watching a train wreck in slow motion. They almost had a physical fight!AAnd I totally saw Logan and Tripp thumb wrestling up on the roof!6As the night winds down, your friends all head to bed.GJust remember, we've got your back. Always. Even if other people don't.Thanks.MUSIC_COLLEGE_LOVEDAs everyone else goes to sleep, Chris sits on the couch next to you.Feeling better?	A little.Chris takes your hand.JI'm sorry about James... the way he turned his back on you. What an idiot.PI made the mistake of losing you once. I'm never going to let that happen again.He pulls you close.
+I think...I should go to bed.We should go to bed.
+Of course.5He gives you one final squeeze before he lets you go.DGoodnight, {You}. I'm sure this will all look better in the morning.7You take Chris's hand and lead him toward your bedroom.Are you sure you want to--Yes. Believe me. I need this.Whatever helps...BG_INT_DORM_BEDROOM_NIGHTXSoon, all of your cares melt away, if only for a moment, as Chris holds you in his arms.6Tell me we can just stay here forever and never leave.Relationship Improved.You and Chris's relationship will be affected.chris5Of course, we'll eventually have to go get breakfast.I do love breakfast...bActually... if I want a shot at being president, I'll probably have to start planning my campaign.Heh. I'm so excited for you.\You can work on becoming president. Breakfast with the roomies sounds <i>almost</i> as good.FAs everyone else goes to sleep, Kaitlyn sits on the couch next to you.,It's going to be okay. You know that, right?Do I?4She wraps her arms around you, pulling you in tight.&What can I do to make you feel better?
+I think...I just need to be alone.We should head back to my room.I totally get it.%She leans in closer for one last hug.3Goodnight, {You}. I'm sure everything will be okay.+I was hoping you'd say something like that.eA few minutes later, you're holding Kaitlyn close, and all thoughts of James and Vasquez melt away...FIt's nice to forget your worries, even if it's only for a few minutes. What are girlfriends for, right?*'Girlfriend.' I like hearing you say that.Relationship Improved0You and Kaitlyn's relationship will be affected.kaitlynMe too.AAfter everyone has gone to bed, you look around the empty room...Looks like I'm alone.1You head back to your room and collapse into bed.DIt's been a hell of a night, but the sun's still coming up tomorrow.EFor a while you toss and turn, before settling into a fitful sleep...BG_INT_DORM_BEDROOM_DAYThe next morning...BG_INT_COFFEE_SHOP_WINTER_DAYMUSIC_COLLEGE_WINTER0You head to the coffee shop with Zack and Tyler.<No matter how sad you're feeling, a warm drink always helps.Yeah...Any word from James?7You check your phone and open your text log with James.FOh, hell no! Do <i>not</i> tell me you're going to text him right now.'Trust me, a guy like James needs space.'I dunno. It couldn't hurt to reach out.I'm going to...	Text him!Give him some space.You quickly text James.&<i>Really sorry... you doing okay?</i>TextYou wait for a response...And wait...And wait even longer...He's not texting back.GI... I think I feel even worse now. I didn't realize that was possible.Sorry, {You}.=Zack is right. James asked for space. I have to respect that.oGood call. Don't worry... I'm sure you'll hear from him soon enough, once he's had a chance to lick his wounds.5Just then, Brandon walks up to Zack, holding a drink.BrandonEHere's a latte for my little coffee bean... and some cocoa for {You}.CGuess I'd better enjoy the perks of dating a barista while I can...ZAw. Don't be like that. I'm only going to be off in Peru for a few months. You'll survive._And anyway... it's our <i>monthaversary</i> tomorrow! You should be planning something special!Who says I'm not?DI get off at six tomorrow night. You'd better be here to pick me up."We'll see. Maybe you'll get lucky.I like the sound of that.;Brandon heads back to the counter as you shoot Zack a look.Hey...You two are so cute!Is everything okay?
+Obviously.pIt seems like you're totally taking the whole 'my boyfriend is moving to Peru for three months' thing in stride!Yeah. Totally.I don't know...=The truth is, I've never done the long-distance thing before!(I don't even know if I <i>can</i> do it.;Aw! I'm sure you guys'll be okay. You're an awesome couple!	Thanks...YWell, anyway, I should probably figure out what we're doing for our monthaversary, right?YI thought you guys were joking about that. Monthaversaries aren't a real thing, are they?)Uh, they totally <i>are</i> a real thing.RWait a second... what day of the month did you and Abbie finally make it official?No comment.It's today, isn't it?Theoretically... yes.HBut there's no rule saying I <i>have</i> to do something special, right?=Sure, just like Abbie doesn't <i>have</i> to keep dating you.4Is it getting stuffy in here? My palms are sweating.#I'm panicking, {You}! What do I do?Tyler...%I'll help you plan something awesome!anniversaryYou're on your own.'Don't worry, buddy. I've got your back.%Now, here's what we're going to do...CSorry, buddy. I've got problems of my own to worry about right now.-Understood. I'll figure out something myself.Just then, Abbie walks in.Hey, guys. What's up?Nothing! I was just leaving!	Oh, okay.HAfter giving Abbie an awkward hug, Tyler quickly leaves the coffee shop.Is everything okay with him?He's just being... himself.MUSIC_COLLEGE_COMEDY_MISCHIEFLater that evening...]Quick! Get up on the roof! We only have a few more minutes to get everything ready for Abbie!$I'll stay down here to wait for her.Right, on it! BG_EXT_DORM_ROOFTOP_WINTER_NIGHT@You scurry up to the rooftop where Kaitlyn and Zack are arguing.WRed roses are the <i>definition</i> of cliche. What's next? Champagne and strawberries?QThey're cliche for a <i>reason!</i> Nobody looks at orchids and thinks 'romance.'NYou turn to Chris, who is quietly organizing a plate of cookies in the corner.8They've been arguing over this for the last ten minutes.[{You}, tell Kaitlyn that orchids are ugly and that we should use roses for the centerpiece.L{You}, tell Zack that orchids aren't ugly, and that roses are a lame cliche.#You look at Chris again. He shrugs.Okay, well...You should use...Roses.Orchids.=I'm with Zack on this one. You can't go wrong with a classic.1Zack puts his bouquet into the vase triumphantly.Told you! Majority rules.Humph.=You're just mad because your girlfriend didn't side with you.No I'm not!Yes you are!No I'm not!Yes you are!No I'm-"You cut her off with a quick kiss.Okay, okay. I forgive you.#How could you do this to me, {You}?>After all the times we've shared, you sided with Zack over me?I thought we were friends!_Remember that time you told me who died in the season finale of <i>The Crown and the Flame</i>?<jiggle>YOU DID WHAT?</jiggle>I... I made a mistake.Yeah. I owe you nothing. Well played, {You}. Well played.<jiggle>I told you so!</jiggle>6You're just saying that because she's your girlfriend!WMaybe I did. Or maybe she's my girlfriend <i>because</i> she has good taste in flowers.Awww. Come here you.)Kaitlyn kisses you playfully on the lips.Get a room.Maybe later...6You're only siding with her because she's your bestie!SPlus, don't think I didn't see those sparks when you two were in the play together!dOkay Zack, we all know you're jealous that I got to kiss {You} on stage, but it's time to let it go.Ew, I don't even..."Okay, orchids are fine. Just fine.-You artfully arrange the orchids in the vase.Perfect.Tyler pokes his head in.AGuys, Abbie just texted me. She's gonna be back in just a minute!Everyone hide!#You and Zack hide behind the couch.I hear footsteps!<Just then, you hear the sound of the door to the suite open.What do I do?Yell 'SURPRISE!'Wait.<jiggle>SURPRISE!</jiggle> She's still downstairs, {You}...*A few seconds later, the door swings open.<jiggle>SURPRISE!</jiggle>,Heh. Kind of. I heard {You} from downstairs.#Everybody else stands up awkwardly.Heh. Sorry guys.LDon't apologize. It was hilarious. And I <i>was</i> surprised... downstairs!=You can hear Abbie and Tyler's muffled voices from the suite."Come on, come on, get her up here!$Finally, the door to the roof opens.What do I do?	Hesitate.Shout 'SURPRISE!'Stay hidden.<jiggle>SURPRISE!</jiggle><jiggle>SURPRISE!</jiggle><jiggle>SURPRISE!</jiggle><jiggle>SURPRISE!</jiggle>Oh my gosh, you guys.<jiggle>SURPRISE!</jiggle><jiggle>SURPRISE!</jiggle><jiggle>SURPRISE!</jiggle>Oh my gosh, you guys.But where's {You}?Wait, wasn't she right here?You stand up sheepishly.1Sorry, I guess I'm not good at surprising people.So what's the occasion?It's our monthaversary!	Our what?"We got together a month ago today!*Oh, Tyler, you didn't have to do anything.Tyler shoots Zack a look.But I'm so glad you did!...DTyler leads Abbie over to the table and pulls out the chair for her.After you, my dear....>Welcome to the Cafe de Hartfeld, here is the menu for tonight.?You hand Abbie a handmade menu detailing a three course dinner.'Oh! Did you really get all this for me?Well, I had a little help.She leans in to kiss him.Relationship Improved0Abbie and Tyler's relationship will be affected.tyler_abbie3You just earned some major boyfriend points. Major.GUp first is a vegetable risotto with a side of sauteed brussel sprouts.Did you guys cook this?Definitely.sIf it tastes exactly like the food from the French restaurant down the street that's a <i>complete</i> coincidence.0For the next course, champagne and strawberries!
+Seriously?These are amazing!-Well, I guess I could be wrong about cliches.AFinally, the meal is over. Abbie blots at her eyes with a napkin.Abbie? Is everything okay?LIt's just... this is like the nicest thing that anyone has ever done for me._She gets up, and walks toward Tyler. She gives him a massive hug. Soon, they're kissing deeply.@I think we might want to get out of here before this gets PG-13.rYou and your friends head downstairs, leaving Tyler and Abbie to enjoy the rest of their monthaversary in private.NA few days later, you and your suitemates are all hanging out at your place...OStill no word from James, huh? Sounds like it's a good night for a distraction!1Like watching TV until my eyes bleed? Sign me up.cOh nice! I can't believe I spaced on this... it's Warriors vs. Cavs tonight! This is gonna be good.Sounds perfect to me!sWe are <i>not</i> missing the season premiere of 'The Crown and the Flame' because of some stupid sportsball match!I'm with Abbie.ESmart man. Looks like it's two against two. What do you think, {You}?FWait, shouldn't Kaitlyn weigh in on this? She has lots of... opinions.:I think she's upstairs, taking a phone call... from Arjun.HWait, what? Does that mean she <i>still</i> hasn't told him that she's--Just then, Kaitlyn walks in..Uh, guys. I just got off the phone with Arjun./And... I kind of told him we could... hang out.You mean like... a date?(What? No! He distinctly said 'hang out'!Yeah, that's a date.dThis could get awkward! Find out what happens when Kaitlyn and Arjun 'hang out' in the next chapter!You1You2You3OUTFIT%PORTRAIT_CUSTOM_OUTFIT_WELCOME_JACKET"PORTRAIT_CUSTOM_OUTFIT_PARKA_GREEN#PORTRAIT_CUSTOM_OUTFIT_VEST_QUILTEDChoose your outfit!ConfirmConfirmConfirmoutfit_choiceThis outfit is totally...Awesome!Wrong! I need a new look.'Maybe I should try on something else..."
+main"
+Hospital%"
+
+AfterPartyÓ"
+CoffeeHouseÖ
+"
+doAbbiePremiumê"
+doArjunSceneú"
+doClosetÉ*-*#*,*/*0*1*-*#%***-*#Ó***-*#Ö
+***-*#ú***∏*)******)**)*******/*0*1***2***)****)****)***)**ˇ*Ë*)**	***)**
+*)*****)	*****)	*****)	***)*****)	*****)	****)	****)	***)****)	*****)	****)	****)	***)
+*****)***)** *)***)*2**3***%≠**!*)	***"*)	***#*)	***$*)	***%*)	***&*)	**#µ**'*)	***(*)	***)*)	*****)	**+*)***,*-*)	***.*)	***/**)	***0*)	***1*)	**2*)**ˇ*Ë*)**3*Ë***)**Ë*)**4**)**5*)***6*)	***7*)	***8**)	***9*)	***:**)	***;**)	***<**)	***=**)	***>**)	**Ë*)****)**?*)***@**)	***A*)	**B*)**ˇ*Ë*)**C*Ë*)***D**)	**E*F**)	***G**)	**E*H**)	**ˇ*Ë*)**3*Ë***)***I**)	**J*)
+*****)**K*)**L*)***)*2**3***%«**M**)	**N*O*)***P**)	***Q**)	***R**)	***S**)	**Ë*)**4**)**T*)**U*V**)	**W*)***X**)	**U*Y**)	**U*Z**)	**[*)***\**)	**U*]**)	**^*)**U*_**)	**U*`**)	**#∏**a**)	**b*c*)***d**)	**Ë*)**e**)**f*)**U*g*)	**U*h*)	***i**)	**U*j*)	**U*k*)	**U*l**)	**U*m**)	***n**)	**U*o*)	***p**)	**U*q**)	**U*r**)	***s**)	***t**)	***u**)	**U*v**)	**w*x*)***y**)	**U*z**)	**Ë*)**4**)**{*)**|*)***}**)	***~**)	***)
+*****)**Ä*)**Å*)**Ç*)***)*2**3**	*%˝**É**)	***Ñ**)	***Ö**)	***Ü**)	**#ã**á*)	***à**)	***â**)	***ä**)	***ã**)	***å**)	***ç**)	**é*)***%Œ**è**)	***ê**)	***ë**)	***í*)	***ì**)	***î**)	**ï*)**ñ*ó*)***ò**)	**#Í**ô**)	***ö**)	***õ**)	***ú**)	***ù**)	**û*)*******/*0*1***2**ˇ*Ë*)**ü*Ë***)**Ë*)**†**)**°*)**¢*£**)	**§*•**)	***¶**)	**ß*®**)	**©*)**™*´*)	**¨*)**ˇ*Ë*)**ü*Ë***)***≠**)	**™*Æ**)	**ˇ*Ë*)**ü*Ë***)***Ø*)	***∞**)	**¢*±**)	***≤**)	**ˇ*Ë*)**ü*Ë***)**é*)***%˚**≥*)	**ß*¥**)	***µ**)	**ß*∂**)	**#Ä**∑**)	**™*∏**)	**π*∫**)	**§*ª**)	**π*º**)	***Ω**)	**™*æ**)	**π*ø*)	**™*¿**)	***¡*)	**¢*¬*-*)	**¢*√*-*)	**ˇ*Ë*)**ü*Ë***)**ƒ*)**π*≈*)	**π*∆*-*)	**π*«*-*)	**§*»*-*)	**ˇ*Ë*)**ü*Ë***)**…*)**ß* *)	***À*-*)	**é*)***%Û*Ë*)**Ã**)**Õ*)**¢*Œ*)	***œ*)	**–*)**¢*—*)	**¢*“*)	**”*)**‘*)
+*****)**’*)**÷*)***)*2**3***%≤*¢*◊*)	**ÿ*)**¢*Ÿ*)	**#Ú*⁄*)**¢*€**)	***‹*)	**¢*›*-*)	**ˇ*Ë*)**ﬁ*Ë*)**ﬂ*)***‡*-*)	**·*‚*)**„**)**¢*‰*)	***Â*-*)	**¢*Ê*)	***Á*-*)	***Ë*-*)	**#Å
+*é*)***%‡	*Ë*)**Ã**)**È*)**™*Í*)	***Î**)	**Ï*)**™*Ì*)	**Ó*)
+*****)**Ô*)***)***)*2**3***%µ	*™*Ò**)	**Ú*)**™*Û*)	**#ﬂ	*™*Ù*-*)	**ˇ*Ë*)**ﬁ*Ë*)**ı*)***ˆ*)	**™*˜*-*)	***¯*)	**˘*˙*)**˚**)**™*¸*-*)	**#Å
+*Ë*)**4**)**˝*)***˛**)	**ˇ*Ë*)**ﬁ*Ë*)**ˇ*)***Ä*)	**Å*)*******/*0*1*ˇ*Ë*)**Ç*Ë*)**Ë*)**†**)**É*)**-*#É***ˇ*–*)**Ñ*–***)**Ë*)**Ö**)****2**Ü*)**ß*á*-*)	***à**)	**π*â*)	**ä*)**ß*ã**)	**ß*å*)	**π*ç*)	**é*)
+*****)**è*)**ê*)***)*2**3***%ú*ë*)**í*ì*)**î*)**ˇ*Ë*)**Ñ***)**ï*)**ˇ*Ë*)**Ñ***)**ñ*)***ó**)	***ò**)	**π*ô**)	**#§**ö*)	**ß*õ*)	**ú*)**ù*û*-*)	**ß*ü*)	**ù*†*-*)	**ù*°*)	**ß*¢*-*)	**ù*£*-*)	**ß*§*-*)	**ù*•*-*)	**¶*)**ß*)
+*****)**®*)**©*)***)*2**3***%Ù*ß*™*)	***´*)	**ß*¨**)	**#ã*ß*≠*)	**ß*Æ**)	**ß*Ø**)	***∞**)	**ß*±*)	**ß*≤*-*)	**π*≥**)	**ß*¥*)	**ß*µ**)	**π*∂**)	**ß*∑**)	**π*∏**)	**π*π*)	**ß*∫*)	**π*ª**)	**π*º**)	**Ω*)
+*****)**æ*ø*)**¿*)***)*2**3***%‰**¡*-*)	***¬*)	**-*#ê***#å**√**)	**π*ƒ**)	**≈*)**§*∆*-*)	**π*«**)	**§*»**)	**…*)**§* **)	**ß*À*)	*******/*0*1***2**ˇ*Ë*)**ü*Ë***)**–*)**Ã**)**Õ*)**π*Œ**)	**π*œ*)	***–*)	**ˇ*Ë*)**—*Ë***)**“*)**™*”**)	**ß*‘**)	**’*)**¢*÷**)	**ß*◊**)	**™*ÿ**)	**Ÿ*)***⁄**)	**€*)
+*****)**‹*)**›*)***)*2**3***%‡**ﬁ*)	**ﬂ*)**ß*‡*-*)	**™*·**)	**é*)***%º*ß*‚*-*)	**™*„**)	**ß*‰*-*)	**™*Â**)	***Ê*-*)	**™*Á**)	**Ë*)**™*È*-*)	**#ﬂ*™*Í*)	**™*Î*)	**™*Ï*)	***Ì*-*)	**ß*Ó**)	**™*Ô**)	****)	**™*Ò*)	**#©*3***%©*™*Ú*-*)	**é*)***%ä*ß*Û**)	***Ù*-*)	**™*ı*-*)	**ˆ*)**ß*˜*)	**™*¯*-*)	**#†*ß*˘**)	**ß*˙*)	**™*˚*)	**ß*¸**)	**ß*˝*)	**˛*)**™*ˇ*-*)	**#©*Ë*)**Ä*)**π*Å**)	**™*Ç**)	**Ë*)**É*)***Ñ*)	**Ö*)**Ü**)
+*****)**á*)**à*)***)*2**3***%Å**â*)	**™*ä**)	**ã*)**ß*å*-*)	**§*ç*-*)	**é*)***è*-*)	**§*ê*-*)	**#‰*ë*)**ß*í*)	**ì*)**î**)
+*****)**ï*)**ñ*)**ó*)***)*2**3***%ø**ò*-*)	**¢*ô*-*)	**™*ö*-*)	**ß*õ*-*)	**§*ú**)	**#‰*¢*ù*-*)	**™*û*-*)	**ß*ü*-*)	**§*†**)	**§*°*)	**π*¢**)	**£*)***§**)	**–*)**Ã**)**§*•*-*)	**π*¶*-*)	**§*ß**)	**π*®*)	**§*©*)	**™*)**§*´*-*)	**π*¨*-*)	**≠*)**π*Æ*)	**§*Ø*-*)	***∞*-*)	**±*)**§*≤**)	**π*≥*-*)	**¥*)**µ*∂*)**∑**)**§*∏*-*)	**ˇ*Ë*)**—*Ë***)**ß*π*)	**§*∫**)	**™*ª*-*)	**¢*º*-*)	**ˇ*Ë*)**—*Ë***)***Ω*)	**™*æ**)	**§*ø*-*)	**™*¿*)	**ˇ*Ë*)**—*Ë***)**¡*)**π*¬**)	**§*√**)	**ƒ*)**ß*≈**)	**∆*)*******/*0*1*ˇ*–*)**ü*Ë***)**Ë*)**†**)**«*)**¢*»**)	***…*-*)	**¢* *-*)	**ß*À*-*)	**§*Ã**)	**π*Õ*)	**ß*Œ*)	***œ*)	**§*–*)	***—**)	**“*)**™*”**)	**™*‘*)	**ß*’**)	**™*÷**)	**ß*◊**)	**ÿ*)*******/*0*1***2****2**3***%Ö*Ÿ**)**⁄**)**€**)**Ÿ*‹*›*)**⁄*‹*ﬁ*)**€*‹*ﬂ*)**‡*)**·*Ÿ*-*)**‚*⁄*-*)**„*€*-*)***)*2**3***%–**Ÿ*)**‰**)**#Â*3***%›**⁄*)**‰**)**#Â**€*)**‰**)**Â*)
+***-**)**Ê*)**Á*)***)*2**3***%Ä***2**#Ñ**Ë*)	**#é*****B
+anniversary
+J 

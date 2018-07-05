@@ -1,0 +1,5 @@
+﻿  ParseChoices.cpp
+c:\users\valdes\documents\visual studio 2015\projects\parsechoices\parsechoices\parsechoices.cpp(335): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\valdes\documents\visual studio 2015\projects\parsechoices\parsechoices\parsechoices.cpp(341): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  ParseChoices.vcxproj -> C:\Users\Valdes\documents\visual studio 2015\Projects\ParseChoices\Debug\ParseChoices.exe
+  ParseChoices.vcxproj -> C:\Users\Valdes\documents\visual studio 2015\Projects\ParseChoices\Debug\ParseChoices.pdb (Full PDB)

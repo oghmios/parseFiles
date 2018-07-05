@@ -1,0 +1,448 @@
+Character:
+Chris
+Character:
+Tripp
+Character:
+Logan
+Character:
+James
+Character:
+Abbie
+Character:
+Edgar
+Character:
+Becca
+ENDOFCHARACTERS
+BG_LIGHTS_AMBIENCE_NIGHT
+MUSIC_COLLEGE_FUN_CHILL
++Chapter One: Welcome to Hartfeld University
+The Freshman
+You
+BG_EXT_CAMPUS_QUAD_DAY
+XWelcome to Hartfeld University, one of North America's most elite academic institutions!
+
+Ready to choose your look?
+GIt's the first day of college, and you walk across a bustling campus...
+ZUgh. This suitcase weighs like a thousand pounds. Maybe I shouldn't have brought so much--
+	SURPRISED
+MUSIC_COLLEGE_COMEDY_MISCHIEF
+=As you round a corner, you smack right into a guy jogging by!
+Chris
+<shake_portrait/>Whoa!
+"You're both knocked off your feet.
+I'm so sorry! Are you okay?
+
+My ego's a little bruised.
+jIf the other guys on the football team saw me get tackled by a pretty girl, they'd never let me forget it.
+HAPPY
+&He offers you a hand and helps you up.
+(I'm Chris, by the way. Nice to meet you.
+Nice to meet you too. I'm...
+Enter your name.
+ 
+0{You}... for some reason that rings a bell. Huh.
++So... are you okay? Nothing broken, I hope.
+2I'll be fine. My hand is just a little scraped up.
+0Is there anything I can do to make it up to you?
+achievement_meet_cute
+<aqua>Tutorial</aqua>
+
+You've just met your first potential love interest! You'll meet more later. For now, it's up to you how to respond...
+Well, you could...
+NEUTRAL
+Help me with my bag.
+ Kiss my hand and make it better.
+*Get on your knees and beg for forgiveness.
+4Chris looks down at your bag, which has popped open.
+Whoa! Your stuff is everywhere.
+?Chris picks up a lacy black bra. Then his face goes bright red.
+3Oh... wow. I didn't mean to... Uh... is this yours?
+FYou grab the bra out of his hands, and stuff it back in your suitcase.
+'I think that's enough help for one day!
+Relationship Improved
+.Your relationship with Chris will be affected.
+If that'll help...
+-He lifts your hand to his lips and kisses it.
+It feels better already.
+.Any other bumps or bruises you need me to fix?
+
+Let me think about that...
+Chris gets down on one knee.
+{You}, will you accept my--
+Edgar
+JOh wow! <jiggle>Spontaneous proposal.</jiggle> I gotta get this on camera!
+Student
+No! Wait. It's not like that!
+Uh, maybe I should stand up.
+
+You think?
+MUSIC_COLLEGE_ACTION_FUN
+Becca
+GChris! There you are! Don't forget about the Kappa house mixer tonight.
+UOh... Becca. Hey. I'd love to go, but I promised my roommates I'd hang out with them.
+FToo bad... I <i>promise</i> you'd have a better time with <i>me</i>...
+4Uh, we're kind of in the middle of a conversation...
+SAD
++It looked to me like you were just leaving.
+ANGRY
+
+Actually--
+OJust then, Becca drops her iced coffee at your feet, splashing it all over you.
+PROP_F
+%PORTRAIT_CUSTOM_PROP_F_STAIN_SUNDRESS
+#PORTRAIT_CUSTOM_PROP_F_STAIN_TOMBOY
+"PORTRAIT_CUSTOM_PROP_F_STAIN_URBAN
+<i>Seriously?!</i>
+Oops. I'm so clumsy!
+.{You}! Your outfit! I'll go find some napkins.
++As soon as he's gone, Becca leans in close.
+ Just so you know, Chris is mine.
+Oh, he's your boyfriend?
+Not yet. But he will be.
+Oh yeah?
+*I couldn't care less about your love life.
+News flash... Chris is mine!
+$Forget Chris! What about my clothes?
+1Good. Just stay out of my way, and we'll be fine.
+)Chris is <i>clearly</i> way more into me.
+$As if <i>that</i> would be possible!
+)I spent all morning choosing this outfit.
+%And that's what you wore? How... sad.
+,Chris runs up with a stack of paper napkins.
+This is the best I could do.
+MIt's a good start... I'll just find my dorm and change. See you around, okay?
+You can count on it.
+A few minutes later...
+
+This looks like the place!
+5You knock on the door, which swings open to reveal...
+BG_INT_DORM_MAIN_DAY
+Wow.
+This place is huge!
+Kaitlyn
++Aaaahhhhh! New roomie! You're finally here!
+...and covered in coffee?
+2Haven't you heard? It's the hottest look for fall.
+VOh yeah? Well you're definitely pulling it off. Seriously, you're <i>super</i> pretty.
+	Thanks...
+I am super pretty.
+You're super hot!
+$I can tell we're going to get along.
+Not exactly modest, are you?
+Should I be?
+Good point.
+uHere, let me help with those bags... I'm sure you want to find your room and get out of those coffee-stained clothes.
+Relationship Improved
+0Your relationship with Kaitlyn will be affected.
+
+Oh, wow...
+@Kaitlyn blushes and looks away, a slight smile curving her lips.
+	Too much?
+I'm gonna go with <i>no</i>.
+_But you probably want to get out of those coffee-stained clothes. Let me show you to your room!
+
+Yay, roomies!
+#Kaitlyn pulls you into a tight hug!
+ Oops... forgot about the coffee!
+"Sorry... I should probably change.
+!Sure, I'll show you to your room!
+$Kaitlyn leads you through the suite.
+1Wait... do we have this whole place to ourselves?
+dHa! I wish. In case you haven't heard, the school's in a housing crunch. This is a six-person suite!
+IWe'll be sharing this place with one other girl... and <i>three guys!</i>
+	That's...
+Awesome!
+	Horrible!
+Sexy!
+HThis is great! It'll be like having five best friends right off the bat!
+dJust friends? They say the number one rule of freshman year is not to hook up with your roommates...
+%But I don't always play by the rules.
+I'll keep that in mind.
+II can't believe I have to share this place with a bunch of gross dudes...
+.I feel like I just joined a frat or something.
+IAw, they're not <i>so</i> bad. You'll like them once you meet, I promise.
+l<i>And</i> if they ever get to be too much, we can lock them out of the suite and have a girls' night. Deal?
+Deal.
+TI wonder if I'll hook up with <i>all</i> of our roommates, or just a couple of them.
+JThey say the number one rule of freshman year is not to do exactly that...
+%But I don't always play by the rules.
+I'll keep that in mind.
+BG_INT_DORM_BEDROOM_DAY
+MHere's your room. Hurry up and change, then we can hit the Welcome Week Fair!
+fOh, I almost forgot! Every year, they set up a <i>massive</i> slip 'n slide in the middle of the fair!
+LIt looks super fun... and it's a great excuse to wear a <aqua>bikini!</aqua>
+So... are you going to do it?
+?Definitely. You only get one chance to make a first impression.
+VSliding through the quad in a sexy swimsuit is a <i>great</i> way to make an entrance.
+,I'm gonna go change! Be back in a sec, okay?
+Á<aqua>Tutorial</aqua>
+
+Some choices cost <icon_theme_premium> Diamonds! These can unlock special outfits, let you access exclusive scenes, and earn relationship boosts for you and your friends!
+You1
+You2
+OUTFIT
+"PORTRAIT_CUSTOM_OUTFIT_BIKINI_NEON
+$PORTRAIT_CUSTOM_OUTFIT_CASUAL_PREPPY
+What will you wear?
+Confirm
+welcome_week_outfit
+Confirm
+Confirm
+WKaitlyn runs back to her room to change, and you grab your bikini out of your suitcase.
+You4
+KaitlynUnderwear
+What do you think?
+8I think I'm roommates with the hottest girl at Hartfeld!
+You don't look so bad yourself.
+
+Ready to go make a splash?
+Let's do this.
+HYou change out of your coffee-stained clothes and pull on a cute blouse.
+What do you think?
+IIt's an improvement... but I'm not sure it's right for the slip 'n slide.
+JHeh. Probably not. I'll let you do the sliding for both of us today, okay?
+ Whatever you say. Let's do this!
+%A few minutes later, Kaitlyn returns.
++Oh! You're still... wearing the same thing.
+ŠI'm <i>not</i> going to change. The truth is that this awful girl named Becca threw coffee on me within, like, five seconds of meeting me.
+Yikes. I'm sorry, {You}.
+DDon't be. I'm not. And now I'll wear this stain as a badge of honor.
+GI think people will just assume that you spilled on yourself, though...
+#Well... <i>I'll</i> know the truth!
+And that's what counts.
+KYou're an inspiration to us all. Now let's go check out that slip 'n slide!
+<Heh. I'll let you do the sliding for both of us today, okay?
+BG_EXT_CAMPUS_PARK_FAIR_DAY
+†Outside, you find dozens of people manning booths for various organizations. Onlookers cheer as freshmen coast down the slip 'n slide!
+Here goes nothing!
+SKaitlyn gets a running start and jumps onto the slip 'n slide! The crowd goes wild.
+Madison
+ Woo! I'm loving that confidence!
+Tripp
+	Marry me!
+My turn.
+?You sprint across the grass and dive head-first onto the slide.
+&This... is... <jiggle>college!<jiggle>
+EAs you reach the end of the slide, you hear people talking about you.
+Logan
+<Who's that girl? She's like... a slip 'n slide <i>angel!</i>
+Relationship Improved
+.Your relationship with Chris will be affected.
+4That's {You}. She's the one I was telling you about.
+=No fair. How come beautiful girls never knock <i>me</i> over?
+IJust then, Kaitlyn runs up with a couple of snow cones and hands you one.
+9I don't know what flavor you like, so I just got rainbow.
+Thanks!
+4I've never seen someone so happy to get a snow cone.
+I'm smiling because...
+I think a cute guy is into me!
+I'm happy to be here with you!
+
+SNOW CONE!
+]This morning, I ran into this super cute guy, and I just overheard him talking to his friend.
+I'd love to meet him...
+NYou look over to where Chris had been standing, but you don't see him anymore.
+I guess it'll have to wait.
+
+I'll look forward to it...
+Aw! You're super sweet...
+And I feel the same way.
+(Maybe it's destiny that we're roommates.
+I think you might be right.
+!<jiggle>Snooow coooonne!</jiggle>
+(<jiggle>Snooooooow cooooonnnne!</jiggle>
+
+Snow cone?
+1We're having a moment here, dude. Leave us alone.
+JAfter taking a few minutes to dry off, you and Kaitlyn check out the fair.
+She jogs back to you.
+/Okay. I have to admit, that looked pretty cool.
+WThanks. And don't worry. You'll have plenty of chances to impress people around here...
+IAfter Kaitlyn dries off, the two of you check out the booths at the fair.
+
+MUSIC_COLLEGE_ACTION_CHILL
+RLet's see here... a capella? Nah. Can't sing. Student government? Nah. Don't care.
+CJust then, you spot a familiar face at the Kappa Phi Sigma booth...
+
+<i>Becca.</i>
+0{You}. Could you not stand so close to our tent?
+[We don't want people thinking Kappa Phi Sigma would associate with someone like <i>you</i>.
+!Wow, {You}, is this girl serious?
+Unfortunately.
+Time to move along.
+EAre you sure, Becca? I mean, look at her bikini... it's pure hotness!
+/Aren't we basically honor bound to sign her up?
+5Madison, would you <i>please</i> stop undermining me?
+lDon't worry, Becca. I'm not interested in joining any sorority that associates with someone like <i>you</i>.
+Time to move along.
+DYeah, her outfit is putting me to sleep. Wake me up when she's gone.
+3Don't worry, we're not planning on sticking around.
+Time to move along.
+fYeah, we're not exactly looking for pledges who are covered in coffee... that <i>is</i> coffee, right?
+MThe only reason I'm covered in coffee is because <i>Becca</i> threw it on me!
+SSounds like you need to ask yourself why people want to throw coffee at you, {You}.
+	What? I--
+0Ugh, never mind! Let's get out of here, Kaitlyn.
+That's what I thought. Buh bye.
+<Becca smirks at you and sips an iced coffee through a straw.
+$I see you got a new coffee, Becca...
+(What should I do?)
+'Accidentally' spill it on her!
+Take the high road.
+BYou knock your hand against Becca's cup, spilling it all over her!
+<jiggle>Ahhhhhh!</i>
+KYou should be more careful. Coffee stains are <i>super</i> hard to get out.
+?You're going to regret this... you just made an enemy for life.
+/Eh. It seemed like you already hated me anyway.
+Get. Away. From. Me.
+0Becca, people are starting to avoid our booth...
+Shut up, Madison!
+.I guess this is where <i>we</i> say 'buh bye.'
+*As you leave, Kaitlyn flashes you a smile.
+RMs. Queen Bee was completely jealous of your look... AND you doused her in coffee!
+Dress to Impress!
+"Your bikini won you an enemy! Yay?
+Trust me, she had it coming.
+WI can't believe it... your first day and you've already got a nemesis. You're so lucky!
+...
+6Are you just going to stand there and look depressing?
+I'll stand wherever I want.
+%Becca takes a long sip of her coffee.
+I said <i>buh bye.</i>
+,Fine. I'm going. But only because I want to.
+Well, that was interesting...
+=Looks like Ms. Queen Bee was completely jealous of your look!
+Is that what just happened?
+8Totally. She knew you were a threat, and she lashed out.
+Dress to Impress!
+"Your bikini won you an enemy! Yay?
+WI can't believe it... your first day and you've already got a nemesis. You're so lucky!
+,As you leave, Kaitlyn flashes you a grimace.
+@A couple of Chanel skirts and they think they're better than us.
+Are they wrong?
+COf course they're wrong. But don't worry... we'll have our revenge.
+We will?
+(I don't know, I was just being dramatic.
+Ahh, gotcha.
+CAs you prepare to head back to your dorm, you look across the quad.
+James
+...
+???
+See something you like?
+You mean that guy?
+He's not my type.
+He's TOTALLY my type.
+$If it's got a pulse, I'm interested.
+(A girl with high standards... I like it.
+)This day keeps getting better and better.
+
+The guy looks over at you.
+...
+???
+Mystery Man!
+
+You caught some attention!
+@Okay, he's definitely checking you out... and who can blame him?
+#You look super cute in that bikini!
+...
+???
+KI don't think he noticed me... maybe I should have worn a different outfit.
+NA moment later, the guy walks into a nearby building and disappears from view.
+SHey, it's getting dark, and I just got a text from our roommates! They're all home!
+0Sounds like it's time to head back to the suite.
+AA few minutes later, you change back into some regular clothes...
+&PORTRAIT_CUSTOM_OUTFIT_CASUAL_SUNDRESS
+$PORTRAIT_CUSTOM_OUTFIT_CASUAL_TOMBOY
+You3
+#PORTRAIT_CUSTOM_OUTFIT_CASUAL_URBAN
+Choose your outfit!
+Confirm
+Confirm
+Confirm
+Perfect!
+BG_INT_DORM_MAIN_NIGHT
+lAs the sun sets, you walk into your dorm living room and find a girl standing in front of a painter's easel.
+Abbie
+"Hey, you must be {You}. I'm Abbie.
+&You reach forward to shake her hand...
+Y<shake_portrait/>Ah! Careful! I'm covered in paint, and I don't want to ruin your outfit!
+BEr... any more than it's already been ruined with coffee, I guess.
+Y<shake_portrait/>Ah! Careful! I'm covered in paint, and I don't want to ruin your outfit!
+Oh, you're an artist?
+CWow...no, I'm a long way away from calling myself an <i>artist.</i>
+"I guess I'm... a girl that paints?
+DAnyway, the guys are all up on the roof. I'll catch up to you later.
+KNo way! You're coming with us, Abbie... you can finish your painting later!
+6I guess I'm close to done... what do you think, {You}?
+1Give me a second to fully appreciate your work...
+Abbie's Painting
+Art: Appreciated!
+IMG_MENU_PAINTING_ABBY
+So? What's your review, {You}?
+!It looks <i>amazing</i>, Abbie...
+I was just wondering...
+%Where'd you learn to paint like that?
+!Are you the girl in the painting?
+%Abbie blushes and looks at the floor.
+KI may have spent every lunch period in the art studio during high school...
+WMy art teacher was a big influence on me. She really helped me find my style, you know?
+MThat's so cool! The closest thing I had to a mentor in high school was Cosmo.
+6Well, I guess we find inspiration where we can, right?
+%Abbie blushes and looks at the floor.
+
+Uh... maybe? I don't know.
+}I've heard it's impossible to keep yourself out of your work... and I was definitely super into fairytales when I was little.
+Aww! That's adorable.
+[So, it's sort of a self-portrait of the artist as a young girl... plus fairytale creatures?
+Sort of, yeah.
+CSo! <i>Now</i> are you ready to come up to the roof with us, Abbie?
+,Sure... but only if I get to pick the music.
+&Your wish is my command. Now let's go!
+'You and the girls head up the stairs...
+BG_EXT_DORM_ROOFTOP_NIGHT
+ Nice. We've got an amazing view!
+!Ready to meet the guys? This is--
+Actually... we've already met.
+!Chris? <i>You're</i> my roommate?
+YouBasic
+
+YouAfrican
+YouAsian
+YouRed
+YouHispanic
+$PORTRAIT_CUSTOM_OUTFIT_CAMISOLE_GRAY
+Choose your face!
+Confirm
+Confirm
+Confirm
+Confirm
+You5
+HAIR_F
+/PORTRAIT_CUSTOM_YOU_HAIR_F_BRUNETTE_SHORT_CURLY
+HAIR_B
+/PORTRAIT_CUSTOM_YOU_HAIR_B_BRUNETTE_SHORT_CURLY
+.PORTRAIT_CUSTOM_YOU_HAIR_F_BLACK_LONG_STRAIGHT
+.PORTRAIT_CUSTOM_YOU_HAIR_B_BLACK_LONG_STRAIGHT
+,PORTRAIT_CUSTOM_YOU_HAIR_F_BLONDE_SHORT_WAVY
+,PORTRAIT_CUSTOM_YOU_HAIR_B_BLONDE_SHORT_WAVY
+/PORTRAIT_CUSTOM_YOU_HAIR_F_AUBURN_LONG_STRAIGHT
+/PORTRAIT_CUSTOM_YOU_HAIR_B_AUBURN_LONG_STRAIGHT
+1PORTRAIT_CUSTOM_YOU_HAIR_F_BRUNETTE_LONG_STRAIGHT
+1PORTRAIT_CUSTOM_YOU_HAIR_B_BRUNETTE_LONG_STRAIGHT
+Choose your hair!
+Confirm
+Confirm
+Confirm
+Confirm
+Confirm
+Choose your outfit!
+Confirm
+Confirm
+Confirm
+My look is totally...
+Perfect! Let's go!
+Wrong! I need a new look.
+'Maybe I should try on something else..."
+main"
+initBookVars"
+

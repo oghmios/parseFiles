@@ -1,11 +1,0 @@
-CHARACTER_NAME/	->  Nombre de personaje, con esto se pueden listar los que hay (Antes guion)
-([A-Z]+)([a-z]+)/ -> Busqueda para encontrar todos los personajes, si marcas e inviertes el marcado, puedes cargarte el resto de broza
-
-BG_PLACENAME			->	Cuando cambia el background, aparece uno de estos (Durante guion)
-
-
-PORTRAIT_CUSTOM			->	Cuando da eleccion de cambio de vestuario (Durante guion)
-
-|||||||||||||Œ||||||||||||||  -> Simbolos para cargarte
-
-						-> Simbolo para hacer enter

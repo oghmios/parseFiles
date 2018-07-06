@@ -1,15 +1,19 @@
-05/07/2018 15:30
+05/07/2018 15:30 
 
-Investigar y aprender sobre c++
+Investigar y aprender sobre c++ (30 min)
 
 05/07/2018 16:00
 
-Investigación sobre c++ pausada
+Investigación sobre c++ pausada 
 
-Empezar a instalar y configurar Eclipse
+Empezar a instalar y configurar Eclipse (3 h)
 
 05/07/2018 19:00
 
 Eclipse listo, ParseChoices ya funciona
 
-Reanudando investigación sobre c++
+Reanudando investigación sobre c++ (30 min)
+
+06/07/2018 15:30
+
+Aprender c++

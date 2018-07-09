@@ -1,0 +1,9 @@
+﻿  parseChoices.cpp
+parseChoices.cpp(307): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+parseChoices.cpp(313): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  parseGUI.cpp
+parseGUI.cpp(6): error C2976: 'std::array': too few template arguments
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(363): note: see declaration of 'std::array'
+parseGUI.cpp(6): error C3699: '^': cannot use this indirection on type 'std::array'
+  parseGUI.cpp(6): note: compiler replacing '^' with '*' to continue parsing
+  Generating Code...

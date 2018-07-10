@@ -11,11 +11,11 @@
 #include <WinUser.h>
 #include <vector>
 
-public ref class parserSource {
 
+class parserSource{
 	
 	public:
-		class parserSource() {
+
 			double test;
 			std::vector<double> mousePosition;
 			std::vector<double> terminalPosition;
@@ -29,8 +29,7 @@ public ref class parserSource {
 			void saveAndNext(std::string choice, std::string sentence);
 
 			void testingOpen(System::Windows::Forms::OpenFileDialog^  openDialog);
-			std::ifstream openFiletoParse();
-		}
+		
 
 
 	private:

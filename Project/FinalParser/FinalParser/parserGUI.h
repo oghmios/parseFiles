@@ -1,7 +1,6 @@
 #pragma once
 #include "stdafx.h"
 
-
 namespace FinalParser {
 
 	using namespace System;
@@ -462,18 +461,36 @@ namespace FinalParser {
 #pragma endregion
 	private: System::Void parserGUI_Load(System::Object^  sender, System::EventArgs^  e) {
 	}
+
 	private: System::Void openButton_Click(System::Object^  sender, System::EventArgs^  e) {
 		openDialog->ShowDialog();
-		System::String ^aux = openDialog->FileName;
-		FinalParser::MessageBox::Show("aa");
+		std::string fullFileName = openDialog->FileName->ToString;
+		std::vector<std::string> splittedName;
 
+		FinalParser::MessageBox::Show(aux.ToString);
+		/*
 
+		typedef std::vector < iterator_range < std::string::iterator> > find_vector_type;
+
+		find_vector_type FindVec; // #1: Search for separators
+		ifind_all(FindVec, str1, "abc"); // FindVec == { [abc],[ABC],[aBc] }
+
+		typedef vector< string > split_vector_type;
+
+		split_vector_type SplitVec; // #2: Search for tokens
+		split(SplitVec, str1, is_any_of("-*"), token_compress_on); // SplitVec == { "hello abc","ABC","aBc goodbye" }
+		
+
+		*/
+
+		//INSTALAR LAS LIBREARIAS DE BOOST: el fichero está en git, 100% recomendado que las utilicemos para ahorrarnos trabajo de programación
 
 	}
+
 	private: System::Void emulatorCoordButton_Click(System::Object^  sender, System::EventArgs^  e) {
 		FinalParser::MessageBox::Show("aasd");
 
-}
+	}
 };
 }
 

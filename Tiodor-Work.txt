@@ -4,16 +4,24 @@ Investigar y aprender sobre c++ (30 min)
 
 05/07/2018 16:00
 
-Investigación sobre c++ pausada 
+--Investigación sobre c++ pausada 
 
 Empezar a instalar y configurar Eclipse (3 h)
 
 05/07/2018 19:00
 
-Eclipse listo, ParseChoices ya funciona
+--Eclipse listo, ParseChoices ya funciona
 
 Reanudando investigación sobre c++ (30 min)
 
 06/07/2018 15:30
 
 Aprender c++ (4 h)
+
+10/07/2018 15:00
+
+Asignar funcionalidades a las botones (2 horas (de intentos fallidos e investigación inútil))
+
+Instalar librearias boost (40 minutos)
+
+Intentar linkear las librerias a visual studio (2:30 horas)

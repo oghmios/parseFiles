@@ -1,9 +1,2 @@
 ﻿  stdafx.cpp
-  AssemblyInfo.cpp
-  FinalParser.cpp
-  parserGUI.cpp
-  parserSource.cpp
-  Generating Code...
-  AssemblyInfo.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
-  FinalParser.vcxproj -> C:\Users\Valdes\Desktop\ParseChoices\parseFiles\Project\FinalParser\Debug\FinalParser.exe
-  FinalParser.vcxproj -> C:\Users\Valdes\Desktop\ParseChoices\parseFiles\Project\FinalParser\Debug\FinalParser.pdb (Partial PDB)
+d:\github\parsefiles\project\finalparser\finalparser\parserGUI.h(3): fatal error C1083: Cannot open include file: 'boost/algorithm/string/classification.hpp': No such file or directory

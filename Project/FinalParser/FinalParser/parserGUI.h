@@ -553,55 +553,49 @@ namespace FinalParser {
 		FinalParser::MessageBox::Show("aasd");
 
 	}
-			 // System string to std string
-	 std::string managedStrToNative(System::String^ sysstr)
-	 {
-				 using System::IntPtr;
-				 using System::Runtime::InteropServices::Marshal;
+	
+	// System string to std string
+	std::string managedStrToNative(System::String^ sysstr){
+	
+		using System::IntPtr;		 
+		using System::Runtime::InteropServices::Marshal;
 
-				 IntPtr ip = Marshal::StringToHGlobalAnsi(sysstr);
-				 std::string outString = static_cast<const char*>(ip.ToPointer());
-				 Marshal::FreeHGlobal(ip);
-				 return outString;
-			 }
+		IntPtr ip = Marshal::StringToHGlobalAnsi(sysstr);
+		std::string outString = static_cast<const char*>(ip.ToPointer());
+		Marshal::FreeHGlobal(ip);
+		return outString;
+	}
+	
 	 //std string to system string
-	 System::String^ managedNativetoStr(std::string str)
-	 {
+	System::String^ managedNativetoStr(std::string str)
+	{
 		 
-		 String^ systemLine = gcnew String(str.c_str());
-		 return systemLine;
-	 }
+		String^ systemLine = gcnew String(str.c_str());
+		return systemLine;
+
+	}
 
 
-	 // std string + system string to system string
-	 System::String^ createSentence(std::string name, System::String^ sentence)
-	 {
+	// std string + system string to system string
+	System::String^ createSentence(std::string name, System::String^ sentence){
 
-		 std::string sentStd = managedStrToNative(sentence);
-		 std::string twoStrings = name + " , " + sentStd;
-		 String^ completeSentence = managedNativetoStr(twoStrings);
-		 return completeSentence;
-	 }
+		std::string sentStd = managedStrToNative(sentence);
+		std::string twoStrings = name + " , " + sentStd;
+		String^ completeSentence = managedNativetoStr(twoStrings);
+		return completeSentence;
 
+	}
 
-	private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+	private: System::Void nextLineButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		String^ actualLine = createSentence("becca"/* recoger el nombre del character que corresponda*/, static_cast<String^>(fileLines[lineID]));
+		pruebaFuncionLabel->Text = actualLine;
+		finalLines.Add(actualLine);
+
 
 		lineID++;
 		String^ newLine = static_cast<String^>(fileLines[lineID]);
 		actualLineLabel->Text = newLine;
-
 	}
-
-private: System::Void nextLineButton_Click(System::Object^  sender, System::EventArgs^  e) {
-	String^ actualLine = createSentence("becca"/* recoger el nombre del character que corresponda*/, static_cast<String^>(fileLines[lineID]));
-	pruebaFuncionLabel->Text = actualLine;
-	finalLines.Add(actualLine);
-
-
-	lineID++;
-	String^ newLine = static_cast<String^>(fileLines[lineID]);
-	actualLineLabel->Text = newLine;
-}
 
 };
 }

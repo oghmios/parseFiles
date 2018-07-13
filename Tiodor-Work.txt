@@ -20,12 +20,30 @@ Aprender c++ (4 h)
 
 10/07/2018 15:00
 
-Asignar funcionalidades a las botones (2 horas (de intentos fallidos e investigación inútil))
+Asignar funcionalidades a las botones (2 h (de intentos fallidos e investigación inútil))
 
-Instalar librearias boost (40 minutos)
+Instalar librearias boost (40 min)
 
 Intentar linkear las librerias a visual studio (2:30 horas)
 
 11/07/2018 10:40
 
-Terminar de implementar las librerias Boost
+Terminar de implementar las librerias Boost (1 h)
+
+Investigación de c++ y asignar funcionalidad al botón de open(5 h)
+
+12/07/2018 9:30 
+
+Intentar corregir el error de git que no me deja hacer push (2h)
+
+Intentar solucionar el error D8016 por el cual el programa no compila (1h)
+
+Investigar más sobre el problema de los 100 MB de límite de git (1h)
+
+Hacer que el programa cargue las lineas de un fichero en memoria y pueda visualizarlas en la interfaz (1h)
+
+13/07/2018 14:50
+
+Arreglar el programa con Pablo y hacer que compile (1h)
+
+Solucionar los problemas con github y poder hacer commit (2h)

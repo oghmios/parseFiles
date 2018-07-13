@@ -36,9 +36,8 @@ namespace FinalParser {
 				delete components;
 			}
 		}
+	public: parserSource parse2 = gcnew parserSource();
 	public: System::Windows::Forms::Button^  openButton;
-
-
 	protected:
 	private: System::Windows::Forms::Label^  openLabel;
 	private: System::Windows::Forms::OpenFileDialog^  openDialog;
@@ -73,9 +72,6 @@ namespace FinalParser {
 	private: System::Windows::Forms::PrintDialog^  printDialog1;
 	private: System::Windows::Forms::Label^  actualLineDesLabel;
 	private: System::Windows::Forms::Label^  actualLineLabel;
-	private: System::Windows::Forms::Button^  choiceButton;
-	private: System::Windows::Forms::Button^  optionButton;
-	private: System::Windows::Forms::Button^  nonOptionButton;
 	protected:
 	protected:
 
@@ -123,9 +119,6 @@ namespace FinalParser {
 			this->printDialog1 = (gcnew System::Windows::Forms::PrintDialog());
 			this->actualLineDesLabel = (gcnew System::Windows::Forms::Label());
 			this->actualLineLabel = (gcnew System::Windows::Forms::Label());
-			this->choiceButton = (gcnew System::Windows::Forms::Button());
-			this->optionButton = (gcnew System::Windows::Forms::Button());
-			this->nonOptionButton = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// openButton
@@ -208,9 +201,9 @@ namespace FinalParser {
 			this->assignParserLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
 			this->assignParserLabel->Location = System::Drawing::Point(349, 128);
 			this->assignParserLabel->Name = L"assignParserLabel";
-			this->assignParserLabel->Size = System::Drawing::Size(173, 17);
+			this->assignParserLabel->Size = System::Drawing::Size(187, 17);
 			this->assignParserLabel->TabIndex = 7;
-			this->assignParserLabel->Text = L"Assign parser coordinates";
+			this->assignParserLabel->Text = L"Assign emulator coordinates";
 			// 
 			// parserCoordButton
 			// 
@@ -390,41 +383,11 @@ namespace FinalParser {
 			this->actualLineLabel->TabIndex = 26;
 			this->actualLineLabel->Text = L"(Line)";
 			// 
-			// choiceButton
-			// 
-			this->choiceButton->Location = System::Drawing::Point(373, 483);
-			this->choiceButton->Name = L"choiceButton";
-			this->choiceButton->Size = System::Drawing::Size(75, 23);
-			this->choiceButton->TabIndex = 27;
-			this->choiceButton->Text = L"Choice(C)";
-			this->choiceButton->UseVisualStyleBackColor = true;
-			// 
-			// optionButton
-			// 
-			this->optionButton->Location = System::Drawing::Point(470, 483);
-			this->optionButton->Name = L"optionButton";
-			this->optionButton->Size = System::Drawing::Size(75, 23);
-			this->optionButton->TabIndex = 28;
-			this->optionButton->Text = L"Option(O)";
-			this->optionButton->UseVisualStyleBackColor = true;
-			// 
-			// nonOptionButton
-			// 
-			this->nonOptionButton->Location = System::Drawing::Point(61, 536);
-			this->nonOptionButton->Name = L"nonOptionButton";
-			this->nonOptionButton->Size = System::Drawing::Size(102, 23);
-			this->nonOptionButton->TabIndex = 29;
-			this->nonOptionButton->Text = L"Non option(Z)";
-			this->nonOptionButton->UseVisualStyleBackColor = true;
-			// 
 			// parserGUI
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(621, 571);
-			this->Controls->Add(this->nonOptionButton);
-			this->Controls->Add(this->optionButton);
-			this->Controls->Add(this->choiceButton);
 			this->Controls->Add(this->actualLineLabel);
 			this->Controls->Add(this->actualLineDesLabel);
 			this->Controls->Add(this->splitter1);
@@ -464,6 +427,7 @@ namespace FinalParser {
 
 	private: System::Void openButton_Click(System::Object^  sender, System::EventArgs^  e) {
 		openDialog->ShowDialog();
+<<<<<<< HEAD
 		/*std::string fullFileName = openDialog->FileName->ToString;
 		std::vector<std::string> splittedName;
 
@@ -489,6 +453,14 @@ namespace FinalParser {
 
 	private: System::Void emulatorCoordButton_Click(System::Object^  sender, System::EventArgs^  e) {
 		FinalParser::MessageBox::Show("aasd");
+=======
+
+		parse2.testingOpen(openDialog);
+
+	}
+private: System::Void emulatorCoordButton_Click(System::Object^  sender, System::EventArgs^  e) {
+
+>>>>>>> parent of 8028673... added messageboc functionallity
 
 	}
 };

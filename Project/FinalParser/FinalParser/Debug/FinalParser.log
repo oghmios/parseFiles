@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 ﻿cl : Command line error D8016: '/clr' and '/MT' command-line options are incompatible
+=======
+﻿  stdafx.cpp
+c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(430): error C3861: 'openFileForParse': identifier not found
+>>>>>>> parent of 8028673... added messageboc functionallity

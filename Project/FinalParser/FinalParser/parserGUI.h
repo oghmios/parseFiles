@@ -1,5 +1,19 @@
 #pragma once
 #include "stdafx.h"
+#include <stdio.h>
+#include <tchar.h>
+#include <string>
+#include <fstream>
+#include <cstdlib>
+#include <sstream>
+#include <iostream>
+#include <conio.h>
+#include <Windows.h>
+#include <WinUser.h>
+#include <vector>
+
+
+
 
 namespace FinalParser {
 
@@ -36,8 +50,9 @@ namespace FinalParser {
 				delete components;
 			}
 		}
-	public: parserSource parse2 = gcnew parserSource();
 	public: System::Windows::Forms::Button^  openButton;
+
+
 	protected:
 	private: System::Windows::Forms::Label^  openLabel;
 	private: System::Windows::Forms::OpenFileDialog^  openDialog;
@@ -64,7 +79,8 @@ namespace FinalParser {
 	private: System::Windows::Forms::Button^  char7Button;
 	private: System::Windows::Forms::Button^  char6Button;
 	private: System::Windows::Forms::Label^  othersLabel;
-	private: System::Windows::Forms::Button^  button1;
+	private: System::Windows::Forms::Button^  nextLineButton;
+
 	private: System::Windows::Forms::Button^  button2;
 	private: System::Windows::Forms::Button^  button3;
 	private: System::Windows::Forms::Splitter^  splitter1;
@@ -72,6 +88,10 @@ namespace FinalParser {
 	private: System::Windows::Forms::PrintDialog^  printDialog1;
 	private: System::Windows::Forms::Label^  actualLineDesLabel;
 	private: System::Windows::Forms::Label^  actualLineLabel;
+	private: System::Windows::Forms::Button^  choiceButton;
+	private: System::Windows::Forms::Button^  optionButton;
+	private: System::Windows::Forms::Button^  nonOptionButton;
+	private: System::Windows::Forms::Label^  pruebaFuncionLabel;
 	protected:
 	protected:
 
@@ -111,7 +131,7 @@ namespace FinalParser {
 			this->char7Button = (gcnew System::Windows::Forms::Button());
 			this->char6Button = (gcnew System::Windows::Forms::Button());
 			this->othersLabel = (gcnew System::Windows::Forms::Label());
-			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->nextLineButton = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->splitter1 = (gcnew System::Windows::Forms::Splitter());
@@ -119,6 +139,10 @@ namespace FinalParser {
 			this->printDialog1 = (gcnew System::Windows::Forms::PrintDialog());
 			this->actualLineDesLabel = (gcnew System::Windows::Forms::Label());
 			this->actualLineLabel = (gcnew System::Windows::Forms::Label());
+			this->choiceButton = (gcnew System::Windows::Forms::Button());
+			this->optionButton = (gcnew System::Windows::Forms::Button());
+			this->nonOptionButton = (gcnew System::Windows::Forms::Button());
+			this->pruebaFuncionLabel = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
 			// openButton
@@ -201,9 +225,9 @@ namespace FinalParser {
 			this->assignParserLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
 			this->assignParserLabel->Location = System::Drawing::Point(349, 128);
 			this->assignParserLabel->Name = L"assignParserLabel";
-			this->assignParserLabel->Size = System::Drawing::Size(187, 17);
+			this->assignParserLabel->Size = System::Drawing::Size(173, 17);
 			this->assignParserLabel->TabIndex = 7;
-			this->assignParserLabel->Text = L"Assign emulator coordinates";
+			this->assignParserLabel->Text = L"Assign parser coordinates";
 			// 
 			// parserCoordButton
 			// 
@@ -324,14 +348,15 @@ namespace FinalParser {
 			this->othersLabel->TabIndex = 20;
 			this->othersLabel->Text = L"Others";
 			// 
-			// button1
+			// nextLineButton
 			// 
-			this->button1->Location = System::Drawing::Point(278, 483);
-			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(75, 23);
-			this->button1->TabIndex = 23;
-			this->button1->Text = L"Next Line(N)";
-			this->button1->UseVisualStyleBackColor = true;
+			this->nextLineButton->Location = System::Drawing::Point(278, 483);
+			this->nextLineButton->Name = L"nextLineButton";
+			this->nextLineButton->Size = System::Drawing::Size(75, 23);
+			this->nextLineButton->TabIndex = 23;
+			this->nextLineButton->Text = L"Next Line(N)";
+			this->nextLineButton->UseVisualStyleBackColor = true;
+			this->nextLineButton->Click += gcnew System::EventHandler(this, &parserGUI::nextLineButton_Click);
 			// 
 			// button2
 			// 
@@ -383,15 +408,56 @@ namespace FinalParser {
 			this->actualLineLabel->TabIndex = 26;
 			this->actualLineLabel->Text = L"(Line)";
 			// 
+			// choiceButton
+			// 
+			this->choiceButton->Location = System::Drawing::Point(373, 483);
+			this->choiceButton->Name = L"choiceButton";
+			this->choiceButton->Size = System::Drawing::Size(75, 23);
+			this->choiceButton->TabIndex = 27;
+			this->choiceButton->Text = L"Choice(C)";
+			this->choiceButton->UseVisualStyleBackColor = true;
+			// 
+			// optionButton
+			// 
+			this->optionButton->Location = System::Drawing::Point(470, 483);
+			this->optionButton->Name = L"optionButton";
+			this->optionButton->Size = System::Drawing::Size(75, 23);
+			this->optionButton->TabIndex = 28;
+			this->optionButton->Text = L"Option(O)";
+			this->optionButton->UseVisualStyleBackColor = true;
+			// 
+			// nonOptionButton
+			// 
+			this->nonOptionButton->Location = System::Drawing::Point(61, 536);
+			this->nonOptionButton->Name = L"nonOptionButton";
+			this->nonOptionButton->Size = System::Drawing::Size(102, 23);
+			this->nonOptionButton->TabIndex = 29;
+			this->nonOptionButton->Text = L"Non option(Z)";
+			this->nonOptionButton->UseVisualStyleBackColor = true;
+			// 
+			// pruebaFuncionLabel
+			// 
+			this->pruebaFuncionLabel->AutoSize = true;
+			this->pruebaFuncionLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
+			this->pruebaFuncionLabel->Location = System::Drawing::Point(164, 279);
+			this->pruebaFuncionLabel->Name = L"pruebaFuncionLabel";
+			this->pruebaFuncionLabel->Size = System::Drawing::Size(45, 17);
+			this->pruebaFuncionLabel->TabIndex = 30;
+			this->pruebaFuncionLabel->Text = L"(Line)";
+			// 
 			// parserGUI
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(621, 571);
+			this->Controls->Add(this->pruebaFuncionLabel);
+			this->Controls->Add(this->nonOptionButton);
+			this->Controls->Add(this->optionButton);
+			this->Controls->Add(this->choiceButton);
 			this->Controls->Add(this->actualLineLabel);
 			this->Controls->Add(this->actualLineDesLabel);
 			this->Controls->Add(this->splitter1);
-			this->Controls->Add(this->button1);
+			this->Controls->Add(this->nextLineButton);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button3);
 			this->Controls->Add(this->othersLabel);
@@ -424,45 +490,119 @@ namespace FinalParser {
 #pragma endregion
 	private: System::Void parserGUI_Load(System::Object^  sender, System::EventArgs^  e) {
 	}
+			 //Inicializamos el array de lineas fuera, puesto que vamos a trabajar con él durante toda la ejecución del programa
+			 System::Collections::ArrayList fileLines;
+			 System::Collections::ArrayList finalLines;
+			 //Declaramos un id para poder controlar la línea del array sobre la cual estamos trabajando
+			 int lineID = 0;
 
 	private: System::Void openButton_Click(System::Object^  sender, System::EventArgs^  e) {
 		openDialog->ShowDialog();
-<<<<<<< HEAD
-		/*std::string fullFileName = openDialog->FileName->ToString;
-		std::vector<std::string> splittedName;
+		String^ systemFileName = openDialog->FileName;
 
-		FinalParser::MessageBox::Show(aux.ToString());*/
-		/*
 
-		typedef std::vector < iterator_range < std::string::iterator> > find_vector_type;
+		std::string fileName = managedStrToNative(systemFileName);
+		char filePath[100];
+		for (unsigned i = 0; i < fileName.length(); i++) {
+			filePath[i] = fileName.at(i);
+		}
 
-		find_vector_type FindVec; // #1: Search for separators
-		ifind_all(FindVec, str1, "abc"); // FindVec == { [abc],[ABC],[aBc] }
+		std::fstream inFile;
+		inFile.open(fileName);
 
-		typedef vector< string > split_vector_type;
+		if (inFile.is_open()) {
 
-		split_vector_type SplitVec; // #2: Search for tokens
-		split(SplitVec, str1, is_any_of("-*"), token_compress_on); // SplitVec == { "hello abc","ABC","aBc goodbye" }
+			bool getCharacters = true;
+			std::string line;
+			while (getCharacters) {
+				std::getline(inFile, line);
+				if (line == "Character:") {
+					std::getline(inFile, line);
+					std::string a = line + "(3)";
+					char3Button->Text = managedNativetoStr(a);
+					//Guardar los characters en un array o vector para poder asignarlos luego, acordarse de que primero hay que guardar You y Narrator
+				}
+				else if (line == "ENDOFCHARACTERS") {
+					getCharacters = false;
+				}
+			}
+
+			
+			//bool readFile = true;
+			while (std::getline(inFile, line)) {
+				std::string strLine(line);
+				String^ systemLine = gcnew String(strLine.c_str());
+				fileLines.Add(systemLine);
+			}
+			
+			
+
+			inFile.close();
+		}
+
+		// Save all the charachters into their respective buttons
+
+		String^ newLine = static_cast<String^>(fileLines[lineID]);
+		actualLineLabel->Text = newLine;
+
 		
-
-		*/
-
-		//INSTALAR LAS LIBREARIAS DE BOOST: el fichero está en git, 100% recomendado que las utilicemos para ahorrarnos trabajo de programación
 
 	}
 
 	private: System::Void emulatorCoordButton_Click(System::Object^  sender, System::EventArgs^  e) {
 		FinalParser::MessageBox::Show("aasd");
-=======
-
-		parse2.testingOpen(openDialog);
 
 	}
-private: System::Void emulatorCoordButton_Click(System::Object^  sender, System::EventArgs^  e) {
+			 // System string to std string
+	 std::string managedStrToNative(System::String^ sysstr)
+	 {
+				 using System::IntPtr;
+				 using System::Runtime::InteropServices::Marshal;
 
->>>>>>> parent of 8028673... added messageboc functionallity
+				 IntPtr ip = Marshal::StringToHGlobalAnsi(sysstr);
+				 std::string outString = static_cast<const char*>(ip.ToPointer());
+				 Marshal::FreeHGlobal(ip);
+				 return outString;
+			 }
+	 //std string to system string
+	 System::String^ managedNativetoStr(std::string str)
+	 {
+		 
+		 String^ systemLine = gcnew String(str.c_str());
+		 return systemLine;
+	 }
+
+
+	 // std string + system string to system string
+	 System::String^ createSentence(std::string name, System::String^ sentence)
+	 {
+
+		 std::string sentStd = managedStrToNative(sentence);
+		 std::string twoStrings = name + " , " + sentStd;
+		 String^ completeSentence = managedNativetoStr(twoStrings);
+		 return completeSentence;
+	 }
+
+
+	private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+
+		lineID++;
+		String^ newLine = static_cast<String^>(fileLines[lineID]);
+		actualLineLabel->Text = newLine;
 
 	}
+
+private: System::Void nextLineButton_Click(System::Object^  sender, System::EventArgs^  e) {
+	String^ actualLine = createSentence("becca"/* recoger el nombre del character que corresponda*/, static_cast<String^>(fileLines[lineID]));
+	pruebaFuncionLabel->Text = actualLine;
+	finalLines.Add(actualLine);
+
+
+	lineID++;
+	String^ newLine = static_cast<String^>(fileLines[lineID]);
+	actualLineLabel->Text = newLine;
+}
+
 };
 }
 

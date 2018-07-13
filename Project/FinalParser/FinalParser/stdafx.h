@@ -11,5 +11,4 @@
 
 void openFileForParse(System::Windows::Forms::OpenFileDialog^  openDialog);
 
-parserSource parse;
 

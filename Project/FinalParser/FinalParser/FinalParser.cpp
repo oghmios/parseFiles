@@ -17,11 +17,8 @@ int main(array<System::String ^> ^args)
 	FinalParser::parserGUI mainForm;
 	Application::Run(%mainForm);
 	
-	System::Windows::Forms::OpenFileDialog^  openDialog;
+	
 
     return 0;
 }
 
-void openFileForParse(System::Windows::Forms::OpenFileDialog ^ openDialog)
-{
-}

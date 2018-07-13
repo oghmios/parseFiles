@@ -464,10 +464,10 @@ namespace FinalParser {
 
 	private: System::Void openButton_Click(System::Object^  sender, System::EventArgs^  e) {
 		openDialog->ShowDialog();
-		std::string fullFileName = openDialog->FileName->ToString;
+		/*std::string fullFileName = openDialog->FileName->ToString;
 		std::vector<std::string> splittedName;
 
-		FinalParser::MessageBox::Show(aux.ToString);
+		FinalParser::MessageBox::Show(aux.ToString());*/
 		/*
 
 		typedef std::vector < iterator_range < std::string::iterator> > find_vector_type;

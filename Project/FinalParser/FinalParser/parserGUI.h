@@ -23,6 +23,7 @@ namespace FinalParser {
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
+	using namespace System::Collections::Generic;
 
 	/// <summary>
 	/// Summary for parserGUI
@@ -490,23 +491,19 @@ namespace FinalParser {
 #pragma endregion
 	private: System::Void parserGUI_Load(System::Object^  sender, System::EventArgs^  e) {
 	}
-			 //Inicializamos el array de lineas fuera, puesto que vamos a trabajar con él durante toda la ejecución del programa
-			 System::Collections::ArrayList fileLines;
-			 System::Collections::ArrayList finalLines;
-			 //Declaramos un id para poder controlar la línea del array sobre la cual estamos trabajando
-			 int lineID = 0;
+			//Inicializamos el array de lineas fuera, puesto que vamos a trabajar con él durante toda la ejecución del programa
+			System::Collections::ArrayList fileLines;
+			System::Collections::ArrayList finalLines;
+			//Declaramos un id para poder controlar la línea del array sobre la cual estamos trabajando
+			int lineID = 0;
+			//Declaramos el archivo csv que vamos a editar
+			
 
 	private: System::Void openButton_Click(System::Object^  sender, System::EventArgs^  e) {
 		openDialog->ShowDialog();
 		String^ systemFileName = openDialog->FileName;
 
-
 		std::string fileName = managedStrToNative(systemFileName);
-		char filePath[100];
-		for (unsigned i = 0; i < fileName.length(); i++) {
-			filePath[i] = fileName.at(i);
-		}
-
 		std::fstream inFile;
 		inFile.open(fileName);
 
@@ -514,13 +511,14 @@ namespace FinalParser {
 
 			bool getCharacters = true;
 			std::string line;
+			//List<Button^>^ buttons = getCharacterButtons();
+			int counter = 0;
 			while (getCharacters) {
 				std::getline(inFile, line);
 				if (line == "Character:") {
 					std::getline(inFile, line);
-					std::string a = line + "(3)";
-					char3Button->Text = managedNativetoStr(a);
-					//Guardar los characters en un array o vector para poder asignarlos luego, acordarse de que primero hay que guardar You y Narrator
+					String^ buttonText = managedNativetoStr(line + "(" + std::to_string(counter) + ")");
+					//buttons[counter]->Text = buttonText;
 				}
 				else if (line == "ENDOFCHARACTERS") {
 					getCharacters = false;
@@ -544,8 +542,6 @@ namespace FinalParser {
 
 		String^ newLine = static_cast<String^>(fileLines[lineID]);
 		actualLineLabel->Text = newLine;
-
-		
 
 	}
 
@@ -586,6 +582,20 @@ namespace FinalParser {
 
 	}
 
+	//Esto aún no está implementado, da error durante la ejecución
+	List<Button^>^ getCharacterButtons() {
+		List<Button^>^ characterButtons;
+		characterButtons->Add(char3Button);
+		characterButtons->Add(char4Button);
+		characterButtons->Add(char5Button);
+		characterButtons->Add(char6Button);
+		characterButtons->Add(char7Button);
+		characterButtons->Add(char8Button);
+		characterButtons->Add(char9Button);
+		characterButtons->Add(char0Button);
+		return characterButtons;
+	}
+
 	private: System::Void nextLineButton_Click(System::Object^  sender, System::EventArgs^  e) {
 		String^ actualLine = createSentence("becca"/* recoger el nombre del character que corresponda*/, static_cast<String^>(fileLines[lineID]));
 		pruebaFuncionLabel->Text = actualLine;
@@ -595,7 +605,27 @@ namespace FinalParser {
 		lineID++;
 		String^ newLine = static_cast<String^>(fileLines[lineID]);
 		actualLineLabel->Text = newLine;
+
+		writeLineInTheCSV();
 	}
+
+
+	
+	//Ya hace el guardado, pero no hace separación de celdas por comas, falta pulir el guardado e implementarlo para que el programa lo llame solo una vez al salir
+	private: System::Void writeLineInTheCSV() {
+		std::string filename = "C:/ParsedFiles/parsedFile.csv";
+		std::ofstream csvFile;
+		csvFile.open(filename);
+		for (int i = 0; i < finalLines.Count; i++) {
+			String^ sysLine = static_cast<String^>(finalLines[i]);
+			std::string line = managedStrToNative(sysLine);
+			csvFile << line << "\n";
+		}
+		csvFile.close();
+
+	}
+
+	
 
 };
 }

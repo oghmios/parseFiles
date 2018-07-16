@@ -5,5 +5,5 @@
   parserSource.cpp
   Generating Code...
   AssemblyInfo.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
-  FinalParser.vcxproj -> C:\Users\Valdes\Desktop\ParseChoices\parseFiles\Project\FinalParser\Debug\FinalParser.exe
-  FinalParser.vcxproj -> C:\Users\Valdes\Desktop\ParseChoices\parseFiles\Project\FinalParser\Debug\FinalParser.pdb (Partial PDB)
+  FinalParser.vcxproj -> D:\GITHUB\parseFiles\Project\FinalParser\Debug\FinalParser.exe
+  FinalParser.vcxproj -> D:\GITHUB\parseFiles\Project\FinalParser\Debug\FinalParser.pdb (Partial PDB)

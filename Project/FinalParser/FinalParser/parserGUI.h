@@ -511,14 +511,15 @@ namespace FinalParser {
 
 			bool getCharacters = true;
 			std::string line;
-			//List<Button^>^ buttons = getCharacterButtons();
+			cli::array<Button^>^ buttons = getCharacterButtons();
 			int counter = 0;
 			while (getCharacters) {
 				std::getline(inFile, line);
 				if (line == "Character:") {
 					std::getline(inFile, line);
-					String^ buttonText = managedNativetoStr(line + "(" + std::to_string(counter) + ")");
-					//buttons[counter]->Text = buttonText;
+					String^ buttonText = managedNativetoStr(line + "(" + std::to_string(counter+3) + ")");
+					buttons[counter]->Text = buttonText;
+					counter++;
 				}
 				else if (line == "ENDOFCHARACTERS") {
 					getCharacters = false;
@@ -551,7 +552,7 @@ namespace FinalParser {
 	}
 	
 	// System string to std string
-	std::string managedStrToNative(System::String^ sysstr){
+	private: std::string managedStrToNative(System::String^ sysstr){
 	
 		using System::IntPtr;		 
 		using System::Runtime::InteropServices::Marshal;
@@ -563,7 +564,7 @@ namespace FinalParser {
 	}
 	
 	 //std string to system string
-	System::String^ managedNativetoStr(std::string str)
+	private: System::String^ managedNativetoStr(std::string str)
 	{
 		 
 		String^ systemLine = gcnew String(str.c_str());
@@ -573,7 +574,7 @@ namespace FinalParser {
 
 
 	// std string + system string to system string
-	System::String^ createSentence(std::string name, System::String^ sentence){
+	private: System::String^ createSentence(std::string name, System::String^ sentence){
 
 		std::string sentStd = managedStrToNative(sentence);
 		std::string twoStrings = name + " , " + sentStd;
@@ -582,18 +583,17 @@ namespace FinalParser {
 
 	}
 
-	//Esto aún no está implementado, da error durante la ejecución
-	List<Button^>^ getCharacterButtons() {
-		List<Button^>^ characterButtons;
-		characterButtons->Add(char3Button);
-		characterButtons->Add(char4Button);
-		characterButtons->Add(char5Button);
-		characterButtons->Add(char6Button);
-		characterButtons->Add(char7Button);
-		characterButtons->Add(char8Button);
-		characterButtons->Add(char9Button);
-		characterButtons->Add(char0Button);
-		return characterButtons;
+	private: cli::array<Button^>^ getCharacterButtons(){
+		cli::array<Button^, 1>^ buttons = gcnew cli::array<Button^, 1>(8);
+		buttons[0] = (char3Button);
+		buttons[1] = (char4Button);
+		buttons[2] = (char5Button);
+		buttons[3] = (char6Button);
+		buttons[4] = (char7Button);
+		buttons[5] = (char8Button);
+		buttons[6] = (char9Button);
+		buttons[7] = (char0Button);
+		return buttons;
 	}
 
 	private: System::Void nextLineButton_Click(System::Object^  sender, System::EventArgs^  e) {
@@ -606,13 +606,13 @@ namespace FinalParser {
 		String^ newLine = static_cast<String^>(fileLines[lineID]);
 		actualLineLabel->Text = newLine;
 
-		writeLineInTheCSV();
+		writeLinesInTheCSV();
 	}
 
 
 	
 	//Ya hace el guardado, pero no hace separación de celdas por comas, falta pulir el guardado e implementarlo para que el programa lo llame solo una vez al salir
-	private: System::Void writeLineInTheCSV() {
+	private: System::Void writeLinesInTheCSV() {
 		std::string filename = "C:/ParsedFiles/parsedFile.csv";
 		std::ofstream csvFile;
 		csvFile.open(filename);

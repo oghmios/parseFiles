@@ -53,3 +53,7 @@ Solucionar los problemas con github y poder hacer commit (2h)
 Hacer que se carguen los nombres de los personajes en los botones (2h)
 
 Hacer que guarde en los datos en un fichero csv (4h)
+
+17/07/2018 15:15
+
+Pulir los botones y el guardado

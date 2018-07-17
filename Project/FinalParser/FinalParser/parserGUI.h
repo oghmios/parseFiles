@@ -87,12 +87,22 @@ namespace FinalParser {
 	private: System::Windows::Forms::Splitter^  splitter1;
 	private: System::Windows::Forms::SaveFileDialog^  saveFileDialog1;
 	private: System::Windows::Forms::PrintDialog^  printDialog1;
-	private: System::Windows::Forms::Label^  actualLineDesLabel;
 	private: System::Windows::Forms::Label^  actualLineLabel;
+
+
+
+	private: System::Windows::Forms::Label^  actualLine;
+
 	private: System::Windows::Forms::Button^  choiceButton;
 	private: System::Windows::Forms::Button^  optionButton;
 	private: System::Windows::Forms::Button^  nonOptionButton;
-	private: System::Windows::Forms::Label^  pruebaFuncionLabel;
+	private: System::Windows::Forms::Label^  resultingLine;
+
+
+
+	private: System::Windows::Forms::Label^  resultingLineLabel;
+
+
 	protected:
 	protected:
 
@@ -138,12 +148,13 @@ namespace FinalParser {
 			this->splitter1 = (gcnew System::Windows::Forms::Splitter());
 			this->saveFileDialog1 = (gcnew System::Windows::Forms::SaveFileDialog());
 			this->printDialog1 = (gcnew System::Windows::Forms::PrintDialog());
-			this->actualLineDesLabel = (gcnew System::Windows::Forms::Label());
 			this->actualLineLabel = (gcnew System::Windows::Forms::Label());
+			this->actualLine = (gcnew System::Windows::Forms::Label());
 			this->choiceButton = (gcnew System::Windows::Forms::Button());
 			this->optionButton = (gcnew System::Windows::Forms::Button());
 			this->nonOptionButton = (gcnew System::Windows::Forms::Button());
-			this->pruebaFuncionLabel = (gcnew System::Windows::Forms::Label());
+			this->resultingLine = (gcnew System::Windows::Forms::Label());
+			this->resultingLineLabel = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
 			// openButton
@@ -247,6 +258,7 @@ namespace FinalParser {
 			this->youButton->TabIndex = 9;
 			this->youButton->Text = L"You(1)";
 			this->youButton->UseVisualStyleBackColor = true;
+			this->youButton->Click += gcnew System::EventHandler(this, &parserGUI::youButton_Click);
 			// 
 			// charactersLabel
 			// 
@@ -266,6 +278,7 @@ namespace FinalParser {
 			this->narratorButton->TabIndex = 11;
 			this->narratorButton->Text = L"Narrator(2)";
 			this->narratorButton->UseVisualStyleBackColor = true;
+			this->narratorButton->Click += gcnew System::EventHandler(this, &parserGUI::narratorButton_Click);
 			// 
 			// char3Button
 			// 
@@ -275,6 +288,7 @@ namespace FinalParser {
 			this->char3Button->TabIndex = 12;
 			this->char3Button->Text = L"Char 3(3)";
 			this->char3Button->UseVisualStyleBackColor = true;
+			this->char3Button->Click += gcnew System::EventHandler(this, &parserGUI::char3Button_Click);
 			// 
 			// char4Button
 			// 
@@ -284,6 +298,7 @@ namespace FinalParser {
 			this->char4Button->TabIndex = 13;
 			this->char4Button->Text = L"Char 4(4)";
 			this->char4Button->UseVisualStyleBackColor = true;
+			this->char4Button->Click += gcnew System::EventHandler(this, &parserGUI::char4Button_Click);
 			// 
 			// char5Button
 			// 
@@ -293,6 +308,7 @@ namespace FinalParser {
 			this->char5Button->TabIndex = 14;
 			this->char5Button->Text = L"Char 5(5)";
 			this->char5Button->UseVisualStyleBackColor = true;
+			this->char5Button->Click += gcnew System::EventHandler(this, &parserGUI::char5Button_Click);
 			// 
 			// char0Button
 			// 
@@ -302,6 +318,7 @@ namespace FinalParser {
 			this->char0Button->TabIndex = 19;
 			this->char0Button->Text = L"Char 10(0)";
 			this->char0Button->UseVisualStyleBackColor = true;
+			this->char0Button->Click += gcnew System::EventHandler(this, &parserGUI::char0Button_Click);
 			// 
 			// char9Button
 			// 
@@ -311,6 +328,7 @@ namespace FinalParser {
 			this->char9Button->TabIndex = 18;
 			this->char9Button->Text = L"Char 9(9)";
 			this->char9Button->UseVisualStyleBackColor = true;
+			this->char9Button->Click += gcnew System::EventHandler(this, &parserGUI::char9Button_Click);
 			// 
 			// char8Button
 			// 
@@ -320,6 +338,7 @@ namespace FinalParser {
 			this->char8Button->TabIndex = 17;
 			this->char8Button->Text = L"Char 8(8)";
 			this->char8Button->UseVisualStyleBackColor = true;
+			this->char8Button->Click += gcnew System::EventHandler(this, &parserGUI::char8Button_Click);
 			// 
 			// char7Button
 			// 
@@ -329,6 +348,7 @@ namespace FinalParser {
 			this->char7Button->TabIndex = 16;
 			this->char7Button->Text = L"Char 7(7)";
 			this->char7Button->UseVisualStyleBackColor = true;
+			this->char7Button->Click += gcnew System::EventHandler(this, &parserGUI::char7Button_Click);
 			// 
 			// char6Button
 			// 
@@ -338,6 +358,7 @@ namespace FinalParser {
 			this->char6Button->TabIndex = 15;
 			this->char6Button->Text = L"Char 6(6)";
 			this->char6Button->UseVisualStyleBackColor = true;
+			this->char6Button->Click += gcnew System::EventHandler(this, &parserGUI::char6Button_Click);
 			// 
 			// othersLabel
 			// 
@@ -367,6 +388,7 @@ namespace FinalParser {
 			this->button2->TabIndex = 22;
 			this->button2->Text = L"Music(M)";
 			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &parserGUI::button2_Click);
 			// 
 			// button3
 			// 
@@ -376,6 +398,7 @@ namespace FinalParser {
 			this->button3->TabIndex = 21;
 			this->button3->Text = L"Background(B)";
 			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &parserGUI::button3_Click);
 			// 
 			// splitter1
 			// 
@@ -389,25 +412,25 @@ namespace FinalParser {
 			// 
 			this->printDialog1->UseEXDialog = true;
 			// 
-			// actualLineDesLabel
-			// 
-			this->actualLineDesLabel->AutoSize = true;
-			this->actualLineDesLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->actualLineDesLabel->Location = System::Drawing::Point(64, 244);
-			this->actualLineDesLabel->Name = L"actualLineDesLabel";
-			this->actualLineDesLabel->Size = System::Drawing::Size(77, 17);
-			this->actualLineDesLabel->TabIndex = 25;
-			this->actualLineDesLabel->Text = L"Actual line:";
-			// 
 			// actualLineLabel
 			// 
 			this->actualLineLabel->AutoSize = true;
 			this->actualLineLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->actualLineLabel->Location = System::Drawing::Point(164, 244);
+			this->actualLineLabel->Location = System::Drawing::Point(64, 244);
 			this->actualLineLabel->Name = L"actualLineLabel";
-			this->actualLineLabel->Size = System::Drawing::Size(45, 17);
-			this->actualLineLabel->TabIndex = 26;
-			this->actualLineLabel->Text = L"(Line)";
+			this->actualLineLabel->Size = System::Drawing::Size(77, 17);
+			this->actualLineLabel->TabIndex = 25;
+			this->actualLineLabel->Text = L"Actual line:";
+			// 
+			// actualLine
+			// 
+			this->actualLine->AutoSize = true;
+			this->actualLine->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
+			this->actualLine->Location = System::Drawing::Point(164, 244);
+			this->actualLine->Name = L"actualLine";
+			this->actualLine->Size = System::Drawing::Size(45, 17);
+			this->actualLine->TabIndex = 26;
+			this->actualLine->Text = L"(Line)";
 			// 
 			// choiceButton
 			// 
@@ -417,6 +440,7 @@ namespace FinalParser {
 			this->choiceButton->TabIndex = 27;
 			this->choiceButton->Text = L"Choice(C)";
 			this->choiceButton->UseVisualStyleBackColor = true;
+			this->choiceButton->Click += gcnew System::EventHandler(this, &parserGUI::choiceButton_Click);
 			// 
 			// optionButton
 			// 
@@ -426,6 +450,7 @@ namespace FinalParser {
 			this->optionButton->TabIndex = 28;
 			this->optionButton->Text = L"Option(O)";
 			this->optionButton->UseVisualStyleBackColor = true;
+			this->optionButton->Click += gcnew System::EventHandler(this, &parserGUI::optionButton_Click);
 			// 
 			// nonOptionButton
 			// 
@@ -436,27 +461,38 @@ namespace FinalParser {
 			this->nonOptionButton->Text = L"Non option(Z)";
 			this->nonOptionButton->UseVisualStyleBackColor = true;
 			// 
-			// pruebaFuncionLabel
+			// resultingLine
 			// 
-			this->pruebaFuncionLabel->AutoSize = true;
-			this->pruebaFuncionLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->pruebaFuncionLabel->Location = System::Drawing::Point(164, 279);
-			this->pruebaFuncionLabel->Name = L"pruebaFuncionLabel";
-			this->pruebaFuncionLabel->Size = System::Drawing::Size(45, 17);
-			this->pruebaFuncionLabel->TabIndex = 30;
-			this->pruebaFuncionLabel->Text = L"(Line)";
+			this->resultingLine->AutoSize = true;
+			this->resultingLine->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
+			this->resultingLine->Location = System::Drawing::Point(164, 279);
+			this->resultingLine->Name = L"resultingLine";
+			this->resultingLine->Size = System::Drawing::Size(45, 17);
+			this->resultingLine->TabIndex = 30;
+			this->resultingLine->Text = L"(Line)";
+			// 
+			// resultingLineLabel
+			// 
+			this->resultingLineLabel->AutoSize = true;
+			this->resultingLineLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
+			this->resultingLineLabel->Location = System::Drawing::Point(63, 279);
+			this->resultingLineLabel->Name = L"resultingLineLabel";
+			this->resultingLineLabel->Size = System::Drawing::Size(97, 17);
+			this->resultingLineLabel->TabIndex = 31;
+			this->resultingLineLabel->Text = L"Resulting line:";
 			// 
 			// parserGUI
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(621, 571);
-			this->Controls->Add(this->pruebaFuncionLabel);
+			this->Controls->Add(this->resultingLineLabel);
+			this->Controls->Add(this->resultingLine);
 			this->Controls->Add(this->nonOptionButton);
 			this->Controls->Add(this->optionButton);
 			this->Controls->Add(this->choiceButton);
+			this->Controls->Add(this->actualLine);
 			this->Controls->Add(this->actualLineLabel);
-			this->Controls->Add(this->actualLineDesLabel);
 			this->Controls->Add(this->splitter1);
 			this->Controls->Add(this->nextLineButton);
 			this->Controls->Add(this->button2);
@@ -526,8 +562,6 @@ namespace FinalParser {
 				}
 			}
 
-			
-			//bool readFile = true;
 			while (std::getline(inFile, line)) {
 				std::string strLine(line);
 				String^ systemLine = gcnew String(strLine.c_str());
@@ -542,7 +576,7 @@ namespace FinalParser {
 		// Save all the charachters into their respective buttons
 
 		String^ newLine = static_cast<String^>(fileLines[lineID]);
-		actualLineLabel->Text = newLine;
+		actualLine->Text = newLine;
 
 	}
 
@@ -583,6 +617,19 @@ namespace FinalParser {
 
 	}
 
+	//Divides a string by the specified delimiter and stores every part in a vector
+	private: std::vector<std::string> split(const std::string& s, char delimiter){
+		std::vector<std::string> tokens;
+		std::string token;
+		std::istringstream tokenStream(s);
+		while (std::getline(tokenStream, token, delimiter))
+		{
+			tokens.push_back(token);
+		}
+		return tokens;
+	}
+
+	//Returns an array with the buttons dedicated to the character names
 	private: cli::array<Button^>^ getCharacterButtons(){
 		cli::array<Button^, 1>^ buttons = gcnew cli::array<Button^, 1>(8);
 		buttons[0] = (char3Button);
@@ -597,21 +644,33 @@ namespace FinalParser {
 	}
 
 	private: System::Void nextLineButton_Click(System::Object^  sender, System::EventArgs^  e) {
-		String^ actualLine = createSentence("becca"/* recoger el nombre del character que corresponda*/, static_cast<String^>(fileLines[lineID]));
-		pruebaFuncionLabel->Text = actualLine;
-		finalLines.Add(actualLine);
-
+		finalLines.Add(resultingLine->Text);
+		resultingLine->Text = "";
 
 		lineID++;
+
 		String^ newLine = static_cast<String^>(fileLines[lineID]);
-		actualLineLabel->Text = newLine;
+		actualLine->Text = newLine;
 
 		writeLinesInTheCSV();
 	}
 
+	//Formats the line so when is introduced in the CSV file will follow the specified structure of the template sheet
+	private: std::string formatLineForCSVFile(std::string line) {
+		char delimiter = 59;
+		std::vector<std::string> splittedLine = split(line, delimiter);
+		std::string kindOfLine = splittedLine.at(0);
+		//Hay que hacer una clase enum con para esto
+		switch (1){
 
+		default:
+			break;
+
+		}
+	}
 	
-	//Ya hace el guardado, pero no hace separación de celdas por comas, falta pulir el guardado e implementarlo para que el programa lo llame solo una vez al salir
+	//Falta hacer que el programa lo llame solo una vez cuando vaya a cerrarse
+	//Saves the parsed lines into a CSV file
 	private: System::Void writeLinesInTheCSV() {
 		std::string filename = "C:/ParsedFiles/parsedFile.csv";
 		std::ofstream csvFile;
@@ -623,10 +682,72 @@ namespace FinalParser {
 		}
 		csvFile.close();
 
+	}	
+
+	//Gets the name of the character from the button without the hotkey next to it
+	private: System::Void writeCharacterNameInLabelFromButton(System::Windows::Forms::Button^ b) {
+		std::string buttonText = managedStrToNative(b->Text);
+		char delimiter = 40;
+		std::vector<std::string> splittedButtonText = split(buttonText, delimiter);
+		String^ characterName = managedNativetoStr(splittedButtonText.at(0));
+		resultingLine->Text = characterName + "; " + static_cast<String^>(fileLines[lineID]);
 	}
 
-	
+	private: System::Void youButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		resultingLine->Text = "You; " + static_cast<String^>(fileLines[lineID]);
+	}
 
+	private: System::Void narratorButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		resultingLine->Text = "Narrator; " + static_cast<String^>(fileLines[lineID]);
+	}
+
+	private: System::Void char3Button_Click(System::Object^  sender, System::EventArgs^  e) {
+		writeCharacterNameInLabelFromButton(char3Button);
+	}
+
+	private: System::Void char4Button_Click(System::Object^  sender, System::EventArgs^  e) {
+		writeCharacterNameInLabelFromButton(char4Button);
+	}
+
+	private: System::Void char5Button_Click(System::Object^  sender, System::EventArgs^  e) {
+		writeCharacterNameInLabelFromButton(char5Button);
+	}
+
+	private: System::Void char6Button_Click(System::Object^  sender, System::EventArgs^  e) {
+		writeCharacterNameInLabelFromButton(char6Button);
+	}
+
+	private: System::Void char7Button_Click(System::Object^  sender, System::EventArgs^  e) {
+		writeCharacterNameInLabelFromButton(char7Button);
+	}
+
+	private: System::Void char8Button_Click(System::Object^  sender, System::EventArgs^  e) {
+		writeCharacterNameInLabelFromButton(char8Button);
+	}
+
+	private: System::Void char9Button_Click(System::Object^  sender, System::EventArgs^  e) {
+		writeCharacterNameInLabelFromButton(char9Button);
+	}
+
+	private: System::Void char0Button_Click(System::Object^  sender, System::EventArgs^  e) {
+		writeCharacterNameInLabelFromButton(char0Button);
+	}
+
+	private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
+		resultingLine->Text = "Background; " + static_cast<String^>(fileLines[lineID]);
+	}
+
+	private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
+		resultingLine->Text = "Music; " + static_cast<String^>(fileLines[lineID]);
+	}
+
+	private: System::Void choiceButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		resultingLine->Text = "Choice; " + static_cast<String^>(fileLines[lineID]);
+	}
+
+	private: System::Void optionButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		resultingLine->Text = "Option; " + static_cast<String^>(fileLines[lineID]);
+	}
 };
 }
 

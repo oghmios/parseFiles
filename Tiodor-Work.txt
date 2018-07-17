@@ -56,4 +56,8 @@ Hacer que guarde en los datos en un fichero csv (4h)
 
 17/07/2018 15:15
 
-Pulir los botones y el guardado
+Conseguir que se carguen los nombres de los personajes en los botones (1h)
+
+Seguir trabajando en el guardado de datos en un csv (1h)
+
+Asignar funcionalidades a casi todos los demás botones (1h)

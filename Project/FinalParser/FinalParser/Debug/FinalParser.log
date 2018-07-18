@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1150): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1156): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  AssemblyInfo.cpp
+  FinalParser.cpp
+  parserGUI.cpp
+  parserSource.cpp
+  Generating Code...
+  AssemblyInfo.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  FinalParser.vcxproj -> C:\Users\Valdes\Desktop\ParseChoices\parseFiles\Project\FinalParser\Debug\FinalParser.exe
+  FinalParser.vcxproj -> C:\Users\Valdes\Desktop\ParseChoices\parseFiles\Project\FinalParser\Debug\FinalParser.pdb (Partial PDB)

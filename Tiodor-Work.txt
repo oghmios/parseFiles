@@ -28,4 +28,40 @@ Intentar linkear las librerias a visual studio (2:30 horas)
 
 11/07/2018 10:40
 
+<<<<<<< HEAD
 Terminar de implementar las librerias Boost
+=======
+Terminar de implementar las librerias Boost (1 h)
+
+Investigación de c++ y asignar funcionalidad al botón de open(5 h)
+
+12/07/2018 9:30 
+
+Intentar corregir el error de git que no me deja hacer push (2h)
+
+Intentar solucionar el error D8016 por el cual el programa no compila (1h)
+
+Investigar más sobre el problema de los 100 MB de límite de git (1h)
+
+Hacer que el programa cargue las lineas de un fichero en memoria y pueda visualizarlas en la interfaz (1h)
+
+13/07/2018 14:50
+
+Arreglar el programa con Pablo y hacer que compile (1h)
+
+Solucionar los problemas con github y poder hacer commit (2h)
+
+16/07/2018 11:15
+
+Hacer que se carguen los nombres de los personajes en los botones (2h)
+
+Hacer que guarde en los datos en un fichero csv (4h)
+
+17/07/2018 15:15
+
+Conseguir que se carguen los nombres de los personajes en los botones (1h)
+
+Seguir trabajando en el guardado de datos en un csv (1h)
+
+Asignar funcionalidades a casi todos los demás botones (1h)
+>>>>>>> 92541a78263c45b2517012e67188cfab747d030c

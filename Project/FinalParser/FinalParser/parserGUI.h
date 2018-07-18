@@ -96,14 +96,19 @@ namespace FinalParser {
 
 	private: System::Windows::Forms::Button^  choiceButton;
 	private: System::Windows::Forms::Button^  optionButton;
-	private: System::Windows::Forms::Button^  nonOptionButton;
+	private: System::Windows::Forms::Button^  textFromOtherOptionButton;
 	private: System::Windows::Forms::Label^  resultingLine;
 
 
 
 	private: System::Windows::Forms::Label^  resultingLineLabel;
 	private: System::Windows::Forms::Button^  saveFile;
-	private: System::Windows::Forms::Button^  optionSButton;
+	private: System::Windows::Forms::Button^  selectedOptionButton;
+	private: System::Windows::Forms::Button^  customizationButton;
+	private: System::Windows::Forms::Label^  choicesOptionsLabel;
+	private: System::Windows::Forms::Button^  premiumOptionButton;
+	private: System::Windows::Forms::Button^  premiumSelectedOption;
+
 
 
 
@@ -157,11 +162,15 @@ namespace FinalParser {
 			this->actualLine = (gcnew System::Windows::Forms::Label());
 			this->choiceButton = (gcnew System::Windows::Forms::Button());
 			this->optionButton = (gcnew System::Windows::Forms::Button());
-			this->nonOptionButton = (gcnew System::Windows::Forms::Button());
+			this->textFromOtherOptionButton = (gcnew System::Windows::Forms::Button());
 			this->resultingLine = (gcnew System::Windows::Forms::Label());
 			this->resultingLineLabel = (gcnew System::Windows::Forms::Label());
 			this->saveFile = (gcnew System::Windows::Forms::Button());
-			this->optionSButton = (gcnew System::Windows::Forms::Button());
+			this->selectedOptionButton = (gcnew System::Windows::Forms::Button());
+			this->customizationButton = (gcnew System::Windows::Forms::Button());
+			this->choicesOptionsLabel = (gcnew System::Windows::Forms::Label());
+			this->premiumOptionButton = (gcnew System::Windows::Forms::Button());
+			this->premiumSelectedOption = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// openButton
@@ -372,7 +381,7 @@ namespace FinalParser {
 			// 
 			this->othersLabel->AutoSize = true;
 			this->othersLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->othersLabel->Location = System::Drawing::Point(275, 448);
+			this->othersLabel->Location = System::Drawing::Point(277, 576);
 			this->othersLabel->Name = L"othersLabel";
 			this->othersLabel->Size = System::Drawing::Size(51, 17);
 			this->othersLabel->TabIndex = 20;
@@ -380,9 +389,9 @@ namespace FinalParser {
 			// 
 			// nextLineButton
 			// 
-			this->nextLineButton->Location = System::Drawing::Point(180, 536);
+			this->nextLineButton->Location = System::Drawing::Point(61, 659);
 			this->nextLineButton->Name = L"nextLineButton";
-			this->nextLineButton->Size = System::Drawing::Size(75, 23);
+			this->nextLineButton->Size = System::Drawing::Size(470, 23);
 			this->nextLineButton->TabIndex = 23;
 			this->nextLineButton->Text = L"Next Line(N)";
 			this->nextLineButton->UseVisualStyleBackColor = true;
@@ -390,9 +399,9 @@ namespace FinalParser {
 			// 
 			// button2
 			// 
-			this->button2->Location = System::Drawing::Point(180, 483);
+			this->button2->Location = System::Drawing::Point(237, 618);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(75, 23);
+			this->button2->Size = System::Drawing::Size(125, 23);
 			this->button2->TabIndex = 22;
 			this->button2->Text = L"Music(M)";
 			this->button2->UseVisualStyleBackColor = true;
@@ -400,9 +409,9 @@ namespace FinalParser {
 			// 
 			// button3
 			// 
-			this->button3->Location = System::Drawing::Point(61, 483);
+			this->button3->Location = System::Drawing::Point(61, 618);
 			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(89, 23);
+			this->button3->Size = System::Drawing::Size(125, 23);
 			this->button3->TabIndex = 21;
 			this->button3->Text = L"Background(B)";
 			this->button3->UseVisualStyleBackColor = true;
@@ -412,7 +421,7 @@ namespace FinalParser {
 			// 
 			this->splitter1->Location = System::Drawing::Point(0, 0);
 			this->splitter1->Name = L"splitter1";
-			this->splitter1->Size = System::Drawing::Size(3, 657);
+			this->splitter1->Size = System::Drawing::Size(3, 745);
 			this->splitter1->TabIndex = 24;
 			this->splitter1->TabStop = false;
 			// 
@@ -442,9 +451,9 @@ namespace FinalParser {
 			// 
 			// choiceButton
 			// 
-			this->choiceButton->Location = System::Drawing::Point(278, 483);
+			this->choiceButton->Location = System::Drawing::Point(61, 496);
 			this->choiceButton->Name = L"choiceButton";
-			this->choiceButton->Size = System::Drawing::Size(75, 23);
+			this->choiceButton->Size = System::Drawing::Size(105, 23);
 			this->choiceButton->TabIndex = 27;
 			this->choiceButton->Text = L"Choice(C)";
 			this->choiceButton->UseVisualStyleBackColor = true;
@@ -452,23 +461,23 @@ namespace FinalParser {
 			// 
 			// optionButton
 			// 
-			this->optionButton->Location = System::Drawing::Point(374, 483);
+			this->optionButton->Location = System::Drawing::Point(182, 496);
 			this->optionButton->Name = L"optionButton";
-			this->optionButton->Size = System::Drawing::Size(75, 23);
+			this->optionButton->Size = System::Drawing::Size(105, 23);
 			this->optionButton->TabIndex = 28;
 			this->optionButton->Text = L"Option(O)";
 			this->optionButton->UseVisualStyleBackColor = true;
 			this->optionButton->Click += gcnew System::EventHandler(this, &parserGUI::optionButton_Click);
 			// 
-			// nonOptionButton
+			// textFromOtherOptionButton
 			// 
-			this->nonOptionButton->Location = System::Drawing::Point(61, 536);
-			this->nonOptionButton->Name = L"nonOptionButton";
-			this->nonOptionButton->Size = System::Drawing::Size(102, 23);
-			this->nonOptionButton->TabIndex = 29;
-			this->nonOptionButton->Text = L"Non option(Z)";
-			this->nonOptionButton->UseVisualStyleBackColor = true;
-			this->nonOptionButton->Click += gcnew System::EventHandler(this, &parserGUI::nonOptionButton_Click);
+			this->textFromOtherOptionButton->Location = System::Drawing::Point(61, 537);
+			this->textFromOtherOptionButton->Name = L"textFromOtherOptionButton";
+			this->textFromOtherOptionButton->Size = System::Drawing::Size(226, 23);
+			this->textFromOtherOptionButton->TabIndex = 29;
+			this->textFromOtherOptionButton->Text = L"Text from other option(Z)";
+			this->textFromOtherOptionButton->UseVisualStyleBackColor = true;
+			this->textFromOtherOptionButton->Click += gcnew System::EventHandler(this, &parserGUI::textFromOtherOptionButton_Click);
 			// 
 			// resultingLine
 			// 
@@ -492,7 +501,7 @@ namespace FinalParser {
 			// 
 			// saveFile
 			// 
-			this->saveFile->Location = System::Drawing::Point(265, 612);
+			this->saveFile->Location = System::Drawing::Point(265, 710);
 			this->saveFile->Name = L"saveFile";
 			this->saveFile->Size = System::Drawing::Size(75, 23);
 			this->saveFile->TabIndex = 32;
@@ -500,26 +509,70 @@ namespace FinalParser {
 			this->saveFile->UseVisualStyleBackColor = true;
 			this->saveFile->Click += gcnew System::EventHandler(this, &parserGUI::saveFile_Click);
 			// 
-			// optionSButton
+			// selectedOptionButton
 			// 
-			this->optionSButton->Location = System::Drawing::Point(474, 483);
-			this->optionSButton->Name = L"optionSButton";
-			this->optionSButton->Size = System::Drawing::Size(75, 23);
-			this->optionSButton->TabIndex = 33;
-			this->optionSButton->Text = L"OptionS(S)";
-			this->optionSButton->UseVisualStyleBackColor = true;
-			this->optionSButton->Click += gcnew System::EventHandler(this, &parserGUI::optionSButton_Click);
+			this->selectedOptionButton->Location = System::Drawing::Point(426, 496);
+			this->selectedOptionButton->Name = L"selectedOptionButton";
+			this->selectedOptionButton->Size = System::Drawing::Size(105, 23);
+			this->selectedOptionButton->TabIndex = 33;
+			this->selectedOptionButton->Text = L"Selected Option(S)";
+			this->selectedOptionButton->UseVisualStyleBackColor = true;
+			this->selectedOptionButton->Click += gcnew System::EventHandler(this, &parserGUI::selectedOptionButton_Click);
+			// 
+			// customizationButton
+			// 
+			this->customizationButton->Location = System::Drawing::Point(406, 618);
+			this->customizationButton->Name = L"customizationButton";
+			this->customizationButton->Size = System::Drawing::Size(125, 23);
+			this->customizationButton->TabIndex = 34;
+			this->customizationButton->Text = L"Customization(Y)";
+			this->customizationButton->UseVisualStyleBackColor = true;
+			this->customizationButton->Click += gcnew System::EventHandler(this, &parserGUI::customizationButton_Click);
+			// 
+			// choicesOptionsLabel
+			// 
+			this->choicesOptionsLabel->AutoSize = true;
+			this->choicesOptionsLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
+			this->choicesOptionsLabel->Location = System::Drawing::Point(236, 453);
+			this->choicesOptionsLabel->Name = L"choicesOptionsLabel";
+			this->choicesOptionsLabel->Size = System::Drawing::Size(136, 17);
+			this->choicesOptionsLabel->TabIndex = 35;
+			this->choicesOptionsLabel->Text = L"Choices and options";
+			// 
+			// premiumOptionButton
+			// 
+			this->premiumOptionButton->Location = System::Drawing::Point(307, 496);
+			this->premiumOptionButton->Name = L"premiumOptionButton";
+			this->premiumOptionButton->Size = System::Drawing::Size(105, 23);
+			this->premiumOptionButton->TabIndex = 36;
+			this->premiumOptionButton->Text = L"Premium Option(P)";
+			this->premiumOptionButton->UseVisualStyleBackColor = true;
+			this->premiumOptionButton->Click += gcnew System::EventHandler(this, &parserGUI::premiumOptionButton_Click);
+			// 
+			// premiumSelectedOption
+			// 
+			this->premiumSelectedOption->Location = System::Drawing::Point(307, 537);
+			this->premiumSelectedOption->Name = L"premiumSelectedOption";
+			this->premiumSelectedOption->Size = System::Drawing::Size(224, 23);
+			this->premiumSelectedOption->TabIndex = 37;
+			this->premiumSelectedOption->Text = L"Premium Selected Option(X)";
+			this->premiumSelectedOption->UseVisualStyleBackColor = true;
+			this->premiumSelectedOption->Click += gcnew System::EventHandler(this, &parserGUI::premiumSelectedOption_Click);
 			// 
 			// parserGUI
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(621, 657);
-			this->Controls->Add(this->optionSButton);
+			this->ClientSize = System::Drawing::Size(595, 745);
+			this->Controls->Add(this->premiumSelectedOption);
+			this->Controls->Add(this->premiumOptionButton);
+			this->Controls->Add(this->choicesOptionsLabel);
+			this->Controls->Add(this->customizationButton);
+			this->Controls->Add(this->selectedOptionButton);
 			this->Controls->Add(this->saveFile);
 			this->Controls->Add(this->resultingLineLabel);
 			this->Controls->Add(this->resultingLine);
-			this->Controls->Add(this->nonOptionButton);
+			this->Controls->Add(this->textFromOtherOptionButton);
 			this->Controls->Add(this->optionButton);
 			this->Controls->Add(this->choiceButton);
 			this->Controls->Add(this->actualLine);
@@ -695,25 +748,6 @@ namespace FinalParser {
 		return buttons;
 	}
 
-	private: System::Void nextLineButton_Click(System::Object^  sender, System::EventArgs^  e) {
-		
-		finalLines.Add(resultingLine->Text);
-		resultingLine->Text = "";
-
-		lineID++;
-		if (fileLines.Count > lineID) {
-			String^ newLine = static_cast<String^>(fileLines[lineID]);
-			actualLine->Text = newLine;
-		}
-		else {
-			System::Windows::Forms::MessageBox::Show("No_Lines");
-			disableEnableButtons(false);
-		}
-
-
-		//writeLinesInTheCSV();
-	}
-
 	//Formats the line so when is introduced in the CSV file will follow the specified structure of the template sheet
 	private: std::string formatLineForCSVFile(std::string line) {
 		char delimiter = 59;
@@ -819,6 +853,48 @@ namespace FinalParser {
 		showNextLine();
 		clickAndContinue();
 	}
+	//AUN FALTA OTRO BOTON: TIMED CHOICE
+	private: System::Void choiceButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		line2Add = "Choice; " + static_cast<String^>(fileLines[lineID]);
+		saveLine(line2Add);
+		resultingLine->Text = line2Add;
+		showNextLine();
+	}
+
+	private: System::Void optionButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		line2Add = "Option; ;" + static_cast<String^>(fileLines[lineID]);
+		saveLine(line2Add);
+		resultingLine->Text = line2Add;
+		showNextLine();
+	}
+
+	private: System::Void selectedOptionButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		line2Add = "Option; ; **" + static_cast<String^>(fileLines[lineID]);
+		saveLine(line2Add);
+		resultingLine->Text = line2Add;
+		showNextLine();
+	}
+
+	private: System::Void premiumOptionButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		line2Add = "Premium Option; ;" + static_cast<String^>(fileLines[lineID]);
+		saveLine(line2Add);
+		resultingLine->Text = line2Add;
+		showNextLine();
+	}
+
+	private: System::Void premiumSelectedOption_Click(System::Object^  sender, System::EventArgs^  e) {
+		line2Add = "Premium Option; ; **" + static_cast<String^>(fileLines[lineID]);
+		saveLine(line2Add);
+		resultingLine->Text = line2Add;
+		showNextLine();
+	}
+
+	private: System::Void textFromOtherOptionButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		line2Add = "; ; Text from other option; ;" + static_cast<String^>(fileLines[lineID]);
+		saveLine(line2Add);
+		resultingLine->Text = line2Add;
+		showNextLine();
+	}
 
 	private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
 		line2Add = "Scene; " + static_cast<String^>(fileLines[lineID]);
@@ -834,32 +910,18 @@ namespace FinalParser {
 		showNextLine();
 	}
 
-	private: System::Void choiceButton_Click(System::Object^  sender, System::EventArgs^  e) {
-		line2Add = "Choice; " + static_cast<String^>(fileLines[lineID]);
+	private: System::Void customizationButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		line2Add = "Customization; " + static_cast<String^>(fileLines[lineID]);
 		saveLine(line2Add);
 		resultingLine->Text = line2Add;
 		showNextLine();
 	}
+	
+	private: System::Void nextLineButton_Click(System::Object^  sender, System::EventArgs^  e) {
 
-	private: System::Void optionButton_Click(System::Object^  sender, System::EventArgs^  e) {
-		line2Add = "Option; ;" + static_cast<String^>(fileLines[lineID]);
-		saveLine(line2Add);
-		resultingLine->Text = line2Add;
-		showNextLine();
-	}
-	private: System::Void optionSButton_Click(System::Object^  sender, System::EventArgs^  e) {
-		line2Add = "Option; ; **" + static_cast<String^>(fileLines[lineID]);
-		saveLine(line2Add);
-		resultingLine->Text = line2Add;
-		showNextLine();
-	}
-	private: System::Void nonOptionButton_Click(System::Object^  sender, System::EventArgs^  e) {
-		line2Add = "Other option text; ; ; " + static_cast<String^>(fileLines[lineID]);
-		saveLine(line2Add);
-		resultingLine->Text = line2Add;
-		showNextLine();
-	}
-	private: System::Void showNextLine() {
+		finalLines.Add(resultingLine->Text);
+		resultingLine->Text = "";
+
 		lineID++;
 		if (fileLines.Count > lineID) {
 			String^ newLine = static_cast<String^>(fileLines[lineID]);
@@ -870,9 +932,20 @@ namespace FinalParser {
 			disableEnableButtons(false);
 		}
 
-
-		//writeLinesInTheCSV();
 	}
+
+	private: System::Void showNextLine() {
+		lineID++;
+		if (fileLines.Count > lineID) {
+			String^ newLine = static_cast<String^>(fileLines[lineID]);
+			actualLine->Text = newLine;
+		}
+		else {
+			System::Windows::Forms::MessageBox::Show("No_Lines");
+			disableEnableButtons(false);
+		}
+	}
+
 	private: System::Void parserCoordButton_Click(System::Object^  sender, System::EventArgs^  e) {
 		coordinatesParserLabel->Text = "Press K to capture";
 		captureCoordinatesTer = true;
@@ -902,6 +975,7 @@ namespace FinalParser {
 	private: System::Void saveLine(System::String^ lineToAdd) {
 		finalLines.Add(lineToAdd);
 	}
+
 	private: System::Void disableEnableButtons(bool state) {
 		youButton->Enabled = state;
 		narratorButton->Enabled = state;
@@ -918,8 +992,9 @@ namespace FinalParser {
 		button3->Enabled = state;
 		choiceButton->Enabled = state;
 		optionButton->Enabled = state;
-		nonOptionButton->Enabled = state;
+		textFromOtherOptionButton->Enabled = state;
 	}
+
 	private: System::Void saveFile_Click(System::Object^  sender, System::EventArgs^  e) {
 
 		std::string filename = "parsedFile.csv";
@@ -936,9 +1011,8 @@ namespace FinalParser {
 
 
 	private: System::Void saveFileDialog1_FileOk(System::Object^  sender, System::ComponentModel::CancelEventArgs^  e) {
+	
 	}
-
-
 
 	protected: virtual void OnKeyPress(System::Windows::Forms::KeyPressEventArgs^ e) new {
 		System::Windows::Forms::MessageBox::Show("Saved");
@@ -1077,39 +1151,7 @@ namespace FinalParser {
 			clickAndContinue();
 
 		}
-		if (e->KeyCode == Keys::B && fileopened)
-		{
-			line2Add = "Scene; " + static_cast<String^>(fileLines[lineID]);
-			saveLine(line2Add);
-			resultingLine->Text = line2Add;
-			showNextLine();
-
-		}
-		if (e->KeyCode == Keys::M && fileopened)
-		{
-			line2Add = "Music; " + static_cast<String^>(fileLines[lineID]);
-			saveLine(line2Add);
-			resultingLine->Text = line2Add;
-			showNextLine();
-
-		}
-		if (e->KeyCode == Keys::N && fileopened)
-		{
-			finalLines.Add(resultingLine->Text);
-			resultingLine->Text = "";
-
-			lineID++;
-			if (fileLines.Count > lineID) {
-				String^ newLine = static_cast<String^>(fileLines[lineID]);
-				actualLine->Text = newLine;
-			}
-			else {
-				System::Windows::Forms::MessageBox::Show("No_Lines");
-				disableEnableButtons(false);
-			}
-
-		}
-		if (e->KeyCode == Keys::C && fileopened)
+		if (e->KeyCode == Keys::C && fileopened)//AUN FALTA OTRA TECLA: TIMED CHOICE
 		{
 			line2Add = "Choice; " + static_cast<String^>(fileLines[lineID]);
 			saveLine(line2Add);
@@ -1133,16 +1175,70 @@ namespace FinalParser {
 			showNextLine();
 
 		}
-		
-		if (e->KeyCode == Keys::Z && fileopened)
+		if (e->KeyCode == Keys::P && fileopened)
 		{
-			line2Add = "Other option text; ; ; " + static_cast<String^>(fileLines[lineID]);
+			line2Add = "Premium Option; ;" + static_cast<String^>(fileLines[lineID]);
 			saveLine(line2Add);
 			resultingLine->Text = line2Add;
 			showNextLine();
 
 		}
+		if (e->KeyCode == Keys::X && fileopened)
+		{
+			line2Add = "Premium Option; ; **" + static_cast<String^>(fileLines[lineID]);
+			saveLine(line2Add);
+			resultingLine->Text = line2Add;
+			showNextLine();
 
+		}
+		if (e->KeyCode == Keys::Z && fileopened)
+		{
+			line2Add = "; ; Text from other option; ;" + static_cast<String^>(fileLines[lineID]);
+			saveLine(line2Add);
+			resultingLine->Text = line2Add;
+			showNextLine();
+
+		}
+		if (e->KeyCode == Keys::B && fileopened)
+		{
+			line2Add = "Scene; " + static_cast<String^>(fileLines[lineID]);
+			saveLine(line2Add);
+			resultingLine->Text = line2Add;
+			showNextLine();
+
+		}
+		if (e->KeyCode == Keys::M && fileopened)
+		{
+			line2Add = "Music; " + static_cast<String^>(fileLines[lineID]);
+			saveLine(line2Add);
+			resultingLine->Text = line2Add;
+			showNextLine();
+
+		}
+		if (e->KeyCode == Keys::Y && fileopened)
+		{
+			line2Add = "Customization; " + static_cast<String^>(fileLines[lineID]);
+			saveLine(line2Add);
+			resultingLine->Text = line2Add;
+			showNextLine();
+
+		}
+		if (e->KeyCode == Keys::N && fileopened)
+		{
+			finalLines.Add(resultingLine->Text);
+			resultingLine->Text = "";
+
+			lineID++;
+			if (fileLines.Count > lineID) {
+				String^ newLine = static_cast<String^>(fileLines[lineID]);
+				actualLine->Text = newLine;
+			}
+			else {
+				System::Windows::Forms::MessageBox::Show("No_Lines");
+				disableEnableButtons(false);
+			}
+
+		}
 
 	}
 
@@ -1159,7 +1255,6 @@ namespace FinalParser {
 		mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
 		mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
 	}
-
 
 };
 }

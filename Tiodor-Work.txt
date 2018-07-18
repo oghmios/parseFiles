@@ -64,4 +64,15 @@ Conseguir que se carguen los nombres de los personajes en los botones (1h)
 Seguir trabajando en el guardado de datos en un csv (1h)
 
 Asignar funcionalidades a casi todos los demás botones (1h)
->>>>>>> 92541a78263c45b2517012e67188cfab747d030c
+
+18/07/2018 16:45
+
+Llamada con Pablo (45min)
+
+Solucionar un error de Visual Studio (1h)
+
+Modificar la interfaz para que esté más ordenada (15min)
+
+Añadir más botones para representar todos los casos y asignarles funcionalidad (2h)
+
+

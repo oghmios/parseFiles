@@ -710,7 +710,7 @@ namespace FinalParser {
 				if (line == "Character:") {
 					std::getline(inFile, line);
 					String^ buttonText = managedNativetoStr(line + "(" + std::to_string(counter+3) + ")");
-					buttons[counter]->Text = buttonText;
+					//buttons[counter]->Text = buttonText;
 					counter++;
 				}
 				else if (line == "ENDOFCHARACTERS") {
@@ -1205,8 +1205,8 @@ namespace FinalParser {
 					}
 					break;
 				case 10:
-					if (char0Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
-						char0Button->Text = manualChar + "(" + numberOfChar + ")";
+					if (char0Button->Text == "Char " + numberOfChar + "(" + 0 + ")") {
+						char0Button->Text = manualChar + "(" + 0 + ")";
 						inserted = true;
 					}
 					break;

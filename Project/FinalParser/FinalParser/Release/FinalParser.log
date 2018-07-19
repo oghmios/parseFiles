@@ -1,10 +1,12 @@
 ﻿  stdafx.cpp
-c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1080): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1084): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\github\parsefiles\project\finalparser\finalparser\parserGUI.h(1080): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\github\parsefiles\project\finalparser\finalparser\parserGUI.h(1084): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\github\parsefiles\project\finalparser\finalparser\parserGUI.h(1208): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+d:\github\parsefiles\project\finalparser\finalparser\parserGUI.h(1209): warning C4965: implicit box of integer 0; use nullptr or explicit cast
   AssemblyInfo.cpp
   FinalParser.cpp
   parserGUI.cpp
   parserSource.cpp
   Generating Code...
-  FinalParser.vcxproj -> C:\Users\Valdes\Desktop\ParseChoices\parseFiles\Project\FinalParser\Release\FinalParser.exe
-  FinalParser.vcxproj -> C:\Users\Valdes\Desktop\ParseChoices\parseFiles\Project\FinalParser\Release\FinalParser.pdb (Full PDB)
+  FinalParser.vcxproj -> D:\GITHUB\parseFiles\Project\FinalParser\Release\FinalParser.exe
+  FinalParser.vcxproj -> D:\GITHUB\parseFiles\Project\FinalParser\Release\FinalParser.pdb (Full PDB)

@@ -1,6 +1,6 @@
 ﻿  stdafx.cpp
-c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1105): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1111): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1047): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1053): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   AssemblyInfo.cpp
   FinalParser.cpp
   parserGUI.cpp

@@ -82,9 +82,11 @@ namespace FinalParser {
 	private: System::Windows::Forms::Button^  char6Button;
 	private: System::Windows::Forms::Label^  othersLabel;
 	private: System::Windows::Forms::Button^  nextLineButton;
+	private: System::Windows::Forms::Button^  musicButton;
 
-	private: System::Windows::Forms::Button^  button2;
-	private: System::Windows::Forms::Button^  button3;
+
+	private: System::Windows::Forms::Button^  backgroundButton;
+
 	private: System::Windows::Forms::Splitter^  splitter1;
 
 	private: System::Windows::Forms::PrintDialog^  printDialog1;
@@ -109,6 +111,7 @@ namespace FinalParser {
 	private: System::Windows::Forms::Button^  premiumOptionButton;
 	private: System::Windows::Forms::Button^  premiumSelectedOption;
 	private: System::Windows::Forms::Button^  lastLineButton;
+	private: System::Windows::Forms::Label^  linesLabel;
 
 
 
@@ -155,8 +158,8 @@ namespace FinalParser {
 			this->char6Button = (gcnew System::Windows::Forms::Button());
 			this->othersLabel = (gcnew System::Windows::Forms::Label());
 			this->nextLineButton = (gcnew System::Windows::Forms::Button());
-			this->button2 = (gcnew System::Windows::Forms::Button());
-			this->button3 = (gcnew System::Windows::Forms::Button());
+			this->musicButton = (gcnew System::Windows::Forms::Button());
+			this->backgroundButton = (gcnew System::Windows::Forms::Button());
 			this->splitter1 = (gcnew System::Windows::Forms::Splitter());
 			this->printDialog1 = (gcnew System::Windows::Forms::PrintDialog());
 			this->actualLineLabel = (gcnew System::Windows::Forms::Label());
@@ -173,6 +176,7 @@ namespace FinalParser {
 			this->premiumOptionButton = (gcnew System::Windows::Forms::Button());
 			this->premiumSelectedOption = (gcnew System::Windows::Forms::Button());
 			this->lastLineButton = (gcnew System::Windows::Forms::Button());
+			this->linesLabel = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
 			// openButton
@@ -383,15 +387,15 @@ namespace FinalParser {
 			// 
 			this->othersLabel->AutoSize = true;
 			this->othersLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->othersLabel->Location = System::Drawing::Point(277, 576);
+			this->othersLabel->Location = System::Drawing::Point(262, 576);
 			this->othersLabel->Name = L"othersLabel";
-			this->othersLabel->Size = System::Drawing::Size(51, 17);
+			this->othersLabel->Size = System::Drawing::Size(79, 17);
 			this->othersLabel->TabIndex = 20;
-			this->othersLabel->Text = L"Others";
+			this->othersLabel->Text = L"Enviroment";
 			// 
 			// nextLineButton
 			// 
-			this->nextLineButton->Location = System::Drawing::Point(61, 659);
+			this->nextLineButton->Location = System::Drawing::Point(61, 691);
 			this->nextLineButton->Name = L"nextLineButton";
 			this->nextLineButton->Size = System::Drawing::Size(470, 23);
 			this->nextLineButton->TabIndex = 23;
@@ -399,31 +403,31 @@ namespace FinalParser {
 			this->nextLineButton->UseVisualStyleBackColor = true;
 			this->nextLineButton->Click += gcnew System::EventHandler(this, &parserGUI::nextLineButton_Click);
 			// 
-			// button2
+			// musicButton
 			// 
-			this->button2->Location = System::Drawing::Point(237, 618);
-			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(125, 23);
-			this->button2->TabIndex = 22;
-			this->button2->Text = L"Music(M)";
-			this->button2->UseVisualStyleBackColor = true;
-			this->button2->Click += gcnew System::EventHandler(this, &parserGUI::button2_Click);
+			this->musicButton->Location = System::Drawing::Point(237, 618);
+			this->musicButton->Name = L"musicButton";
+			this->musicButton->Size = System::Drawing::Size(125, 23);
+			this->musicButton->TabIndex = 22;
+			this->musicButton->Text = L"Music(M)";
+			this->musicButton->UseVisualStyleBackColor = true;
+			this->musicButton->Click += gcnew System::EventHandler(this, &parserGUI::musicButton_Click);
 			// 
-			// button3
+			// backgroundButton
 			// 
-			this->button3->Location = System::Drawing::Point(61, 618);
-			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(125, 23);
-			this->button3->TabIndex = 21;
-			this->button3->Text = L"Background(B)";
-			this->button3->UseVisualStyleBackColor = true;
-			this->button3->Click += gcnew System::EventHandler(this, &parserGUI::button3_Click);
+			this->backgroundButton->Location = System::Drawing::Point(61, 618);
+			this->backgroundButton->Name = L"backgroundButton";
+			this->backgroundButton->Size = System::Drawing::Size(125, 23);
+			this->backgroundButton->TabIndex = 21;
+			this->backgroundButton->Text = L"Background(B)";
+			this->backgroundButton->UseVisualStyleBackColor = true;
+			this->backgroundButton->Click += gcnew System::EventHandler(this, &parserGUI::backgroundButton_Click);
 			// 
 			// splitter1
 			// 
 			this->splitter1->Location = System::Drawing::Point(0, 0);
 			this->splitter1->Name = L"splitter1";
-			this->splitter1->Size = System::Drawing::Size(3, 826);
+			this->splitter1->Size = System::Drawing::Size(3, 849);
 			this->splitter1->TabIndex = 24;
 			this->splitter1->TabStop = false;
 			// 
@@ -503,7 +507,7 @@ namespace FinalParser {
 			// 
 			// saveFile
 			// 
-			this->saveFile->Location = System::Drawing::Point(264, 760);
+			this->saveFile->Location = System::Drawing::Point(255, 797);
 			this->saveFile->Name = L"saveFile";
 			this->saveFile->Size = System::Drawing::Size(75, 23);
 			this->saveFile->TabIndex = 32;
@@ -563,7 +567,7 @@ namespace FinalParser {
 			// 
 			// lastLineButton
 			// 
-			this->lastLineButton->Location = System::Drawing::Point(61, 703);
+			this->lastLineButton->Location = System::Drawing::Point(61, 735);
 			this->lastLineButton->Name = L"lastLineButton";
 			this->lastLineButton->Size = System::Drawing::Size(470, 23);
 			this->lastLineButton->TabIndex = 38;
@@ -571,11 +575,22 @@ namespace FinalParser {
 			this->lastLineButton->UseVisualStyleBackColor = true;
 			this->lastLineButton->Click += gcnew System::EventHandler(this, &parserGUI::lastLineButton_Click);
 			// 
+			// linesLabel
+			// 
+			this->linesLabel->AutoSize = true;
+			this->linesLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
+			this->linesLabel->Location = System::Drawing::Point(277, 657);
+			this->linesLabel->Name = L"linesLabel";
+			this->linesLabel->Size = System::Drawing::Size(42, 17);
+			this->linesLabel->TabIndex = 39;
+			this->linesLabel->Text = L"Lines";
+			// 
 			// parserGUI
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(595, 826);
+			this->ClientSize = System::Drawing::Size(595, 849);
+			this->Controls->Add(this->linesLabel);
 			this->Controls->Add(this->lastLineButton);
 			this->Controls->Add(this->premiumSelectedOption);
 			this->Controls->Add(this->premiumOptionButton);
@@ -592,8 +607,8 @@ namespace FinalParser {
 			this->Controls->Add(this->actualLineLabel);
 			this->Controls->Add(this->splitter1);
 			this->Controls->Add(this->nextLineButton);
-			this->Controls->Add(this->button2);
-			this->Controls->Add(this->button3);
+			this->Controls->Add(this->musicButton);
+			this->Controls->Add(this->backgroundButton);
 			this->Controls->Add(this->othersLabel);
 			this->Controls->Add(this->char0Button);
 			this->Controls->Add(this->char9Button);
@@ -762,8 +777,8 @@ namespace FinalParser {
 		char6Button->Enabled				= state;
 		nextLineButton->Enabled				= state;
 		lastLineButton->Enabled				= state;
-		button2->Enabled					= state;
-		button3->Enabled					= state;
+		backgroundButton->Enabled			= state;
+		musicButton->Enabled				= state;
 		customizationButton->Enabled		= state;
 		choiceButton->Enabled				= state;
 		optionButton->Enabled				= state;
@@ -776,302 +791,94 @@ namespace FinalParser {
 ///////////////////////////////////////CHARACTER BUTTONS//////////////////////////////////////////
 
 	private: System::Void youButton_Click(System::Object^  sender, System::EventArgs^  e) {
-		line2Add = "You ; " + actualLine->Text;
-		saveLine(line2Add);
-		resultingLine->Text = line2Add;
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-			clickAndContinue();
-		}
-		
+		youMethod();
 	}
 
 	private: System::Void narratorButton_Click(System::Object^  sender, System::EventArgs^  e) {
-		line2Add = "Narrator; " + actualLine->Text;
-		saveLine(line2Add);
-		resultingLine->Text = line2Add;
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-			clickAndContinue();
-		}
+		narratorMethod();
 		
 	}
 
 	private: System::Void char3Button_Click(System::Object^  sender, System::EventArgs^  e) {
-		writeCharacterNameInLabelFromButton(char3Button);
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-			clickAndContinue();
-		}
+		anotherCharsMethod(3);
 	}
 
 	private: System::Void char4Button_Click(System::Object^  sender, System::EventArgs^  e) {
-		writeCharacterNameInLabelFromButton(char4Button);
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-			clickAndContinue();
-		}
+		anotherCharsMethod(4);
 	}
 
 	private: System::Void char5Button_Click(System::Object^  sender, System::EventArgs^  e) {
-		writeCharacterNameInLabelFromButton(char5Button);
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-			clickAndContinue();
-		}
+		anotherCharsMethod(5);
 	}
 
 	private: System::Void char6Button_Click(System::Object^  sender, System::EventArgs^  e) {
-		writeCharacterNameInLabelFromButton(char6Button);
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-			clickAndContinue();
-		}
+		anotherCharsMethod(6);
 	}
 
 	private: System::Void char7Button_Click(System::Object^  sender, System::EventArgs^  e) {
-		writeCharacterNameInLabelFromButton(char7Button);
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-			clickAndContinue();
-		}
+		anotherCharsMethod(7);
 	}
 
 	private: System::Void char8Button_Click(System::Object^  sender, System::EventArgs^  e) {
-		writeCharacterNameInLabelFromButton(char8Button);
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-			clickAndContinue();
-		}
+		anotherCharsMethod(8);
 	}
 
 	private: System::Void char9Button_Click(System::Object^  sender, System::EventArgs^  e) {
-		writeCharacterNameInLabelFromButton(char9Button);
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-			clickAndContinue();
-		}
+		anotherCharsMethod(9);
 	}
 
 	private: System::Void char0Button_Click(System::Object^  sender, System::EventArgs^  e) {
-		writeCharacterNameInLabelFromButton(char0Button);
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-			clickAndContinue();
-		}
+		anotherCharsMethod(0);
 	}
 
 /////////////////////////////CHOICES & OPTIONS BUTTONS/////////////////////////////////////
 	//AUN FALTA OTRO BOTON: TIMED CHOICE
 	private: System::Void choiceButton_Click(System::Object^  sender, System::EventArgs^  e) {
-		//line2Add = "Choice; " + static_cast<String^>(fileLines[lineID]);
-		line2Add = "Choice; " + actualLine->Text;
-		saveLine(line2Add);
-		resultingLine->Text = line2Add;
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-		}
+		optionsMethod(67);
 		
 	}
 
 	private: System::Void optionButton_Click(System::Object^  sender, System::EventArgs^  e) {
-		line2Add = "Option; ;" + actualLine->Text;
-		saveLine(line2Add);
-		resultingLine->Text = line2Add;
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-		}
+		optionsMethod(79);
 	}
 
 	private: System::Void selectedOptionButton_Click(System::Object^  sender, System::EventArgs^  e) {
-		line2Add = "Option; ; **" + actualLine->Text;
-		saveLine(line2Add);
-		resultingLine->Text = line2Add;
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-		}
+		optionsMethod(83);
 	}
 
 	private: System::Void premiumOptionButton_Click(System::Object^  sender, System::EventArgs^  e) {
-		line2Add = "Premium Option; ;" + actualLine->Text;
-		saveLine(line2Add);
-		resultingLine->Text = line2Add;
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-		}
+		optionsMethod(80);
 	}
 
 	private: System::Void premiumSelectedOption_Click(System::Object^  sender, System::EventArgs^  e) {
-		line2Add = "Premium Option; ; **" + actualLine->Text;
-		saveLine(line2Add);
-		resultingLine->Text = line2Add;
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-		}
+		optionsMethod(88);
 	}
 
 	private: System::Void textFromOtherOptionButton_Click(System::Object^  sender, System::EventArgs^  e) {
-		line2Add = "; ; Text from other option; ;" + actualLine->Text;
-		saveLine(line2Add);
-		resultingLine->Text = line2Add;
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-		}
+		optionsMethod(90);
 	}
 
 ///////////////////////////////ENVORIMENT BUTTONS/////////////////////////////////////////
 	// Save as Scene
-	private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
-		line2Add = "Scene; " + actualLine->Text;
-		saveLine(line2Add);
-		resultingLine->Text = line2Add;
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-		}
+	private: System::Void backgroundButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		optionsMethod(66);
 	}
 	// Save as Music
-	private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
-		line2Add = "Music; " + actualLine->Text;
-		saveLine(line2Add);
-		resultingLine->Text = line2Add;
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-		}
+	private: System::Void musicButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		optionsMethod(77);
 	}
 	// Save as Customization
 	private: System::Void customizationButton_Click(System::Object^  sender, System::EventArgs^  e) {
-		line2Add = "Customization; " + actualLine->Text;
-		saveLine(line2Add);
-		resultingLine->Text = line2Add;
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			showNextLine();
-		}
+		optionsMethod(89);
 	}
 
 /////////////////////////////////////////LINE MOVEMENT BUTTONS////////////////////////////////////////////////
 	private: System::Void nextLineButton_Click(System::Object^  sender, System::EventArgs^  e) {
-
-		if (pauseLine) {
-			actualLine->Text = pausedLine;
-			pauseLine = false;
-		}
-		else {
-			//finalLines.Add(resultingLine->Text);
-			nextLineWrongText = actualLine->Text;
-			nextLineWrong = true;
-			resultingLine->Text = "";
-
-			lineID++;
-			if (fileLines.Count > lineID) {
-				String^ newLine = static_cast<String^>(fileLines[lineID]);
-				actualLine->Text = newLine;
-				pausedLine = actualLine->Text;
-			}
-			else {
-				System::Windows::Forms::MessageBox::Show("No_Lines");
-				disableEnableButtons(false);
-			}
-		}
-		
-
+		nextLineMethod();
 	}
 
 	private: System::Void lastLineButton_Click(System::Object^  sender, System::EventArgs^  e) {
-
-		if (nextLineWrong) {
-			actualLine->Text = nextLineWrongText;
-			resultingLine->Text = "";
-			pauseLine = true;
-			nextLineWrong = false;
-		}
-		else {
-			pausedLine = actualLine->Text;
-			pauseLine = true;
-			std::string lastLine = managedStrToNative(finalLines[finalLines.Count - 1]->ToString());
-			char delimiter = 59;
-			std::vector<std::string> lineSplitted = split(lastLine, delimiter);
-			actualLine->Text = managedNativetoStr(lineSplitted.at(lineSplitted.size() - 1));
-			resultingLine->Text = "";
-			finalLines.RemoveAt(finalLines.Count - 1);
-		}
-		
-
+		lastLineMethod();
 	}
 
 	private: System::Void showNextLine() {
@@ -1099,6 +906,141 @@ namespace FinalParser {
 		cordinatesEmuLabel->Text = "Press L to capture";
 		captureCoordinatesEmu = true;
 	}
+/////////////////////////////////KEYBOARD CONTROLS//////////////////////////////////////////////////////////////////
+	private: System::Void keyboard_KeyDown(Object^ /*sender*/, System::Windows::Forms::KeyEventArgs^ e)
+	{
+		// Capture Emulator Coordinates
+		if (e->KeyCode == Keys::L && captureCoordinatesEmu)
+		{
+			POINT p;
+
+			GetCursorPos(&p);
+			emuX = p.x;
+
+			emuY = p.y;
+			cordinatesEmuLabel->Text = "X: " + emuX.ToString() + " Y: " + emuY.ToString();
+
+			captureCoordinatesEmu = false;
+		}
+		// Capture Parser Coordinates
+		if (e->KeyCode == Keys::K && captureCoordinatesTer)
+		{
+			POINT p;
+
+			GetCursorPos(&p);
+			terX = p.x;
+			terY = p.y;
+			coordinatesParserLabel->Text = "X: " + terX.ToString() + " Y: " + terY.ToString();
+			captureCoordinatesTer = false;
+		}
+		/////// Character keys //////
+		if (e->KeyCode == Keys::D1 && fileopened)
+		{
+			youMethod();
+
+		}
+		if (e->KeyCode == Keys::D2 && fileopened)
+		{
+			narratorMethod();
+		}
+		if (e->KeyCode == Keys::D3 && fileopened)
+		{
+			anotherCharsMethod(3);
+
+		}
+		if (e->KeyCode == Keys::D4 && fileopened)
+		{
+			anotherCharsMethod(4);
+
+		}
+		if (e->KeyCode == Keys::D5 && fileopened)
+		{
+			anotherCharsMethod(5);
+
+		}
+		if (e->KeyCode == Keys::D6 && fileopened)
+		{
+			anotherCharsMethod(6);
+
+		}
+		if (e->KeyCode == Keys::D7 && fileopened)
+		{
+			anotherCharsMethod(7);
+
+		}
+		if (e->KeyCode == Keys::D8 && fileopened)
+		{
+			anotherCharsMethod(8);
+
+		}
+		if (e->KeyCode == Keys::D9 && fileopened)
+		{
+			anotherCharsMethod(9);
+
+		}
+		if (e->KeyCode == Keys::D0 && fileopened)
+		{
+			anotherCharsMethod(0);
+
+		}
+		/////// Option keys //////
+		if (e->KeyCode == Keys::C && fileopened)//AUN FALTA OTRA TECLA: TIMED CHOICE
+		{
+			optionsMethod(67);
+
+		}
+		if (e->KeyCode == Keys::O && fileopened)
+		{
+			optionsMethod(79);
+
+		}
+		if (e->KeyCode == Keys::S && fileopened)
+		{
+			optionsMethod(83);
+
+		}
+		if (e->KeyCode == Keys::P && fileopened)
+		{
+			optionsMethod(80);
+
+		}
+		if (e->KeyCode == Keys::X && fileopened)
+		{
+			optionsMethod(88);
+
+		}
+		if (e->KeyCode == Keys::Z && fileopened)
+		{
+			optionsMethod(90);
+
+		}
+		////// Enviroment keys /////
+		if (e->KeyCode == Keys::B && fileopened)
+		{
+			optionsMethod(66);
+
+		}
+		if (e->KeyCode == Keys::M && fileopened)
+		{
+			optionsMethod(77);
+
+		}
+		if (e->KeyCode == Keys::Y && fileopened)
+		{
+			optionsMethod(89);
+
+		}
+		////// Line movement keys /////
+		if (e->KeyCode == Keys::N && fileopened)
+		{
+			nextLineMethod();
+		}
+		if (e->KeyCode == Keys::L && fileopened)
+		{
+			lastLineMethod();
+		}
+
+	}
 
 //////////////////////////////////////////////MOUSE CLICK/////////////////////////////////////////////////////
 	private: System::Void clickAndContinue() {
@@ -1113,6 +1055,167 @@ namespace FinalParser {
 		mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
 		mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
 		mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
+	}
+
+////////////////////////////////////////////BEHAVIOUR METHODS///////////////////////////////////////////////
+	///////// Characters ///////
+	private: System::Void youMethod() {
+		line2Add = "You ; " + actualLine->Text;
+		saveLine(line2Add);
+		resultingLine->Text = line2Add;
+		if (pauseLine) {
+			actualLine->Text = pausedLine;
+			pauseLine = false;
+		}
+		else {
+			showNextLine();
+			clickAndContinue();
+		}
+	}
+
+	private: System::Void narratorMethod() {
+		line2Add = "Narrator; " + actualLine->Text;
+		saveLine(line2Add);
+		resultingLine->Text = line2Add;
+		if (pauseLine) {
+			actualLine->Text = pausedLine;
+			pauseLine = false;
+		}
+		else {
+			showNextLine();
+			clickAndContinue();
+		}
+	}
+
+	private: System::Void anotherCharsMethod(int i) {
+
+		switch (i) {
+			case 3:
+				writeCharacterNameInLabelFromButton(char3Button);
+				break;
+			case 4:
+				writeCharacterNameInLabelFromButton(char4Button);
+				break;
+			case 5:
+				writeCharacterNameInLabelFromButton(char5Button);
+				break;
+			case 6:
+				writeCharacterNameInLabelFromButton(char6Button);
+				break;
+			case 7:
+				writeCharacterNameInLabelFromButton(char7Button);
+				break;
+			case 8:
+				writeCharacterNameInLabelFromButton(char8Button);
+				break;
+			case 9:
+				writeCharacterNameInLabelFromButton(char9Button);
+				break;
+			case 0:
+				writeCharacterNameInLabelFromButton(char0Button);
+				break;
+			default:
+				break;
+		}
+		if (pauseLine) {
+			actualLine->Text = pausedLine;
+			pauseLine = false;
+		}
+		else {
+			showNextLine();
+			clickAndContinue();
+		}
+	}
+
+	/////////// Options & Enviroment //////////////
+	private: System::Void optionsMethod(char choose) {
+		switch (choose) {
+			//// Options ////
+			case 67: // C Choice
+				line2Add = "Choice; " + actualLine->Text;
+				break;
+			case 79: // O Option
+				line2Add = "Option; ;" + actualLine->Text;
+				break;
+			case 80: // P Premium option
+				line2Add = "Premium Option; ; **" + actualLine->Text;
+				break;
+			case 83: // S Selected option
+				line2Add = "Option; ; **" + actualLine->Text;
+				break;
+			case 90: // Z Text from other option
+				line2Add = "; ; Text from other option; ;" + actualLine->Text;
+				break;
+			case 88: // X Premium selected option
+				line2Add = "Premium Option; ; **" + actualLine->Text;
+				break;
+			//// Enviroment ////
+			case 66: // B Background
+				line2Add = "Scene; " + actualLine->Text;
+				break;
+			case 77: // M Music
+				line2Add = "Music; " + actualLine->Text;
+				break;
+			case 89: // Y Customization
+				line2Add = "Customization; " + actualLine->Text;
+				break;
+			default:
+				break;
+
+		}
+		saveLine(line2Add);
+		resultingLine->Text = line2Add;
+		if (pauseLine) {
+			actualLine->Text = pausedLine;
+			pauseLine = false;
+		}
+		else {
+			showNextLine();
+		}
+	}
+
+	///////// Line movement ///////////
+	private: System::Void nextLineMethod() {
+		if (pauseLine) {
+			actualLine->Text = pausedLine;
+			pauseLine = false;
+		}
+		else {
+			//finalLines.Add(resultingLine->Text);
+			nextLineWrongText = actualLine->Text;
+			nextLineWrong = true;
+			resultingLine->Text = "";
+
+			lineID++;
+			if (fileLines.Count > lineID) {
+				String^ newLine = static_cast<String^>(fileLines[lineID]);
+				actualLine->Text = newLine;
+				pausedLine = actualLine->Text;
+			}
+			else {
+				System::Windows::Forms::MessageBox::Show("No_Lines");
+				disableEnableButtons(false);
+			}
+		}
+	}
+
+	private: System::Void lastLineMethod() {
+		if (nextLineWrong) {
+			actualLine->Text = nextLineWrongText;
+			resultingLine->Text = "";
+			pauseLine = true;
+			nextLineWrong = false;
+		}
+		else {
+			pausedLine = actualLine->Text;
+			pauseLine = true;
+			std::string lastLine = managedStrToNative(finalLines[finalLines.Count - 1]->ToString());
+			char delimiter = 59;
+			std::vector<std::string> lineSplitted = split(lastLine, delimiter);
+			actualLine->Text = managedNativetoStr(lineSplitted.at(lineSplitted.size() - 1));
+			resultingLine->Text = "";
+			finalLines.RemoveAt(finalLines.Count - 1);
+		}
 	}
 
 	
@@ -1148,205 +1251,7 @@ namespace FinalParser {
 	}
 
 
-/////////////////////////////////KEYBOARD CONTROLS//////////////////////////////////////////////////////////////////
-	private: System::Void keyboard_KeyDown(Object^ /*sender*/, System::Windows::Forms::KeyEventArgs^ e)
-	{
-		// Capture Emulator Coordinates
-		if (e->KeyCode == Keys::L && captureCoordinatesEmu)
-		{
-			POINT p;
 
-			GetCursorPos(&p);
-			emuX = p.x;
-			
-			emuY = p.y;
-			cordinatesEmuLabel->Text = "X: " + emuX.ToString() + " Y: "  + emuY.ToString();
-			
-			captureCoordinatesEmu = false;
-		}
-		// Capture Parser Coordinates
-		if (e->KeyCode == Keys::K && captureCoordinatesTer)
-		{
-			POINT p;
-
-			GetCursorPos(&p);
-			terX = p.x;
-			terY = p.y;
-			coordinatesParserLabel->Text = "X: " + terX.ToString() + " Y: " + terY.ToString();
-			captureCoordinatesTer = false;
-		}
-		/////// Character keys //////
-		if (e->KeyCode == Keys::D1 && fileopened)
-		{
-			line2Add = "You ; " + static_cast<String^>(fileLines[lineID]);
-			saveLine(line2Add);
-			resultingLine->Text = line2Add;
-			showNextLine();
-			clickAndContinue();
-
-		}
-		if (e->KeyCode == Keys::D2 && fileopened)
-		{
-			line2Add = "Narrator; " + static_cast<String^>(fileLines[lineID]);
-			saveLine(line2Add);
-			resultingLine->Text = line2Add;
-			showNextLine();
-			clickAndContinue();
-		}
-		if (e->KeyCode == Keys::D3 && fileopened)
-		{
-			writeCharacterNameInLabelFromButton(char3Button);
-			showNextLine();
-			clickAndContinue();
-
-		}
-		if (e->KeyCode == Keys::D4 && fileopened)
-		{
-			writeCharacterNameInLabelFromButton(char4Button);
-			showNextLine();
-			clickAndContinue();
-
-		}
-		if (e->KeyCode == Keys::D5 && fileopened)
-		{
-			writeCharacterNameInLabelFromButton(char5Button);
-			showNextLine();
-			clickAndContinue();
-
-		}
-		if (e->KeyCode == Keys::D6 && fileopened)
-		{
-			writeCharacterNameInLabelFromButton(char6Button);
-			showNextLine();
-			clickAndContinue();
-
-		}
-		if (e->KeyCode == Keys::D7 && fileopened)
-		{
-			writeCharacterNameInLabelFromButton(char7Button);
-			showNextLine();
-			clickAndContinue();
-
-		}
-		if (e->KeyCode == Keys::D8 && fileopened)
-		{
-			writeCharacterNameInLabelFromButton(char8Button);
-			showNextLine();
-			clickAndContinue();
-
-		}
-		if (e->KeyCode == Keys::D9 && fileopened)
-		{
-			writeCharacterNameInLabelFromButton(char9Button);
-			showNextLine();
-			clickAndContinue();
-
-		}
-		if (e->KeyCode == Keys::D0 && fileopened)
-		{
-			writeCharacterNameInLabelFromButton(char0Button);
-			showNextLine();
-			clickAndContinue();
-
-		}
-		/////// Option keys //////
-		if (e->KeyCode == Keys::C && fileopened)//AUN FALTA OTRA TECLA: TIMED CHOICE
-		{
-			line2Add = "Choice; " + static_cast<String^>(fileLines[lineID]);
-			saveLine(line2Add);
-			resultingLine->Text = line2Add;
-			showNextLine();
-
-		}
-		if (e->KeyCode == Keys::O && fileopened)
-		{
-			line2Add = "Option; ; " + static_cast<String^>(fileLines[lineID]);
-			saveLine(line2Add);
-			resultingLine->Text = line2Add;
-			showNextLine();
-
-		}
-		if (e->KeyCode == Keys::S && fileopened)
-		{
-			line2Add = "Option; ; **" + static_cast<String^>(fileLines[lineID]);
-			saveLine(line2Add);
-			resultingLine->Text = line2Add;
-			showNextLine();
-
-		}
-		if (e->KeyCode == Keys::P && fileopened)
-		{
-			line2Add = "Premium Option; ;" + static_cast<String^>(fileLines[lineID]);
-			saveLine(line2Add);
-			resultingLine->Text = line2Add;
-			showNextLine();
-
-		}
-		if (e->KeyCode == Keys::X && fileopened)
-		{
-			line2Add = "Premium Option; ; **" + static_cast<String^>(fileLines[lineID]);
-			saveLine(line2Add);
-			resultingLine->Text = line2Add;
-			showNextLine();
-
-		}
-		if (e->KeyCode == Keys::Z && fileopened)
-		{
-			line2Add = "; ; Text from other option; ;" + static_cast<String^>(fileLines[lineID]);
-			saveLine(line2Add);
-			resultingLine->Text = line2Add;
-			showNextLine();
-
-		}
-		////// Enviroment keys /////
-		if (e->KeyCode == Keys::B && fileopened)
-		{
-			line2Add = "Scene; " + static_cast<String^>(fileLines[lineID]);
-			saveLine(line2Add);
-			resultingLine->Text = line2Add;
-			showNextLine();
-
-		}
-		if (e->KeyCode == Keys::M && fileopened)
-		{
-			line2Add = "Music; " + static_cast<String^>(fileLines[lineID]);
-			saveLine(line2Add);
-			resultingLine->Text = line2Add;
-			showNextLine();
-
-		}
-		if (e->KeyCode == Keys::Y && fileopened)
-		{
-			line2Add = "Customization; " + static_cast<String^>(fileLines[lineID]);
-			saveLine(line2Add);
-			resultingLine->Text = line2Add;
-			showNextLine();
-
-		}
-		////// Line movement keys /////
-		if (e->KeyCode == Keys::N && fileopened)
-		{
-			finalLines.Add(resultingLine->Text);
-			resultingLine->Text = "";
-
-			lineID++;
-			if (fileLines.Count > lineID) {
-				String^ newLine = static_cast<String^>(fileLines[lineID]);
-				actualLine->Text = newLine;
-			}
-			else {
-				System::Windows::Forms::MessageBox::Show("No_Lines");
-				disableEnableButtons(false);
-			}
-
-		}
-		if (e->KeyCode == Keys::L && fileopened)
-		{
-			
-
-		}
-
-	}
 
 
 

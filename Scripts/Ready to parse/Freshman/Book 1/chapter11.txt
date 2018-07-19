@@ -1,0 +1,625 @@
+Character:
+Tyler
+Character:
+Chris
+Character:
+James
+Character:
+Abbie
+Character:
+Becca
+Character:
+Leila
+ENDOFCHARACTERS
+BG_LIGHTS_AMBIENCE_NIGHT
+)Chapter Eleven: The Birthday Girl, Part 1
+The Freshman
+BG_INT_DORM_BEDROOM_DAY
+LA few days after the sorority ball, you wake up and get dressed for the day.
+_You've just put the finishing touches on your outfit when Kaitlyn pops her head in the doorway.
+Hey, {You}!
+HAPPY
+Hey, Kaitlyn...
+SAD
+-Whoa, you've got some serious sad face going.
+JYeah, I'm off to tell Vasquez about what happened at the sorority party...
+That bad, huh?
+sorority_acceptance
+)I'm just upset about leaving Abbie out...
+DAwww, well... cheer up! Like you said, we'll sort it out with Abbie.
+GI have a feeling Vasquez isn't going to like that I'm not in Kappa Phi.
+4Awww, well... cheer up! I'm sure you can handle him.
+NBesides, how can you be sad when we're going clubbing tonight for my birthday?
+That's a good point...
+
+MUSIC_COLLEGE_TENSE_ACTION
+BG_INT_OFFICE_PROFESSOR
+fYou step into Professor Vasquez's office, feeling the weight of your obligation to him more than ever.
+Hey, {You}.
+Vasquez
+U{You}. Good morning. I read your summary on the events of the Kappa Phi Sigma ball...
+ANGRY
+And?
+Bottom of the Curve
+,Your standing with Vasquez will be affected.
+And I'm <i>not</i> impressed. You willfully disobeyed my orders, giving up a golden opportunity to join the most powerful sorority at Hartfeld.
+tYeah, because they rejected one of my best friends! How can you expect me to play nice with Becca after <i>that</i>?
+
+Star Pupil
+,Your standing with Vasquez will be affected.
+‡And I'm impressed! You had a golden opportunity to join the most powerful sorority at Hartfeld, and you <i>seized it</i>. Bravo, {You}!
+[Yeah, and I lost the respect of one of my best friends in the process! I hope you're happy.
+Bottom of the Curve
+,Your standing with Vasquez will be affected.
+{And I'm <i>not</i> impressed. You had a golden opportunity to join the most powerful sorority at Hartfeld, and you blew it.
+@I didn't blow it, they rejected me! How is this <i>my</i> fault?
+=You obviously didn't try very hard. I expect better from you.
+LWell, maybe I didn't <i>want</i> to join Kappa Phi Sigma in the first place!
+­{You}, you need to look at the bigger picture here. The bigger <i>story</i>. A sorority like Kappa Phi Sigma provides exactly the interpersonal conflict I need for my novel!
+»Right. Your <i>novel</i>. Well, what about my life, Professor Vasquez? Did you ever stop to think I might care a little more about being loyal to my friends than providing you with drama?
+wWhat I <i>thought</i> is that you wanted to keep this job and stay in school. I apologize if I was mistaken about that.
+}Oh, so just because I didn't get you your <i>story</i> you're going to threaten my scholarship? Real nice, Professor Vasquez.
+@Now I see why your <i>daughter</i> doesn't speak to you anymore.
+MUSIC_COLLEGE_TENSE_SAD
+EProfessor Vasquez's face goes oddly still, his expression unreadable.
+What did you just say?
+I said--
+{You}, seriously, bad idea.
+	SURPRISED
+HI <i>said</i> it's no wonder your daughter doesn't speak to you anymore!
+ How do you even know about that?
+KI... I read a letter you crumpled up. It was just lying on the floor, and--
+Get out.
+
+Excuse me? What about my--
+<i>Get. Out.</i>
+Really?
+NEUTRAL
+"Forget it. I'm not going anywhere.
+#Fine! You want me to go? I'm going.
+&Oh really? Do I have to call security?
+Good. Don't come back.
+4Wait, Professor Vasquez... can I just say something?
+If you absolutely must.
+™I get that you're angry. But {You} has a right to be angry, too. You asked a lot of her, knowing your assignment would only make her life more difficult.
+xYou know I respect you, but sometimes... sometimes you lose sight of what's important and <i>only</i> focus on the work.
+:But the work <i>is</i> what's important... at least to me.
+Ÿ{You}, you can keep your position... so long as you bring me something emotionally powerful within the week. I need something <i>big</i> for this next chapter.
+sFine. I'll see what I can do. But life isn't some <i>story</i> that gets exciting right when you want it to, it's--
+@I'd quit while you're ahead, {You}. Come on, let's talk outside.
+
+Please. I have work to do.
+MUSIC_COLLEGE_LOVE_SAD
+BG_EXT_CAMPUS_QUAD_DAY
+NYou and James step out into the quad, and James gives you an exasperated look.
+2You just had to bring up his daughter, didn't you?
+ODon't give me that look, he was <i>way</i> out of line. I had to say something!
+@Believe me, {You}, I agree, but throwing Gabriela in his face...
+That's going a little too far.
+ Why? What do you know about her?
+7I know enough not to ask, okay? Let's leave it at that.
+=Come on, James. We <i>have</i> to make him talk to her again.
+
+Because...
+Family should stick together.
+"It might make Vasquez less cranky.
+^I'm sure they're both unhappy about the way things are... even if they don't want to admit it.
+VYeah... if Gabriela's anything like Vasquez, she's probably the type to hold a grudge.
+.That's why we need to give them a little push.
+&Wow, who's meddling in whose life now?
+$Oh, shut up. Can you help me or not?
+ZI do have her number, actually... Vasquez had me text her when he changed addresses. But--
+pNo buts. Give me the number, and I'll call her. Maybe I can find out why they aren't speaking... and fix things.
+(Fine... but don't say I didn't warn you.
+RYou enter Gabriela's number into your phone and press the call button. It rings...
+She's not picking up...
+ Maybe you could leave a message?
+Hey, Gabriela, this is {You}... I work with your father at Hartfeld University. If you could give me a call back, I'd love to talk sometime.
+[Well, that'll have to do. By the way... <i>don't</i> tell Vasquez where you got the number.
+MUSIC_COLLEGE_LOVE
+(My lips are sealed. By the way, James...
+4We're going clubbing for Kaitlyn's birthday tonight.
+)I know it's not really your thing, but...
+)I won't have any fun if you're not there.
+Feel free to stop by.
+Relationship Improved
+.Your relationship with James will be affected.
+8Oh, really? Well, I'll see if I can clear my calendar...
+You do that. See you tonight...
+Uh, yeah... sounds fun.
+So you'll be there?
+I'll be there.
+Great! See you tonight!
+MUSIC_COLLEGE_COMEDY_MISCHIEF
+BG_INT_DORM_MAIN_NIGHT
+ˆAfter a brisk walk across campus, you return to your suite to find Zack and Tyler waiting for you... along with a mountain of textbooks.
+Oh no.
+Zack
+Oh, <i>yes.</i>
+Don't say it.
+Tyler
+!It's <jiggle>study time!</jiggle>
+<i>Noooooo!</i>
+After an hour's worth of studying, Zack pulls out his phone and looks at an unsent text. You try to read it, but he quickly jerks the phone out of your sight.
+IWhat was that? Thinking of texting a certain good-looking <i>barista</i>?
+Dude, just <i>text</i> him already! {You}, I've been watching this idiot pull out his phone and <i>think</i> about sending that text all day.
+OWhoa, when did it become gang up on Zack day? What about <i>you</i>, hypocrite?
+$When are you going to ask Abbie out?
+3I'm working on it! It's... not that easy, you know?
+'Zack looks down at his phone and sighs.
+!Yeah... you could say that again.
+[What about you, {You}? From what I hear, your love life's been pretty interesting lately...
+hIt's only been a couple weeks, and you've already got two of the hottest guys on campus crushing on you!
+"Who's it gonna be? Chris or James?
+I'm interested in...
+Chris.
+James.
+Someone else...
+
+Team Chris
+.You told Zack you're most interested in Chris!
+
+Isn't he still with Becca?
+$Details, details. Am I right, {You}?
+CI hope so, Zack... but somehow things never seem to be that simple.
+Amen to that.
+
+Team James
+.You told Zack you're most interested in James!
+8Good choice. From what I can tell, James is pretty cool.
+3Whoa, {You}, sounds like you have some competition!
+kWhat? He's nice, he's well-read, and I'm not gonna sit here and pretend like he's not a good-looking guy...
+PWow, you and Abbie have so much in common. She was pretty impressed by him, too.
+hMaybe you should start a James Ashton fan club so you'll have more opportunities to spend time with her.
+<Okay, just forget I said anything, all right? James is fine.
+Mystery Crush
+/You told Zack you're interested in someone new!
+FWhoa, hold the phone, do we have a <i>new</i> contender for the title?
+This is unprecedented!
+2Our love triangle has become a love <i>square!</i>
+RWait... wouldn't it be a love pyramid? If all three lines meet at the same point--
+/Oh my god, now I wish I hadn't said anything...
+-Who is this mysterious interloper? Is he hot?
+:Do we know him? Is he a freshman? Is he in this very room?
+:Oh my god... it's me, isn't it? {You}... I'm so flattered!
+2Okay, this conversation is <i>officially</i> over.
+{Just then, Kaitlyn comes out of the bathroom, having just finished doing her hair and makeup. Zack whistles appreciatively.
+(Damn! Birthday girl looking <i>fine!</i>
+2Thanks, dork. So... are we going clubbing or what?
+<Abbie appears in the hallway, a reluctant smile on her face.
+2You know, I'm not really the clubbing type, but...
+ For you, I'll make an exception.
+HAw! I couldn't ask for a better present than your reluctant cooperation!
+EWell, you guys <i>did</i> abandon a glamorous sorority life for me...
+I guess I owe you one.
+7You don't owe us anything. Now, are we all ready to go?
+Does that include me?
+WAbbie appears in the hallway looking sullen. You and Kaitlyn exchange a nervous glance.
+Hey, Abbie...
+&Listen, I know you're mad at us, but--
+5You've got that right. I <i>am</i> pretty pissed off.
+zBut... it is your birthday. And I don't really have any other friends, so... I guess I should learn to forgive and forget.
+Wow. Touching speech, Abbie.
+Dude, shut up!
+)We're really, <i>really</i> sorry, Abbie.
+€You know Vasquez didn't give me any choice... I <i>had</i> to get into that sorority. I didn't know that would mean hurting you.
+KIt's... it's fine. I know things are tough for you and your parents. But...
+(Don't do anything like that again, okay?
+Okay. I promise.
+hAnd we'll get to work on being the type of friends you deserve. Cause... right now we're definitely not.
+)A small smile flickers over Abbie's lips.
+fWell... you're not <i>so</i> bad. Now... are we gonna get out of here or stand around talking all day?
+<Abbie appears in the hallway, a reluctant smile on her face.
+2You know, I'm not really the clubbing type, but...
+ For you, I'll make an exception.
+GAw! I couldn't ask for a better present than your stubborn cooperation!
+9Hey, you guys already dragged me to that stupid sorority.
+,I'd say I've been pretty cooperative lately.
+8And we truly appreciate it. Now, are we all ready to go?
+CThat depends... are you sure you want to wear <i>that</i> clubbing?
+>Oh, crap! I totally forgot to change! I'll be just a second...
+EThere's no point in going to the club if you're not gonna go all out!
+)I can't <i>wait</i> to see what you wear!
+OUTFIT
+$PORTRAIT_CUSTOM_OUTFIT_CLUBBING_GOLD
+%PORTRAIT_CUSTOM_OUTFIT_CLUBBING_WHITE
+$PORTRAIT_CUSTOM_OUTFIT_CLUBBING_FREE
+What will you wear to the club?
+Confirm
+
+club_dress
+Confirm
+club_dress_white
+Confirm
+unlock_clubbing_gold
+unlock_clubbing_white
+unlock_clubbing_free
+
+club_dress
+
+Club Ready
++You went all out on your look for the club!
+How do I look?
+Wow.
+Wow good or wow bad?
+JWow <i>amazing</i>... I mean, you always look good, but that dress... wow.
+XHey, Kaitlyn, when you're done drooling can we <i>finally</i> get this show on the road?
+Zack, shut <i>up!</i>
+
+Club Ready
+)You put together a hot look for the club!
+How do I look?
+Absolutely gorgeous.
+Aw, thanks, Kaitlyn...
+XHey, Kaitlyn, when you're done drooling can we <i>finally</i> get this show on the road?
+Zack, shut <i>up!</i>
+How do I look?
+Cute as ever! Now, come on!
+:Actually, before we go, I wanted to ask Abbie something...
+JYou and your friends exchange excited looks while Tyler clears his throat.
+Yeah? What's up?
+VOh, I was just wondering if you wanted to like... you know... go to the club together?
+LUh, yeah, we're all taking the bus downtown. Of course we're going together.
+Oh, okay...
+#Dejected, Tyler heads out the door.
+Abbie, you idiot, Tyler meant--
+%Never mind, Kaitlyn. Let's just go...
+
+MUSIC_COLLEGE_ACTION_CHILL
+BG_INT_CLUB_BAR_NIGHT
+˜A short while later, you and your friends slide into a booth at Shade, a popular downtown nightclub. Kaitlyn shouts to be heard over the throbbing bass.
+COooh this is <i>so awesome!</i> This is just what I was hoping for!
+Yeah, it's nice and... loud.
+Don't be a spoilsport, Tyler!
+6Yeah, don't you like having to yell <i>everything</i>?
+It's a dream come true.
+oAbbie cracks a smile, and Tyler grins back nervously. You nudge Kaitlyn with your elbow and lean in to whisper.
+Okay, I know Abbie was totally clueless back there, but we <i>have</i> to get these two together by the end of the evening. Deal?
+^<i>Deal</i>. I'll consider it a personal failure if they each sleep in their own beds tonight.
+7Oh my god, I can't <i>believe</i> you just said that...
+;Isn't this great, guys? We got the whole squad in the club.
+Everyone except Chris...
+Right. I forgot...
+EEver since he shacked up with <i>Becca</i> he barely has time for us.
+/I'm sure football keeps him pretty busy, too...
+FUgh, don't make excuses for him. I'm pissed. Aren't you pissed, {You}?
+Pissed?
+-I'm a little mad... and a little heartbroken.
+Why would I be?
+'Sorry... I didn't mean to bring him up.
+1Do you... do you really care about him that much?
+5I don't know... I guess not? Maybe? I can't decide...
+]Listen, {You}. Chris had his chance. If he didn't appreciate what he had, that's his problem.
+_I guess you're right. Let's... let's just focus on giving Kaitlyn the best birthday ever, okay?
+Works for me!
+Chris made his choice, and I made mine. Whatever was between us is in the past. Let's just focus on giving Kaitlyn the best birthday ever, okay?
+That's the spirit, {You}!
+MUSIC_COLLEGE_ACTION_FUN
+‘Just then, Zack gets up and heads to the bar. He returns with the bartender, who sets a line of shot glasses on the table in front of your group.
+I like where this is going...
+“The bartender winks at Kaitlyn before pouring a perfect line of rainbow shots, transitioning through a vibrant spectrum of colors before your eyes!
+9<i>Oh my god.</i> You just became my new favorite person!
+Whoa, what about me?
+8You can still be my second-favorite! Now... let's drink!
+‡Kaitlyn pulls a shot glass from each end of the rainbow and swallows one after the other! You and your friends look on in astonishment!
+!Damn, Kaitlyn... what's the rush?
+[Kaitlyn wipes her mouth with the back of her hand and gives an enigmatic smile in response.
+:I've got big plans for tonight. Need to get my courage up!
+What big plans?
+You'll find out...
+Well, that's certainly intriguing, but don't think for a second you get to drink <i>all</i> of those. The Zackster is ready to get it <i>on!</i>
+'The Zackster?'
+WDid the Zackster text Brandon like he said he would? I don't see him around anywhere...
+%Uh, no... the Zackster chickened out.
+\We can't let this happen! {You}, if you don't do something, Zack is totally gonna die alone!
+2If I don't do something about this, no one will...
+Hey, Zack...
+$I'm calling him. Give me that phone!
+call_brandon
+Maybe next time?
+zack_brandon
+2You make a grab for Zack's phone and call Brandon!
+No, {You}, what the hell!
+/Hey, Brandon? It's {You}. I stole Zack's phone.
+Operator? Give Me Brandon
+'You stole Zack's phone to call Brandon!
+BG_INT_COFFEE_SHOP_NIGHT
+Brandon
+^Well, at least someone's using it, right? He hasn't even texted me since I gave him my number.
+LYeah, he's weird like that. That's why I'm taking matters into my own hands.
+We're all downtown at Shade...
+'And we'd all love it if you stopped by!
+!And Zack won't shut up about you!
+MOh yeah? I just gotta close the cafe for the evening, and I'll be right over.
+{You}!
+^Yeah? Maybe I'll stop by. I just gotta close the cafe for the evening, and I'll be right over.
+/You hang up the phone and toss it back to Zack.
+He's on his way.
+What?!
+{You} wins this round!
+AReally? Cause it kind of feels like a victory for the Zackster...
+Relationship Improved
+1Zack and Brandon's relationship will be affected.
+*Now we just need to get you a date, Tyler.
+called_brandon
+Yeah... maybe.
+Leila
+
+Hey, guys!
+YLeila appears behind Tyler and gives his shoulder a squeeze. Abbie bristles at the sight.
+$Hey, Leila! What are you doing here?
+~Oh, just out with some friends. You know, I've never actually <i>been</i> to a club before... unless you count gaming lounges!
+*Pretty sure those are totally different...
+Oh, hey! Addie, right?
+Actually, it's--
+{Listen, Tyler... I didn't exactly bring a date, and I just so happened to overhear the conversation you guys were having...
+OLeila looks expectantly at Tyler, who studiously avoids eye contact with Abbie.
+NUh... yeah! Yeah, I didn't bring a date either. We could... hang out, I guess?
+I'd like that.
+,{You}, Kaitlyn, I think I need a drink. Bar?
+)But we have all these shots right here...
+Bar. <i>Now.</i>
+Okay!
+VYou and Kaitlyn follow Abbie to the bar, leaving Tyler, Zack, and Leila at your booth.
+So... what's up, Abbie?
+TYou <i>know</i> what's up. You guys have been teasing me about it since we moved in.
+Tyler?
+sDuh! I know I'm not, like, super outgoing or flirty or whatever, but he <i>had</i> to know how that'd make me feel!
+lAbbie, I'm not sure he did. Tyler <i>literally</i> just asked you out before we left, and you shot him down!
+b<i>That's</i> what he meant? I thought he was just being neurotic about carpooling or something...
+(Yeah... that's not what he meant at all.
+iBesides, the only time I've seen you act like you're actually interested in him is when Leila's around...
+)You mean when I insult him and storm off?
+Well... yeah.
+7I know... I just... I don't know how to say how I feel!
+#Well, why don't you practice on us?
+)You mean like roleplaying? Ew, no thanks.
+„Come on, it'll be fun. Just... pretend {You}'s Tyler. Leila's disappeared to get a drink or something, and it's your time to strike.
+'Okay, fine... this is stupid, but fine.
+k<i>Ahem.</i> Hey, Tyler. Listen, there's something I want to talk to you about, and it has to do with, uh--
+Cut!
+’<i>Way</i> too much mumbling, and your body language was totally frigid. You've gotta be <i>sexy</i> and <i>confident</i>. Go after what you want.
+HOkay, if you're so great at this, why don't you provide a demonstration?
+Maybe I will.
+]Kaitlyn tucks a strand of hair behind her ear and sidles up to you, fluttering her eyelashes.
+hHey, {You}, I really like being friends with you, but... I'm thinking I might like to be more than that.
+MKaitlyn reaches out and takes your hand in hers, pulling you a little closer.
+Hmmm...
+I'd like that...
+Are we still roleplaying?
+Relationship Improved
+0Your relationship with Kaitlyn will be affected.
+You would? Really?
+@I thought you were supposed to show me how to sound confident...
+KSometimes a little vulnerability can be sexier than always being confident.
+...
+<Well, I'm not sure I can be <i>either</i> of those things...
+Yeah, of course!
+Really?
+JAbbie and Tyler are just really compelling characters to inhabit, I guess.
+Ugh, this is so dumb...
+ZSorry, Kaitlyn, but this wasn't exactly effective... also, you forgot to call {You} Tyler.
+Did I? Oops.
+…I guess it doesn't matter anyway. I can't be 'sexy' like you, Kaitlyn. Tyler probably isn't even interested in me that way anymore...
+ Whaaat? But you're a total babe!
+Trust me, getting Tyler to want you is <i>not</i> the issue here. You could punch him in the face and ask him out, and he'd probably say yes.
+OAbbie glares across the club at Leila and Tyler sitting together at your booth.
+5That first part sounds pretty good right about now...
+I know.
+"But I think you should focus on...
+2Working up the confidence to actually ask him out.
+Getting back at Leila instead.
+Relationship Improved
+0Tyler and Abbie's relationship will be affected.
+tyler_abbie
+Yeah... I know.
+That sounds pretty good, too...
+9{You}! Abbie needs to focus on herself, not <i>Leila</i>.
+-But it's so much easier to be <i>angry</i>...
+„Tyler's not going to ask you out again after the rejection you handed him earlier tonight. You're going to have to ask him yourself.
+$And that's going to take confidence.
+4If you need a wingman, I'm totally game, by the way.
+8No, that's all right... I'll try to tell him how I feel.
+,I just... don't know if I can do it tonight.
+]It's okay to take your time... but you have to realize he might not be available much longer.
+Yeah, I know.
+II do feel a bit better though. Let's go celebrate your birthday, Kaitlyn.
+Yes, please!
+’You, Abbie, and Kaitlyn rejoin the rest of your group back at your booth to find Leila squeezed in next to Tyler, laughing at one of Zack's jokes.
+YWhat were you guys talking about over there? Looked like things were getting kinda hot...
+Just a little roleplay.
+Do I want to know?
+#Probably not. So, what did we miss?
+Not what... <i>who.</i>
+What do you mean?
+pZack points across the club to the dance floor, where Becca is tightly wrapped around Chris, moving to the beat.
+Mmm, I like the way you move...
+Yeah? Well, I--
+IChris's eyes find you in the crowd, and his mouth falls open in surprise!
+{You}!
+Oh, <i>wonderful...</i>
+#Uh oh. I <i>think</i> he saw you...
+1That's not all... they're heading over right now!
+"Which outfits do you want to view?
+Casual
+Fancy
+unlock_sorority_purple
+unlock_sorority_black
+unlock_sorority_rush
+unlock_sorority_blue
+unlock_dinner_elegant
+unlock_party_white
+unlock_dinner_embroidery
+unlock_sorority_rush_sparkly
+unlock_party_floral
+unlock_party_free
+unlock_sorority_rush_free
+unlock_dinner_free
+$PORTRAIT_CUSTOM_OUTFIT_SORORITY_RUSH
+,PORTRAIT_CUSTOM_OUTFIT_SORORITY_RUSH_SPARKLY
+)PORTRAIT_CUSTOM_OUTFIT_SORORITY_RUSH_FREE
+&PORTRAIT_CUSTOM_OUTFIT_SORORITY_PURPLE
+$PORTRAIT_CUSTOM_OUTFIT_SORORITY_BLUE
+%PORTRAIT_CUSTOM_OUTFIT_SORORITY_BLACK
+%PORTRAIT_CUSTOM_OUTFIT_DINNER_ELEGANT
+(PORTRAIT_CUSTOM_OUTFIT_DINNER_EMBROIDERY
+"PORTRAIT_CUSTOM_OUTFIT_DINNER_FREE
+"PORTRAIT_CUSTOM_OUTFIT_PARTY_WHITE
+#PORTRAIT_CUSTOM_OUTFIT_PARTY_FLORAL
+!PORTRAIT_CUSTOM_OUTFIT_PARTY_FREE
+Choose your look!
+Confirm
+Confirm
+Confirm
+Confirm
+Confirm
+&PORTRAIT_CUSTOM_OUTFIT_CASUAL_SUNDRESS
+#PORTRAIT_CUSTOM_OUTFIT_CASUAL_URBAN
+$PORTRAIT_CUSTOM_OUTFIT_CASUAL_TOMBOY
+Choose your look!
+Confirm
+Confirm
+Confirm
+This look is...
+Perfect!
+Not my best..."
+main"
+VasquezUpdate&"
+ClubPrepò"
+InDaClub
+"
+	AbbieChaté"
+ChrisArrivalÌ"
+wardrobeSelection¤"
+isFancyUnlockedÜ"
+FancyWardrobe×"
+choiceÒ"
+casualWardrobe¦"
+confirmMenuô*-*#*,*/*0*1*-*#&***-*#ò***-*#
+***-*#é***-*#Ì***
+****)**)**
+*****/*0*1**)****)****)***	*)**
+**)****)****)****)****)***)****)**ÿ*è*)*****)***)**-*#¤****)***
+**)	*****)	*****)	*****)	*** **)	**!*)
+***%**"**)	***#**)	**#™**$**)	***%**)	***&**)	***'**)	**è*)**(**)**ÿ*è*)**)*è*)****)***+*)	**,*-*.*)	***/*.*)	**!*)
+*
+**%×*0*1*)**,*2*.*)	***3*.*)	**#ƒ*!*)
+***%ë*4*5*)**,*6**)	***7*.*)	**#ƒ*8*9*)**,*:*.*)	***;*.*)	**,*<*.*)	***=*.*)	**,*>*.*)	***?*.*)	**,*@*.*)	***A*.*)	***B*.*)	**è*)**C**)**D*)**,*E*)	***F*.*)	***G*H*)	***I*.*)	**,*J*.*)	***K*.*)	**,*L*.*)	***M*.*)	**,*N*.*)	**O*)***P**)**Q*)**R*)***)*2**3*
+**%î*,*S*.*)	**#ó*,*T*.*)	***U*H*)	**,*V*.*)	***W*)	***X*.*)	**,*Y*.*)	**,*Z*.*)	***[*.*)	***\*H*)	**,*]*.*)	**è*)**^**)**ÿ*è*)**_*è***)**`*)***a*.*)	***b*.*)	***c*.*)	***d**)	***e*H*)	***f*.*)	***g**)	**h*)***P**)**i*)**j*)***)*2**3*
+**%û**k**)	***l**)	***m*)	**#„**n**)	***o*)	***p*H*)	***q*)	***r**)	**s*)***t**)	***u*)	***v*)	***w*)	**è*)**x**)***y*)	***z**)	**{*)*****)**|*)**}*)***)*2**3*
+**%Û*~**)***€**)	*****)	**#î**‚*H*)	***ƒ*)	***„**)	***…**)	**
+*****/*0*1*è*)**†**)**ÿ*è*)**‡*è*)**è*)**ˆ*)***‰**)	**Š*‹**)	*****)	*****)	****H*)	***)***‘**)	***’**)	**Š*“*H*)	**Š*”*)	***•*H*)	**–*)**Š*—**)	***˜**)	**Š*™**)	**Š*š*)	**›*)*****)**œ*)***)***)***)*2**3*
+**%„*Ÿ* *)***¡*H*)	**Š*¢**)	***£*)	**Š*¤*)	**#Ü*3***%«*¥*¦*)***§**)	**Š*¨**)	***©*H*)	***ª**)	**Š*«**)	***¬*H*)	**#Ü*­*®*)**Š*¯*H*)	***°*H*)	**Š*±*H*)	***²*H*)	***³**)	**Š*´**)	***µ**)	**Š*¶*H*)	***·**)	**è*)****)**¸*)**Š*¹*H*)	***º**)	**!*)
+***%•*»*)***¼*)	***½**)	***¾**)	***¿**)	***À*)	***Á**)	**#”*!*)
+***%ô**Â*.*)	**Ã*)***Ä**)	***Å**)	***Æ*.*)	***Ç*)	**Š*È*H*)	***É*H*)	***Ê**)	***Ë**)	***Ì*.*)	**è*)**^**)***Í**)	***Î**)	***Ï**)	**Ğ*)***Ñ**)	**è*)****)**#”*Ò*)***Ó*)	***Ô**)	***Õ**)	***Ö*H*)	***×**)	***Ø**)	***Ù**)	***Ú*H*)	***Û*)	***Ü**)	****)**	**)***İ*Ş*)**	*İ*ß*)***İ*à*)**á*)**â***ã*)**ä*	**å*)**æ**P*)***)*2**3*
+**%‘	*ç**)**è*
+*)**é*
+*)**ê**)****)**ë*ì*)***í**)	***î*H*)	***ï*H*)	***ğ**)	**Š*ñ**)	***ò*H*)	**#á	*3***%Ç	**	*)**è**)**ç*
+*)**é*
+*)**ê**)**ó*ô*)***õ**)	***ö**)	***÷**)	**Š*ø**)	***ù*H*)	**#á	*ç*
+*)**ê*
+*)**é**)****)***ú**)	***û**)	***ü*H*)	**ı*)***ş*)	***ÿ*H*)	***€*.*)	*****)	**‚*)***ƒ*H*)	**Š*„**)	**
+*****/*0*1*è*)**…**)**ÿ*è*)**†*è***)**‡*)***ˆ**)	***‰**)	***Š**)	**Š*‹**)	****)	***)*****)	*****)	*****)	**Š*‘**)	***’*)	**Š*“**)	**Š*”*.*)	***•*H*)	**Š*–*.*)	**—*)***P**)**˜*)**™*)***)*2**3*
+**%Ÿ*Š*š**)	***›**)	***œ**)	****.*)	****)	***Ÿ**)	**#¨** *)	***¡**)	**è*)**¢**)**£*)***¤**)	**¥*)***¦*H*)	**Š*§*H*)	***¨**)	**©*)***ª*H*)	**«*)***¬**)	***­*H*)	***®**)	**Š*¯**)	***°**)	***±**)	**Š*²**)	***³*H*)	***´*)	**µ*)***P**)**¶*·*)**¸*)***)*2**¹**)**3*
+**%*º*)**Š*»*H*)	***¼**)	**½*¾*)**¿*)**À*Á**)	**†*)***Â*)	**Ã*)***P**)**Ä*)**Å*)***)*2**3*
+**%Ú*¿*)**À*Æ**)	**#ç*Š*Ç*H*)	**¿*)**À*È**)	**†*)**É*)***Ê**)	**Š*Ë*H*)	***Ì**)	**Š*Í**)	**Î*Ï*)**Š*Ğ*)	**Ñ**)**#—*Š*Ò**)	**Ñ*
+*)**è*)**…**)**Ó*Ô**)	**Õ*)***Ö*H*)	**Ó*×**)	***Ø*.*)	**Ó*Ù*H*)	***Ú*.*)	**Ó*Û**)	**Ü*)***İ*H*)	**Ó*Ş**)	***ß*.*)	***à*H*)	***á*.*)	***â*H*)	**
+*****/*0*1*è*)**(**)**ã*)***ä**)	***å*.*)	***æ**)	***ç*.*)	***è**)	***é*H*)	***ê**)	***ë**)	***ì**)	***í**)	***î**)	**è*)****)***ï*H*)	***ğ**)	***ñ**)	***ò*.*)	***ó*H*)	***ô*H*)	***õ*)	***ö*.*)	***÷**)	**è*)**x**)**ø*)***ù**)	**ú*)**û*)***P**)**ü*)**ı*)***)*2**3*
+**%¦*ş*ÿ*)***€*H*)	*****)	***‚**)	***ƒ**)	***„**)	**#º**…*H*)	***†**)	***‡**)	***ˆ*.*)	***‰*.*)	***Š*H*)	**è*)**^**)***‹**)	****H*)	****)	***)****.*)	****)	**‘*)***P**)**’*)**“*)***)*2**3*
+**%‰*”*•*)**–**)***—**)	**#¡**˜*.*)	***™*H*)	***š**)	***›**)	***œ*)	****)	****)	***Ÿ**)	*** **)	***¡**)	**è*)****)***¢*)	***£**)	**
+*****/*0*1*¤*)**Š*¥**)	***¦**)	***§*H*)	***¨*)	**Š*©*H*)	***ª*H*)	**«*)**è*)**è*)**(**)***¬**)	***­**)	**®*)***¯*H*)	***°*.*)	**Š*±**)	***²**)	**è*)**
+*****/*0*1**-*#Ü**2***
+*2**3*
+*%Ø*³*)**´*)**3*%À*µ*)**#À* *)*2**3*
+**%Í*-*#¦***#Ñ*-*#×****-*#ô**2**#±*
+*****/*0*1**¶*)
+*2***3*·*)
+**2***3*¸*)
+**2***3*¹*)
+**2***3*ç*)
+**2***3*º*)
+**2***3*»*)
+**2***3*¼*)
+**2***3*½*)
+**2***3*è*)
+**2***3*¾*)
+**2***3*¿*)
+**2***3*é*)
+**2***3*À*)
+**2***3*Á*)
+**2**3*
+**%Ï******#Ó*
+*****
+*****/*0*1**¶*)
+*2***3*·*)
+**2***3*¹*)
+**2***º*)
+*2***3*¼*)
+**2***3*Á*)
+**2** *¸*)
+*2** *3*½*)
+**2** *3*À*)
+**2**!*ç*)
+*2**!*3*è*)
+**2**!*3*é*)
+**2***»*)
+*2***3*¾*)
+**2***3*¿*)
+**2****2****2****2****2**	**2****)**	**)****)****)****)**3*
+**%*¸*)
+***%ğ**İ*Â*)**#€*½*)
+***%û**İ*Ã*)**#€**İ*Ä*)**#…**
+*2**3*
+**%¥*ç*)
+***%”*	*İ*Ş*)**#¤*è*)
+***%Ÿ*	*İ*ß*)**#¤*	*İ*à*)**#©**
+*2**3*
+**%É*¶*)
+***%¸**İ*Å*)**#È*¹*)
+***%Ã**İ*Æ*)**#È**İ*Ç*)**#Í**
+*2**3*
+**%í*º*)
+***%Ü**İ*È*)**#ì*¼*)
+***%ç**İ*É*)**#ì**İ*Ê*)**#ñ**
+*2**3*
+**%‘*»*)
+***%€**İ*Ë*)**#*¾*)
+***%‹**İ*Ì*)**#**İ*Í*)**#•*	*
+*2**Î*)**3*% *Ï**P*)**# *3*%¨*Ğ*	*P*)**#¨*3*%°*Ñ**P*)**#°*3*%¸*Ò**P*)**#¸*3	*%À*Ó**P*)**#À*
+*)*2**3*3*3*3*3
+*-*#Ò****
+*****/*0*1*3ıÿÿÿÿÿÿÿÿ*
+**%*3ùÿÿÿÿÿÿÿÿ*%à***)**#‹*3ùÿÿÿÿÿÿÿÿ*
+*'ä*3úÿÿÿÿÿÿÿÿ*%ê**	*)**#‹*3ùÿÿÿÿÿÿÿÿ*
+*'ï*3úÿÿÿÿÿÿÿÿ*
+*'ñ*3ûÿÿÿÿÿÿÿÿ*%÷***)**#‹*3ùÿÿÿÿÿÿÿÿ*
+*'ü*3úÿÿÿÿÿÿÿÿ*
+*'ÿ*3ûÿÿÿÿÿÿÿÿ*
+*'*3üÿÿÿÿÿÿÿÿ*%‡***)**#‹***)**#¢*3ıÿÿÿÿÿÿÿÿ***%Ô*3ùÿÿÿÿÿÿÿÿ*'“*3úÿÿÿÿÿÿÿÿ*%™**	*)**#Ó*3ùÿÿÿÿÿÿÿÿ*
+*'*3úÿÿÿÿÿÿÿÿ*'Ÿ*3ûÿÿÿÿÿÿÿÿ*&¦*3ùÿÿÿÿÿÿÿÿ*'¤*3úÿÿÿÿÿÿÿÿ*
+*'¦*3ûÿÿÿÿÿÿÿÿ*%¬***)**#Ó*3ùÿÿÿÿÿÿÿÿ*
+*'±*3úÿÿÿÿÿÿÿÿ*
+*'³*3ûÿÿÿÿÿÿÿÿ*'µ*3üÿÿÿÿÿÿÿÿ*&¿*3ùÿÿÿÿÿÿÿÿ*'º*3úÿÿÿÿÿÿÿÿ*
+*'½*3ûÿÿÿÿÿÿÿÿ*
+*'¿*3üÿÿÿÿÿÿÿÿ*&É*3ùÿÿÿÿÿÿÿÿ*
+*'Ä*3úÿÿÿÿÿÿÿÿ*'Ç*3ûÿÿÿÿÿÿÿÿ*
+*'É*3üÿÿÿÿÿÿÿÿ*%Ï***)**#Ó***)**#¢*3ıÿÿÿÿÿÿÿÿ***%ˆ*3ùÿÿÿÿÿÿÿÿ*'Û*3úÿÿÿÿÿÿÿÿ*'İ*3ûÿÿÿÿÿÿÿÿ*%ã***)**#‡*3ùÿÿÿÿÿÿÿÿ*'æ*3úÿÿÿÿÿÿÿÿ*'é*3ûÿÿÿÿÿÿÿÿ*
+*'ë*3üÿÿÿÿÿÿÿÿ*&ô*3ùÿÿÿÿÿÿÿÿ*'ğ*3úÿÿÿÿÿÿÿÿ*
+*'ò*3ûÿÿÿÿÿÿÿÿ*'ô*3üÿÿÿÿÿÿÿÿ*&ı*3ùÿÿÿÿÿÿÿÿ*
+*'ù*3úÿÿÿÿÿÿÿÿ*'û*3ûÿÿÿÿÿÿÿÿ*'ı*3üÿÿÿÿÿÿÿÿ*%ƒ***)**#‡***)**#¢*3ıÿÿÿÿÿÿÿÿ***%*3ùÿÿÿÿÿÿÿÿ*'*3úÿÿÿÿÿÿÿÿ*'‘*3ûÿÿÿÿÿÿÿÿ*'“*3üÿÿÿÿÿÿÿÿ*%™***)**#***)**#¢***)**
+*****/*0*1***)**	**)****)***İ*Ô*)**	*İ*Õ*)***İ*Ö*)**×*)**Ø**P*)**Ù*	*P*)**Ú**P*)***)*2**3*
+**%ã***)**#ğ*3***%ì**	*)**#ğ***)**
+*****/*0*1*Û*)***P**)**Ü*)**İ*)***)*2**3*
+**%’******#–*
+*****
+****B"
+
+club_dress
+
+glrzm5"qgcv85B(
+club_dress_white
+
+kteeo4"lk4e76B$
+call_brandon
+
+ncc98c"de8n9rJ b2elyihjupkqu2

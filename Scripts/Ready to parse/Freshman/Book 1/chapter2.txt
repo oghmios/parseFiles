@@ -1,0 +1,909 @@
+Character:
+Tyler
+Character:
+Chris
+Character:
+Abbie
+ENDOFCHARACTERS
+BG_LIGHTS_AMBIENCE_NIGHT
+MUSIC_COLLEGE_FUN_CHILL
+
+Chapter Two: Rooftop Games
+The Freshman
+You
+BG_EXT_DORM_ROOFTOP_NIGHT
+!Chris? <i>You're</i> my roommate?
+	SURPRISED
+Chris
+HThat's why I recognized the name {You}! Nice to see you again... roomie!
+HAPPY
+Yeah... great to see you too.
+KSo... what about this roof, huh? You can see the whole town from up here...
+Yeah! So beautiful...
+MUSIC_COLLEGE_COMEDY_MISCHIEF
+Zack
+7'Beautiful'? I can only assume you're talking about me.
+
+I wasn't--
+FI'm just messing with you. I know, I know, I can come on a bit strong.
+welcome_outfit
+mThe name's Zack, but you can call me your number one fan cause you are straight-up <i>crushing</i> that look.
+Coffee stains and all.
+mThe name's Zack, but you can call me your number one fan cause you are straight-up <i>crushing</i> that look.
+Nice to meet you...
+NEUTRAL
+Now stop hitting on me!
+ It sounds like you know fashion!
+!You don't look so bad yourself...
+1Whoa, I definitely was <i>not</i> hitting on you!
+Mostly because I'm into dudes.
+'Whoops. I guess I kind of misread that.
+JNo sweat. I can tell you're the kind of girl who can stand up for herself.
+You've got that right.
+1Awesome. It sounds like we're going to get along.
+9Well, one of my ex-boyfriends was a model, so... kind of?
+3I'd say that makes you our resident fashion expert.
+BPlease promise me that means we can go shopping together sometime.
+Kaitlyn
+ Ahhh! Only if I get to come too!
+Sounds like fun.
+So... do you have a girlfriend?
+IOh wow. I'm going to take you hitting on me as a <i>major</i> compliment.
+:But this is the part where I tell you that I'm into dudes.
+'Whoops. I guess I kind of misread that.
+UNo sweat. You're clearly the kind of girl who goes after what she wants. I like that.
+:Thanks. I can already tell we're going to be best friends.
+Hey! What about me?
+'Don't worry. We can <i>all</i> be BFFs.
+Yay!
+Abbie
+*I feel like we're still missing someone...
+There he is!
+XAt the far end of the roof, you spot a guy sitting by himself, looking out at the stars.
+Tyler
+...
+PTyler! Enough with the shy nerd act! Get over here and talk to our new roommate!
+EOh... hey there. I was just trying to see if I could spot Cassiopeia.
+QThe constellations are just a little different here than back home in California.
+IYou're into stargazing? I used to do that all the time when I was little.
+
+Oh really?
+{You}, sidebar.
+Zack pulls you aside.
+KOkay, just to fill you in, my boy Tyler has a massive insta-crush on Abbie.
+[And I'm making it my mission in life to get those two crazy kids together. Are you with me?
+(You want me to play matchmaker with you?
+Consider this match MADE!
+No way. I barely know them.
+-Glad to have you on board. Let's get started.
+fAs you head back to the group, Zack pretends to trip, and <i>accidentally</i> pushes Abbie into Tyler!
+Relationship Improved
+0Tyler and Abbie's relationship will be affected.
+2I don't even know if they're right for each other!
+SSince when has that ever stopped anyone? Do you even <i>watch</i> The Bachelorette?
+TIt looks like I'm going to have to do this myself. Just try not to ruin this for me.
+SAD
+fAs you head back to the group, Zack pretends to trip, and <i>accidentally</i> pushes Abbie into Tyler!
+7Tyler! I'm so sorry, I... er... thanks for catching me.
+KAny time! Uh... I mean... any time you fall into me! Not... any other time!
+<i>This could take a while.</i>
+So... what now?
+.I think this is supposed to be a party, right?
+&Maybe we could start with some drinks?
+PUh, {You}, I've got a bottle of wine down in my room. Want to help me go get it?
+2Do we really need two people to grab a bottle of--
+Just come on!
+
+MUSIC_COLLEGE_ACTION_CHILL
+BG_INT_DORM_MAIN_NIGHT
+-Okay. Confess. You're into Chris, aren't you?
+What? Me and Chris?
+YI'm just trying to warn you... I'm pretty sure he mentioned something about a girlfriend.
+&<shake_portrait/>What? You mean Becca?
+5That bossy sorority girl we ran into at Welcome Week?
+IYeah. When we first met, she was, like, Exorcist-level possessive of him.
+ANGRY
+INo, the girl Chris mentioned wasn't Becca. It was someone from back home.
+Huh. Now I'm curious...
+$I need to know if Chris is single...
+For my sake!
+Because I'm just that nosy!
+(The truth is... I'm interested in Chris.
+MWe're <i>living</i> with this guy! We have a right to know if he's available!
+Makes sense to me.
+8I'm pretty sure I know how to get him to spill his guts.
+Oh yeah?
+.Oh yeah. Watch and learn, my young apprentice.
+#Aren't we pretty much the same age?
+XDetails, details. If we play our cards right, you'll get to ask Chris anything you want.
+YBack on the rooftop, Kaitlyn opens the bottle of wine and starts pouring it into glasses.
+#She leans over and whispers to you.
+<i>This is step one.</i>
+Okay...
+$Kaitlyn hands Chris a glass of wine.
+(Heh. I'm more of a beer guy, but thanks.
+Want a drink, {You}?
+Wine?
+I'm in!
+I'm out!
+A woman after my own heart!
+FTyler and Zack pass out the glasses, and you all clink yours together.
+4To an unforgettable freshman year. Cheers, everyone.
+I'll drink to that!
+ So responsible... I'm impressed.
+Good. You should be.
+XZack passes out the glasses, and Tyler pours you a cup of sparkling cider to toast with.
+1To one hell of a freshman year! Cheers, everyone!
+I'll drink to that!
+So... what now?
+YI'm glad you asked, Abbie... I think it's time for us to play some <i>Truth or Truth.</i>
+What's that?
+;It's Truth or Dare... except you <i>have</i> to pick truth.
+5No dares? So no one's running naked through the quad?
+=All in good time. We've got a whole year together, after all.
+aFair point. Since it was your suggestion, why don't <i>you</i> answer the first 'truth,' Kaitlyn?
+EOh, why don't we start with someone else? Like... Chris, for example?
+-Nice try! Go ahead, {You}. Ask her something!
+Okay, Kaitlyn...
+Tell us about your first kiss!
+%What's your most embarrassing secret?
+1Ugh, you just <i>had</i> to go there, didn't you?
+.You don't have to answer if you don't want to.
+VNo, no. Rules are rules. My first kiss was in middle school with this guy named Aaron.
+zWe were at a party, and we were all playing Seven Minutes in Heaven. And Aaron had <i>just</i> eaten a jalapeno on a dare.
+Hot.
+ìYeah. <i>Really</i> hot. When I came out of the closet, I was blushing, and <i>everyone</i> thought I liked him, but it was just the stupid pepper!
+3I haven't gone near guys <i>or</i> jalapenos since.
+2That's too bad... cause jalapenos are <i>bomb</i>.
+'I'll take your word for it. Who's next?
+1Ugh, you just <i>had</i> to go there, didn't you?
+.You don't have to answer if you don't want to.
+ëNo, no. Rules are rules. My most embarrassing secret... is probably the fact that you can <i>still</i> access my MySpace site from middle school.
+gI forgot my login info, so my awkward goth phase is still on the internet for the whole world to see...
+&Oh my god. You <i>have</i> to show us!
+Noooo way. Not happening.
+IBesides... you guys couldn't handle <i>xXSorrowfulRaven95Xx</i>'s poetry.
+Poetry?!
+<Searching that username now, and... oh god. This is amazing.
+êYou all crowd around Tyler's phone screen to see middle-school Kaitlyn in tattered fishnets and combat boots, pouting through smeared eyeshadow.
+#No no no! <i>Please</i> don't look!
+{Favorite band: <i>Evanescence?</i> Latest status: 'We are all the masks we wear. And mine is weeping.' This is <i>gold.</i>
+Oh, poor Kaitlyn!
+,Hey, if you need to cry, we're here for you.
+$Very funny. Let's move on, shall we?
+kSoon, it's Zack's turn to ask a question. He puts on an exaggerated thinking face and scratches his chin...
+"Hmmmm, what to ask, what to ask...
+>Got it! I want someone to tell me their <i>ultimate fancy!</i>
+;Sorry, ultimate <i>fantasy</i>... this is some strong wine!
+Or you're a total lightweight.
+^Says the girl who's gone from sitting on the couch to lying on the ground after two glasses...
+ What? It's <i>comfortable</i>...
+<So, Zack, whose 'ultimate fancy' did you want to hear about?
+BYou know what... I already forgot! Who <i>should</i> I ask, {You}?
+Who should Zack ask?
+Zack
+Tyler
+Abbie
+Chris
+Kaitlyn
+1Okay, Zack. I want to know your ultimate fantasy.
+ What? You want me to ask myself?
+Yep.
+#Wow. Okay. This could take a while.
+SThe year is 1959, and Handsome Zack is the most feared gangster on the West Side...
+Oh god. Where is this going?
+í...our two gangs meet on E Street, a lone traffic light blazing overhead. I pull out my switchblade, and Big Jim puts on a pair of brass knuckles.
+ZThere's gonna be a rumble, but the hardest fight is keeping our forbidden love a secret...
+EAs the story finally comes to a conclusion, Kaitlyn dabs at her eyes.
+vAnd as the light leaves Big Jim's eyes, I lean down to whisper, 'Wherever you're going, my love... wait for me there.'
+$Wow. That was... kind of incredible.
+Obviously. What did you expect?
+2Okay, Tyler. I want to know your ultimate fantasy.
+?That's easy! <i>The Black Cauldron.</i> Best fantasy book ever!
+
+That's not what I meant...
+9Huh? Oh! Hey, technically I answered your question, so...
+ Oh, fine. Let's just move along.
+2Okay, Abbie. I want to know your ultimate fantasy.
+,I... uh... wow, do I absolutely have to say?
+Those are the rules!
+Okay, uh... let me think...
+vI guess it'd be nice to have someone to, you know, spend a quiet evening with... maybe cuddled up with some hot cocoa?
+'Wow, Abbie. That was <i>scandalous</i>.
+Hey, you guys wanted to know!
+2Okay, Chris. I want to know your ultimate fantasy.
+$Wow. Let's see. Nothing too crazy...
+?Like, I'm a fireman, and I save a girl from a burning building.
+8And then she's really... grateful. You know what I mean.
+1Oh yeah, we <i>definitely</i> know what you mean.
+UInteresting... I guess we should be careful not to leave any candles burning up here.
+0...or maybe we <i>should</i> leave them burning.
+ That part is up to you, I guess.
+4Okay, Kaitlyn. I want to know your ultimate fantasy.
+"I guess I'm a romantic at heart...
+\Maybe something with soft white sand, and waves lapping at our feet as we kiss on the beach.
+This is getting good.
+TOh! And we need a bottle of champagne and a plate of chocolate-covered strawberries.
+7Scratch that. <i>I</i> want to be covered in chocolate.
++Not bad, Kaitlyn. I like the way you think.
+NThe game continues as you wait for your opportunity to ask Chris a question...
+>Ugh, don't freak out, but... I've never actually kissed a guy.
+5Wait, not even <i>one</i>? I've kissed, like, twenty!
+On the same day?
+Very funny, Tyler.
+5Although... three of them were on the same day, yeah.
+,...and the best part is? I never got caught.
+9Okay, you're officially the coolest person I've ever met!
+!Who skinny-dips in a public pool?
+Heroes, {You}. <i>Heroes</i>.
+#Okay, Tyler... I dare you to kiss--
+5You can't dare me to kiss anyone. There are no dares!
+Oh yeah, I forgot...
+
+MUSIC_COLLEGE_TENSE_ACTION
+Until finally...
+6Looks like it's your turn to ask me a question, {You}.
+EKaitlyn leans over to whisper to you while you think of a question...
+(Try not to be <i>too</i> obvious, {You}.
+Chris...
+0What's the weirdest place you've ever hooked up?
+Have you ever been in love?
+Do you have a girlfriend?
+Ooh, <i>nice!</i>
+$The weirdest place I hooked up, huh?
+My girlfriend - well, <i>ex</i>-girlfriend - set up a romantic picnic for our two-year anniversary right on the football field.
+-The sun set, one thing led to another, and...
+\We got chased off by the cops, and I lost my favorite shirt. Still... those were good times.
+2Dang, {You} going straight for the serious topics!
+QIt's okay. Yeah... I was in love, once. Throughout most of high school, actually.
+7So you dated the same girl through all of high school?!
+OBasically. Hurt pretty bad when she broke it off, but... those were good times.
+Not anymore...
+&Kind of hurts to admit that, actually.
+'Kaitlyn shoots you an exasperated look.
+-Uh... sorry to bring up something so painful.
+BBut since you're already talking about it... want to tell us more?
+>I guess. I dated the same girl throughout most of high school.
+*Sounds like she was pretty special to you.
+MUSIC_COLLEGE_LOVE_SAD
+.She was. I wasn't going to go into this, but..
+BMy ex's name is Nicole... and she's the first person I ever loved.
+kWe were together for three years. But when she decided to go to another college, she dumped me on the spot.
+That's so... harsh.
+RTo be honest... I'm still not over her. And it'll probably be a while before I am.
+pThat's why I promised myself that I'm just going to have fun here. No serious relationships for at least a year!
+Huh...
+That's smart.
+That's idiotic.
+!You've got to protect yourself...
+SAnd it wouldn't be fair to the next girl you date if you're still not over your ex.
+Exactly.
+$How can you make such a stupid rule?
+VWhat if you miss out on the love of your life because you don't want to get 'serious?'
+iWell... I kind of assume the love of my life would be willing to wait a year for me to figure things out.
+&You just keep telling yourself that...
+>Listen, enough about me. Can I ask {You} a question in return?
+What do the rules say, Kaitlyn?
+GSo far it seems like the rules are whatever Kaitlyn wants them to be...
+Ask away, Chris!
+(Okay, {You}... what's your take on love?
+My take on love?
+(I'm open to love, but I'm not desperate.
+I fall in love way too easily.
+!Love is just a chemical reaction.
+'Seems wise. Best to just let it happen.
+Exactly.
+)Better than never falling in love, right?
+9Maybe. Sometimes I wonder if it's worth the pain, though.
+OI think it is. Besides... with the right person, it doesn't have to be painful.
+,I guess I'll find out when the time comes...
+AIs anyone else shivering? Cause that was <pause/><i>ice cold.</i>
+Hey, she's not wrong...
+iStill... even if you believe love is purely chemical, it still affects you the same. It still feels real.
+2Hmm... I guess I hadn't thought about it that way.
+'Interesting... <i>very</i> interesting.
+WA few rounds of drinks and questions later, Abbie looks at her phone to check the time.
+WWell, I've hit my embarrassment quota for the night, so I think I'm going to turn in...
+What? It's so early!
+
+It's two in the morning...
+Exactly!
+bHonestly... I am a little tired. But I just want to say this is the most fun I've <i>ever</i> had.
+Me too.
+LIt's going to be an amazing year. I'm so glad I have you guys as suitemates.
+.And on that note, I'll see you in the morning.
+sI actually think I'll head to bed, too. Besides... we've got plenty of nights like these to look forward to, right?
+I guess you're right.
+MUSIC_COLLEGE_LOVE
+]As Kaitlyn and the others leave the roof, she shoots you and Chris one last, meaningful look.
+...
+What was that look all about?
+1Uh, nothing! Just... one of those looks, I guess!
+AYou gaze out over the starlit campus, shivering in the night air.
+So... not tired?
+QNot yet. And I want to savor this, you know? Our first night together as a suite.
+ It all starts here. You nervous?
+A little. You?
+Oh, I'm <i>terrified.</i>
+lBut it's a good kind of terrified. And so long as you're around... I'd say there's a lot to look forward to.
+Chris...
+I feel exactly the same way.
+)You must think you're pretty smooth, huh?
+ÑI know we just met, but... I feel a connection with you. And maybe it's not cool to say that, but I just had to get it off my chest.
+I'm glad you did.
+Really?
+Really.
+Not at all!
+zI've dated exactly one girl, {You}. Unless you're counting the time I picked a flower for a girl in my kindergarten class.
++I'm the exact opposite of smooth, trust me.
+Well... you could've fooled me.
+Really?
+2Really. But don't let it go to your head, big guy.
+vListen... I know I must be throwing out mixed signals. The truth is, I'm really not looking to start anything serious.
+@But... here, in this moment with you. Things just feel... right.
+JChris moves to sit closer to you and takes your hand, cautiously at first.
+...
+VWhen you don't pull away, he interlaces his fingers with yours and smiles down at you.
+Chris...
+Let's go to my room.
+chris_hookup
+Hold me.
+%I think it's time we call it a night.
+Relationship Improved
+.Your relationship with Chris will be affected.
+I was hoping you'd say that.
+nThe two of you walk back downstairs from the roof, hand in hand, stealing glances at each other all the while.
+BG_INT_DORM_BEDROOM_NIGHT
+SSo, this is my room... you might recognize it from your similar room down the hall.
+'I like what you've done with the place.
+(Yeah, I have a lot of unpacking to do...
+But all that can wait.
+You pull Chris close and tilt your mouth up to his. Your lips meet as you melt into him, and soon you're pulling his shirt up over his head.
+You5
+ChrisShirtless
+Someone's in a hurry...
+pYou push Chris back onto your bed and climb on top of him, kissing your way up his stomach to his stubbled chin.
+$Oh, I'm just getting <i>started.</i>
+You4
+OUTFIT
+&PORTRAIT_CUSTOM_OUTFIT_UNDERWEAR_BLACK
+PROP_F
+XWithout another word, Chris rolls over on top of you, pulling off your shirt as he goes.
+
+Nice move.
+
+I thought you'd like that.
+$Soon, he's kissing you everywhere...
+Chris...
+Don't you dare stop now.
+We should slow down.
+Whatever you say...
+<i>Oh, Chris...</i>
+Soon, the night melts away...
+!Of course. I'll follow your lead.
+7Just hold me... and we'll see where the night takes us.
+0I'll hold you all night if that's what you want.
+%Well, that's not <i>all</i> I want...
+;As you lie happily in Chris's arms, the night melts away...
+Fast Mover!
+You hooked up with Chris!
+ëLater, you and Chris lay beside each other, your faces nearly touching on the pillow. He stifles a laugh, his blue eyes crinkling at the corners.
+What are you laughing at?
+=I'm not laughing, I just... I don't know. I'm happy, I guess.
+Me too. This was... nice.
+It really was.
+You smile and look down shyly, your finger tracing figure-eights on Chris's upper arm, your legs tangled up beneath the sheets.
+*Well... I guess I'll head back to my room.
+.Unless... you want me to stay a little longer?
+I don't know... do you want to?
+Yeah. I do.
+Good answer.
+chris_hookup
+Relationship Improved
+.Your relationship with Chris will be affected.
+Come here...
+7Chris wraps his arms around you, and you lean into him.
+"You know, this does feel... right.
+YYou tilt your mouth up to meet his, your lips melting together as Chris pulls you closer.
+[When you finally break away, Chris stifles a laugh, his blue eyes crinkling at the corners.
+"What the hell are you laughing at?
+=I'm not laughing, I just... I don't know. I'm happy, I guess.
+Me too. That was nice.
+TYou smile and look down shyly, your finger tracing figure-eights on Chris's forearm.
+,Well... I guess it's time we got some sleep.
+!Yeah... it's getting pretty late.
+-Maybe we can talk more later? Or, you know...
+ I'd like that. Goodnight, Chris.
+Night, {You}.
+Relationship Damaged
+.Your relationship with Chris will be affected.
+%Oh... yeah, I guess it is a bit late.
+-Sorry if I was coming on a little too strong.
+3That's not it. It's just been a long day, you know?
+EAnd as nice as this is... a girl's gotta get some sleep now and then.
+Gotcha.
+Maybe we can talk more later?
+;Seems unavoidable. We do live in the same suite, after all.
+
+Right. How could I forget?
+Goodnight, Chris.
+Night, {You}.
+BG_INT_DORM_BEDROOM_DAY
+/You wake up to the sound of your phone ringing.
+Ugh... what time is it?
+FYou grope in the sheets for your phone and find it beside your pillow.
+/Four missed calls? From my parents? What the...
+BG_EXT_CAMPUS_QUAD_DAY
+PYou walk down the hall and step out into the chill morning air to take the call.
+AMom? What's going on? Why did you guys call me <i>four times?</i>
+BG_EXT_TOWN_CENTER_DAY
+Mom
+.{You}, there's something I have to tell you...
+#Did something happen? What's wrong?
+MUSIC_COLLEGE_TENSE_SAD
+CIt's your father. He... he lost his job. We can't pay your tuition!
+.But... but I haven't even started classes yet!
+Mom...
+'Don't worry. I'll figure something out.
+This is so unfair!
+,We're so, <i>so</i> sorry about this, {You}.
+YWe're going to make this right, okay? Your father just needs some time to find a new job.
+We love you!
+Yeah... I love you too.
+You hang up the phone.
+
+This can't be happening...
+What am I going to do?"
+main"
+
+doRateGame""
+doChapterTwo5"
+doChrisRomanceØ"
+
+doMomPhone∑*-*#*,*/*0*1*-*#5***-*#Ø***-*#∑***-*#"***
+****)**)**
+*****/*0*1***)*2**3*Ç**%1*)**#1*
+*****/*0*1**
+*)***)****)***	*)**
+*)**ˇ*Ë*)	****)**
+***)
+*****)
+**
+***)
+****)
+**
+**)
+**Ë*)****)*****)
+**
+***)
+****)
+***)***%é**
+**)
+*****)
+**#ì****)
+***)**
+***)***)** *)**!*)***)*2**3*
+**%…**"**)
+***#*)
+**
+*$**)
+***%*)
+**
+*&**)
+***'**)
+**#ë*3***%Ê**(**)
+**
+*)**)
+*****)
+**+*,**)
+**
+*-**)
+**#ë*
+*.**)
+***/**)
+***0*)
+**
+*1**)
+***2*)
+**
+*3**)
+**+*4**)
+***5**)
+**+*6**)
+**7*8*)
+***9**)
+**:*)**;*<*)
+***=*)
+**;*>*)
+**;*?**)
+**7*@**)
+**;*A**)
+***B*)
+**Ë*)**C*)***D*)
+***E*)
+**F*)**
+***)**G*)**H*)***)*2**3*
+**%Ù**I**)
+**Ë*)**J*)**K*L*)****)**#à*
+*M*)
+***N**)
+***O*P*)
+**Ë*)**Q*)**7*R**)
+**;*S**)
+***T*P*)
+***U**)
+**
+*V**)
+***W*)
+**+*X*)
+**
+*Y**)
+**+*Z**)
+**–*)**[**)**ˇ*Ë*)	**\***)**+*]**)
+**
+*^**)
+**+*_*)
+**
+*`**)
+**+*a**)
+**
+*b*c*)
+**+*d*)
+**
+*e*)
+**f*)**
+***)**g*)**h*)***)*2**3*
+**%É*
+*i*)
+**#*
+*j*)
+**+*k**)
+**+*l**)
+**
+*m**)
+**+*n**)
+**
+*o*P*)
+**+*p**)
+**ˇ*Ë*)	****)**–*)****)**q*)**r*)**+*s**)
+**
+*t**)
+**u*)***v**)
+**+*w**)
+**x*)**
+***)**y*)**z*)***)*2**3*
+**%˘*+*{**)
+**|*)***}*)
+***~**)
+**#è*+***)
+**
+*Ä**)
+**Å*)***Ç*)
+***É**)
+**7*Ñ*)
+**–*)****)**+*Ö*)
+**7*Ü*P*)
+**+*á*)
+***à**)
+**+*â**)
+***ä**)
+**+*ã**)
+*****)
+**ç*)**
+***)**é*)**è*)***)*2**3*
+**%Ç*+*ê*P*)
+**
+*ë**)
+**+*í*)
+**+*ì*P*)
+**7*î**)
+**+*ï*P*)
+**+*ñ*)
+**;*ó**)
+**+*ò**)
+**#»*+*ô*P*)
+**
+*ö**)
+**+*õ*)
+**+*ú*)
+**7*ù**)
+**+*û**)
+**+*ü*)
+**
+*†**)
+**;*°**)
+**¢*)**+*£**)
+**7*§**)
+**
+*•**)
+***¶**)
+**+*ß**)
+**®*)***©*)
+***™**)
+***´**)
+**+*¨**)
+***≠**)
+**+*Æ**)
+**
+*Ø**)
+***∞**)
+**±*)**≤***)**≥*;**)**¥*7**)**µ***)**∂*+**)***)*2**3*
+**%–*
+*∑**)
+***∏**)
+**
+*π**)
+***∫**)
+***ª*)
+**
+*º*P*)
+***Ω**)
+***æ*P*)
+**ø*)***¿*P*)
+**
+*¡**)
+***¬**)
+**#ﬂ*3***%Ì**√**)
+**;*ƒ**)
+**
+*≈*P*)
+**;*∆*)
+**
+*«*P*)
+**#ﬂ*3***%î**»**)
+**7*…**)
+**
+* **)
+**7*À**)
+**7*Ã*)
+**+*Õ**)
+**7*Œ**)
+**#ﬂ*3***%æ**œ**)
+***–*)
+***—*)
+***“**)
+**+*”**)
+**
+*‘**)
+**
+*’*)
+***÷**)
+**#ﬂ**◊**)
+**+*ÿ*)
+**+*Ÿ*)
+***⁄**)
+**+*€**)
+**+*‹**)
+**
+*›**)
+**ﬁ*)**ˇ*Ë*)	****)**7*ﬂ*P*)
+***‡**)
+**;*·**)
+***‚**)
+***„*)
+**ˇ*Ù*)	****)**+*‰**)
+***Â**)
+**
+*Ê**)
+**+*Á**)
+**ˇ*Ù*)	****)***Ë**)
+**;*È*)
+***Í*P*)
+**–*)**Î**)**Ï*)***Ì**)
+**Ó*)**+*Ô**)
+***)**
+***)**Ò*)**Ú*)**Û*)***)*2**3*
+**%˚	*+*Ù**)
+***ı**)
+***ˆ*)
+***˜*)
+***¯*)
+**#¨
+*3***%í
+*;*˘**)
+***˙*)
+**+*˚**)
+***¸*)
+**#¨
+**˝*P*)
+***˛*P*)
+**ˇ*)**
+*Ä*P*)
+**
+*Å*)
+***Ç*)
+**
+*É*)
+**–*)**Ñ**)***Ö*)
+***Ü*)
+***á*P*)
+**7*à**)
+***â*P*)
+***ä**)
+**ã*)**
+***)***)**ç*)***)*2**3*
+**%˜
+*
+*é*)
+**
+*è*)
+***ê**)
+**#ä*
+*ë*c*)
+**
+*í*P*)
+***ì*)
+**
+*î**)
+***ï**)
+**
+*ñ**)
+***ó**)
+**+*ò**)
+***ô*)
+**ö*)**
+***)**õ*)**ú*)**ù*)***)*2**3*
+**%ƒ**û*)
+**
+*ü*)
+**#Ï*3***%⁄**†*)
+**
+*°*)
+***¢*)
+**
+*£**)
+**#Ï**§**)
+**;*•**)
+***¶*)
+**
+*ß*)
+**+*®**)
+**–*)****)**©*)**7*™**)
+**+*´**)
+**;*¨**)
+**+*≠**)
+**+*Æ*)
+**;*Ø**)
+***∞**)
+**+*±**)
+***≤*)
+**+*≥**)
+**
+*****/*0*1*Ë*)**–*)**¥**)**µ*)**+*∂*)
+***∑*)
+**
+*∏**)
+**π*)***∫*)
+**
+*ª*)
+***º*)
+**
+*Ω*)
+***æ*)
+***ø**)
+**¿*)**
+***)**¡*)**¬*)***)*2**3*
+**%í**√*)
+**
+*ƒ**)
+***≈**)
+**
+*∆**)
+**#Æ**«**)
+***»*)
+***…*)
+**
+* **)
+***À**)
+**
+*Ã**)
+***Õ*)
+***Œ**)
+**œ*)***–**)
+**—*)**“*)**
+***)**”*‘*)**’*)**÷*)***)*2**3*
+**%∂*◊*ÿ*)***Ÿ**)
+**⁄*)**ˇ*Ë*)	**€*)**
+*‹**)
+***›**)
+**
+*ﬁ*)
+**
+*ﬂ**)
+**‡*)**·**)***‚*)***„**)
+**‰*)**
+*Â**)
+**Ê*
+*)**
+*Á*Ë*)**
+*È*)**Í*)**
+*Î**)
+***Ï**)
+**Ì*)**Ó*)**
+***)**Ô*)***)***)*2**3*
+**%›**Ò**)
+**
+*Ú*)
+**ˇ*)
+**Û*)**#ı**Ù*)
+**
+*ı*)
+***ˆ**)
+**
+*˜**)
+**ˇ*)
+**¯*)**ˇ*Ë*)	**€*)**˘*˙*)**˚*)**
+*¸**)
+***˝**)
+**
+*˛**)
+***ˇ**)
+**Ä*)***Å*)
+***Ç**)
+**
+*É*)
+***Ñ**)
+**
+*Ö**)
+**Ü*
+*)**#≥*3***%¸*á*à*)***â**)
+**ä*)**
+*ã*)
+***)**ç*)**
+*é**)
+***è**)
+**
+*ê**)
+**ë*)**
+*í*)
+***ì*)
+***î*)
+**
+*ï**)
+***ñ*)
+**Ü**)**#≥*ó*ò*)***ô**)
+***ö*P*)
+**
+*õ**)
+**
+*ú*)
+***ù**)
+***û*)
+**
+*ü**)
+***†**)
+**
+*°**)
+***¢*)
+**Ü**)**
+*****/*0*1*£*Ë*)**–*)****)**
+*È*)**§*)**
+*•*P*)
+**¶*)**
+*ß**)
+**Ü*)*
+**%Î*
+*Ê*)***·*)**
+*È*)**#Î*®*Ë**)**©*)**
+*™**)
+**´**)**¨*≠*P*)
+**®**)**
+*Æ*P*)
+**–*)**Ø**)**´**)**¨*∞*P*)
+**®**)**
+*±**)
+**≤*)**
+*P**)**≥*)**¥*)***)*2**´**)**¨*µ*P*)
+**¨*∂*P*)
+**¨*∑*P*)
+**®**)**
+*∏*P*)
+**π*)**
+*∫*P*)
+**
+*ª**)
+**–*)**
+****B$
+chris_hookup
+
+dss71e"ul63twJ bc1j85bjciwwke

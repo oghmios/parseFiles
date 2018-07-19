@@ -1,0 +1,469 @@
+Character:
+Tyler
+Character:
+Chris
+Character:
+Logan
+Character:
+James
+Character:
+Abbie
+Character:
+Becca
+ENDOFCHARACTERS
+BG_LIGHTS_AMBIENCE_NIGHT
+
+MUSIC_COLLEGE_ACTION_CHILL
+Chapter Six: Kappa House Party
+The Freshman
+You
+BG_EXT_SORORITY_HOUSE_NIGHT
+hA few hours after the game, you and your friends are at the Kappa Phi party. There's only one problem...
+HI can't believe we're still waiting to get in! Is this line even moving?
+SAD
+Kaitlyn
+oUnbelievable. Those girls dragged Chris inside, and we're stuck out here waiting in line like... like non-VIPs!
+ANGRY
+Abbie
+We <i>are</i> non-VIPs.
+Tyler
+OYou're <i>totally</i> a VIP, Abbie! But... I am starting to regret coming here.
+	SURPRISED
+Zack
+aAre we <i>really</i> the type of people who scurry back to our dorm at the first sign of trouble?
+YNo, but that one guy on the football team is guarding the door, and he has a <i>list!</i>
+So?
+1Well, if I had to guess, I'd say we're not on it.
+CAs far as I'm concerned, we belong at the top of <i>every</i> list.
+HAPPY
+[We're getting into this party ASAP, before those harpies get their hands all over your man.
+Zack...
+NEUTRAL
+I never said Chris was 'mine.'
+!They'd better stay away from him!
+
+Right, right... no labels.
+;Are you even listening to me? Chris and I are just friends!
+WSo... let's make sure your <i>friend</i> doesn't end up dating some evil sorority girl!
+6We've got to do this for the sake of the <i>suite!</i>
+sCan you imagine what our lives are gonna be like if Chris has one of those vapid social climbers over all the time?
+`They say that suffering helps forge great art... but I don't need my art to be <i>that</i> good!
+?We can't have that! We <i>can't</i> let Chris date those girls!
+CWell... yeah. For Chris's own sake, we need to get him out of here.
+ They messed with the wrong girl.
+Okay, you're scaring me now.
+
+I love it.
+Abbie, {You}... let's go.
+.Say what?! You're leaving me and Tyler behind?
+iSorry, guys... but this is the sad reality. Cute girls <i>always</i> get into parties. Guys have to wait.
+]But this is a <i>sorority</i> party! If anything, guys should have an easier time getting in.
+-You are <i>so</i> not making sense right now.
+What do you think, {You}?
+"I think I'll try to get in with...
+Who do I go with?
+Kaitlyn
+Zack
+Yay! Good choice!
+
+Ugh. Fine. See you inside.
+kYou, Kaitlyn, and Abbie approach the front of the line, where a football player bars the door to the house.
+Logan
+$Hold on, girls. Are you on the list?
+3Yeah. We're listed under 'Girls.' First name 'Hot.'
+>Yep. 'Hot girls.' There you are, right at the top. Head on in.
+Girl Power!
+You got into the Kappa party.
+BG_INT_SORORITY_HOUSE_NIGHT
+Was I right or what, {You}?
+You were right.
+JOkay. Time to find Chris, save the day and... hold the phone. Jello shots!
+2Kaitlyn grabs two jello shots and downs them both.
+=So. Good. All the fun of being a kid plus, you know, alcohol.
+0Abbie grabs a cup and licks the jello's surface.
+This tastes like poison.
+$I... I think I see Chris over there!
+8You guys stay here with the jello... I'm going in alone.
+)Awesome. I can't wait to be proven right!
+We'll see...
+`You and Zack approach the front of the line, where a football player bars the door to the house.
+.Hold it right there, bro. Are you on the list?
+!I think so... let me take a look.
+ZZack grabs the list, then whips out a pen and writes his name and phone number at the top.
+6Yep. There I am. Feel free to give me a call sometime.
+$I'm into girls... but I'm flattered.
+7Is this the part where you tell me to get back in line?
+WBingo. Of course, if the hottie next to you wants to come in, that's a different story.
+You mean me?
+.You know it. Just don't forget who got you in.
+1You go get Chris... we'll see you once we get in!
+,Inside, you spot Chris and walk over to him.
+Madison
+(So be honest, Chris... are you ticklish?
+Becca
+9Your bottle is empty, Chris! Let me get you another beer!
+]That last story was <i>hilarious.</i> Don't you dare tell another one until I get back, okay?
+Chris
+Heh. Sure thing.
+MUSIC_COLLEGE_FUN_CHILL
+Hey, Chris!
+>{You}! There you are! I thought maybe you decided not to come.
+1I just got a little... delayed. But I'm here now.
+I'm glad you came...
+,Chris takes you aside and whispers to you...
+'I've been thinking about you all night.
+Chris...
+"I've been thinking about you, too.
+Don't waste your time on me.
+
+It's a party. Be more fun!
+Relationship Improved
+.Your relationship with Chris will be affected.
+&There's something I wanted to ask you.
+I know we said no promises...
+,Did we? Because I'm starting to regret that.
+FAnd for now, at least, it looks like I don't have to leave Hartfeld...
+You, I--
+Who says it's a waste of time?
+!You don't give up easily, do you?
+0Should I? If you really want me to back off, I--
+#Brooding isn't a good look for you.
+This is a party! Loosen up!
+4'Fun,' huh? I think I remember hearing about that...
+MUSIC_COLLEGE_ACTION_FUN
+OYou're interrupted as Becca approaches and throws her arm around Chris's waist.
+^Why's this girl keep following you around, Chris? <i>Please</i> tell me you're not dating her.
+ {You}... {You} is a good friend.
+HChris... I was actually wondering if you had a few more minutes to talk.
+SSorry, but you had your chance. Plus, I already told Chris he's mine for the night.
+WKappa house party rules! If you <i>really</i> want Chris, you've got to <i>win</i> him.
+(He gestures to a nearby beer pong table.
+3Did you just make up rules for <i>our</i> sorority?
+/Logan! You're supposed to be guarding the door!
+$Eh. I got bored and let everyone in.
+IYou look around and realize all of your friends have gathered around you.
+ZA beer pong match to get some time with Chris... I <i>do</i> love a game with high stakes!
+You've got this, {You}!
+<I'm not some trophy to be won and paraded around... usually!
+ Objection noted. Now let's play!
+cWhat do you say? {You} versus Becca. The winner gets ten minutes with our new starting quarterback.
+qGladly. I haven't lost a match since freshman year. And I know <i>exactly</i> how I want to spend my ten minutes.
+I just want to talk to Chris.
+(What do I do?)
+Play the game.
+
+Walk away.
+It's on.
+=A few minutes later, you and Becca face off across the table.
+
+MUSIC_COLLEGE_TENSE_ACTION
+CThe crowd cheers, and your friends hoist you up on their shoulders!
+0That's my girl! Beer pong champion of the world!
+-Looks like you've won me for a few minutes...
+5And I plan to make the most of my time. Come with me.
+QThe crowd cheers, and several football players hoist Becca up on their shoulders!
+*Go Becca! Beer pong champion of the world!
+-And now for my reward... come with me, Chris.
+Chris looks back at you.
+>We're just going to talk, okay? I'll be back in a few minutes.
+1Sure thing... I'll just wait here looking stupid.
+I swear I'll be right back.
+:You head back to a couch where your friends are waiting...
+Well... this is fun.
+9How many minutes has it been since Chris left with Becca?
+Like... one?
+)I'm sure they're just... chatting. Right?
+"Nine excruciating minutes later...
+@{You}! There you are! Come on, now's my chance to talk with you.
+$I'm done playing games. I'm leaving.
+You storm out...
+
+{You}... wait! Let's talk.
+MUSIC_COLLEGE_LOVE_SAD
+;You and Chris head outside, where you can speak in private.
+>So... what's going on? It seems like you had something to say.
+4I just... I didn't like seeing you with those girls.
+iMadison and Becca? You should give them a chance! They're actually pretty cool once you get to know them.
+Somehow I really doubt that.
+,Well... they've been nothing but nice to me.
+FThey don't even know you! All they see is a guy in a football uniform!
+GOh... so you're assuming there's no other reason someone might like me?
+*That's not what I said. I'm just saying...
+Becca is so...
+Aggressive.
+Manipulative.
+Nice!
+-Becca knows what she wants, and she takes it.
+Yeah, by force.
+PI'm not sure about that... if anything, I think Becca is pretty straightforward.
+HSee! The fact that you think that <i>proves</i> how manipulative she is!
+OI think... I think Becca is someone who knows what she wants, and she takes it.
+OFirst you say you don't trust Becca... then you say she's nice. I don't get it.
+#Maybe I'm a little confused myself.
+7That's actually something I really like about Becca....
++She knows what she wants, and she takes it.
+FIt must be nice to be so... certain. Do you know what <i>you</i> want?
+]I don't know. Maybe that's why I admire Becca... because I'm so all over the place right now.
+.So what can I do to help you get some clarity?
+{You}... I...
+(What do I do?)
+	Kiss him!
+
+chris_kiss
+Hug him.
+Do nothing.
+-I'm sorry... I'm just... not sure how I feel.
+ I hated seeing you with Becca...
+2But I'm not sure that means I want to be with you.
+Chris takes a step back.
+TSo that's it... you saw me with another girl and didn't want me to start dating her?
+I guess... kinda?
+)I'm sorry. This must be pretty confusing.
+Well... yeah.
+I really do care about you.
+So... what do we do now?
+Honestly... I don't know.
+8I think I do know. I'm falling for you. Hard. {You}, I--
++Suddenly, a look of panic crosses his face.
+SI... I can't believe it. I'm doing the exact thing I promised myself I wouldn't do.
+BDidn't I say it the first day I met you... I'm not ready for this.
+!I'm not ready for something real.
+MUSIC_COLLEGE_LOVE
+Making Moves!
+'You kissed Chris at the sorority party!
+RChris's lips meet yours as he runs a hand through your hair, pulling you in close.
+=Tell me there's not still something here, and I'll walk away.
+There's still something here...
+Z{You}... that first time I met you... I'd never felt a spark like that with <i>anyone</i>.
+,I <i>know</i> we have an amazing connection.
+RHe leans in for another kiss, pressing you against the wall of the sorority house.
+Oh... Chris...
+fYou slip into the shadows by the side of the house, and Chris kisses you softly up and down your neck.
+/People are going to realize... we're missing...
+So what?
+(What do I do?)
+Keep kissing Chris.
+Have a conversation.
+ You pull Chris in even closer...
+HFor the past few days, I haven't been able to stop thinking about you...
+=Shivers run through you as he presses his body against yours.
+Chris... someone might see...
+-No one's out here... and it's totally dark...
+&Unless you're scared we'll get caught.
+Chris...
+Don't stop now.
+We should slow down.
+I'm not scared.
+Then neither am I.
+Oh, Chris...
+ESlowly, the world seems to fade into nothing as you hold Chris close.
+...
+...
+A while later...
+Out in Public
+"You and Chris got wild at a party!
+*That was amazing... <i>You're</i> amazing.
+You're not so bad yourself.
+7Of course... I would never want to pressure you into...
+VNo... I mean... I don't know. I really like you, but this just isn't the right moment.
+4Of course, you're still free to kiss me if you like.
+$I'm never going to say no to that...
+AYou melt into Chris's arms as he pulls you close for a long kiss.
+...
+GChris, you know I care about you, but I want to talk, not just hook up.
+FOf course! I love talking to you! I want to know everything about you!
+Really?
+Don't sound so surprised.
+II'm planning to spend a <i>lot</i> of time getting to know you this year.
+That sounds good. Very good.
+$So... are we... what does this mean?
+Honestly... I don't know.
+DMaybe it means we should be together. Like... as a couple. For real.
+KYou lean in toward Chris and lace your fingers around the back of his neck.
+.I think maybe you're right. I think maybe I...
++Suddenly, a look of panic crosses his face.
+SI... I can't believe it. I'm doing the exact thing I promised myself I wouldn't do.
+BDidn't I say it the first day I met you... I'm not ready for this.
+!I'm not ready for something real.
+DI'm so, so sorry, {You}. I should never have let things go this far.
+Chris...
+Don't do this.
+I understand.
+;I know you're scared... but you can't just throw this away!
+5I... I think I need to be alone for a little while...
+CI'm so, so sorry, {You}. You deserve better than me. You really do.
+/I... I understand. We said 'no promises' right?
+
+Yeah. That's what we said.
+CI'm so, so sorry, {You}. You deserve better than me. You really do.
+Yo, Chris! Where you at?
+Chris? Chris? Are you out here?
+EIt... it sounds like I'd better head back in. Goodbye for now, {You}.
+Chris, wait...
+&He walks back into the sorority house.
+BG_EXT_CAMPUS_QUAD_NIGHT
+ZA few minutes later, you're walking around campus, trying to process what just happened...
+@Hey! There you are! We looked everywhere for you. What happened?
+!I... don't want to talk about it.
+>The last thing I saw was Chris walking inside to go see Becca.
+CAnd now he's not here walking home with us. Do you think maybe he--
+Let's not even talk about it.
+JMaybe it's better just to get some sleep and forget tonight ever happened.
+>Actually... I have to write about 'football life' for Vasquez.
+I'll write about...
+%Football players' relationship drama.
+The party scene.
+The game itself.
+>Sounds like my kind of essay! I'll look forward to reading it!
+BG_INT_DORM_BEDROOM_NIGHT
+=You spend all night at your laptop, writing your heart out...
+BG_INT_OFFICE_PROFESSOR
+MUSIC_COLLEGE_COMEDY_MISCHIEF
+And the next day...
+James
+fThere you are. It looks like you <i>somehow</i> managed to satisfy the professor with your assignment.
+Is it that hard to believe?
+<Honestly? Yes. He pretty much hates everyone and everything.
+Consider me impressed.
+%I'll try not to let it go to my head.
+CYou catch James's grin just as Professor Vasquez clears his throat.
+
+Star Pupil
+,Your standing with Vasquez will be affected.
+Vasquez
+lThis... this is perfect. It's got all the heartache of a Victorian romance, but situated in a modern milieu.
+0And the evil sorority girl is a perfect villain.
+
+Star Pupil
+,Your standing with Vasquez will be affected.
+NThis... this is perfect. These are the sort of rich details I was looking for.
+RWho knew jello shots still existed? I thought those went out of style in the '70s!
+0And the evil sorority girl is a perfect villain.
+;Sounds a little dry... but maybe that's what Vasquez wants.
+=You spend all night at your laptop, writing your heart out...
+And the next day...
+Bottom of the Curve
+,Your standing with Vasquez will be affected.
+cThere you are. As expected, your assignment completely failed to meet the Professor's expectations.
+DBut don't take it too personally. He hates everyone. And everything.
+XI thought your writing was totally adequate though slightly dry. It bordered on... good.
+UWow. Easy with the compliments. I'll try not to let all of this praise go to my head.
+CYou catch James's grin just as Professor Vasquez clears his throat.
+>'The touchdown was good, followed by yet another extra point!'
+eIf I'd wanted a banal recounting of the facts, I would have picked up a copy of the school newspaper!
+aI recruited you to get me a <i>true</i> insight into student life. This... this is surface level.
+*This essay is worse than bad. It's boring.
+<I... I'm really sorry, okay? I just had a really hard night.
+GMy friend Chris apparently fell in love with this evil sorority girl...
+EAnd we got stuck at this awful party with a bunch of horrible people.
+ Awful party? Evil sorority girl?
+2<i>Those</i> are the details I want to hear about.
+;In fact... I think I just figured out your next assignment!
+:<i>You</i> are going to join the Kappa Phi Sigma sorority!
+...
+Round One...
+
+Time to...
+Score!
+Miss.
+Drop...
+ 
+Great shot!
+That's what I'm talking about!
+That could have gone better...
+Round Two...
+
+My turn...
+;<i>You should try to distract her! Get inside her head!</i>
+Hey, Becca...
+I love your outfit!
+You look so pretty!
+There's a stain on your dress!
+A stain? What? Where?!
+Becca's shot misses wide!
+Great work!
+>Oops. I guess it wasn't a stain at all. Just a shadow. My bad!
+Sorry you missed your shot.
+It's not over yet...
+
+Thanks for the compliment!
+
+She easily sinks her shot.
+Ugh.
+ You're making this way too easy.
+Round Three...
+>I've been watching you toss... and I think I have some advice.
+BAdding a little <red>backspin</red> will help you sink more shots.
+)Nothing's gonna help {You} win this game!
+_Are you guys talking physics? Because I've got a lot of thoughts on the trajectory of the ball.
+OSee, if {You} was able to increase the angle of her arc by about ten degrees...
+Guys... I'm getting confused.
+>Don't listen to anyone else, {You}! Just remember what I said!
+Gotta use some...
+
+Frontspin!
+	Sidespin!
+	Backspin!
+Great work!
+Nothing but net!
+You've got to be kidding me...
+No...
+)Too bad, {You}. That was <i>so</i> close!
+&It all comes down to the final shot...
+Here goes nothing.
+HYour ball sails through the air... and lands right in Becca's final cup!
+,That's... that's impossible! I'm unbeatable!
+Queen of Pong
+You beat Becca at beer pong!
+;Correction. You <i>were</i> unbeatable. Until I came along.
+2Becca closes her eyes... and makes the shot blind!
+
+That... that's impossible.
+Loser's Bracket
+Becca beat you at beer pong!
+?Don't take it too hard, sweetie. Some of us are born winners...
+#And other people... well, you know."
+main"
+doParty1"
+
+doPongGame÷*-*#*,*/*0*1*-*#***
+****)**)**
+*****/*0*1**)**–*)****)****)***)**ˇ*Ë*)**	**)**
+*)*****)	*****)	*****)	*****)	*****)	*****)	****)	*****)	***
+**)	****)	***)
+*****)***)** *)***)*2**3*
+**%ü**!**)	***"**)	***#*)	***$*)	***%*)	***&**)	***'*)	***(*)	**#Æ**)**)	******)	***+**)	***,*)	***-**)	***.*)	***/*)	***0*)	***1*)	***2*)	**3*)**4***)**5***)***)*2**3*
+**%¨**6**)	***7*)	**8*)**9*:*)	***;*)	**9*<**)	**=*>*)**ˇ*Ë*)**?*Ë*)***@**)	***A**)	***B*)	**C*)***D**)	**E*)***F**)	***G*)	***H*)	**#Ó**I**)	***J*)	**K*)**9*L*)	***M*)	**N*)***O**)	**9*P**)	***Q**)	**9*R*)	***S**)	**9*T*)	***U*)	**ˇ*Ë*)**?*Ë*)**V*)**W*X**)	**Y*Z**)	**Y*[**)	**\*]**)	**–*)**^**)***_*)	**\*`**)	***a*)	**\*b**)	**c*)**\*d*)	**e*)
+*****)**f*)**g*)**h*)***)*2**3*
+**%’*i*j*)**\*k*)	**\*l*)	***m*)	***n**)	**\*o*)	**#ı*3***%Ê*\*p*)	***q*)	**\*r*)	**#ı**s**)	***t**)	**\*u**)	**–*)**v**)**w*)**Y*x**)	**\*y**)	***z*)	**Y*{*)	**9*|**)	**}*)**W*~**)	**Y***)	**9*Ä*)	**Å*)***Ç*)	***É*)	**\*Ñ**)	**9*Ö**)	**9*Ü**)	**Y*á**)	***à**)	**â*)
+*****)**ä*)**ã*)***)*2**3*
+**%∆****)	**ç*)**–*)**é**)***-*#÷**2**3***%*è*)***ê*)	**\*ë**)	***í**)	**#≈*ì*)**W*î**)	**Y*ï**)	**ñ*)**\*ó*)	***ò**)	**\*ô**)	**ö*)***õ**)	***ú*)	***ù*)	***û*)	**ü*)**\*†*)	**#“**°**)	**¢*)**\*£*)	**ˇ*Ë*)**	*Ë*)**–*)**§**)**•*)**\*¶*)	***ß*)	**\*®*)	***©**)	**\*™*)	***´**)	**\*¨**)	***≠**)	**Æ*)
+*****)**Ø*)**∞*)**±*)***)*2**3*
+**%´*\*≤*)	***≥**)	**#–*3***%Ω*\*¥*)	***µ**)	**\*∂*)	**#–*\*∑**)	***∏**)	**\*π**)	**\*∫*)	***ª**)	**\*º*)	***Ω*)	**\*æ*)	**ø*)
+*****)**¿*¡*)**¬*)**√*)***)*2**3***%§**ƒ*)	***≈*)	***∆*)	**–*)****)**«*)**\*»*)	***…*)	*** **)	**\*À**)	**#ú
+*3***%”**Ã*)	**\*Õ*)	***Œ**)	**\*œ*)	**–*)****)**–*)**\*—**)	**\*“**)	**\*”**)	**#ú
+*–*)**‘**)**’*÷*)**◊*)***ÿ**)	**\*Ÿ**)	**\*⁄*)	**\*€*)	**‹*)***›*)	**ﬁ*)***ﬂ*)	**\*‡*)	**·*)
+*****)**‚*)**„*)***)*2**3*
+**%ò	*‰*)**\*Â*)	**Ê*)***Á*)	**\*Ë*)	**\*È*)	**Í*)
+*****)**Î*)**Ï*)***)*2**3*
+**%˝**Ì*)	**\*Ó*)	***Ô*)	**ˇ*Ë*)***)**\*Ò**)	***Ú**)	**ˇ*Ë*)**	*Ë*)**Û*)**Ù*ı*)**\*ˆ*)	***˜**)	**#ó	*\*¯*)	***˘*)	***˙**)	**\*˚**)	**¸*)***˝**)	**#≥	**˛*)	**\*ˇ**)	***Ä*)	**\*Å**)	**\*Ç*)	***É**)	**\*Ñ*)	***Ö**)	***Ü**)	**á*)**\*à**)	**–*)****)**â*)**\*ä**)	**\*ã**)	**\***)	**\*ç**)	**é*)
+*****)**è*)**ê*)***)*2**3*
+**%ç
+**ë**)	**\*í**)	**\*ì**)	**#ú
+**î**)	**\*ï**)	**\*ñ**)	**9*ó*)	**Y*ò*)	**\*ô**)	***ö**)	**õ*)**–*)**§**)**ˇ*Ë*)**ú*Ë**)**ù*)***û*)	***ü**)	***†**)	***°**)	***¢**)	***£**)	***§**)	**•*)
+*****)**¶*)**ß*)**®*)** *)*2**3*
+**&Ç*3***%ﬂ**©*)	**ˇ*Ë*)**™*Ë*)**´*)**ˇ*Ë*)**¨*Ë*)**–*)**≠**)**Æ*)**Ø*∞*)	***±**)	**Ø*≤*)	**Ø*≥*)	***¥**)	**µ*)**3*
+**%Œ*∂*∑*)**∏*π*)	**∏*∫*)	**#ﬁ*ª*º*)**∏*Ω*)	**∏*æ*)	**∏*ø*)	**#¬**¿*)	**ˇ*Ë*)**™*Ë*)**¡*)**ˇ*Ë*)**¨*Ë*)**–*)**≠**)**¬*)**√*ƒ*)**Ø*≈*)	**Ø*∆*)	**Ø*«*)	***»*)	**…*)**∏* **)	**∏*À**)	**∏*Ã**)	**∏*Õ*)	***Œ**)	***œ**)	***–**)	**∏*—**)	**∏*“*)	**∏*”*)	**∏*‘*)	***’**)	**Ë*)**
+*****/*0*1**
+*2**÷*)**◊**)
+*****)**ÿ*)**Ÿ*)**⁄*)***)*2**3*
+**%à****€*‹*ˇÅÄ¯ˇˇˇˇˇ*)***›**)	**#ç**ﬁ**)	**ﬂ*)**Y*‡**)	***·*)	**‚*
+*)
+*****)**„*)**‰*)**Â*)***)*2**3***%”****Y*Ê**)	**Á*)**€*Ë*ˇÅÄ¯ˇˇˇˇˇ*)***È**)	***Í**)	**Y*Î**)	**#Â*Y*Ï**)	**Ì*)***Ó**)	**Y*Ô**)	***)***Ò*)	***Ú*)	**Y*Û**)	***Ù*)	***ı*)	***ˆ**)	***˜*)	**¯**)
+*****)**˘*)**˙*)**˚*)***)*2**3***%≥****€*¸*ˇÅÄ¯ˇˇˇˇˇ*)***˝**)	**Y*˛**)	**#Ω**ˇ**)	**Y*Ä**)	**Å*)**3***%ﬂ**Ç**)	**É*)**Y*Ñ**)	**Ö*Ü*)***á**)	*******#˜*à*)***â**)	**ä*ã*)**Y**)	**Y*ç*)	**
+*****
+****B"
+
+chris_kiss
+
+2tifl9"ayvzr8J btanvk8jwoswtq

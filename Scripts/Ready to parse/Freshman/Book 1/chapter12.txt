@@ -1,0 +1,347 @@
+Character:
+Tyler
+Character:
+Chris
+Character:
+James
+Character:
+Abbie
+Character:
+Becca
+Character:
+Leila
+ENDOFCHARACTERS
+MUSIC_COLLEGE_TENSE_ACTION
+You
+BG_LIGHTS_AMBIENCE_NIGHT
+)Chapter Twelve: The Birthday Girl, Part 2
+The Freshman
+BG_INT_CLUB_BAR_NIGHT
+^Chris and Becca cut a path through the crowded club as they make their way over to your group.
+Zack
+Incoming drama in three, two--
+SAD
+Chris
+)Hey, guys... what are you all doing here?
+	SURPRISED
+Becca
+dWho cares? Tonight's supposed to be about <i>us</i>, Chris. You can see your roommates any old time.
+ANGRY
+DReally? Cause it kind of feels like we never see you anymore, Chris.
+TYeah, it's only Kaitlyn's birthday... but I guess that's not a big priority for you.
+-Oh, crap... I totally forgot. I'm so sorry...
+Kaitlyn
+(It's fine, really. Don't worry about it.
+qNo, it's not fine. I'm sorry I haven't been around more. It's just that things have been kind of weird between...
+HChris gives you a meaningful look, earning you an evil glare from Becca.
+Well, Chris...
+NEUTRAL
+&I'm not the one who's making it weird.
+1I guess we should just steer clear of each other.
+TThen I will. Come on, Chris... let's go find somewhere with a little more privacy...
+,Perfect. Glad we can all agree on something.
+GCome on, Chris... let's go find somewhere with a little more privacy...
+fAs Becca leads Chris away, Kaitlyn tosses back the rest of her drink and slams the glass on the table.
+8Ugh, I can't believe they're here on <i>my</i> birthday!
+Leila
+KI mean, this club is open to the public... it's not like you reserved it...
+ Yeah, I know that, <i>Leila</i>.
+3Aren't your friends, like, wondering where you are?
+=No need to be nasty just because you're <i>jealous</i> of me.
+GI'm going to go use the restroom, Tyler. Dance with me when I get back?
+Tyler
+Yeah, sounds good!
+.Kaitlyn shoots you a look and whispers to you.
+^This is our big chance. Abbie needs to make a move <i>now</i> or she could lose Tyler forever!
+"You lean over to whisper to Abbie.
+Hey, Abbie...
+&Ask Tyler to dance while Leila's gone!
+abbie_dance
+Just checking in...
+Relationship Improved
+0Tyler and Abbie's relationship will be affected.
+MUSIC_COLLEGE_ACTION_FUN
+RAbbie glowers after Leila as she disappears into the restroom and downs her drink.
+You know what? I think I will!
+OAbbie stands up and grabs Tyler by the wrist, pulling him onto the dance floor!
+
+leila_left
+/I'm so pissed at Leila! She's the <i>worst!</i>
+8She's not great... but you did snap at her a bit, Abbie.
+3Well... so what! Christ, now <i>I</i> need a drink.
+ÑAbbie gets up and leaves without a second look. After a while, Leila returns from the restroom and pulls Tyler onto the dance floor.
+@Not exactly the happy night out with friends I was hoping for...
+âYeah, it kind of feels like everything that could possibly go wrong <i>has</i>. First this Abbie and Tyler stuff, then Chris and Becca...
+aYou glance over in time to see Becca pull Chris into a passionate kiss and immediately look away.
+.Guys! We can't let all that stuff get us down!
+NLet's dance! It'll be fun. Especially if we grab a few more drinks on the way!
+HAPPY
+nKaitlyn hauls you and Zack out of the booth and over to the bar, where she orders drinks for the three of you.
+BG_INT_PARTY_NIGHT
+±A bright glow creeps into Kaitlyn's cheeks as she downs her Manhattan, and soon the three of you are on the dance floor, pulsing in time to the music with the rest of the crowd.
+-See? We don't need everyone else to have fun!
+Amen!
+called_brandon
+3Speaking of which... look who just walked in, Zack!
+Brandon!
+Brandon
+)Hey. {You} told me to come by. That cool?
+
+Very cool.
+Wanna dance?
+God yes. Let's go!
+<Just one second, actually... gotta talk to {You} real quick.
+Sure, what's up?
+_Just wanted to thank you for making this happen. I'd almost given up on ever hearing from Zack.
+No problem!
+"Now quit thanking me and go dance!
+/Just make sure you take good care of him, okay?
+I will.
+Zack mouths a thank-you at you as he and Brandon drift off to the center of the dance floor. Kaitlyn comes up and nudges you with her elbow.
+>Nice work, {You}. You're becoming quite the little matchmaker.
+Who, me? I barely did anything.
+;Zack stares into the bottom of his drained glass and sighs.
+;Although... it would've been cool if Brandon had come, too.
+Yeah... sorry, Zack.
+/No worries. I'm just gonna get another drink...
+>As Zack leaves for the bar, Kaitlyn nudges you with her elbow.
+QDo you want to rest for a bit? These shoes are <i>not</i> great for dancing in...
+$Yes, please. My feet are killing me.
+tyler_abbie
+Where are we going?
+%We're dancing, okay? Just go with it!
+Woo! Get it, Abbie!
+ Where did <i>that</i> come from?
+FI may have told her to steal Tyler while Leila's out of the picture...
+You are officially my hero.
+bThe three of you watch from your booth as Tyler and Abbie dance close together, nearly touching...
+1Should we give them some privacy or keep staring?
+.Let's try to find something else to look at...
+_You look away from Abbie and Tyler just in time to see Becca pull Chris into a passionate kiss.
+Or not.
+Uh oh! Leila en route!
+ZLeila marches across the dance floor toward Tyler and Abbie, her fists balled up in anger!
+This could get ugly...
+PYou and your friends get up and join Tyler, Abbie, and Leila on the dance floor.
+Leila!
+>Yeah, remember me? The girl you said you'd dance with tonight?
+Let's all just calm down, okay?
++It was just one dance, Leila, it's no big--
+AShut up, Abbie! You're so obviously jealous of me, it's pathetic.
+Hey!
+	Not cool.
+'That was totally uncalled for, Leila...
+jSure, take her side. She's only interested in you now that she can't have you, Tyler. Anyone can see that.
+I...
+MUSIC_COLLEGE_TENSE_SAD
+ I guess I can't argue with that.
+Tyler, that's not true!
+.Really? Then why did you turn me down earlier?
+4I didn't understand what you were asking! I'm sorry!
+9Right. Whatever, Abbie. I'm tired of being played with...
+Tyler...
+
+Abbie's telling the truth.
+*You only like Leila because she likes you.
+=Yeah, we all know she's not exactly great at relationships...
+Hey!
+1But that doesn't mean she doesn't care about you.
+Wow, {You}, I'm right here...
+!You also just insulted my friend.
+OThis is all <i>way</i> too confusing. I think I need to be alone for a while...
+BFine. If you ever figure out what you really want, give me a call.
+MLeila storms out of the club, and Tyler goes to the bar to get another drink.
+[Well... that wasn't exactly how I wanted things to go, but at least Tyler knows how I feel.
+4And Leila's gone, which is always a plus in my book.
+[I think I'm going to sit down for a while, too... I'm not really in a dancing mood anymore.
+&Let us know if you want to talk, okay?
+Will do.
+@As you leave Abbie at your booth, Zack turns to you and Kaitlyn.
+%So... what should the three of us do?
+MUSIC_COLLEGE_FUN_CHILL
+ΩYou and Kaitlyn find a bare patch of wall in the club and lean against it, watching the silhouettes of figures moving on the dance floor, their faces briefly illuminated by flashing lights.
+ So... how's your birthday going?
+^Mmm... it's pretty good. I think that has more to do with drinking than anything else, though.
+8Yeah, you were going hard earlier. Are you feeling okay?
+<Better than okay. Just... glad to get off my feet for a bit.
+ôKaitlyn slips down the wall, and you reach out to catch her. She slumps into your arms, laughing, then throws an arm around your waist to steady herself.
+Oops. Sorry...
+Do you want to sit down?
+?No, I'm good, I promise. Besides, I like this. Standing here...
+MUSIC_COLLEGE_LOVE
+	With you.
+0Kaitlyn closes her eyes and takes a deep breath.
+
+Kaitlyn...
+I feel the same way.
+'Is there something you want to tell me?
+Relationship Improved
+0Your relationship with Kaitlyn will be affected.
+EKaitlyn's eyes flutter open, and a big smile spreads across her face.
+Really?
+
+Of course.
+Kaitlyn turns to face you, leaning her head against the wall. One of her knees grazes yours just below the hem of your dress...
+{You}...
+Yeah?
+@You know how I said I wanted to get my courage up for something?
+Yeah...
+"This is what I needed courage for.
+ZKaitlyn's eyes flutter open, and she turns to face you, leaning her head against the wall.
+Maybe.
+
+And... what might that be?
+@Remember how I said I wanted to get my courage up for something?
+Yeah...
+"This is what I needed courage for.
+GKaitlyn snakes her arm back around your waist and pulls you in close...
+(What should I do?)
+	Kiss her.
+
+Pull away.
+Something New
+You kissed Kaitlyn at the club!
+kissed_kaitlyn
+ãYou close your eyes and feel your lips meet Kaitlyn's, breathing in the scent of her perfume as the two of you sway in time to the music...
+ÉKaitlyn grabs your hips and pulls you even closer until your bodies press against each other. You try and fail to suppress a smile.
+Are you laughing at me?
+<Maybe a little bit. I didn't know you were so... aggressive.
+Too aggressive?
+I didn't say that...
+pJust as you're about to lean in to kiss Kaitlyn again, you notice a familiar face out of the corner of your eye.
+MUSIC_COLLEGE_LOVE_SAD
+James
+...
+MAcross the dance floor, you see James turn on his heel and head for the door.
+Uh oh.
+Was that James?
+)Yup. I completely forgot I invited him...
++Did... did you invite him, like, as a date?
+<You pull away, and Kaitlyn opens her eyes, looking startled.
+What's wrong?
+(Are you... are you not interested in me?
+I...
+I'm not, no.
+I don't know...
+<Oh no. Did I... did I just ruin everything? I did, didn't I?
+I'm such an <i>idiot!</i>
+LTears start to glisten in Kaitlyn's eyes, and you pull her into a tight hug.
+CYou didn't ruin anything. I just... didn't expect that, that's all.
+DJust then, you notice a familiar face out of the corner of your eye.
+...
+MAcross the dance floor, you see James turn on his heel and head for the door.
+rKaitlyn, I'm sorry, I... I just spotted James leaving. I invited him here tonight, and I should at least say hi...
++Did... did you invite him, like, as a date?
+Um...
+Something like that...
+No, just as friends.
+I don't know.
+@Kaitlyn hangs her head and refuses to make eye contact with you.
+VKaitlyn... I'm sorry, okay? I... I didn't know that tonight would turn out this way...
+4Well, sorry if I made things inconvenient for you...
+6Let's talk about this later. I'll be right back, okay?
+Okay...
+Oh... that's cool.
+5Don't act coy. I'm sure you're thrilled to hear that.
+%Maybe a little bit. Hurry back, okay?
+I will.
+YOkay. Well... don't keep him waiting on my account. Seeing as we're 'just friends' too...
+VKaitlyn... I'm sorry, okay? I... I didn't know that tonight would turn out this way...
+4Well, sorry if I made things inconvenient for you...
+6Let's talk about this later. I'll be right back, okay?
+Okay...
+:Well... okay. I don't know what to make of that, but okay.
+NKaitlyn, I'm sorry. I... I didn't know that tonight would turn out this way...
+4Well, sorry if I made things inconvenient for you...
+6Let's talk about this later. I'll be right back, okay?
+Okay...
+qWell, don't keep him waiting on my account. Unlike you and James, our relationship is <i>perfectly</i> clear now.
+NKaitlyn, I'm sorry. I... I didn't know that tonight would turn out this way...
+4Well, sorry if I made things inconvenient for you...
+6Let's talk about this later. I'll be right back, okay?
+Okay...
+BG_EXT_TOWN_CENTER_NIGHT
+DYou make a beeline for the door and catch James out on the sidewalk.
+James, wait!
+Oh. It's you.
+What's that supposed to mean?
+ÖI don't know, {You}. What was any of this supposed to mean? You ask me to come out tonight, and then I see you and Kaitlyn about to--
+NJames, I'm sorry. I didn't know that would happen. This is all so confusing...
+vTell me about it. You know, you get so down on Vasquez for causing all this drama in your life, but it's not just him.
+
+Excuse me?
+6You love it just as much as he does. Maybe more, even.
+That's not fair! I--
+OI didn't plan for that to happen! Kaitlyn just tried to kiss me out of nowhere!
+)Well, can you blame her? I mean, you're--
+	I'm what?
+2James takes a deep breath and turns away from you.
+tYou're trouble. You know, you get so down on Vasquez for causing all this drama in your life, but it's not just him.
+What are you saying?
+6You love it just as much as he does. Maybe more, even.
+That's not fair! I--
+4Chris bursts out onto the sidewalk, looking frantic.
+{You}!
+HGreat, another one of your conquests. See what I'm talking about, {You}?
+NThis isn't about that! {You}... it's Kaitlyn. She passed out right at the bar!
+$She's... she's totally unresponsive.
+<shake_portrait/>What?!
+\Chris, stay with {You} and call an ambulance. Show the paramedics inside when they get here.
+Where are you going?
+ZTo check on Kaitlyn. Trust me, I took some EMT classes last summer. I know what I'm doing.
+As James heads back inside, Chris pulls out his phone to call for an ambulance. You sink to the sidewalk, feeling a crushing sense of dread.
+0Yeah... Shade, downtown. We'll meet you outside.
+Please hurry.
+5Chris hangs up and sits down on the curb next to you.
+This is all my fault.
+9{You}, that's crazy... you can't blame yourself for this.
+But I <i>can</i>, Chris!
+9She only drank this much because she was nervous about...
+About what?
+-About... never mind. You wouldn't understand.
+7I... I think I would, actually. I kind of saw you guys.
+You did?
+ZYeah. By the way... I'm sorry Becca and I came here tonight. We didn't know you'd be here.
+XKaitlyn just wanted tonight to be perfect. How did everything get <i>this</i> messed up?
+NI... I pushed her away tonight. Then I totally ditched her to talk to James...
+Q{You}... I kind of saw what went down between you two. It's not your fault, okay?
+4Sounds nice when you say it, but... I'm not so sure.
+`Well, I am. By the way... I'm sorry Becca and I came here tonight. We didn't know you'd be here.
+MTonight should've been perfect. How did everything get <i>this</i> messed up?
+I don't know, {You}...
+:But so long as we're all together, we'll get through this.
+So... you're sticking around?
+.Of course. That's what friends are for, right?
+Right...
+qYou hear the sound of sirens, and the flashing red and blue lights of the ambulance illuminate the city street...
+ Please let everything be okay..."
+main"
+
+DanceFloor"
+
+AbbieTyleræ"
+KaitlynKiss«"
+	JamesTalk“	*-*#*,*/*0*1*-*#***-*#«***-*#“	***
+****)**)**
+*****/*0*1***)****)***)***)***	*)**ˇ*Ë*)**
+***)***)	**Ë*)
+***)*****)**Ë*)
+*****)*****)*****)*****)*****)*****)***
+**)***)***)*****)***)***)***)*2**3*
+**%è** **)**#ò**!**)***"*)**#*)***$**)**%*&**)***'**)***(**)**%*)**)**%***)**+*,**)**-*)***.*)**/*)**0*)*****)**1*2*)**3*)***)*2**3*
+**%˘*4*5*)**Ë*)**6**)**7*)***8**)**9*)**-*#æ***#°*:*
+*)***;**)***<**)***=**)**>*)***?**)***@**)**A*)***B**)**Ë*)**6**)***C*D*)**E*)**ˇ*Ë*)**F*Ë***)**G*)***H*D*)***I*D*)**J*)***%ù**K*D*)***L**)**M*N*D*)***O*D*)**M*P*)***Q*D*)**M*R*D*)***S*D*)**M*T*D*)**U*)*****)**V*)**W*)***)*2**M*X*D*)**Y*)***Z*D*)***[*D*)**#≤*\*)***]**)***^**)***_**)**`*)***a*)***b*)**
+*****/*0*1*c**)**+*d**)***e**)***f*D*)***g**)***h*D*)***i*D*)**j*)***k*D*)***l*D*)**m*)**Ë*)****)***n**)***o**)**p*)***q**)**r*)**+*s**)**%*t**)***u**)***v**)**%*w**)***x**)***y**)**+*z**)**%*{**)**+*|**)**Ë*)**}**)**+*~**)*****)**+*Ä**)***Å**)**+*Ç**)**É*)*****)**Ñ*)**Ö*)***)*2**3*
+**%á**Ü**)***á**)***à**)**#ë*%*â**)***ä**)**+*ã**)**%***)**ç*)***é**)***è**)***ê**)***ë**)***í**)**ì*)***î**)**:**)**
+*****/*0*1*Ë*)**ï**)**ˇ*Ë*)**F*Ë***)**ñ*)***ó*D*)***ò*D*)***ô*)***ö*D*)**õ*)***ú*D*)***ù*)***û*D*)**Ë*)**ü**)***†*)**°*)**¢*)*****)**£*)**§*)***)*2**3*
+**%—*•*¶*)**ß*)***®*D*)***©*D*)**™*)***´*)***¨*)***≠*)***Æ*D*)***Ø*D*)**#Ï*∞*)***±*D*)***≤**)***≥*)***¥**)***µ*D*)**∂*)**∑*)*****)**∏*)**π*)***)*2**3*
+**%Œ*∫*ª*)**º**)**Ω*)**æ*)***ø*D*)***¿*D*)***¡*D*)***¬*D*)**√*)**Ë*)**ƒ**)**≈*∆**)**«*)***»**)***…**)*** **)***À**)**#ü*º*
+*)**Ë*)**ƒ**)**Ã*)***Õ**)***Œ**)**œ*)*****)**–*)**—*)***)*2***“**)***”**)**‘*)***’**)**÷*)**≈*◊**)**ÿ*)***Ÿ**)***⁄**)**€*)*****)**‹*)**›*)**ﬁ*)***)*2**3*
+**%–*ﬂ*)***‡**)***·**)***‚**)***„**)**#Œ	*3***%ñ	*º*)***%¸*Ë*)**ü**)***‰**)***Â*D*)***Ê*D*)***Á*D*)**Ë*)**ƒ**)**#ï	**Ë**)***È**)***Í**)***Î**)***Ï**)**#Œ	*º*)***%µ	**Ì**)***Ó**)***Ô**)*****)***Ò**)**#Œ	**Ú**)***Û**)***Ù**)***ı**)***ˆ**)**
+*****/*0*1*ˇ*Ë*)**˜*Ë*)**¯*)***˘**)**≈*˙**)***˚**)**≈*¸**)**º*)***%ì
+**˝**)**≈*˛**)***ˇ**)**≈*Ä**)***Å**)**#π
+**Ç**)**≈*É**)***Ñ**)**Ö*)**≈*Ü**)***á**)**≈*à**)***â**)**Ë*)**}**)**ä*)***ã**)**≈***)***ç**)***é**)***è**)**≈*ê**)***ë**)**≈*í**)**ì*)***î**)***ï**)**ñ*)***ó**)***ò**)***ô**)**º*)***%≥**ö**)***õ**)***ú**)***ù**)***û**)***ü**)***†**)**#Ã**°**)***¢**)***£**)***§**)***•**)***¶**)***ß*)***®**)***©*)***™**)**´*)***¨**)**Ë*)**
+****B#
+abbie_dance
+
+j22ykt"k6gikkJ bifgndyjic0tmn

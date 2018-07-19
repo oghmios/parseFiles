@@ -1,0 +1,394 @@
+Character:
+Tyler
+Character:
+Chris
+Character:
+James
+Character:
+Abbie
+ENDOFCHARACTERS
+MUSIC_COLLEGE_FUN_CHILL
+BG_LIGHTS_AMBIENCE_NIGHT
+Chapter Three: The Assistant
+The Freshman
+BG_INT_DORM_MAIN_DAY
+You
+\After you get off the phone with your parents, you meet up with your friends in the kitchen.
+Kaitlyn
+
+{You}? Is everything okay?
+SAD
+*I... I don't think so. My family is broke.
+JWhat started off as the best week of my life just turned into a nightmare.
+Zack
+/We can't lose you! We've... we've <i>bonded!<i>
++I guess there's only one thing to do now...
+I have to...
+NEUTRAL
+Enjoy the time I have left.
+Find a way to stay.
+MUSIC_COLLEGE_COMEDY_MISCHIEF
+Who's ready to party?
+HAPPY
+Tyler
+4Not me. I'm still feeling the effects of last night.
+DDon't listen to this wet blanket, {You}. Let's do this thing. Shots!
+Abbie
+DAre you kidding me? We're <i>not</i> drinking at ten in the morning.
+	SURPRISED
+Chris
+8And I'm <i>not</i> letting {You} just give up and leave!
+MUSIC_COLLEGE_ACTION_FUN
+#I'm not going down without a fight!
+Hell yeah! That's the spirit!
+Maybe you could get... a job?
+XNo offense, but tuition runs like $50k a year here. Minimum wage isn't gonna cover that.
+UThere's gotta be some way you can stay... I mean, I'm here on a football scholarship.
+@I don't think I'm exactly what the football team is looking for.
+?Maybe not, but I'm sure there are other scholarships available.
+\Not a bad idea, Chris. It might be worth a trip to the financial aid office to check it out!
+BG_INT_OFFICE_GENERIC
+A few minutes later...
+Twombly
+Next!
+KHi there! My friend just realized she's super poor and needs a scholarship!
+Kaitlyn!
+eWhat? It's true. Besides, if we're trying to get this done fast, we've got to cut right to the chase.
+%Let's see here... any special skills?
+Actually...
+I'm a star athlete!
+I'm a scholar!
+I'm not special at all...
+ Really?! What sport do you play?
+All of 'em.
+-You're gonna have to be more specific, honey.
+ÇOh, well in high school I played basketball, soccer, and volleyball. And softball. Also, I started an intramural dodgeball league.
+I guess you weren't kidding.
+*I had no idea you were such a jock, {You}.
+^Unfortunately... it looks like all of our athletic scholarships have already been distributed.
+*I was the valedictorian at my high school!
+4What? How come you never told me you're a huge nerd?
+BJust because I happen to get great grades doesn't mean I'm a nerd!
+ANGRY
+]Whether you're a nerd or not, all of our academic scholarships have already been distributed.
+Well, at least you're honest...
++But we don't give scholarships for honesty.
+"Aw, {You}! I think you're special.
++Hey, at least you have good friends, right?
+FYeah... I can't wait to watch them all have fun at college without me.
+pSorry, honey, but I can't just give you a scholarship out of the kindness of my heart. It doesn't work that way.
+!There has to be <i>something.</i>
+HWell... there is... one thing. But I'm not quite sure you'd be up to it.
+"Thanks for the vote of confidence!
+ZIt's nothing personal. It's just, well... we do have one research assistant position open.
+3It would pay for your tuition, plus room and board.
+"But... it's for Professor Vasquez.
+tProfessor Enrique Vasquez?! The famous author? <i>The Names of All Lost Things</i> is one of my favorite books ever!
+!Working for him would be amazing!
+.Spoken like someone who's never met the man...
+pProfessor Vasquez has taken on over a dozen assistants in the last five years. None has lasted more than a week.
+Until now...
+That's what they all say...
+The thing about me is...
+I'm special.
+I'm desperate.
+lBelieve me, honey... the real world doesn't care how special you are. And Professor Vasquez certainly won't.
+$Is that supposed to be a good thing?
+
+Uh... yes?
+If you say so...
+
+Good luck. You'll need it.
+BG_INT_OFFICE_PROFESSOR
+
+MUSIC_COLLEGE_ACTION_CHILL
+A few minutes later...
+
+I think this is the place.
+!Time to make my first impression.
+James
+Hello?
+????
+KYou! You're that guy I saw across the quad the first day. I... er.. wait...
+
+Are you...
+Professor Vasquez?
+
+A student?
+Single?
+ Guilty as charged. And you are--
+????
+<Your new assistant, {You}! Anything you want, I'm your girl!
+1Great... because I could really use an Americano.
+????
+ Sure thing! I'm at your service.
+HPerfect. There's a little shop downtown that <i>really</i> knows their--
+????
+=Guilty as charged. I'm Vasquez's... well, protege, I suppose.
+????
+fHe helps me with the play I'm writing, I help him with odds and ends while he's... between assistants.
+????
+RFor a second, I thought you might mistake me for the professor. What gave me away?
+????
++The fact that you're not seventy years old.
+;Hey, I could just be an old guy that looks good for my age.
+????
+I never said you looked good.
+So you don't think I--
+????
+3Actually, I'm in a pretty committed relationship...
+????
+;...with my work. The play I'm writing is basically my life.
+????
+9So I guess that doesn't leave much room for a girlfriend.
+Relationship Improved
+.Your relationship with James will be affected.
+6Well, even Shakespeare took a break from time to time.
+????
+FYour conversation is interrupted as a voice shouts from down the hall.
+Q<i>James! I've lost my latest pages again! Get in here and help me find them!</i>
+Voice
+I'd better get on that.
+Wait. So you're not Vasquez?
+OLooks like you caught me. Too bad. I was really looking forward to that coffee.
+4If you're not Vasquez, then what are you doing here?
+ÜProfessor Vasquez is my mentor. He helps me with the play I'm writing, I help him with odds and ends while he's... between assistants.
+I'll let him know you're here.
+HHere's hoping you stick around. I'll let the professor know you're here.
+As James leaves, a notebook falls from his backpack onto the floor. Kaitlyn surreptitiously snatches it up and reads the cover.
+3Looks like someone dropped the script for his play!
+6Should we run after him? I'm sure he'd want it back...
+4Yeah, but if we did that, we'd never get to read it!
+(Kaitlyn eagerly flips through the pages.
+qBlah blah, class disparity, blah blah, working conditions in Victorian London... oh <i>here's</i> something good!
+@Kaitlyn! I'm not sure James would want you looking through that.
+FThis is getting juicy. Apparently James has a... creative imagination.
+What are you talking about?
+CI'm not sure I should show you... it might warp your innocent mind.
+Kaitlyn!
+3This is hot stuff. Tell you what. One time offer...
+8You and I can do a little line reading? What do you say?
+
+Come on...
+Let's read that scene!
+	read_play
+Don't read it.
+	read_play
+*Just then, you hear footsteps approaching.
+Vasquez
++Who is making all of this racket out here?!
+.Sounds like my cue to leave! Good luck, {You}!
+"An older man storms into the room.
+0You! Are <i>you</i> the one disturbing my peace?
+Aw. You're no fun.
+BAnyway, I should probably get going. Good luck with Vasquez, okay?
+?As Kaitlyn leaves, you hear the sound of footsteps approaching.
++Who is making all of this racket out here?!
+3James follows the professor as he storms up to you.
+%We... we were practically whispering.
+;Professor, allow me to introduce your new assistant. {You}.
+KAssistant. What a joke. Have you ever <i>assisted</i> anyone before, {You}?
+GI mean... not professionally. But I like to think of myself as helpful.
+0My last assistant thought she was being helpful.
+dRight up until the moment she 'helpfully' lost a flash drive containing three months' worth of work!
+tAnd then there was the assistant before her. <i>He</i> thought it would be helpful to hum while he dusted my office.
+gThat cacophonous melody was rattling around my head for weeks! I couldn't write a word on my new novel!
+XAnd then there was the last guy. He had a distracting sense of fashion! So many stripes!
+How... terrible for you.
+XTerrible is an understatement. Do you think Faulkner had to deal with such distractions?
+A<i>His</i> family afforded him the peace and quiet of their barn!
+7He got quiet solitude. All I get are <i>assistants.</i>
+:I understand... but I won't be like your other assistants.
+And why exactly is that?
+I'm different because...
+I'm a fast learner!
+I'm willing to do anything!
+I'll actually stand up to you!
+?Everyone makes mistakes... but I never make the same one twice!
+'Weren't you listening to a word I said?
+>Around here, one mistake is grounds for immediate termination!
+CI already assumed that was a prerequisite! Extremely disappointing.
+.I don't take crap from anyone. Especially you.
+AObeying my every command is basically the entire job description!
+Get out!
+MYou turn and take a step toward the door. Then you stop and look back at him.
+No.
+No?
+#I won't get out. I'm going to stay.
+JYesterday was incredible. I made friends faster than I ever have before...
+chris_hookup
+(I may have even met the love of my life.
+ZI... I can't just walk away from this. I know in my heart that this is where I need to be.
+6And I'm not going to let some angry old man ruin that!
+)Listen to you. Reactive. Angry. Entitled.
+?<shake_portrait/>You're a caricature of your entire generation!
+IAs he says the words, Professor Vasquez stops for a moment... and then...
+FWhich actually makes you exactly the person I'm looking for after all.
+<shake_portrait/>What?
+I'll explain later.
+achievement_enrolled
+PFor now, I'll accept you as my assistant on a trial basis. Starting immediately.
+kIn fact, I have a pressing matter that I need you to take care of tonight. Let's call it your first test...
+Anything! I'm on it!
+MVasquez walks over to his bookshelf and pulls out a massive, dusty old novel.
+_This is my second novel, <i>A Winter in July.</i> It needs to be digitized by tomorrow morning.
+$No problem! I'll scan it right away!
+]Actually... no. I need it formatted as a text document. You'll have to transcribe it by hand.
+&But... but it's like a thousand pages!
+)In that case... you'd better get to work.
+,Let's see... <i>Rosethorne Park.</i> Act IV.
+rLooks like you'll be Lady Elizabeth Darling, and I'll be William, the stableboy turned soldier, back from the war.
+8Hey! Why do you get to be the cool, brooding heartthrob?
+.I think that's obvious. Now let's get started.
+O<i>Lady Elizabeth Darling wakes up to find her bedroom bathed in moonlight.</i>
+A<i>Then, as she watches, a shadow appears at the open window.</i>
+Your line, {You}.
+=<i>Be warned, intruder! I keep a knife beneath my pillow.</i>
+I<i>Careful, then. I'd hate to die before tasting your lips once more.</i>
+0<i>The figure enters the room. It's William.</i>
+)<i>You... you know you can't be here.</i>
+i<i>William pulls off his shirt and tosses it to the floor, his eyes on the knife in Elizabeth's hand.</i>
+n<i>If you mean to stab me, do me the courtesy of giving me a quick death. I can't live without you anyway.</i>
+s<i>Elizabeth lowers the dagger from his chest to his trousers... then cuts through his belt in a single stroke!</i>
+HOh wow. I can't believe James wrote this. He seems so... straight-laced.
+%Sometimes people will surprise you...
+D<i>Elizabeth reaches forward and gently strokes William's cheek.</i>
+AUh, are we following stage directions too, or just reading aloud?
+I leave that up to you.
+(What do you do?)
+Stroke Kaitlyn's cheek.
+Keep your hands to yourself.
+KYou brush Kaitlyn's cheek with the backs of your fingers, making her blush.
+Relationship Improved
+0Your relationship with Kaitlyn will be affected.
+Oh, {You}...
+#Uh, I mean... <i>oh, Elizabeth!</i>
+MShe places a hand on your waist and pulls you close, gazing into your eyes...
+:<i>You have no idea how long I've awaited this moment.</i>
+8<i>Sometimes the waiting makes it all the sweeter...</i>
+_You place your hand on Kaitlyn's chest and feel her heartbeat against the tips of your fingers.
+{You}... I...
+&Let's just stick to the reading, okay?
+
+Of course.
+F<i>My lady, I am entirely at your mercy. Do with me what you will.</i>
+\<i>I suppose I can find a use for you... you can start by helping me out of this corset.</i>
+£<i>Elizabeth turns her back to William, tucking her long, plaited hair over her shoulder. He kneels behind her, his fingers going to the laces of her corset...</i>
+/<i>Not like that... with your <i>mouth</i>.</i>
+(Oh, wow, I did <i>not</i> expect that...
+/Seriously... is it getting hot in here or what?
+A-hem.
+%I hope I'm not interrupting anything.
+We were just--
+;Enjoying my play? Or at least, I hope you were enjoying it.
+Actually...
+
+I can't wait to read more.
+I've read better.
+Want to join in the 'reading?'
+Relationship Improved
+.Your relationship with James will be affected.
+GThat's nice to hear. I still don't quite know how to finish that scene.
+I have a couple of ideas.
+I bet you do.
+HBut just so you know, the Victorian era was all about unrequited love...
+!And <i>unconsummated</i> romance.
+BWell... there's no reason your play can't be the exception, right?
+I guess we'll see.
+AI thought the Victorian era was all about unconsummated desire...
+JWell, I don't want to be completely slavish to the conventions of the era.
+^But you may have a point. Perhaps the lovers should be interrupted before things go too far...
+Ouch. What a sad story.
+&It <i>is</i> supposed to be a tragedy.
+9It seems like the two of you have it pretty well covered.
+The more the merrier.
+Relationship Improved
+.Your relationship with James will be affected.
+3It's okay. I've always preferred two-person scenes.
+<But I'm glad the two of you were able to appreciate my work.
+7It seemed like you <i>really</i> inhabited those roles.
+'Oh yeah. I hate to do anything halfway.
+There's our roomie!
+1I heard from Kaitlyn that you got a research job!
+4Let's celebrate! The roof garden is calling my name!
+%Guys... there's nothing to celebrate.
+OVasquez is crazy. He wants me to transcribe his thousand-page novel... tonight.
+TEven if I work all night, I'll only be able to pound out a couple hundred pages max.
+lTyping at a hundred words a minute for eight hours, assuming 250 words per page... you'd generate 192 pages.
+,Wow. Did you just do that math in your head?
+Uh... is that weird?
+Weird?
+No way! Smart is sexy.
+'Try bleak. I'll never finish this task!
+Matchmaker!
+(Abbie and Tyler's relationship improved!
+tyler_abbie
+Really?
+Totally.
+Wow, uh... thanks!
+<Abbie smiles shyly at Tyler as you wink at Kaitlyn and Zack.
+;So... back to the matter at hand. What do you think, Tyler?
+,This book is just too long! It's impossible!
+WAccording to my calculations, one person typing alone can write 192 pages in 8 hours...
+hBut if all <i>six</i> of us do this together... we'll have more than enough time to write the full book!
+Go team! Let's do this thing!
+JYou... you'd really stay up all night helping me with this stupid project?
+SIt does mean I'll have to miss several fabulous frat parties tonight... but I'm in.
+Eh. I didn't have plans anyway.
+ You belong here, {You}. With us.
+7I'll start a pot of coffee. It's gonna be a long night!
+Let's write some pages!"
+main"
+doFriendTalk""
+doFinancialAid¡"
+	doVasquezƒ"
+doReadingPremium†"
+doWorkNight€
+*-*#*,*/*0*1*-*#"***-*#¡***-*#ƒ***-*#€
+***
+****)**)**
+*****/*0*1***)***)****)**ˇ*Ë*)***Ë***)**	*)**
+*)**Ë*)*****)	**	***)	**	***)	*****)	**	***)	***)
+**	***)***)***)***)*2**3*
+**%í*Ë*)****)**	***)	**
+***)	****)	*****)	** *!**)	**#™*Ë*)**"**)**	*#*)	***$**)	**
+*%*)	***&*)	** *'*)	**	*(**)	** *)**)	******)	**
+*****/*0*1*ˇ*Ë*)**+**)**Ë*)****)**,*)**-*.*)	***/*)	**	*0**)	***1*)	**-*2*)	**3*)
+**	***)**4*)**5*)**6*)***)*2**3*
+**%ß*-*7**)	**	*8**)	**-*9**)	**	*:*)	**-*;**)	***<**)	**-*=**)	**#›*3***%ø*	*>**)	***?**)	**	*@*A*)	**-*B*)	**#›*-*C**)	**-*D**)	***E**)	**-*F**)	**	*G**)	**-*H**)	**	*I*)	**-*J*)	**	*K**)	**-*L*)	**-*M*)	**-*N**)	***O**)	***P*)	**-*Q**)	**-*R*)	**	*S*)	**-*T*)	**U*)
+**	***)**V*)**W*)***)*2**3*
+**%≠*-*X**)	**#º*-*Y**)	**	*Z**)	**-*[**)	**-*\*)	**
+*****/*0*1*ˇ*Ë*)**]**)**Ë*)**^**)**_*)***`*)	**	*a**)	**b*c**d*)	**	*e**)	**f*)
+**	***)**g*)**h*)**i*)***)*2**3*
+**%£*b*j**k*)	**	*l**)	**b*m**n*)	**	*o**)	**b*p**q*)	**#Í*3***%–*b*r**s*)	**b*t**u*)	**b*v**w*)	**	*x**)	**b*y**z*)	**	*{**)	**b*|**}*)	**#Í*b*~***)	**b*Ä**Å*)	**	*Ç*)	**É*Ñ*)**b*Ö**Ü*)	**á*)**à*â*)**b*ä**)	**3*
+**%í*	*ã*A*)	**b***)	**	*ç**)	**b*é*)	**b*è*)	**#ñ*b*ê*)	**ë*)***í**)	**	*ì**)	***î**)	**ï*)***ñ*)	**	*ó**)	***ò**)	**	*ô**)	***ö*)	**	*õ*A*)	***ú*)	***ù**)	**û*)
+**	***)**ü*†*)**°*)***)*2**3*
+**%ì*Ë*)****)**¢**)**-*#†***Ë*)**"**)**£*)**§*•*A*)	***¶**)	**ß*)**§*®*A*)	**#≤*¢*
+*)***©**)	***™*)	**Ë*)**"**)**´*)**§*¨*A*)	**≠*)**	*Æ**)	**b*Ø*)	**§*∞*A*)	**	*±*)	**§*≤*)	**§*≥*)	**§*¥*)	**§*µ*)	**§*∂*)	**	*∑**)	**§*∏*)	**§*π*)	**§*∫*)	**	*ª*)	**§*º*A*)	**Ω*)
+**	***)**æ*)**ø*)**¿*)***)*2**3*
+**%ö*	*¡*)	**§*¬*A*)	**§*√*A*)	**#¨*3***%§*§*ƒ*A*)	**#¨*	*≈*)	**§*∆*)	**§*«*A*)	**»*)**	*…*)	**§* **)	**	*À*)	**	*Ã*)	**Õ*)***%À*#œ*	*Œ*)	**	*œ*)	**	*–*A*)	**§*—*A*)	**§*“*A*)	**”*)**§*‘**)	**	*’**)	**§*÷*)	**◊*)**§*ÿ*)	**§*Ÿ*)	**	*⁄**)	**€*)**§*‹*)	**	*›**)	**§*ﬁ*)	**	*ﬂ**)	**§*‡*)	**
+*****/*0*1**·*)	***‚*)	**	*„**)	***‰**)	**Â*)**Ê*)***Á*)	**	*Ë**)	***È**)	**Í*)**	*Î**)	**Ï*)***Ì*)	**Ó*)**	*Ô**)	*****)	**Ò*)**	*Ú*)	***Û**)	**Ù*)
+**	***)**ı*)**ˆ*)***)*2**3*
+**%¨	*˜*)**¯*˘*)***˙*)	***˚**)	**¸*)***˝*)	**	*˛**)	**ˇ*)***Ä**)	**#Œ	*	*Å**)	***Ç*)	***É*)	**	*Ñ*)	**Ö*)**	*Ü*)	**	*á**)	***à**)	**b*â*)	**b*ä**)	**	*ã**)	**b***)	**ç*)
+**	***)**é*)**è*)**ê*)***)*2**3*
+**%û
+*ë*í*)**b*ì*)	**	*î**)	**b*ï*)	**b*ñ*)	**b*ó*)	**	*ò**)	**b*ô**)	**#◊
+*3***%∏
+*	*ö*)	**b*õ*)	**b*ú*)	***ù**)	**b*û*)	**#◊
+*b*ü*)	**	*†**)	**°*¢*)**b*£*)	**b*§**)	**b*•*)	***¶**)	**
+*****/*0*1*ˇ*Ë*)****)**Ë*)****)***ß**)	**
+*®**)	***©**)	**	*™**)	**	*´**)	**	*¨**)	**
+*≠*)	***Æ**)	**
+*Ø**)	**∞*)
+**	***)**±*)**≤*)***)*2**3*
+**%œ*≥*¥*)**µ**)**
+*∂**)	***∑**)	**
+*∏**)	**π*)**	*∫**)	**#‘*	*ª**)	**
+*º*)	**
+*Ω*)	** *æ**)	**	*ø**)	***¿**)	***¡*)	** *¬*)	***√**)	***ƒ**)	**Ë*)**
+****B!
+	read_play
+
+9kvhdx"6j54a5J Z,
+achievement_enrolled
+CgkItda1tcIdEAIQBQb3k6onxjyv4dj6

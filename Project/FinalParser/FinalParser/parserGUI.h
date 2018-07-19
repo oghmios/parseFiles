@@ -112,6 +112,8 @@ namespace FinalParser {
 	private: System::Windows::Forms::Button^  premiumSelectedOption;
 	private: System::Windows::Forms::Button^  lastLineButton;
 	private: System::Windows::Forms::Label^  linesLabel;
+	private: System::Windows::Forms::Button^  assignCharButton;
+	private: System::Windows::Forms::TextBox^  charManualTextBox;
 
 
 
@@ -177,6 +179,8 @@ namespace FinalParser {
 			this->premiumSelectedOption = (gcnew System::Windows::Forms::Button());
 			this->lastLineButton = (gcnew System::Windows::Forms::Button());
 			this->linesLabel = (gcnew System::Windows::Forms::Label());
+			this->assignCharButton = (gcnew System::Windows::Forms::Button());
+			this->charManualTextBox = (gcnew System::Windows::Forms::TextBox());
 			this->SuspendLayout();
 			// 
 			// openButton
@@ -387,7 +391,7 @@ namespace FinalParser {
 			// 
 			this->othersLabel->AutoSize = true;
 			this->othersLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->othersLabel->Location = System::Drawing::Point(262, 576);
+			this->othersLabel->Location = System::Drawing::Point(262, 614);
 			this->othersLabel->Name = L"othersLabel";
 			this->othersLabel->Size = System::Drawing::Size(79, 17);
 			this->othersLabel->TabIndex = 20;
@@ -395,7 +399,7 @@ namespace FinalParser {
 			// 
 			// nextLineButton
 			// 
-			this->nextLineButton->Location = System::Drawing::Point(61, 691);
+			this->nextLineButton->Location = System::Drawing::Point(61, 729);
 			this->nextLineButton->Name = L"nextLineButton";
 			this->nextLineButton->Size = System::Drawing::Size(470, 23);
 			this->nextLineButton->TabIndex = 23;
@@ -405,7 +409,7 @@ namespace FinalParser {
 			// 
 			// musicButton
 			// 
-			this->musicButton->Location = System::Drawing::Point(237, 618);
+			this->musicButton->Location = System::Drawing::Point(237, 656);
 			this->musicButton->Name = L"musicButton";
 			this->musicButton->Size = System::Drawing::Size(125, 23);
 			this->musicButton->TabIndex = 22;
@@ -415,7 +419,7 @@ namespace FinalParser {
 			// 
 			// backgroundButton
 			// 
-			this->backgroundButton->Location = System::Drawing::Point(61, 618);
+			this->backgroundButton->Location = System::Drawing::Point(61, 656);
 			this->backgroundButton->Name = L"backgroundButton";
 			this->backgroundButton->Size = System::Drawing::Size(125, 23);
 			this->backgroundButton->TabIndex = 21;
@@ -427,7 +431,7 @@ namespace FinalParser {
 			// 
 			this->splitter1->Location = System::Drawing::Point(0, 0);
 			this->splitter1->Name = L"splitter1";
-			this->splitter1->Size = System::Drawing::Size(3, 849);
+			this->splitter1->Size = System::Drawing::Size(3, 867);
 			this->splitter1->TabIndex = 24;
 			this->splitter1->TabStop = false;
 			// 
@@ -457,7 +461,7 @@ namespace FinalParser {
 			// 
 			// choiceButton
 			// 
-			this->choiceButton->Location = System::Drawing::Point(61, 496);
+			this->choiceButton->Location = System::Drawing::Point(61, 534);
 			this->choiceButton->Name = L"choiceButton";
 			this->choiceButton->Size = System::Drawing::Size(105, 23);
 			this->choiceButton->TabIndex = 27;
@@ -467,7 +471,7 @@ namespace FinalParser {
 			// 
 			// optionButton
 			// 
-			this->optionButton->Location = System::Drawing::Point(182, 496);
+			this->optionButton->Location = System::Drawing::Point(182, 534);
 			this->optionButton->Name = L"optionButton";
 			this->optionButton->Size = System::Drawing::Size(105, 23);
 			this->optionButton->TabIndex = 28;
@@ -477,7 +481,7 @@ namespace FinalParser {
 			// 
 			// textFromOtherOptionButton
 			// 
-			this->textFromOtherOptionButton->Location = System::Drawing::Point(61, 537);
+			this->textFromOtherOptionButton->Location = System::Drawing::Point(61, 575);
 			this->textFromOtherOptionButton->Name = L"textFromOtherOptionButton";
 			this->textFromOtherOptionButton->Size = System::Drawing::Size(226, 23);
 			this->textFromOtherOptionButton->TabIndex = 29;
@@ -507,7 +511,7 @@ namespace FinalParser {
 			// 
 			// saveFile
 			// 
-			this->saveFile->Location = System::Drawing::Point(255, 797);
+			this->saveFile->Location = System::Drawing::Point(255, 835);
 			this->saveFile->Name = L"saveFile";
 			this->saveFile->Size = System::Drawing::Size(75, 23);
 			this->saveFile->TabIndex = 32;
@@ -517,7 +521,7 @@ namespace FinalParser {
 			// 
 			// selectedOptionButton
 			// 
-			this->selectedOptionButton->Location = System::Drawing::Point(426, 496);
+			this->selectedOptionButton->Location = System::Drawing::Point(426, 534);
 			this->selectedOptionButton->Name = L"selectedOptionButton";
 			this->selectedOptionButton->Size = System::Drawing::Size(105, 23);
 			this->selectedOptionButton->TabIndex = 33;
@@ -527,7 +531,7 @@ namespace FinalParser {
 			// 
 			// customizationButton
 			// 
-			this->customizationButton->Location = System::Drawing::Point(406, 618);
+			this->customizationButton->Location = System::Drawing::Point(406, 656);
 			this->customizationButton->Name = L"customizationButton";
 			this->customizationButton->Size = System::Drawing::Size(125, 23);
 			this->customizationButton->TabIndex = 34;
@@ -539,7 +543,7 @@ namespace FinalParser {
 			// 
 			this->choicesOptionsLabel->AutoSize = true;
 			this->choicesOptionsLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->choicesOptionsLabel->Location = System::Drawing::Point(236, 453);
+			this->choicesOptionsLabel->Location = System::Drawing::Point(236, 491);
 			this->choicesOptionsLabel->Name = L"choicesOptionsLabel";
 			this->choicesOptionsLabel->Size = System::Drawing::Size(136, 17);
 			this->choicesOptionsLabel->TabIndex = 35;
@@ -547,7 +551,7 @@ namespace FinalParser {
 			// 
 			// premiumOptionButton
 			// 
-			this->premiumOptionButton->Location = System::Drawing::Point(307, 496);
+			this->premiumOptionButton->Location = System::Drawing::Point(307, 534);
 			this->premiumOptionButton->Name = L"premiumOptionButton";
 			this->premiumOptionButton->Size = System::Drawing::Size(105, 23);
 			this->premiumOptionButton->TabIndex = 36;
@@ -557,7 +561,7 @@ namespace FinalParser {
 			// 
 			// premiumSelectedOption
 			// 
-			this->premiumSelectedOption->Location = System::Drawing::Point(307, 537);
+			this->premiumSelectedOption->Location = System::Drawing::Point(307, 575);
 			this->premiumSelectedOption->Name = L"premiumSelectedOption";
 			this->premiumSelectedOption->Size = System::Drawing::Size(224, 23);
 			this->premiumSelectedOption->TabIndex = 37;
@@ -567,7 +571,7 @@ namespace FinalParser {
 			// 
 			// lastLineButton
 			// 
-			this->lastLineButton->Location = System::Drawing::Point(61, 735);
+			this->lastLineButton->Location = System::Drawing::Point(61, 773);
 			this->lastLineButton->Name = L"lastLineButton";
 			this->lastLineButton->Size = System::Drawing::Size(470, 23);
 			this->lastLineButton->TabIndex = 38;
@@ -579,17 +583,38 @@ namespace FinalParser {
 			// 
 			this->linesLabel->AutoSize = true;
 			this->linesLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->linesLabel->Location = System::Drawing::Point(277, 657);
+			this->linesLabel->Location = System::Drawing::Point(277, 695);
 			this->linesLabel->Name = L"linesLabel";
 			this->linesLabel->Size = System::Drawing::Size(42, 17);
 			this->linesLabel->TabIndex = 39;
 			this->linesLabel->Text = L"Lines";
 			// 
+			// assignCharButton
+			// 
+			this->assignCharButton->Location = System::Drawing::Point(341, 456);
+			this->assignCharButton->Name = L"assignCharButton";
+			this->assignCharButton->Size = System::Drawing::Size(147, 23);
+			this->assignCharButton->TabIndex = 40;
+			this->assignCharButton->Text = L"Assign character manually";
+			this->assignCharButton->UseVisualStyleBackColor = true;
+			this->assignCharButton->Click += gcnew System::EventHandler(this, &parserGUI::assignCharButton_Click);
+			// 
+			// charManualTextBox
+			// 
+			this->charManualTextBox->Location = System::Drawing::Point(138, 459);
+			this->charManualTextBox->Name = L"charManualTextBox";
+			this->charManualTextBox->Size = System::Drawing::Size(160, 20);
+			this->charManualTextBox->TabIndex = 41;
+			//this->charManualTextBox->TextChanged += gcnew System::EventHandler(this, &parserGUI::charManualTextBox_TextChanged);
+			this->charManualTextBox->GotFocus += gcnew System::EventHandler(this, &parserGUI::charManualTextBox_TextChanged);
+			// 
 			// parserGUI
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(595, 849);
+			this->ClientSize = System::Drawing::Size(595, 867);
+			this->Controls->Add(this->charManualTextBox);
+			this->Controls->Add(this->assignCharButton);
 			this->Controls->Add(this->linesLabel);
 			this->Controls->Add(this->lastLineButton);
 			this->Controls->Add(this->premiumSelectedOption);
@@ -831,6 +856,13 @@ namespace FinalParser {
 		anotherCharsMethod(0);
 	}
 
+	private: System::Void assignCharButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		assignCharButtonMethod();
+	}
+	private: System::Void charManualTextBox_TextChanged(System::Object^  sender, System::EventArgs^  e) {
+		this->KeyPreview = false;
+	}
+
 /////////////////////////////CHOICES & OPTIONS BUTTONS/////////////////////////////////////
 	//AUN FALTA OTRO BOTON: TIMED CHOICE
 	private: System::Void choiceButton_Click(System::Object^  sender, System::EventArgs^  e) {
@@ -903,14 +935,14 @@ namespace FinalParser {
 	}
 
 	private: System::Void emulatorCoordButton_Click(System::Object^  sender, System::EventArgs^  e) {
-		cordinatesEmuLabel->Text = "Press L to capture";
+		cordinatesEmuLabel->Text = "Press J to capture";
 		captureCoordinatesEmu = true;
 	}
 /////////////////////////////////KEYBOARD CONTROLS//////////////////////////////////////////////////////////////////
 	private: System::Void keyboard_KeyDown(Object^ /*sender*/, System::Windows::Forms::KeyEventArgs^ e)
 	{
 		// Capture Emulator Coordinates
-		if (e->KeyCode == Keys::L && captureCoordinatesEmu)
+		if (e->KeyCode == Keys::J && captureCoordinatesEmu)
 		{
 			POINT p;
 
@@ -1044,17 +1076,15 @@ namespace FinalParser {
 
 //////////////////////////////////////////////MOUSE CLICK/////////////////////////////////////////////////////
 	private: System::Void clickAndContinue() {
+		
 		SetCursorPos(emuX, emuY);
 		mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
-		mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
-		mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
 		mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
 
 		SetCursorPos(terX, terY);
 		mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
-		mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
 		mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
-		mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
+
 	}
 
 ////////////////////////////////////////////BEHAVIOUR METHODS///////////////////////////////////////////////
@@ -1125,6 +1155,67 @@ namespace FinalParser {
 			showNextLine();
 			clickAndContinue();
 		}
+	}
+
+	private: System::Void assignCharButtonMethod() {
+		System::String^ manualChar = charManualTextBox->Text;
+		bool inserted = false;
+		int numberOfChar = 3;
+		while (!inserted && numberOfChar < 11) {
+			switch (numberOfChar) {
+				case 3:
+					if (char3Button->Text == "Char " + numberOfChar + "("+ numberOfChar + ")") {
+						char3Button->Text = manualChar + "(" + numberOfChar + ")";
+						inserted = true;
+					}
+					break;
+				case 4:
+					if (char4Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
+						char4Button->Text = manualChar + "(" + numberOfChar + ")";
+						inserted = true;
+					}
+					break;
+				case 5:
+					if (char5Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
+						char5Button->Text = manualChar + "(" + numberOfChar + ")";
+						inserted = true;
+					}
+					break;
+				case 6:
+					if (char6Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
+						char6Button->Text = manualChar + "(" + numberOfChar + ")";
+						inserted = true;
+					}
+					break;
+				case 7:
+					if (char7Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
+						char7Button->Text = manualChar + "(" + numberOfChar + ")";
+						inserted = true;
+					}
+					break;
+				case 8:
+					if (char8Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
+						char8Button->Text = manualChar + "(" + numberOfChar + ")";
+						inserted = true;
+					}
+				case 9:
+					if (char9Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
+						char9Button->Text = manualChar + "(" + numberOfChar + ")";
+						inserted = true;
+					}
+					break;
+				case 10:
+					if (char0Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
+						char0Button->Text = manualChar + "(" + numberOfChar + ")";
+						inserted = true;
+					}
+					break;
+				default:
+					break;
+			}
+			numberOfChar++;
+		}
+		this->KeyPreview = true;
 	}
 
 	/////////// Options & Enviroment //////////////
@@ -1249,6 +1340,8 @@ namespace FinalParser {
 		csvFile.close();
 		System::Windows::Forms::MessageBox::Show("Saved");
 	}
+
+
 
 
 

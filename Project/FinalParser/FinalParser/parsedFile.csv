@@ -1,29 +1,186 @@
-Narrator ; Pass
-You ; Pas2
-Narrator ; PAs3
-Choice; Choice
-Option ; ; Option1
-Narrator ; ; ; textoption1
-You ; ; ; textoption1a
-Char 3; ; ; textoption2
-Option ; ; Option2
-Option ; ; Option3
-Narrator ; ; ; textoption3
-Char 3; ; ; textoption3a
-Char 3; normaltextA
-Narrator ; normaltextB
-Char 7; normaltextC
-Choice; Choice2
-Option ; ; Option1
-You ; ; ; textoption1
-Narrator ; ; ; textoption1a
-Char 3; ; ; textoption1b
-Option ; ; option2Prem
-Narrator ; ; ; textoption2
-Char 3; ; ; textoption2a
-Char 4; ; ; textoption3
-Char 3; ; ; textoption3a
-Option ; ; Option3
-Narrator ; normaltextA
-Char 3; normaltextB
-Char 4; normaltextC
+Music; MUSIC_COLLEGE_FUN_CHILL
+Scene; BG_LIGHTS_AMBIENCE_NIGHT
+Narrator ; Chapter Three: The Assistant
+Scene; BG_INT_DORM_MAIN_DAY
+Narrator ; \After you get off the phone with your parents, you meet up with your friends in the kitchen.
+Kaitlyn; Kaitlyn
+Kaitlyn; {You}? Is everything okay?
+You ; *I... I don't think so. My family is broke.
+You ; JWhat started off as the best week of my life just turned into a nightmare.
+Zack; /We can't lose you! We've... we've <i>bonded!<i>
+You ; +I guess there's only one thing to do now...
+Choice; I have to...
+Option ; ; Enjoy the time I have left.
+You ; ; ; Who's ready to party?
+Tyler; ; ; 4Not me. I'm still feeling the effects of last night.
+Zack; ; ; DDon't listen to this wet blanket, {You}. Let's do this thing. Shots!
+Abbie; ; ; DAre you kidding me? We're <i>not</i> drinking at ten in the morning.
+Chris; ; ; 8And I'm <i>not</i> letting {You} just give up and leave!
+Option ; ; **Find a way to stay.
+You ; ; ; #I'm not going down without a fight!
+Zack; ; ; Hell yeah! That's the spirit!
+Tyler; ; ; Maybe you could get... a job?
+Abbie; ; ; XNo offense, but tuition runs like $50k a year here. Minimum wage isn't gonna cover that.
+Chris; ; ; UThere's gotta be some way you can stay... I mean, I'm here on a football scholarship.
+You ; ; ; @I don't think I'm exactly what the football team is looking for.
+Chris; ; ; ?Maybe not, but I'm sure there are other scholarships available.
+Kaitlyn; ; ; \Not a bad idea, Chris. It might be worth a trip to the financial aid office to check it out!
+Scene; BG_INT_OFFICE_GENERIC
+Narrator ; A few minutes later...
+Ms.Twombly; Next!
+Kaitlyn; KHi there! My friend just realized she's super poor and needs a scholarship!
+You ; Kaitlyn!
+Kaitlyn; eWhat? It's true. Besides, if we're trying to get this done fast, we've got to cut right to the chase.
+Ms.Twombly; %Let's see here... any special skills?
+Choice; Actually...
+Option ; ; I'm a star athlete!
+Ms.Twombly; ; ;  Really?! What sport do you play?
+Kaitlyn; ; ; All of 'em.
+Ms.Twombly; ; ; -You're gonna have to be more specific, honey.
+You ; ; ; ‚Oh, well in high school I played basketball, soccer, and volleyball. And softball. Also, I started an intramural dodgeball league.
+Ms.Twombly; ; ; I guess you weren't kidding.
+Kaitlyn; ; ; *I had no idea you were such a jock, {You}.
+Ms.Twombly; ; ; ^Unfortunately... it looks like all of our athletic scholarships have already been distributed.
+Option ; ; **I'm a scholar!
+You ; ; ; *I was the valedictorian at my high school!
+Kaitlyn; ; ; 4What? How come you never told me you're a huge nerd?
+You ; ; ; BJust because I happen to get great grades doesn't mean I'm a nerd!
+Ms.Twombly; ; ; ]Whether you're a nerd or not, all of our academic scholarships have already been distributed.
+Option ; ; I'm not special at all...
+You ; ; ; Well, at least you're honest...
+Ms.Twombly; ; ; +But we don't give scholarships for honesty.
+Kaitlyn; ; ; "Aw, {You}! I think you're special.
+Ms.Twombly; ; ; +Hey, at least you have good friends, right?
+You ; ; ; FYeah... I can't wait to watch them all have fun at college without me.
+Ms.Twombly; ; ; pSorry, honey, but I can't just give you a scholarship out of the kindness of my heart. It doesn't work that way.
+You ; !There has to be <i>something.</i>
+Ms.Twombly; HWell... there is... one thing. But I'm not quite sure you'd be up to it.
+You ; "Thanks for the vote of confidence!
+Ms.Twombly; ZIt's nothing personal. It's just, well... we do have one research assistant position open.
+Ms.Twombly; 3It would pay for your tuition, plus room and board.
+Ms.Twombly; "But... it's for Professor Vasquez.
+Kaitlyn; tProfessor Enrique Vasquez?! The famous author? <i>The Names of All Lost Things</i> is one of my favorite books ever!
+Kaitlyn; !Working for him would be amazing!
+Ms.Twombly; .Spoken like someone who's never met the man...
+Ms.Twombly; pProfessor Vasquez has taken on over a dozen assistants in the last five years. None has lasted more than a week.
+You ; Until now...
+Ms.Twombly; That's what they all say...
+Choice; The thing about me is...
+Option ; ; **I'm special.
+Ms.Twombly; ; ; lBelieve me, honey... the real world doesn't care how special you are. And Professor Vasquez certainly won't.
+Option ; ; I'm desperate.
+Ms.Twombly; ; ; $Is that supposed to be a good thing?
+You ; ; ; Uh... yes?
+Ms.Twombly; ; ; If you say so...
+Ms.Twombly; Good luck. You'll need it.
+Scene; BG_INT_OFFICE_PROFESSOR
+Music; MUSIC_COLLEGE_ACTION_CHILL
+Narrator ; A few minutes later...
+Kaitlyn; I think this is the place.
+You ; !Time to make my first impression.
+Prof.; Hello?
+You ; KYou! You're that guy I saw across the quad the first day. I... er.. wait...
+Choice; Are you...
+Option ; ; **Professor Vasquez?
+Prof.; ; ;  Guilty as charged. And you are--
+You ; ; ; <Your new assistant, {You}! Anything you want, I'm your girl!
+Prof.; ; ; 1Great... because I could really use an Americano.
+You ; ; ;  Sure thing! I'm at your service.
+Prof.; ; ; HPerfect. There's a little shop downtown that <i>really</i> knows their--
+Option ; ; A student?
+Prof.; ; ; =Guilty as charged. I'm Vasquez's... well, protege, I suppose.
+Prof.; ; ; fHe helps me with the play I'm writing, I help him with odds and ends while he's... between assistants.
+You ; ; ; RFor a second, I thought you might mistake me for the professor. What gave me away?
+You ; ; ; +The fact that you're not seventy years old.
+Prof.; ; ; ;Hey, I could just be an old guy that looks good for my age.
+You ; ; ; I never said you looked good.
+Prof.; ; ; So you don't think I--
+You ; ; ; 3Actually, I'm in a pretty committed relationship...
+Prof.; ; ; ;...with my work. The play I'm writing is basically my life.
+You ; ; ; 9So I guess that doesn't leave much room for a girlfriend.
+Option ; ; Single?
+Prof.; ; ; 6Well, even Shakespeare took a break from time to time.
+Narrator ; FYour conversation is interrupted as a voice shouts from down the hall.
+Narrator ; Q<i>James! I've lost my latest pages again! Get in here and help me find them!</i>
+Prof.; I'd better get on that.
+You ; Wait. So you're not Vasquez?
+Prof.; OLooks like you caught me. Too bad. I was really looking forward to that coffee.
+You ; 4If you're not Vasquez, then what are you doing here?
+Prof.; †Professor Vasquez is my mentor. He helps me with the play I'm writing, I help him with odds and ends while he's... between assistants.
+Prof.; I'll let him know you're here.
+You ; HHere's hoping you stick around. I'll let the professor know you're here.
+Narrator ; As James leaves, a notebook falls from his backpack onto the floor. Kaitlyn surreptitiously snatches it up and reads the cover.
+Kaitlyn; 3Looks like someone dropped the script for his play!
+You ; 6Should we run after him? I'm sure he'd want it back...
+Kaitlyn; 4Yeah, but if we did that, we'd never get to read it!
+Narrator ; (Kaitlyn eagerly flips through the pages.
+Kaitlyn; qBlah blah, class disparity, blah blah, working conditions in Victorian London... oh <i>here's</i> something good!
+You ; @Kaitlyn! I'm not sure James would want you looking through that.
+Kaitlyn; FThis is getting juicy. Apparently James has a... creative imagination.
+You ; What are you talking about?
+Kaitlyn; CI'm not sure I should show you... it might warp your innocent mind.
+You ; Kaitlyn!
+Kaitlyn; 3This is hot stuff. Tell you what. One time offer...
+Kaitlyn; 8You and I can do a little line reading? What do you say?
+Choice; Come on...
+Premium option ; ; **Let's read that scene!
+Kaitlyn; ; ; ,Let's see... <i>Rosethorne Park.</i> Act IV.
+Kaitlyn; ; ; rLooks like you'll be Lady Elizabeth Darling, and I'll be William, the stableboy turned soldier, back from the war.
+You ; ; ; 8Hey! Why do you get to be the cool, brooding heartthrob?
+Kaitlyn; ; ; .I think that's obvious. Now let's get started.
+Narrator ; ; ; O<i>Lady Elizabeth Darling wakes up to find her bedroom bathed in moonlight.</i>
+Narrator ; ; ; A<i>Then, as she watches, a shadow appears at the open window.</i>
+Kaitlyn; ; ; Your line, {You}.
+You ; ; ; =<i>Be warned, intruder! I keep a knife beneath my pillow.</i>
+Kaitlyn; ; ; I<i>Careful, then. I'd hate to die before tasting your lips once more.</i>
+Narrator ; ; ; 0<i>The figure enters the room. It's William.</i>
+You ; ; ; )<i>You... you know you can't be here.</i>
+Narrator ; ; ; i<i>William pulls off his shirt and tosses it to the floor, his eyes on the knife in Elizabeth's hand.</i>
+Kaitlyn; ; ; n<i>If you mean to stab me, do me the courtesy of giving me a quick death. I can't live without you anyway.</i>
+Narrator ; ; ; s<i>Elizabeth lowers the dagger from his chest to his trousers... then cuts through his belt in a single stroke!</i>
+You ; ; ; HOh wow. I can't believe James wrote this. He seems so... straight-laced.
+Kaitlyn; ; ; %Sometimes people will surprise you...
+Narrator ; ; ; D<i>Elizabeth reaches forward and gently strokes William's cheek.</i>
+You ; ; ; AUh, are we following stage directions too, or just reading aloud?
+Kaitlyn; ; ; I leave that up to you.
+Option ; ; Don't read it.
+Choice; (What do you do?)
+Option ; ; **Stroke Kaitlyn's cheek.
+Narrator ; ; ; KYou brush Kaitlyn's cheek with the backs of your fingers, making her blush.
+Kaitlyn; ; ; Oh, {You}...
+Kaitlyn; ; ; #Uh, I mean... <i>oh, Elizabeth!</i>
+Narrator ; ; ; MShe places a hand on your waist and pulls you close, gazing into your eyes...
+Kaitlyn; ; ; :<i>You have no idea how long I've awaited this moment.</i>
+You ; ; ; 8<i>Sometimes the waiting makes it all the sweeter...</i>
+Narrator ; ; ; _You place your hand on Kaitlyn's chest and feel her heartbeat against the tips of your fingers.
+Kaitlyn; ; ; {You}... I...
+Option ; ; Keep your hands to yourself.
+You ; ; ; &Let's just stick to the reading, okay?
+Kaitlyn; ; ; Of course.
+You ; ; ; F<i>My lady, I am entirely at your mercy. Do with me what you will.</i>
+Kaitlyn; ; ; \<i>I suppose I can find a use for you... you can start by helping me out of this corset.</i>
+Narrator ; ; ; £<i>Elizabeth turns her back to William, tucking her long, plaited hair over her shoulder. He kneels behind her, his fingers going to the laces of her corset...</i>
+You ; ; ; /<i>Not like that... with your <i>mouth</i>.</i>
+You ; ; ; (Oh, wow, I did <i>not</i> expect that...
+Kaitlyn; ; ; /Seriously... is it getting hot in here or what?
+Prof.; A-hem.
+Prof.; %I hope I'm not interrupting anything.
+You ; We were just--
+Prof.; ;Enjoying my play? Or at least, I hope you were enjoying it.
+Choice; Actually...
+Option ; ; 
+Option ; ; Want to join in the 'reading?'
+Prof.; ; ; GThat's nice to hear. I still don't quite know how to finish that scene.
+You ; ; ; I have a couple of ideas.
+Prof.; ; ; I bet you do.
+Prof.; ; ; HBut just so you know, the Victorian era was all about unrequited love...
+Prof.; ; ; !And <i>unconsummated</i> romance.
+You ; ; ; BWell... there's no reason your play can't be the exception, right?
+Prof.; ; ; I guess we'll see.
+Option ; ; I can't wait to read more.
+Option ; ; I've read better.
+You ; ; ; AI thought the Victorian era was all about unconsummated desire...
+Prof.; ; ; JWell, I don't want to be completely slavish to the conventions of the era.
+Prof.; ; ; ^But you may have a point. Perhaps the lovers should be interrupted before things go too far...
+Kaitlyn; ; ; Ouch. What a sad story.
+Prof.; ; ; &It <i>is</i> supposed to be a tragedy.

@@ -1338,6 +1338,8 @@ namespace FinalParser {
 		SetCursorPos(emuX, emuY);
 		mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
 		mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
+		mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
+		mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
 
 		SetCursorPos(terX, terY);
 		mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
@@ -1362,7 +1364,9 @@ namespace FinalParser {
 		}
 		else {
 			showNextLine();
-			clickAndContinue();
+			if (!choiceComes) {
+				clickAndContinue();
+			}
 		}
 	}
 
@@ -1381,7 +1385,9 @@ namespace FinalParser {
 		}
 		else {
 			showNextLine();
-			clickAndContinue();
+			if (!choiceComes) {
+				clickAndContinue();
+			}
 		}
 	}
 
@@ -1454,7 +1460,9 @@ namespace FinalParser {
 		}
 		else {
 			showNextLine();
-			clickAndContinue();
+			if (!choiceComes) {
+				clickAndContinue();
+			}
 		}
 	}
 
@@ -1506,8 +1514,8 @@ namespace FinalParser {
 					}
 					break;
 				case 10:
-					if (char10Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
-						char10Button->Text = manualChar + "(" + numberOfChar + ")";
+					if (char10Button->Text == "Char " + numberOfChar + "(" + 0 + ")") {
+						char10Button->Text = manualChar + "(" + 0 + ")";
 						inserted = true;
 					}
 					break;
@@ -1790,15 +1798,27 @@ namespace FinalParser {
 			//// Enviroment ////
 			case 66: // B Background
 				line2Add = "Scene; " + actualLine->Text;
+				if (choiceComes) {
+					boolOption = true;
+				}
 				break;
 			case 77: // M Music
 				line2Add = "Music; " + actualLine->Text;
+				if (choiceComes) {
+					boolOption = true;
+				}
 				break;
 			case 89: // Y Customization
 				line2Add = "Customization; " + actualLine->Text;
+				if (choiceComes) {
+					boolOption = true;
+				}
 				break;
 			case 86: // Y Special
 				line2Add = "Special; " + actualLine->Text;
+				if (choiceComes) {
+					boolOption = true;
+				}
 				break;
 			default:
 				break;

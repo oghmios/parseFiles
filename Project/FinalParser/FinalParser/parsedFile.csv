@@ -1,5 +1,29 @@
-You ; BG_LIGHTS_AMBIENCE_NIGHT
-Choice; MUSIC_COLLEGE_FUN_CHILL
-Choice; +Chapter One: Welcome to Hartfeld University
-Choice; +Chapter One: Welcome to Hartfeld University
-
+Narrator ; Pass
+You ; Pas2
+Narrator ; PAs3
+Choice; Choice
+Option ; ; Option1
+Narrator ; ; ; textoption1
+You ; ; ; textoption1a
+Char 3; ; ; textoption2
+Option ; ; Option2
+Option ; ; Option3
+Narrator ; ; ; textoption3
+Char 3; ; ; textoption3a
+Char 3; normaltextA
+Narrator ; normaltextB
+Char 7; normaltextC
+Choice; Choice2
+Option ; ; Option1
+You ; ; ; textoption1
+Narrator ; ; ; textoption1a
+Char 3; ; ; textoption1b
+Option ; ; option2Prem
+Narrator ; ; ; textoption2
+Char 3; ; ; textoption2a
+Char 4; ; ; textoption3
+Char 3; ; ; textoption3a
+Option ; ; Option3
+Narrator ; normaltextA
+Char 3; normaltextB
+Char 4; normaltextC

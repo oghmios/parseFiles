@@ -695,7 +695,13 @@ namespace FinalParser {
 		openDialog->ShowDialog();
 		String^ systemFileName = openDialog->FileName;
 
+		
+
 		std::string fileName = managedStrToNative(systemFileName);
+		std::vector<std::string> fileNameToShow = split(fileName, 92);
+		
+		nameFileLabel->Text = managedNativetoStr(fileNameToShow.at(fileNameToShow.size() - 1));
+
 		std::fstream inFile;
 		inFile.open(fileName);
 

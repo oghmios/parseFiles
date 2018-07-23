@@ -131,6 +131,8 @@ namespace FinalParser {
 	private: System::Windows::Forms::Button^  char16Button;
 	private: System::Windows::Forms::Button^  specialButton;
 	private: System::Windows::Forms::Button^  finishOptionButton;
+private: System::Windows::Forms::Button^  earlierOptionButton;
+private: System::Windows::Forms::Button^  earlierOptButton;
 
 
 
@@ -212,6 +214,8 @@ namespace FinalParser {
 			this->char16Button = (gcnew System::Windows::Forms::Button());
 			this->specialButton = (gcnew System::Windows::Forms::Button());
 			this->finishOptionButton = (gcnew System::Windows::Forms::Button());
+			this->earlierOptionButton = (gcnew System::Windows::Forms::Button());
+			this->earlierOptButton = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// openButton
@@ -422,7 +426,7 @@ namespace FinalParser {
 			// 
 			this->othersLabel->AutoSize = true;
 			this->othersLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->othersLabel->Location = System::Drawing::Point(261, 608);
+			this->othersLabel->Location = System::Drawing::Point(261, 643);
 			this->othersLabel->Name = L"othersLabel";
 			this->othersLabel->Size = System::Drawing::Size(79, 17);
 			this->othersLabel->TabIndex = 20;
@@ -430,7 +434,7 @@ namespace FinalParser {
 			// 
 			// nextLineButton
 			// 
-			this->nextLineButton->Location = System::Drawing::Point(59, 736);
+			this->nextLineButton->Location = System::Drawing::Point(59, 771);
 			this->nextLineButton->Name = L"nextLineButton";
 			this->nextLineButton->Size = System::Drawing::Size(470, 23);
 			this->nextLineButton->TabIndex = 23;
@@ -440,7 +444,7 @@ namespace FinalParser {
 			// 
 			// musicButton
 			// 
-			this->musicButton->Location = System::Drawing::Point(347, 637);
+			this->musicButton->Location = System::Drawing::Point(347, 672);
 			this->musicButton->Name = L"musicButton";
 			this->musicButton->Size = System::Drawing::Size(125, 23);
 			this->musicButton->TabIndex = 22;
@@ -450,7 +454,7 @@ namespace FinalParser {
 			// 
 			// backgroundButton
 			// 
-			this->backgroundButton->Location = System::Drawing::Point(136, 637);
+			this->backgroundButton->Location = System::Drawing::Point(136, 672);
 			this->backgroundButton->Name = L"backgroundButton";
 			this->backgroundButton->Size = System::Drawing::Size(125, 23);
 			this->backgroundButton->TabIndex = 21;
@@ -562,7 +566,7 @@ namespace FinalParser {
 			// 
 			// customizationButton
 			// 
-			this->customizationButton->Location = System::Drawing::Point(347, 676);
+			this->customizationButton->Location = System::Drawing::Point(347, 711);
 			this->customizationButton->Name = L"customizationButton";
 			this->customizationButton->Size = System::Drawing::Size(125, 23);
 			this->customizationButton->TabIndex = 34;
@@ -602,7 +606,7 @@ namespace FinalParser {
 			// 
 			// lastLineButton
 			// 
-			this->lastLineButton->Location = System::Drawing::Point(59, 780);
+			this->lastLineButton->Location = System::Drawing::Point(59, 815);
 			this->lastLineButton->Name = L"lastLineButton";
 			this->lastLineButton->Size = System::Drawing::Size(470, 23);
 			this->lastLineButton->TabIndex = 38;
@@ -614,7 +618,7 @@ namespace FinalParser {
 			// 
 			this->linesLabel->AutoSize = true;
 			this->linesLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->linesLabel->Location = System::Drawing::Point(275, 702);
+			this->linesLabel->Location = System::Drawing::Point(275, 737);
 			this->linesLabel->Name = L"linesLabel";
 			this->linesLabel->Size = System::Drawing::Size(42, 17);
 			this->linesLabel->TabIndex = 39;
@@ -642,7 +646,7 @@ namespace FinalParser {
 			// 
 			this->contadorLabel->AutoSize = true;
 			this->contadorLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->contadorLabel->Location = System::Drawing::Point(59, 569);
+			this->contadorLabel->Location = System::Drawing::Point(59, 604);
 			this->contadorLabel->Name = L"contadorLabel";
 			this->contadorLabel->Size = System::Drawing::Size(97, 17);
 			this->contadorLabel->TabIndex = 42;
@@ -652,7 +656,7 @@ namespace FinalParser {
 			// 
 			this->actualOptionLabel->AutoSize = true;
 			this->actualOptionLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->actualOptionLabel->Location = System::Drawing::Point(165, 569);
+			this->actualOptionLabel->Location = System::Drawing::Point(165, 604);
 			this->actualOptionLabel->Name = L"actualOptionLabel";
 			this->actualOptionLabel->Size = System::Drawing::Size(57, 17);
 			this->actualOptionLabel->TabIndex = 43;
@@ -760,7 +764,7 @@ namespace FinalParser {
 			// 
 			// specialButton
 			// 
-			this->specialButton->Location = System::Drawing::Point(136, 676);
+			this->specialButton->Location = System::Drawing::Point(136, 711);
 			this->specialButton->Name = L"specialButton";
 			this->specialButton->Size = System::Drawing::Size(125, 23);
 			this->specialButton->TabIndex = 55;
@@ -770,7 +774,7 @@ namespace FinalParser {
 			// 
 			// finishOptionButton
 			// 
-			this->finishOptionButton->Location = System::Drawing::Point(427, 514);
+			this->finishOptionButton->Location = System::Drawing::Point(241, 575);
 			this->finishOptionButton->Name = L"finishOptionButton";
 			this->finishOptionButton->Size = System::Drawing::Size(105, 23);
 			this->finishOptionButton->TabIndex = 56;
@@ -778,11 +782,33 @@ namespace FinalParser {
 			this->finishOptionButton->UseVisualStyleBackColor = true;
 			this->finishOptionButton->Click += gcnew System::EventHandler(this, &parserGUI::finishOptionButton_Click);
 			// 
+			// earlierOptionButton
+			// 
+			this->earlierOptionButton->Location = System::Drawing::Point(427, 530);
+			this->earlierOptionButton->Name = L"earlierOptionButton";
+			this->earlierOptionButton->Size = System::Drawing::Size(105, 23);
+			this->earlierOptionButton->TabIndex = 57;
+			this->earlierOptionButton->Text = L"Inser Earlier(,)";
+			this->earlierOptionButton->UseVisualStyleBackColor = true;
+			this->earlierOptionButton->Click += gcnew System::EventHandler(this, &parserGUI::earlierOptionButton_Click);
+			// 
+			// earlierOptButton
+			// 
+			this->earlierOptButton->Location = System::Drawing::Point(427, 489);
+			this->earlierOptButton->Name = L"earlierOptButton";
+			this->earlierOptButton->Size = System::Drawing::Size(105, 23);
+			this->earlierOptButton->TabIndex = 58;
+			this->earlierOptButton->Text = L"Earlier Option(-)";
+			this->earlierOptButton->UseVisualStyleBackColor = true;
+			this->earlierOptButton->Click += gcnew System::EventHandler(this, &parserGUI::earlierOptButton_Click);
+			// 
 			// parserGUI
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(595, 868);
+			this->Controls->Add(this->earlierOptButton);
+			this->Controls->Add(this->earlierOptionButton);
 			this->Controls->Add(this->finishOptionButton);
 			this->Controls->Add(this->specialButton);
 			this->Controls->Add(this->char20Button);
@@ -1142,6 +1168,12 @@ namespace FinalParser {
 	}
 	private: System::Void finishOptionButton_Click(System::Object^  sender, System::EventArgs^  e) {
 		optionsMethod(46);
+	}
+	private: System::Void earlierOptButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		optionsMethod(45);
+	}
+	private: System::Void earlierOptionButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		optionsMethod(44);
 	}
 
 ///////////////////////////////ENVORIMENT BUTTONS/////////////////////////////////////////
@@ -1649,6 +1681,33 @@ namespace FinalParser {
 					optionToWait8 = actualLine->Text;
 				}
 				break;
+			case 45: // - Earlier option
+				if (optionToWait1 == "non") {
+					optionToWait1 = actualLine->Text;
+					choiceComes = true;
+				}
+				else if (optionToWait2 == "non") {
+					optionToWait2 = actualLine->Text;
+				}
+				else if (optionToWait3 == "non") {
+					optionToWait3 = actualLine->Text;
+				}
+				else if (optionToWait4 == "non") {
+					optionToWait4 = actualLine->Text;
+				}
+				else if (optionToWait5 == "non") {
+					optionToWait5 = actualLine->Text;
+				}
+				else if (optionToWait6 == "non") {
+					optionToWait6 = actualLine->Text;
+				}
+				else if (optionToWait7 == "non") {
+					optionToWait7 = actualLine->Text;
+				}
+				else if (optionToWait8 == "non") {
+					optionToWait8 = actualLine->Text;
+				}
+				break;
 			case 83: // S Selected option
 				if (choiceComes) {
 					if (optionToWait1 != "non") {
@@ -1777,6 +1836,50 @@ namespace FinalParser {
 					}
 					else if (optionToWait8 != "non") {
 						line2Add = "Premium option ; ; **" + optionToWait8;
+						optionToWait8 = "non";
+						boolOption = true;
+					}
+				}
+				break;
+			case 44: // , Earlier selected option
+				if (choiceComes) {
+					if (optionToWait1 != "non") {
+						line2Add = "Earlier Option ; ; **" + optionToWait1;
+						optionToWait1 = "non";
+						boolOption = true;
+					}
+					else if (optionToWait2 != "non") {
+						line2Add = "Earlier Option ; ; **" + optionToWait2;
+						optionToWait2 = "non";
+						boolOption = true;
+					}
+					else if (optionToWait3 != "non") {
+						line2Add = "Earlier Option ; ; **" + optionToWait3;
+						optionToWait3 = "non";
+						boolOption = true;
+					}
+					else if (optionToWait4 != "non") {
+						line2Add = "Earlier Option ; ; **" + optionToWait4;
+						optionToWait4 = "non";
+						boolOption = true;
+					}
+					else if (optionToWait5 != "non") {
+						line2Add = "Earlier Option ; ; **" + optionToWait5;
+						optionToWait5 = "non";
+						boolOption = true;
+					}
+					else if (optionToWait6 != "non") {
+						line2Add = "Earlier Option ; ; **" + optionToWait6;
+						optionToWait6 = "non";
+						boolOption = true;
+					}
+					else if (optionToWait7 != "non") {
+						line2Add = "Earlier Option ; ; **" + optionToWait7;
+						optionToWait7 = "non";
+						boolOption = true;
+					}
+					else if (optionToWait8 != "non") {
+						line2Add = "Earlier Option ; ; **" + optionToWait8;
 						optionToWait8 = "non";
 						boolOption = true;
 					}
@@ -1937,6 +2040,8 @@ namespace FinalParser {
 		csvFile.close();
 		System::Windows::Forms::MessageBox::Show("Saved");
 	}
+
+
 
 
 

@@ -937,8 +937,42 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 				std::getline(inFile, line);
 				if (line == "Character:") {
 					std::getline(inFile, line);
-					String^ buttonText = managedNativetoStr(line + "(" + std::to_string(counter+3) + ")");
-					//buttons[counter]->Text = buttonText;
+					if (counter + 3 < 11) {
+						String^ buttonText = managedNativetoStr(line + "(" + std::to_string(counter+3) + ")");
+						buttons[counter]->Text = buttonText;
+					}
+					else if (counter + 3 == 11) {
+						String^ buttonText = managedNativetoStr(line + "(Q)");
+						buttons[counter]->Text = buttonText;
+					}
+					else if (counter + 3 == 12) {
+						String^ buttonText = managedNativetoStr(line + "(W)");
+						buttons[counter]->Text = buttonText;
+					}
+					else if (counter + 3 == 13) {
+						String^ buttonText = managedNativetoStr(line + "(E)");
+						buttons[counter]->Text = buttonText;
+					}
+					else if (counter + 3 == 14) {
+						String^ buttonText = managedNativetoStr(line + "(R)");
+						buttons[counter]->Text = buttonText;
+					}
+					else if (counter + 3 == 15) {
+						String^ buttonText = managedNativetoStr(line + "(T)");
+						buttons[counter]->Text = buttonText;
+					}
+					else if (counter + 3 == 16) {
+						String^ buttonText = managedNativetoStr(line + "(U)");
+						buttons[counter]->Text = buttonText;
+					}
+					else if (counter + 3 == 17) {
+						String^ buttonText = managedNativetoStr(line + "(I)");
+						buttons[counter]->Text = buttonText;
+					}
+					else {
+						String^ buttonText = managedNativetoStr(line + "()");
+						buttons[counter]->Text = buttonText;
+					}
 					counter++;
 				}
 				else if (line == "ENDOFCHARACTERS") {
@@ -1552,62 +1586,62 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 					}
 					break;
 				case 11:
-					if (char11Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
-						char11Button->Text = manualChar + "(" + numberOfChar + ")";
+					if (char11Button->Text == "Char " + numberOfChar + "(Q)") {
+						char11Button->Text = manualChar + "(Q)";
 						inserted = true;
 					}
 					break;
 				case 12:
-					if (char12Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
-						char12Button->Text = manualChar + "(" + numberOfChar + ")";
+					if (char12Button->Text == "Char " + numberOfChar + "(W)") {
+						char12Button->Text = manualChar + "(W)";
 						inserted = true;
 					}
 					break;
 				case 13:
-					if (char13Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
-						char13Button->Text = manualChar + "(" + numberOfChar + ")";
+					if (char13Button->Text == "Char " + numberOfChar + "(E)") {
+						char13Button->Text = manualChar + "(E)";
 						inserted = true;
 					}
 					break;
 				case 14:
-					if (char14Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
-						char14Button->Text = manualChar + "(" + numberOfChar + ")";
+					if (char14Button->Text == "Char " + numberOfChar + "(R)") {
+						char14Button->Text = manualChar + "(R)";
 						inserted = true;
 					}
 					break;
 				case 15:
-					if (char15Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
-						char15Button->Text = manualChar + "(" + numberOfChar + ")";
+					if (char15Button->Text == "Char " + numberOfChar + "(T)") {
+						char15Button->Text = manualChar + "(T)";
 						inserted = true;
 					}
 					break;
 				case 16:
-					if (char16Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
-						char16Button->Text = manualChar + "(" + numberOfChar + ")";
+					if (char16Button->Text == "Char " + numberOfChar + "(U)") {
+						char16Button->Text = manualChar + "(U)";
 						inserted = true;
 					}
 					break;
 				case 17:
-					if (char17Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
-						char17Button->Text = manualChar + "(" + numberOfChar + ")";
+					if (char17Button->Text == "Char " + numberOfChar + "(I)") {
+						char17Button->Text = manualChar + "(I)";
 						inserted = true;
 					}
 					break;
 				case 18:
-					if (char18Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
-						char18Button->Text = manualChar + "(" + numberOfChar + ")";
+					if (char18Button->Text == "Char " + numberOfChar + "()") {
+						char18Button->Text = manualChar + "()";
 						inserted = true;
 					}
 					break;
 				case 19:
-					if (char19Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
-						char19Button->Text = manualChar + "(" + numberOfChar + ")";
+					if (char19Button->Text == "Char " + numberOfChar + "()") {
+						char19Button->Text = manualChar + "()";
 						inserted = true;
 					}
 					break;
 				case 20:
-					if (char20Button->Text == "Char " + numberOfChar + "(" + numberOfChar + ")") {
-						char20Button->Text = manualChar + "(" + numberOfChar + ")";
+					if (char20Button->Text == "Char " + numberOfChar + "()") {
+						char20Button->Text = manualChar + "()";
 						inserted = true;
 					}
 					break;

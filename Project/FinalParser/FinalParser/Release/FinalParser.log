@@ -1,8 +1,8 @@
 ﻿  stdafx.cpp
-c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1404): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1410): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1583): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1405): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1411): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1584): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1585): warning C4965: implicit box of integer 0; use nullptr or explicit cast
   AssemblyInfo.cpp
   FinalParser.cpp
   parserGUI.cpp

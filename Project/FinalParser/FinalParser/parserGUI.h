@@ -903,6 +903,7 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			bool nextLineWrong			= false;
 			bool choiceComes			= false;
 			bool boolOption				= false;
+			bool enviromentWOpt			= false;
 			bool nonNumberEntered;
 			double emuX;
 			double emuY;
@@ -1937,24 +1938,28 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 				line2Add = "Scene; " + actualLine->Text;
 				if (choiceComes) {
 					boolOption = true;
+					enviromentWOpt = true;
 				}
 				break;
 			case 77: // M Music
 				line2Add = "Music; " + actualLine->Text;
 				if (choiceComes) {
 					boolOption = true;
+					enviromentWOpt = true;
 				}
 				break;
 			case 89: // Y Customization
 				line2Add = "Customization; " + actualLine->Text;
 				if (choiceComes) {
 					boolOption = true;
+					enviromentWOpt = true;
 				}
 				break;
 			case 86: // Y Special
 				line2Add = "Special; " + actualLine->Text;
 				if (choiceComes) {
 					boolOption = true;
+					enviromentWOpt = true;
 				}
 				break;
 			default:
@@ -1964,9 +1969,18 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 		if (choose != 46) {
 			if (choiceComes) {
 				if (boolOption) {
-					saveLine(line2Add);
-					actualOptionLabel->Text = line2Add;
-					boolOption = false;
+					if (enviromentWOpt) {
+						saveLine(line2Add);
+						resultingLine->Text = line2Add;
+						showNextLine();
+						boolOption = false;
+						enviromentWOpt = false;
+					}
+					else {
+						saveLine(line2Add);
+						actualOptionLabel->Text = line2Add;
+						boolOption = false;
+					}
 				}
 				else {
 					if (pauseLine) {

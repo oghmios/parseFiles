@@ -75,4 +75,8 @@ Modificar la interfaz para que esté más ordenada (15min)
 
 Añadir más botones para representar todos los casos y asignarles funcionalidad (2h)
 
+25/07/2018 9:30
+
+Parseo de capítulos
+
 

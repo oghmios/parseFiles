@@ -1,0 +1,429 @@
+Character:
+Tyler
+Character:
+Arjun
+Character:
+Edgar
+Character:
+Chris
+Character:
+Tripp
+Character:
+Logan
+Character:
+James
+Character:
+Abbie
+Character:
+Becca
+ENDOFCHARACTERS	
+BG_LIGHTS_AMBIENCE_NIGHT
+MUSIC_COLLEGE_FUN_CHILL
+Chapter Five: Stage Kiss
+The Freshman
+BG_INT_THEATER_NIGHT
+play_costumes
+OUTFIT
+(PORTRAIT_CUSTOM_OUTFIT_COSTUME_VICTORIAN
+Kaitlyn
+KaitlynPlay
+ƒOn the opening night of James's play, you and Kaitlyn wait backstage as the curtain parts. Logan steps out to greet the audience...
+Logan
+PGood evening, and welcome to Darling Manor! We do hope you'll enjoy your stay...
+HAPPY
+MUSIC_COLLEGE_LOVE_SAD
+^I can't believe this... Logan's actually hitting his lines, and I can barely enjoy the moment.
+SAD
+<She peeks out again at the second row where Arjun is seated.
+Arjun
+...
+WArjun's family is super close with my parents. <i>My extremely traditional parents.</i>
+uIf word gets back to them that I'm, you know, up on stage making out with girls... I... I don't know what they'll do.
+	SURPRISED
+
+Kaitlyn...
+
+I think...
+NEUTRAL
+'You shouldn't be afraid to be yourself.
+ Maybe we could just hug instead?
+#You can't hide who you are forever.
+I never said <i>forever...</i>
+FI <i>know</i> I'm going to have to tell people back home eventually...
+/But when I do, I want it to be on my own terms.
+NI get that. We don't <i>have</i> to do the kiss if it makes you uncomfortable.
+;We don't have to do the kiss if it makes you uncomfortable.
+4I... I don't know. I don't want to let James down...
++And I don't want to let <i>myself</i> down.
+ANGRY
+What do you mean?
+qIf I <i>don't</i> kiss you onstage, it'll mean abandoning all of the progress I've made since coming to Hartfeld.
+„All through high school I dreamed of leaving home and all my insecurities behind me. I don't want to go back to the way things were.
+?So... you can't kiss me, but you also can't <i>not</i> kiss me?
+Exactly.
+PClearly, the only solution is for us to stay standing in this same spot forever.
+POr... we could go out there and put on the show our audience bought tickets for.
+And the kiss?
+OI... I'm still not sure. I guess I'll just have to figure it out in the moment.
+Do you trust me?
+AYou find Kaitlyn's hand in the dark and give it a gentle squeeze.
+
+Of course.
+
+MUSIC_COLLEGE_ACTION_CHILL
+[You and Kaitlyn queue up to go onstage and find James enraptured, staring out at the stage.
+ Everything going okay out there?
+James
++More than okay! This is... this is amazing!
+BG_INT_THEATER_CURTAINS_NIGHT
+UYou peek past the curtain to see Chris and Sebastian in the midst of a crucial scene.
+Chris
+2Then we'll keep each others secrets. To the death.
+	Sebastian
+!I wouldn't have it any other way.
+pChris crosses the stage and stands with his hands clasped behind his back, the picture of dignified aristocracy.
+,I'm glad we could come to terms, old friend.
+[I knew Chris had charisma, but I had no idea he was capable of projecting such authority...
+NHis stage presence alone elevates the material beyond my wildest expectations.
+OYou and Kaitlyn wait with hushed anticipation for Chris to give you your cue...
+:Let us speak no more of this. The Lady Darling approaches.
++And that filthy stableboy along with her...
+=My goodness! You honor us with your presence, Duke Eccleston.
+JAnd Lord Rathbone as well! It's been an age since we hosted such nobility.
+4Depends on your definition of nobility, I suppose...
+MUSIC_COLLEGE_ACTION_FUN
+ŠA few minutes later, you walk offstage with Kaitlyn, Chris, and Sebastian as the lights go down in the theater, and the next scene begins.
+QWow. That was a rush. I haven't felt like this since the last game of the season.
+DThere's just something about being in front of an audience, I guess.
+aYou were adequate in rehearsals, but you absolutely came to life once you had a crowd before you.
+MI didn't expect to say this, but we made quite a team. Quite a team indeed...
+3Thanks! You were pretty awesome out there yourself.
+Maybe you guys should...
+#Put on a two-man show or something!
+Be friends!
+A tantalizing proposition...
+=But I've got something else planned for the immediate future.
+-I don't really have friends. Just associates.
+
+Oh. I see.
+LBut I've got an interesting plan for Chris's future... if he'll hear me out.
+Sounds intriguing.
+OBelieve me, it is. We'll discuss later. For now... I need to stay in character.
+=A half hour later, you've reached the beginning of act two...
+Abbie
+'The guests are here! Fetch the footman!
+Consider me fetched, m'lady.
+Zack
+[Bite your tongue, and know your role! I believe this is a job for the <i>first</i> footman.
+Tripp
+EApologies for the second footman's impertinence. How may I serve you?
+edgar_recruit
+Edgar
+bHere you go, m'lord. The finest tea the Orient has to offer, courtesy of the East India Company...
+IAfter delivering his line, Edgar exits stage left and nearly collapses...
+mNever make me say that again, James. You and I <i>both</i> know the East India Company was dissolved in 1874!
+Right... of course I knew that.
+madison_recruit
+Madison
+;Your dinner is getting cold, miss! Is something the matter?
+<It's... it's complicated, Flora. I'd sooner not get into it.
+?After your scene ends, you and Madison exit the stage together.
++Still upset that you're not playing a tree?
+@I was at first, but... I think it was a good idea to branch out!
+,Ha ha, branch out. I see what you did there.
+Huh? What do you mean?
+I... never mind.
+5Between scenes, you look out at the crowd with James.
+HThey're loving it! I think I even saw Vasquez smile at one of the jokes.
+FProbably one of the ones that he helped me revise for the final draft.
+4But tonight, he's not the one I'm trying to impress.
+ROut in the crowd, you spot Yasmin watching intently, her lips pursed thoughtfully.
+Yasmin
+...
+9If Yasmin doesn't like the play, this is all for nothing.
+Hmm...
+It wouldn't mean nothing!
+$You don't need her to be successful!
+Yeah... that would be a bummer.
+:This has been an amazing experience, James. For all of us.
+wYou get to see your work on stage for the first time, and a lot of us are just now discovering our interest in theater.
+LRegardless of what Yasmin thinks... that's gotta count for something, right?
+)James's face softens into a gentle smile.
+You're right, of course.
+1But... it would be nice to get my work out there.
+fYou've got talent! That's more than most people can say. If she can't see it, then that's her problem.
+Thanks for believing in me...
+IBut this is the game, {You}. I can't sell work if no one wants to buy it.
+?That's where having an agent is useful... no, <i>necessary</i>.
+zI mean, we all worked pretty hard on this, so if Yasmin turns you down... it'd kinda make this whole week a waste of time.
+HIt wasn't that bad, was it? I mean... some parts were worthwhile, right?
+
+Yeah, of course, I just...
+2I did this for <i>you</i>, James. For your career.
+NI know. And... hopefully Yasmin will like the show, and it'll all be worth it.
+FI'm sure she'll want to represent you. She loves the play... except...
+,My ending. I know... she's going to hate it.
+6Well... it's kind of too late to change it now, right?
+0James pulls out a crumpled page from his pocket.
+Wait... Is that...
+$The new 'happy' ending. Take a look.
+You read it over.
+This is pretty good!
+NAnd it's only a few different lines for a few characters! We can perform this!
+I suppose you're right.
+{Based on your expression and the fact that you crumpled this into a ball, I'm guessing you're not thrilled with the change?
+GIn a word, no. It would ruin the artistic integrity of the entire play.
+AWould it? Doom and gloom doesn't always equal great literature...
+FI... I honestly don't know. I'm too close to the work at this point...
+]It's been bouncing around my head for too long, I don't even know <i>what's</i> good anymore!
+GListening in, some of the other actors waiting backstage run up to you.
+*Did I just hear we're changing the ending?
+ A bold move, Ashton. Is it true?
+.I thought this was supposed to be a tragedy...
+I...
+.He looks over at you, uncertainty in his eyes.
+Okay, everyone...
+
+We're changing the ending!
+(We're sticking with the original ending!
+5Everyone gather 'round! Time to learn some new lines!
+Are we still kissing?
+@Not just that... our characters actually get to end up together!
+Whoa, spoiler!
+6Sounds like I'd better take a look at the new scene...
+SThis is <i>your</i> play, James. We're going to perform it exactly as you wrote it.
+BIn that case... I guess we'd better get ready for the final scene!
+/You take your places for the play's last scene.
+MUSIC_COLLEGE_LOVE
+TToday, we celebrate the joining of two great houses, the Darlings and the Rathbones.
+lBut before the ceremony begins, I must ask if anyone in the audience has any reason to object to this union.
+%For a moment, silence fills the room.
+Then, a single voice cries out!
+	I object!
+On what grounds?
+
+That she doesn't love him!
+She... she loves me.
+7Watch your tongue, stableboy. I'm liable to cut it out.
+hDuke Eccleston. Kindly throw this liar in the stocks so that we may proceed with this glorious occasion.
+GThough his appearance is humble, I sense some truth behind his words...
+-Tell me, Lady Darling. Who is your true love?
+It's... it's William!
+6You run toward Kaitlyn and throw your arms around her.
+$Eccleston, you swine! We had a deal!
+Not anymore.
+8You gaze into Kaitlyn's eyes, your mouth slightly agape.
+ What... what do we do now, Will?
+.I'll admit, I hadn't thought this far ahead...
+.Perhaps a kiss would be a good place to start?
+BYou and Kaitlyn walk onstage to the strains of mournful violins...
+1So... it's decided then. I guess this is goodbye.
+cThere must be a way, Will! Won't you please stay? We can... we can still find a way to be together!
+‹I'm afraid that ship has sailed, my love. You know what you must do, but you're too afraid of hurting me to make the only choice you can...
+So I'm making it for you.
+"Please, <i>please</i>... don't go.
+AKaitlyn wraps you in her arms and wipes a tear from your cheek...
+EAll I can hope for now... is to be a memory. Don't forget me, Lizzie.
+3Then... then leave me something to remember you by.
+One last kiss.
+"For a moment, Kaitlyn hesitates...
+9Then she leans forward and kisses you softly on the lips.
+³The theater fills with applause as the lights go down on the two of you standing together, holding each other close. The curtains close, leaving you and Kaitlyn in total darkness.
+I guess you made your choice.
+6Somehow it didn't seem that difficult in the moment...
+
+Kaitlyn...
+I'm proud of you.
+Kiss me again?
++Thanks, {You}. I'm... I'm proud of me, too.
+But also <i>very</i> nervous...
+As you wish...
+rKaitlyn pulls you in close, and you feel her lips against yours, feel her running her fingers through your hair...
+Relationship Improved
+0You and Kaitlyn's relationship will be affected.
+kaitlyn
+Mmm...
+"I think I like this new Kaitlyn...
+I think I like her, too.
+jAs you and Kaitlyn break apart, the curtain comes up again. The audience is still cheering and clapping...
+Woo! Nice work, Kaitlyn!
+Vasquez
+9What do you think, Yasmin? Was I right about him or what?
+UYou were right... <i>after</i> he took my suggestion to change the ending, of course.
+bI admit... I <i>may</i> have been wrong about the ending. Looks like James knew what he was doing.
+-You take your final bows as the crowd cheers.
+Author! Author!
+&James hops up onstage and takes a bow.
+Thanks for coming, everyone!
+_The crowd rises to their feet in a standing ovation. Yasmin notes the reaction with interest...
+Not a bad response...
+YBefore you know it, the audience departs, and the cast and crew assembles to say goodbye.
+KThat was truly the performance of a lifetime. I owe you all a great debt...
+#I... I don't know how to thank you.
+,A cast party would be a good place to start!
+EEverybody meet at our place in an hour... James is buying the drinks!
+You've got yourself a deal.
+>I'm going to change back to my twenty-first century clothes...
+Same.
+BG_EXT_CAMPUS_QUAD_WINTER_NIGHT
+IAs you leave the theater with your friends, Yasmin catches James's arm...
+/Ashton. Your play gave me a lot to think about.
+Hopefully in a good way.
+I'm still deciding. Talk soon.
+hWith that, she turns and walks toward the parking lot, giving a little wave before getting in her car...
+-Looks like I'll have to wait for my answer...
+ADon't worry. This party should provide one hell of a distraction.
+WWhat are you gonna wear, James? Don't tell me you're showing up in that rumpled suit...
+Rumpled?
+]I guess I've had a few too many sleepless nights... a change of clothes is probably in order.
+ç<aqua>Makeovers</aqua>
+
+From time to time, you'll have the opportunity to unlock <aqua>makeovers</aqua> for your friends. Makeovers will grant your friend a unique outfit for the rest of the book and unlock exclusive story content!
+Give James a makeover?
+	Makeover!
+JamesMakeover
+james_makeover
+No makeover
+KOkay, we've still got some time before this party... you're coming with me!
+I am?
+BG_INT_DORM_MAIN_NIGHT
+>Later, the two of you arrive back at your place for the party.
+ Ready to show off your new look?
+)I'm sure no one's even going to notice...
+*That's more like it! Looking sharp, James!
+Tyler
+Nice sweater!
+Becca
+Very GQ.
+)Okay, {You}. I guess you proved me wrong.
+Better get used to it.
+LActually... I think you look fine just as you are. Tired, maybe... but fine.
+If you say so...
+%Soon, the party begins at your place.
+Thanks for hosting this, {You}.
+iOf course! It was a long, hard, week... I think we all deserve the chance to cut loose and have some fun!
+!That's exactly what I plan to do.
+HAs the party gets underway, you spot Chris hanging out with his friends.
+HI never thought I'd say this, but your talent basically touched my soul.
+%Come on, I wasn't <i>that</i> good...
+=You were! Seriously, man, I couldn't take my eyes off of you!
+GTo your horror, Becca strokes Sebastian's forearm and smiles up at him.
+0I felt the same way about <i>you</i>, Sebastian.
+%I tend to have that effect on people.
+I think I'm gonna be sick...
+7Spotting you, Chris walks over, a big grin on his face.
+;Hey... I wanted to say, I thought you were amazing tonight.
+3You and Kaitlyn... that kiss... I mean, <i>wow.</i>
+Well...
+
+Kaitlyn means a lot to me.
+It was just a stage kiss.
+I'd rather kiss you.
+Of course she does.
+%You two are... really great together.
+Thanks... I think so too.
+8Of course. And from one actor to another, you nailed it.
+7After the performance you gave today, that means a lot.
+I was hoping you'd say that.
+KChris takes your hand and pulls you close, pressing his lips against yours.
+Mmm...
+Relationship Improved
+.You and Chris's relationship will be affected.
+chris
+DLet Kaitlyn have the stage kiss... I'll take the real thing any day.
+5There's a knock on the door. You open it to reveal...
++Oh! I'm sorry... I was looking for Kaitlyn.
+Kaitlyn, huh?
+You've come to the right place.
+Must be a wrong address.
+I thought so!
+.Kaitlyn comes up behind you, looking startled.
+?Hey, Arjun! I, uh, didn't realize you were coming here tonight!
+>I wanted to catch you after the play, but I couldn't find you.
+Are you sure?
+(Yeah... you might want to try next door.
+KWait a minute... you're the girl from the play! You <i>do</i> know Kaitlyn!
+!Oh, right... <i>that</i> Kaitlyn.
+0Kaitlyn comes up behind you and smiles at Arjun.
+9{You} just has a weird sense of humor, Arjun. Come on in.
+%So... what did you think of the play?
+You were both awesome!
+TThat kiss, man... it felt so real, for a second I almost forgot it was you up there!
+LNever thought I'd see little Kaitlyn Liao become such an incredible actress!
+!Hey, I'm not so little anymore...
+Guess you're not, huh?
+[I'm gonna get out of your hair and grab a drink, but then we <i>need</i> to catch up. Deal?
+Deal!
+fAs Arjun walks into your suite and heads for the kitchen, Kaitlyn turns and whispers to you excitedly.
+VDid you hear that? He was totally unfazed by the kiss! He doesn't know I'm into girls!
+Is... is that a good thing?
+JOf course! Now I can come out to everyone back home when <i>I'm</i> ready.
+PAll I have to do is get through the rest of the night without him catching on...
+\It's your decision, I guess. I kind of thought you kissing me meant you <i>were</i> ready...
+It did, I just...
+8Look, I wouldn't say no to a little more time, you know?
+1Now, let's stop whispering and go join the party!
+rYou follow Kaitlyn to the counter where Arjun's cracking open a beer. Kaitlyn walks up and punches him on the arm!
+Ouch!
+WOuch? What happened to you, dude? Remember how we used to always do that to each other?
+iYou mean how <i>you</i> used to always do that. My dad would've skinned me alive if he saw me hit a girl.
+0More like you were too scared to hit back. Wuss.
+|Oh, I'm the wuss, huh? Remind me who it was that screamed bloody murder when that sheep walked up to you at the petting zoo?
+Hey, it was really scary!
+&It was a <i>sheep.</i> I rest my case.
+>Kaitlyn giggles, then notices you looking politely bewildered.
+5Right! Arjun, there's someone I'd like you to meet...
+9This is my best friend, {You}. She's pretty much amazing.
++Amazing, huh? It's nice to meet you, {You}.
+You too.
+rBy the way, Arjun... sorry if I seemed kind of freaked out when you showed up. I was just so surprised to see you!
+)Why didn't you tell me you were visiting?
+
+Oh yeah, uh, about that...
+ŠIt's not just a visit. After sophomore year, I decided UT Austin was a <i>little</i> too close to home... so I'm transferring to Hartfeld.
+What?!
+QWhat will Arjun transferring mean for Kaitlyn? Play the next chapter to find out!
+BG_INT_FASHION_SHOP
+Fifteen minutes later...
+So... what do you think?
+0I've got to say... I think I'm pulling this off!
+
+I think...
+You look nice!
+You're looking hot!
+QIt's a good change for you! That old blazer was starting to look a little ragged.
+NYeah... I think I took the whole starving artist thing <i>too</i> literally...
+eYou won't be starving much longer if Yasmin takes you on as a client... you'll want to look the part.
+-Sage advice. Ready to get this party started?
+Lead the way!
+3Funny. I was so eager to see you in that sweater...
+'And now I just want to tear it off you.
+Relationship Improved
+.You and James's relationship will be affected.
+james
+That can be arranged...
+)But let's hold off until after the party.
+ Aw. What's wrong with right now?
+I can't keep my cast waiting...
+1Polite as always. Fine, I'll be patient. For now.
+You1
+You2
+You3
+%PORTRAIT_CUSTOM_OUTFIT_WELCOME_JACKET
+"PORTRAIT_CUSTOM_OUTFIT_PARKA_GREEN
+#PORTRAIT_CUSTOM_OUTFIT_VEST_QUILTED
+Choose your outfit!
+Confirm
+Confirm
+Confirm
+outfit_choice
+This outfit is totally...
+Awesome!
+Wrong! I need a new look.
+'Maybe I should try on something else..."
+main"
+doSetup"
+doPlayStartð"
+doArjun‹"
+
+doMakeover¸"

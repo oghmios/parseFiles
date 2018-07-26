@@ -1,0 +1,574 @@
+Character:
+Tyler
+Character:
+Chris
+Character:
+James
+Character:
+Abbie
+Character:
+Becca
+ENDOFCHARACTERS
+MajorToastAddToBookVar
+CHAPTER COMPLETE
+tYou've reached the end of the chapter. Restart this chapter to try other choices or continue on to the next chapter.
+Restart Chapter
+Continue On
+
+MUSIC_COLLEGE_TENSE_ACTION
+You
+BG_LIGHTS_AMBIENCE_NIGHT
+$Chapter Thirteen: Swing Vote Sixties
+The Freshman
+BG_INT_THEATER_CURTAINS_NIGHT
+<i>Criminal record?!</i>
+	SURPRISED
+Chris
+Sebastian...
+ANGRY
+	Sebastian
+POh, you didn't know? I see. Chris has been keeping secrets from <i>everyone.</i>
+HAPPY
+ Chris, what is he talking about?
+Nothing! Er... well--
+]Reconsider my earlier offer. Unless you want the whole school to know about your sordid past!
+FI'll leave you two to talk. I assume you have <i>a lot</i> to discuss.
+-Sebastian saunters away, smirking to himself.
+Is it true, Chris?
+I...
+SAD
+(He trails off and doesn't meet your eye.
+MUSIC_COLLEGE_TENSE_SAD
+I can't believe...
+You kept this from me!
+You lied to all of us!
+You're such a badass!
+Why didn't you say anything?
+relationships
+>I'm your <i>girlfriend!</i> You know you can tell me anything!
+MI was going to, eventually! But... I could never seem to find the right time.
+'So you decided to keep secrets instead?
+&I didn't want you to think less of me.
+/We're your friends! How could you not trust us?
+FI <i>do</i> trust you. I just didn't want you all to think less of me.
+EWho knew you were so wild? Wait! You didn't... kill someone, did you?
+?What? No! Do you honestly think I would do something like that?
+)I don't know <i>what</i> to think, Chris.
+]Please, {You}. This isn't the way I wanted you to find out. Just give me a chance to explain.
+0Fine. But you need to tell me <i>everything.</i>
+I will. Promise.
+=Can we go somewhere a little more private to talk about this?
+#How about we head back to the dorm?
+INo... I need to get away from everything for a bit. Let's go for a drive.
+BG_INT_CAR_HIGHWAY_DAY
+MUSIC_COLLEGE_LOVE_SAD
+_Chris drives in silence for a while. You glance over at him, but he keeps his eyes on the road.
+You ready to talk?
+Chris lets out a long sigh.
+I guess so.
+3I haven't told you everything about my past, {You}.
+8No, you haven't. But now would be a great time to start.
+RI guess I thought if I never talked about it, it couldn't come back to haunt me...
+{<pause/> I grew up in Maine with my mom and little sister and brother. Money was tight, Mom was working most of the time...
+I see...
+(It sounds like things were pretty tough.
+What about your dad?
+'You must have had a lot to worry about.
+iI tried to work odd jobs to help make ends meet, but my hands were pretty full looking after my siblings.
+ZSometimes I felt like I was missing out on my teen years. I had too many responsibilities.
+Was he around much?
+jI want to be open with you, {You}. But my dad is a whole other issue. I'm not ready to talk about him yet.
+I understand.
+qThe point is, I was young and frustrated, and I didn't have a lot of friends. I felt like I was going to explode.
+tThere was this group of guys at my school... They cut class a lot, snuck cigarettes during lunch, got into fights...
+The troublemakers?
+dBig time. Anyway, one day they invited me to come sit with them behind the bleachers during lunch...
+....And before long, I was part of their group.
+$So you fell in with the wrong crowd.
+xIt was great at first. I finally had somewhere to belong, and breaking the rules gave me a thrill I'd never felt before.
+=But you can't go on like that without creating more problems.
+]I was neglecting my family, falling behind in school, and getting into more and more trouble.
+,Chris takes a deep breath before continuing.
+2Finally, I...<pause/> I got caught stealing a car.
+Oh my god...
+1I can't believe you would do something like that!
+Why did you do it?
+What were you thinking?
+ Believe me, I'm not proud of it.
+?I know I have no one to blame but myself, but I was vulnerable.
+CI was out of control, and trying to prove myself to my new friends.
+7I mean... that just doesn't seem like the Chris I know.
+?I was out of control, trying to prove myself to my new friends.
+I just wanted to fit in.
+What happened then?
+AIt was bad. I was facing expulsion and a lengthy juvenile record.
+#But then... I got very, very lucky.
+How so?
+1My school's football coach came and talked to me.
+gHe'd reviewed my file and said he could tell that I wasn't a bad kid, just that I was a little... lost.
+He took you under his wing?
+VHe pleaded my case to the school. I got my grades back up, joined the football team...
+B...And after a provisionary period, he even got my records sealed.
+bHe was the one who encouraged me to apply to Hartfeld, and helped me get their sports scholarship.
+_My mom helped too. After everything I put her through, I'm grateful that she was so supportive.
+QIf it hadn't been for their support, I don't know what would have happened to me.
+tI'm ashamed of who I was back then. College was supposed to be my fresh start... But now, Sebastian could ruin that!
+Chris...
+We all make mistakes.
+-I can see why you're worried about Sebastian.
+aYou were going through a rough patch. What matters is that you were able to turn yourself around.
+$I'm really glad you think so, {You}.
+JI'm just worried that other people won't see it that way if this gets out.
+!I could even lose my scholarship!
+BIf this gets out, it could ruin your chance at becoming president!
+3Forget the presidency, I could lose my scholarship!
+&Well, hopefully it won't come to that.
+WI've thought Vasquez was going to cut my scholarship lots of times, but I'm still here!
+#Yeah... I guess you've got a point.
+_Thanks for listening, {You}. I was afraid to tell you all this, but I'm glad it's off my chest.
+(Chris, you know I'm always here for you.
+PYou rest your hand on Chris's knee, and Chris gently places his hand over yours.
+$I'm so lucky to have you in my life.
+AI don't know what I'd do without all the support you've given me.
+The feeling is mutual.
+;Maybe later I can help take your mind off all this drama...
+Now we're talking...
+QBut hey, when we get back home, you should really tell the others about all this.
+.I guess it'd be best if they heard it from me.
+DChris, they're your friends. They'll have your back, no matter what.
+
+I hope so.
+
+unlock_party_dress_marilyn
+unlock_party_dress_jackie
+unlock_party_dress_plain
+mod_party_dress
+BG_INT_DORM_MAIN_DAY
+MUSIC_COLLEGE_FUN_CHILL
+DYou and Chris enter the dorm to find all your roommates hanging out.
+Abbie
+There you are! Where were you?
+Tyler
+%You two disappeared after the debate!
+Zack
+SI'm sure they were just <i>celebrating</i> Chris' success at the debate together...
+Actually...
+-I need to talk to you guys about something...
+;Chris tells everyone about his past and Sebastian's threat.
+Wow...
+This is a lot to take in...
+]I'm really sorry I didn't tell you all sooner. I just wanted to leave those days behind me...
+>I thought you'd reject me if you knew all the things I'd done.
+Kaitlyn
+(What?! Never! Chris, you belong with us!
+BYeah, we've been friends long enough to know you're not a bad guy.
+You really think so?
+TOf course! If we were all judged by the stupid things we did when we were younger...
+;Well, we've all had moments we wish we could erase forever.
+-Ugh... You just reminded me of my goth phase.
+UI say the real villain here is Sebastian. I mean, <i>blackmail?</i> That's just cold.
+[We can't just let him mess with Chris like this! We've gotta find a way to get back at him.
+Yeah!
+.Guys, wait! I don't want you getting involved!
+Why not? We want to help you!
+CYeah, a guy like that has got to have some dark secrets of his own.
+XSeriously, it's not up for discussion. This is between me and Sebastian. Stay out of it.
+Please.
+
+But he's not playing fair!
+1I know... But I don't want to stoop to his level.
+)There must be <i>something</i> we can do.
+Your support is enough, really.
+KI've made enough trouble in my life before... Let me do this the right way.
+Chris...
+,You're right, we have to take the high road.
+!This isn't the time to act noble!
+QTrying to get back at Sebastian will only distract you from your actual campaign.
+3Exactly. I want to focus on the <i>real</i> issues.
+*And if I win, I want it to be on my terms.
+JYou can't beat a rigged game. Besides, your college career is on the line!
+WIf I get caught up in personal vendettas, I'll lose sight of what's actually important.
+&If I win, I want it to be on my terms.
+BSo I need you all to promise me that you won't go after Sebastian.
+If you say so.
+LAww... I would have <i>loved</i> to wipe the smirk off of that creep's face.
+If you ever change your mind...
+JI've made my decision. But I'm really happy to know you guys have my back.
+MUSIC_COLLEGE_COMEDY_MISCHIEF
+\Hey, speaking of the election... I almost forgot about the 'Get Out The Vote' party tonight!
+/What? What about the game night we had planned?
+1Sorry Tyler... We'll have to do it another night.
+3Zack's right. We need to be there to support Chris.
+HAnd <i>as if</i> I'd miss a chance to get dressed up for a themed event!
+Wait, what's the theme?
+_The Swingin' 60s! Oh my god... Can you picture all the slim cut suits and fabulous mod dresses?
+RWe're probably going to see a lot more last-minute tie-dye and Birkenstock combos.
+A boy can dream.
+3I think I'll just wear my dress from winter formal.
+8And I have some old clothes that look kind of hippy-ish.
+ZYou guys are breaking my heart. {You}, tell me you're planning to go all out for this one.
+?I guess I could dress up like a 60s icon, but I'm not sure who.
+WHow about Jackie O? I can't think of anyone more classy than her. First lady and all...
+JWhich is totally fitting since your boyfriend could be our next president.
+&Plus she was a big patron of the arts!
+(Guys? Aren't we forgetting someone here?
+Uhh...
++What about <jiggle>MARILYN MONROE?</jiggle>
+*Oh snap, you're right! I forgot about her!
+!How do you forget <i>Marilyn?</i>
+?{You}, if you want classy <i>and</i> sexy, Marilyn's your girl.
+He's right.
+LThanks for the suggestions! I'll head to the shop and see what I can find...
+BG_INT_FASHION_SHOP
+You1
+You2
+You3
+OUTFIT
++PORTRAIT_CUSTOM_OUTFIT_SIXTIESPARTY_MARILYN
+*PORTRAIT_CUSTOM_OUTFIT_SIXTIESPARTY_JACKIE
+#PORTRAIT_CUSTOM_OUTFIT_DINNER_CREAM
+ What will you wear to the party?
+Confirm
+NEUTRAL
+party_dress_best
+Confirm
+party_dress_okay
+Confirm
+Well, this will have to do.
+Not bad at all!
+$Now this looks <jiggle>hot!</jiggle>
+ChrisFormal
+AbbieFormal
+TylerFormal
+
+ZackFormal
+KaitlynFall
+James
+JamesFormal
+/You return to the dorm to show off your outfit.
+How's this for swingin'?
+Pin-Up
+!You channeled your inner Marilyn!
+
+Daaaaayum!
+{You}... You look incredible!
+That outfit is seriously sexy!
+WIf I win this election, you have to promise to sing me 'Happy Birthday, Mr. President!'
+.I'll be sure to hang on to this costume, then.
+1Mmm... You're so hot, you could win the Cold War.
+Hey... <i>Some Like It Hot.</i>
+OOkay, we need to get out of here before these two pun each other's clothes off.
+Wow, you look...
+...Yes?
+...Fine. You look fine.
+Thanks, Kaitlyn.
+)Just watch out for air vents, Ms. Monroe.
+Mrs. Kennedy
+&You gave Jackie O a run for her money!
+AWoah! Did I just step into a time machine and get out in the 60s?
+0Because you are a <i>first class</i> first lady!
+Seriously... You look amazing!
+.I feel like I'm back in American Politics 103!
+Aww... You guys!
+GIf I win this election, you're gonna make a <i>gorgeous</i> first lady!
+-Well, the Kennedys were a pretty sexy couple.
+eYeah, maybe I should look into starting another Space Race. Because you are <i>out of this world!</i>
+MUgh... Chris, stick with politics and leave the pickup lines to someone else.
+Sorry, couldn't resist.
+Oh wow, you look...
+...Yes?
+...Very authentic.
+Thanks, Kaitlyn.
+Looks classy to me!
+"Shall we go, then? Everyone ready?
+Lead the way!
+BG_INT_BALLROOM_FORMAL_NIGHT
+MUSIC_COLLEGE_ACTION_FUN
+tYou and your friends arrive at the party. 60s music blasts from the speakers and tables are set with fancy flatware.
+Wow! This place looks great!
+#Totally groovy, you might even say.
+?And I'm about to groove my way to the bar. Anyone care to join?
+&Maybe later... I'm gonna grab a table.
+<Zack heads to the bar and Kaitlyn wanders off into the fray.
+I'm worried about her.
+DLet her go, {You}. She just needs a little space to think right now.
+PI know, but I'm just bummed that I don't even get to dance with my girlfriend...
+Or whatever we are right now.
+QShe'll come around when she's ready, {You}. Just try to have a good time tonight.
+*Well, does anyone else want drinks? Chris?
+Maybe in a bit.
+You doing okay?
+*Just stressed about the election, I guess.
+|Hey, it's gonna be fine! Think of everyone cheering for you at the debate! All those people want <i>you</i> to be president.
+PYeah, no matter what Sebastian says, everyone knows you're the better candidate.
+XGuys, let's not even think about the election. Tonight is about relaxing and having fun!
+%And Tyler promised me a dance, right?
+I did?
+6Abbie's right. I think we all need to unwind a little.
+You in, {You}?
+Actually...
+'I could use a break from all the drama!
+I'm still mad at Sebastian!
+Carefree
+*You didn't let politics ruin a good night!
+
+Let's hit the dance floor!
+Uh... I really can't dance.
+OCome on Tyler, this isn't <i>Dancing with the Stars</i>. Just go with the flow!
+With everyone watching?
+ Trust me, no one will even care.
+#Maybe you could show me some moves?
+I'll do my best.
+<I'm gonna find Zack at the bar... I'll join you in a minute!
+tyler_abbie
+Relationship Improved
+0Tyler and Abbie's relationship will be affected.
+Wet Blanket
+You were no fun at the party.
+EI just can't relax knowing that smug jerk is so pleased with himself.
+{You}, just drop it.
+GSorry guys, I need a moment to calm down. I'll catch up with you later.
+MUSIC_COLLEGE_LOVE
+WAs you head across the dance floor, you suddenly find yourself face to face with James.
+
+Oh... Hey!
+James! What are you doing here?
+2Uh... This party's for the whole school, isn't it?
+7Yeah, of course... Sorry, my head's all over the place.
+,I figured I'd come tonight to support Chris.
+I'm sure he appreciates it.
+6Wow... You really went all out for the 60s theme, huh?
+I do my best.
+Well, you look really great.
+Thanks.
+/So... Um... Have you heard from Vasquez at all?
+[Yeah, he called me earlier. He'll be taking some time off to be with Gabriela and the baby.
+YWow, Grandpa Vasquez... Somehow I can't picture him willingly playing peek-a-boo, though.
+Yeah, me either.
+ZI'm just glad that he and Gabriela were able to put their differences aside and reconnect.
+?Definitely. I think he's happier than he's been in a long time.
+ZIt's nice to know that even after a lot of pain, trust can be restored between two people.
+...
+KHey... Do you think it'd be weird for two 'acquaintances' to share a dance?
+No, it wouldn't be weird.
+HJames gently places his hand on your back and leads you in a slow dance.
+YJames... We never really talked about what happened. I want to explain my side of things.
+Will you at least hear me out?
+I'm listening.
+Look...
++I only found out about Vasquez by accident.
+6If I'd blabbed, I would have betrayed Vasquez's trust.
+XHe wasn't planning to tell me either, but I walked in on him during a treatment session.
+iHe ordered me not to tell anyone. Especially not you or Gabriela. I think he didn't want people to worry.
+|But imagine how we would have felt if he'd suddenly died with no explanation! How is that better than telling us in advance?
+aI know, it was a stupid decision not to tell you. But it was <i>his</i> choice to make, not mine.
+QHe really didn't want anyone to know. I couldn't go against his wishes like that.
+;I just wish he'd trusted <i>me</i> enough to say something.
+{James, you know it's not like that. He cares about you, and as illogical as it seems, he just wanted to spare you the pain.
+.I just wish he had a better way of showing it.
+wI'm really sorry I couldn't say anything. But it was a tough situation, and I hope you understand why I did what I did.
+VI do, {You}. And I'm sorry I blew up at you without hearing your side of things first.
+6It's okay... I'm glad we finally got to talk about it.
+	Me too...
+/It's just that trust is really important to me.
+AA few years ago, I dated a girl... I was really in love with her.
+BBut it turned out she had been seeing someone else behind my back.
+SI only found out because I got back from class early one day and walked in on them.
+That's terrible! I'm so sorry.
+IIt's water under the bridge now... But it's still painful to be reminded.
+@Well, I can understand why lying is a sensitive subject for you.
+]I didn't know this would hit home so hard. Honestly, hurting you was the last thing I wanted.
+MI know that now... I shouldn't have taken it out on you the way that I did...
+GI have to say... Being here with you now brings back a lot of memories.
+@Remember the time Vasquez made you take me to the sorority ball?
+IWell, he didn't exactly have to twist my arm. I was happy to be with you.
+,James's hand travels lightly down your back.
+(You know, this might sound weird, but...
+You've been on my mind a lot.
+ Because you've been angry at me?
+Well, maybe a little...
+#But mostly because I've missed you.
+James...
+]James pulls you closer and leans his head towards yours. You feel his breath on your cheek...
+IThe song you're slow dancing to ends suddenly, replaced by an upbeat jam.
+Oh!
+Song's over...
+Well... I guess I should...
+Yeah, of course.
+I'll see you around?
+Definitely.
+áYou part ways with James and look around for your friends. Not far away, Chris and Sebastian appear to be having a heated conversation.
+Uh-oh.
+[...And as my grandfather always said: you can polish a Buick, but that won't make it a BMW.
+You shut your mouth.
+]Or you'll do what? Topple my political career by leaking the secrets of my unscrupulous past?
+3<i>Oh wait...</i> That's <i>my</i> move, not yours.
+gYou act like you're so above it all, but I'll bet there are some pretty nasty skeletons in your closet.
+<Don't try to put us on the same level. I'm nothing like you.
+I'll take that as a compliment.
+OChris storms off. Before you can follow him, you feel a tap on your shoulder...
+Becca
+Hey, {You}.
+Becca?
+NUgh, can you not breathe right into my face? Your breath smells like dog food.
+@Gee, you didn't even <i>try</i> to dress for the theme, did you?
+Neither did you.
+
+What the hell do you want?
+TChris isn't doing too well, is he? It sounds like Sebastian really has him cornered.
+-Look, if you came over here just to bug me...
+4Don't flatter yourself. You're not worth the effort.
+iI just thought you should know: I have some dirt on Sebastian that might put Chris ahead in the election.
+What?!
+Why would you help me?
+I don't believe you!
+5This doesn't make sense. Sebastian is your boyfriend!
+]As much as it pains me to actually agree with you on something, Sebastian is a complete tool.
+QI can't argue with that. But why are you telling me this? I thought you hated me!
+)Don't worry, that hasn't changed one bit.
+&This has got to be some kind of trick!
+GAre you always this paranoid? Politics has really done a number on you.
+BSave it, Becca! Whatever this is, I don't want to be a part of it.
+èCould you not be an idiot for like five seconds? Everyone knows we hate each other. If Sebastian was trying to trick you, why would he send me?
+FBelieve it or not, I think I might like him even less than I like you.
+CNow <i>that's</i> saying something! What did he do to piss you off?
+OHe treats me like total garbage! He never takes me out, never compliments me...
+@He's really only interested in himself and this stupid campaign!
+wBut listen, okay? I was at Sebastian's place the other night, and he left his laptop open while he was taking a shower.
+HHe'd been managing his bank account online, so I decided to take a look.
+Wow, gold digger much?
+áHey, let's focus on the <i>real</i> bad guy here! It turns out he's been funneling his campaign funds into his <i>personal account!</i>
+Seriously? That's huge!
+"I can't believe he'd stoop so low.
+7Huh, I never would have guessed that you were so moral.
+yMorals, schmorals. I don't understand why he'd steal money if he's already rich! I thought only poor people were thieves!
+*Um, okay... Anyway, thanks for helping me.
+hUgh, it sounds awful when you put it that way. Can we just ruin Sebastian and never speak of this again?
+Fine, it's a deal.
+?Zack, Tyler, and Abbie approach you, eyeing Becca suspiciously.
+%Uh... Everything alright here, {You}?
+(Guys, perfect timing! We need your help.
+
+<i>We?</i>
+1You tell your friends what you've just learned...
+1...So all we need is proof of his shady finances.
+QTyler, do you think you can hack Sebastian's computer to access his bank records?
+4The legality is questionable, but my skills are not!
+OThat's the spirit! Becca, you take Tyler, Zack, and Abbie to Sebastian's place.
+ Zack and I can watch the door...
+"While <i>I</i> work my tech magic.
+#Wait, why is Becca working with us?
+KZack, sometimes unlikely alliances are born in pursuit of the greater good.
+;And, obviously, I'm the only one who has a key to his dorm.
+6That is also a very good point. What about you, {You}?
+=I'll find Sebastian and try to distract him as long as I can!
+gAfter going your separate ways, you grab a drink and wander through the party until you find Sebastian.
+
+Sebastian!
+3Well, well. If it isn't Chris's little cheerleader.
+Listen, I need to talk to you.
+WSo Chris can't even face me like a man? He has to send you to pick his battles for him?
+!I'm not here to talk about Chris.
+COh really? Then what on earth could you possibly have to say to me?
+It's just that...
+)I think you look really handsome tonight.
++I wanted to know what kind of suit that is.
+0I have some follow-up questions from the debate.
+àI know we haven't been on the best of terms since this election, but I've admired you from the moment I saw you perform in James's play.
+Huh?
+You inhabited your character with such elegance and ease. It's clear you know a lot about acting. And I like a man with talent.
+(Uh... I really don't know what to say...
++Then don't say anything... Just... hold me.
+<Are you out of your mind? I don't fraternize with the enemy.
+KAre you worried about Becca finding out? I don't even see her here tonight.
+7What's wrong with you? I'm giving you a firm <i>no.</i>
+(Mmm... I'll bet you can get pretty firm.
+%It looks really classy. Is that wool?
+L100 percent cashmere. Not that I'd expect <i>you</i> to know the difference.
+The buttons are cool too.
+Yes, hand crafted in Italy.
+)Let me get a closer look at the detail...
+;You lean in and 'accidentally' spill your wine on his suit!
+Oh my gosh, I'm so sorry!
+:You idiot! Do you have any idea how much this outfit cost?
+gDon't worry, I can get those stains out! Here, I'll pour some of your drink to counterbalance the wine.
+You're just making it worse!
+)Let's go to the bathroom and wash it out!
+7There were some important issues that you didn't cover.
+.I thought I was fairly thorough, but ask away.
+2I want to talk to you about campus transportation.
+What about it?
+{All the snow this winter has made it hard to get around campus. Bikes, scooters, and skateboards can't get enough traction.
+AAnd pedestrians run the risk of slipping and injuring themselves.
+%Hmm, yes, well that's why I plan to--
+`So I'm wondering how much of the school's budget you're going to put aside for campus sled dogs.
+
+Sled dogs?
+Yup.
+As in... actual canines?
+With paws and tails.
+Let me get this straight...
+>Instead of simply hiring more groundskeepers to shovel snow...
+U...you're proposing that we install hordes of dogs to shuttle students around campus?
+FAbsolutely! There are more than enough shelter dogs in need of a home.
+SAnd I'm sure students would love having fluffy friends to play with. Everyone wins!
+{You}, what's going on?
+What do you mean?
+zYou're clearly trying to mess with me. I just can't figure out if you're simply a sore loser or if you're up to something!
+I just wanted to talk, honest!
+]I don't believe that for a second! If you're going to pester me all night, I'll just go home.
+	No, wait!
+(What should I do?)
+	Kiss him!
+	Trip him!
+Dance!
+	Pucker Up
+,You smooched Sebastian for the greater good.
+;You grab Sebastian's face and press your mouth against his.
+{You}?!
+/Oh god... Were you eating garlic bread earlier?
+Clumsy
+#You sent Sebastian head over heels.
+)Sebastian goes tumbling across the floor.
+<jiggle>Ooof!</jiggle>
+%Oh, I'm so sorry! Let me help you up!
+Work It
++You challenged Sebastian to a dance battle.
+0You dance vigorously, blocking Sebastian's path.
+What do you think you're doing?
+3The only way you're leaving is through a dance-off!
+Uh...
+Get out of my way!
+HSebastian pushes past you and heads towards the exit. You run after him.
+
+MUSIC_COLLEGE_ACTION_CHILL
+
+Get the hell away from me!
+bAt that moment, Tyler, Abbie, and Zack burst through the doors. Tyler is holding up a flash drive.
+The jig is up, Sebastian!
+What's going on?
+IYou're not the only one who knows how to dig into other people's secrets.
+)What's he holding? Is that a flash drive?
+Oh, this? It's evidence.
+Evidence? Of what?
+EOf one of your favorite hobbies. You know, rhymes with gembezzlement.
+I don't believe this.
+LYou may not, but the student body sure will if they ever catch wind of this.
+You... Can't... How...?
+jShh, save your energy for your campaign. You're gonna need it now that the playing field has been leveled.
+QI suppose you want me to keep my mouth shut about Chris in exchange for the same?
+-Well, look at that! Beauty <i>and</i> brains!
+Damn it, a stalemate!
+So what's it gonna be?
+ I can see that I have no choice.
+Then it's a deal.
+WYes... But I won't forget this. Someday, you're going to regret ever laying eyes on me.
+WIs Chris in the clear, or will Sebastian get his revenge? Find out in the next chapter!"
+main"
+Opening1"
+
+ChrisDriveÅ"
+	PartyPrepú"
+SixtiesParty®"
+
+JamesDanceá

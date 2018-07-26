@@ -1,0 +1,555 @@
+Character:
+Tyler
+Character:
+Chris
+Character:
+Tripp
+Character:
+Logan
+Character:
+James
+Character:
+Abbie
+Character:
+Becca
+ENDOFCHARACTERS
+BG_LIGHTS_AMBIENCE_NIGHT
+
+MUSIC_COLLEGE_ACTION_CHILL
+$Chapter Fourteen: Inauguration Night
+The Freshman
+You
+BG_INT_DORM_BEDROOM_DAY
+UThe first few days of finals week go by in a flurry of final exams and election hype.
+}You finish your American History test early, giving you just enough time to get changed before the election kickoff speeches.
+Chris
+Abbie
+Tyler
+Zack
+Kaitlyn
+James
+romance_the_freshman_02
+james_makeover
+JamesMakeover
+kaitlyn_makeover
+KaitlynMakeover
+chris_makeover
+ChrisMakeover
++Abbie opens the door and pokes her head in.
+Hey, {You}! Ready to go?
+HAPPY
+Yep! Let's head out!
+BG_INT_THEATER_NIGHT
+JYou and Abbie get to the auditorium and take seats next to Zack and Tyler.
+*Oh, sorry, we're saving these seats for...
+,Abbie? {You}? Oh, god, my brain is so fried.
+	SURPRISED
+6Same here. But at least we're almost done with finals!
+Amen to that!
+kNow all we've got is two more days, the election, and the <jiggle>boat dance</jiggle>! Is everyone excited?
+I'm...
+NEUTRAL
+So excited!
+'More focused on the election right now.
+Just ready to go home.
+Making Waves
+"You're psyched for the boat dance!
+Me too!
+IMe three. But you knew that already, Tyler, because we're going together.
+ Tyler kisses Abbie on the cheek.
+<i>Eww!</i> Get a room you two!
+4Preferably not Tyler's, which is right next to mine.
+Rock the Vote
+You're a concerned constituent.
+pI can't get my mind off it. I actually had a dream two nights ago where Sebastian won and I lost my scholarship!
+SAD
+-Aww, {You}, don't worry. It was just a dream.
+He gives you a hug.
+=Thanks, but what if Sebastian tries to mess with Chris again?
+PIf he does, I have a flash drive full of incriminating information in my pocket.
+Shh! Someone might hear you!
+No Place Like Home
+ You're ready to get out of here.
+KI told my parents not to wake me up before 3:00 PM. It's gonna be glorious.
+Amen to that.
+Your friends all sigh dreamily.
+I miss my sister.
+I miss eating real food.
+I miss my house.
+I miss my cat.
+You all sigh again.
+YEveryone gets quiet as Ms. Twombly walks onto the stage, followed by Chris and Sebastian.
+Twombly
+DGood evening, everyone, and good luck on your remaining final exams.
+pI know you all have last-minute cramming to do, but don't forget to cast your vote for school president as well.
+oTonight, the candidates will have one final chance to convince undecided voters that they are the right choice.
+RNow, without further ado, students of Hartfeld, give it up for Christopher Powell!
+1The crowd cheers as Chris steps up to the podium.
+Thank you, thank you.
+˜First of all, thank you for all your support. In the past few weeks, I've talked to many of you, and your passion towards the school is truly inspiring.
+lIn the interest of full transparency, fellow students, there's something I think you should know about me...
+MUSIC_COLLEGE_TENSE_SAD
+mWhen I was younger, I made some mistakes. I fell in with the wrong crowd, and I did a bunch of stupid things.
+The crowd murmurs in confusion.
+TNow, to be clear, it was a juvenile offense which I was able to get expunged, but...
++He closes his eyes and takes a deep breath.
++I tried to steal a car once and got busted.
+4You hear several gasps before the crowd goes silent.
+.<i>Is he gonna drop out? What's he doing?!</i>
+<i>I don't know!</i>
+}That was three years ago. Since then, I've been able to turn my life around thanks to the guidance of some wonderful mentors.
+\By the time I graduated high school, I had become an honor student and star football player.
+ABut I know that most people don't get that sort of second chance.
+RHartfeld University, I'm not perfect. You're not perfect. Sebastian isn't perfect.
+fThis school isn't going to be perfect, no matter who wins, and I won't try to pretend that it will be.
+uBut, if I'm elected, I'll make this school a place where, no matter what your flaws, you'll have a chance to succeed.
+KIf you believe in second chances, please, vote for Chris Powell. Thank you.
+OThe audience is silent. Chris stands at the podium, a worried look on his face.
+(I should...)
+Applaud.
+ZThe sound of your clapping rings through the auditorium. Your friends immediately join in.
+MUSIC_COLLEGE_ACTION_FUN
+0The auditorium fills with the sound of applause.
+Darren
+Chris for president!
+
+Hell yeah!
+#Chris returns to his seat, glowing.
+Relationship Improved
+.Your relationship with Chris will be affected.
+chris
+SFinally, a student in the back stands up and starts clapping. A few others join in.
+0The auditorium fills with the sound of applause.
+Chris for president!
+That's our Chris!
+#Chris returns to his seat, glowing.
+CWell, that was... quite unexpected. Sebastian Delacroix, your turn.
+	Sebastian
+@Thank you, Ms. Twombly, and good afternoon, Hartfeld University.
+†Sebastian talks about building Hartfeld's prestigious reputation, but most of the audience still has their attention focused on Chris.
+BG_INT_COFFEE_SHOP_WINTER_NIGHT
+MUSIC_COLLEGE_FUN_CHILL
+SAs soon as the assembly ends, you and your roommates meet Chris in the coffee shop.
+5And you didn't tell anyone you were going to do that?
+Okay, I did tell--
+gThe bell on the door jingles, and you see James come in. He stops at your table after placing an order.
+eCongratulations, Chris. I was worried for a minute there, but I think the audience loved your speech.
+*I couldn't have done it without your help.
+#It was an honor. Now, best of luck.
+Brandon
+Chai latte for James!
++And there's my order. Nice seeing you guys.
+CHe picks up the cup from the counter, pays, and heads out the door.
+relationships
+FYou exhale deeply as you watch him walk away through the cafe windows.
+{You}, what's wrong?
+aI was hoping, after last week, that he'd ask me to the boat dance, but he didn't even look at me.
+(Well don't just sit there! Go after him!
+BG_EXT_CAMPUS_QUAD_WINTER_NIGHT
+9You hurry outside just in time to see James driving away.
+James!
+QYou wave to him, but he doesn't see you. Defeated, you return to the coffee shop.
+No luck?
+He'd already driven away.
+
+I'm sorry.
+ILet's just move on. So, Chris, do you think the risk is going to pay off?
+5So, Chris, do you think the risk is going to pay off?
+RI don't know, but it was the only way I could stop Sebastian without dropping out.
+IYou exchange glances with your other roommates, but Chris doesn't notice.
+=Well, you were very brave. I guess all we can do now is wait.
+&Hold that thought! I'll be right back.
+\You turn to see Brandon walking out from behind the counter while another barista clocks in.
+<Zack runs over to his boyfriend and kisses him aggressively.
+<i>Eww!</i> Get a room you two!
+Preferably at Brandon's place.
+
+Abbie and Tyler high five.
+PThis is serious! Brandon is leaving for Peru at dawn, and I'm going to miss him.
+ANGRY
+!We'll Skype every day, I promise.
+:Yeah, I know. Are you sure you can't hang with us tonight?
+9Believe me, I <i>want</i> to. But I've still got to pack.
+$Alright, one more kiss for the road?
+(Brandon obliges before leaving the shop.
+yUgh, this <i>sucks!</i> I wanted to surprise him at the airport, but I'm worried about taking the train alone at 4:00 AM.
+5So that was your last goodbye for three months, then?
+ Yeah. I'm really gonna miss him.
+zack_airport
+Zack...
+ I'll go to the airport with you!
+zack_brandon
+That's a shame.
+	You will?
+=Sure! What are friends for if not waking up at 4 AM with you?
+jAwesome! I can always count on you, {You}. We should get to bed soon then. We gotta be up in like 6 hours.
+;Don't forget that online voting starts at midnight tonight!
+'We'll do it first thing in the morning!
+NHonestly? It's probably for the best. I'm far enough behind on sleep as it is.
+GSpeaking of which... I was working on a paper until six this morning...
+&Tyler puts his head down on the table.
+:Okay, clearly this one needs to go to bed. Let's head out.
+;Don't forget that online voting starts at midnight tonight!
+'We'll do it first thing in the morning!
+BG_INT_BALLROOM_FORMAL_NIGHT
+MUSIC_COLLEGE_LOVE_SAD
+§The rest of finals week goes by all too quickly, and, before you know it, the votes have been tallied, and you and your friends are sitting at the inauguration dinner.
+@I wish Brandon was here. Looks like we've got three extra seats.
+8You notice Kaitlyn walking in alone. Chris waves to her.
+
+Kaitlyn! Come sit with us!
+HShe opens her mouth as if she's about to say yes, but then she sees you.
+
+I'd... <pause/>better not.
+She walks away quickly and takes a seat with some other girls you don't know. You watch her leave and feel a hand on your back.
+iYou're doing the best you can, {You}. Kaitlyn will see that eventually. Until then, don't worry about it.
+Abbie...
++'The best I can' clearly isn't good enough.
+You're right. Forget her.
+kI keep hearing her crying in her room, so I go over to talk to her, but then I remember we're not speaking.
+TI thought at first that there was no way she'd break up with me for good, but now...
+ZThe worst part is that I can't think about the boat dance without thinking of her as well.
+3We'd been talking about going together for so long.
+FI thought we'd be back to being best friends in a week... I guess not.
+`You bury your face in your hands. Zack stands up to hug you. Your other friends quickly join in.
+nI've got great friends, an amazing boyfriend, and it's the end of the quarter. I'm just going to enjoy myself.
+#You give Chris a peck on the cheek.
+XI've got great friends, and it's the end of the quarter. I'm just going to enjoy myself.
+2You take a generous sip from your champagne glass.
+That's the spirit.
+EZack stands up to give you a hug. Your other friends quickly join in.
+Madison
+
+Group hug!
+MUSIC_COLLEGE_COMEDY_MISCHIEF
+Oh, hello, Madison!
+jYou and your friends look up to see that Madison has joined the hug. Darren and Logan are standing nearby.
+6Hi! We were wondering if those three seats were taken.
+They are now!
+Oh, who took them?
+You did, silly. Take a seat.
+Logan
+Thanks!
+tBy the way, not sure if Chris told you, but a bunch of us are going out after this. You're all welcome to come with.
+WYou know, like a 'congrats on winning' party. Or, like a 'sorry you lost, buddy' party.
+I'm hoping for the first one!
+»The side doors open and tables laden with food are rolled out. You and your friends approach them and stack your plates with food. You're just settling back down at your own table when...
+ Uh-oh. Incoming Sebastian alert!
+Greetings, everyone.
+Sebastian...
+Congrats on a good race.
+Can you not?
+DWhy, thank you. I came over here to say the same to Chris, actually.
+Thanks, man.
+lExcuse me! I actually came over here to congratulate Chris on a great campaign, but clearly I'm not welcome.
+UNo, no! Thanks. Congrats to you as well. You... certainly gave me a run for my money.
+9Why, thank you. I'm glad <i>some</i> of you have manners.
+eI have to ask, though, why would you bother blackmailing me if you were going to out yourself anyway?
+<shake_portrait/>Blackmail?
+vThere's no need to be ashamed. I attempted to blackmail you, so you sent your friends to stop me. It was self-defense.
+I...
+ Chris turns to glare at you all.
+\I never told them to blackmail you, Sebastian. They must have done it <i>behind my back</i>.
+MI see. Well, I suppose you'd like to be left alone now. Best of luck tonight.
+WSebastian struts away without another word. Chris continues to stare at you in silence.
+,Logan, Madison, how about we go get seconds?
+%But I haven't finished my firsts yet!
+&But we're out of, uh, bread. Let's go.
+<Darren pats Chris on the shoulder as they quickly walk away.
+
+Which one of you did this?
+	It was...
+Becca's idea.
+
+All of us.
+	My fault.
+GNo, {You}, we were all responsible. Don't throw yourself under the bus.
+_Becca told {You} that Sebastian was embezzling campaign funds, so we confronted him with proof.
+KWe promised not to tell anyone as long as he didn't blab about your record.
+TBecca told me that Sebastian was funneling campaign funds into his personal account.
+iWe confronted him with proof and promised not to tell anyone as long as he didn't blab about your record.
+And how did you get this proof?
+
+We... hacked his computer.
+I can't believe you guys!
+bThis whole time, I've been trying not to stoop to Sebastian's level. <i>Why</i> would you do this?
+Chris, we're sorry, but--
+xShe's interrupted by the sound of applause. You turn to see Professor Atiyah and Ms. Twombly standing at the microphone.
+Atiyah
+PGood evening, everyone. Welcome to this year's presidential announcement dinner.
+_Before we announce the new school president, how about a round of applause for both candidates?
+Everyone cheers.
+TYes, yes, congratulations to both of you. Now, Ms. Twombly, would you do the honors?
+Drumroll please!
+HPlates and cutlery rattle as students all around you drum on the tables.
+'<pause/>The next school president is...
+<pause/>Christopher Powell!
+1The crowd cheers and Chris is pulled up on stage.
+;Chris, do you have anything to say to your fellow students?
+$Well, I didn't plan anything, but...
+ZThank you for voting for me. I hope I'll be able to be the president this school deserves.
+hThe audience cheers as Chris leaves the stage. A small crowd of congratulators quickly forms around him.
+Tripp
+Congratulations!
+Becca
+Chris, get a selfie with me!
+
+We did it!
+<You and your friends look at each other, but nobody gets up.
+YGuys, we should go. I don't think Chris will be coming back to sit with us any time soon.
+Right.
+@You and your friends take your coats and step out onto the quad.
+So... now what?
+2You hear the door open again, and Chris steps out.
+"Guys, come back here. Can we talk?
+RChris... we don't want to ruin your victory. You should go in there and celebrate.
+QWhat's there to celebrate? I wanted to win, but not because of backroom dealings.
+But, Chris, we did it...
+To defend you!
+For the good of the school!
+To stop Sebastian!
+SI'm not a child, {You}. I can handle Sebastian just fine without you all 'helping.'
+I didn't mean it like that.
+Then what did you mean?
+PWe couldn't let someone who was going to steal from the school become president.
+DThen why didn't you tell me first? We could've solved this together.
+DWe couldn't let him get away with dirty politics, so we stopped him.
+By doing something just as bad?
+Chris... I'm sorry.
+0I know you are, but that doesn't mean it's okay.
+ELook, I'd better get back to the party before people start to wonder.
+?He sighs and starts toward the door before turning back to you.
+?Don't wait up for me. I'll crash at Darren and Logan's tonight.
+ I take it the boat dance is off?
+[I... <pause/>Don't make me think about that right now. There's too much on my mind already.
+I... Sorry.
+I'll see you tomorrow.
+Good night.
+Good night.
+†He gives you one last disappointed look before returning to the party. You and your friends walk slowly and silently back to the dorm.
+Good night, Chris.
+Good night.
+iYou and your friends watch Chris return to the party before slowly and silently walking back to the dorm.
+BG_INT_DORM_MAIN_NIGHT
+/Once there, you curl up in a ball on the couch.
+/Guys, I'm sorry for dragging you all into this.
+%What? No! It's not your fault, {You}.
+RThanks, Tyler, but it really is. I was the one who talked you all into doing this.
+;No, {You}, we're all to blame here. Don't beat yourself up.
+fJust then, the door opens and Kaitlyn enters. She takes one look at you and walks quickly to her room.
+
+I'd better go talk to her.
+Guys...
+Can I have a hug?
+"I should probably leave you alone.
+
+Oh, {You}.
+)She holds you while Tyler gets a blanket.
+5You really can't catch a break this quarter, can you?
+
+You shake your head sadly.
+nYou know what the worst part is? This whole time, when everyone else was upset, my boyfriend was there for me.
+*And now I've gone and screwed that up too.
+hEver since the whole thing with Vasquez and James, it's like my life has been this huge downward spiral.
+eFirst he dumps me, then Kaitlyn stops speaking to me, and now I've screwed things up with Chris, too!
+2Kaitlyn, James, and now Chris. I can't believe it.
+8Remember how they were all crushing on you last quarter?
+Yeah...
+Not funny, Tyler.
+Right. Sorry.
++In fact, you guys should stay away from me.
+Why?
+kBecause, clearly, everyone I get close to ends up hating me. And I don't want that to happen with you guys.
+BChris doesn't hate you, {You}. And James and Kaitlyn don't either.
+6Didn't you and James dance together at that 60s party?
+cYeah, but, he still doesn't want to get back together, and I'm starting to doubt that he ever will.
+Don't say that, {You}.
+Why not? It's the truth.
+JYeah, but we haven't spoken since then. Remember when we talked every day?
+jAnd, as for Kaitlyn, even if she doesn't hate me, I'm starting to doubt that we'll ever get back together.
+Don't say that, {You}.
+Why not? It's the truth!
+TAnd what about Kaitlyn? We used to be inseparable and now she won't even talk to me.
+4You know, she can probably hear us through the wall.
+Ugh.
+uI wish I could go home already, away from all this drama. Maybe I can call my mom and ask her to pick me up tomorrow.
+And miss the boat dance?
+I don't think I'm gonna--
+IYou're interrupted by a sudden banging on the door. Abbie runs to get it.
+James?
+Y{You}! Professor Vasquez has gone missing! Gabriela wants us to meet her at the hospital!
+<shake_portrait/>What?
+ Things are looking pretty bleak right now. Will you be able to turn it all around before the end of the quarter? Find out in the finale of The Freshman, Book 2!
+You1
+You2
+You3
+OUTFIT
+%PORTRAIT_CUSTOM_OUTFIT_WELCOME_JACKET
+"PORTRAIT_CUSTOM_OUTFIT_PARKA_GREEN
+#PORTRAIT_CUSTOM_OUTFIT_VEST_QUILTED
+Choose your outfit!
+Confirm
+Confirm
+Confirm
+outfit_choice
+This outfit is totally...
+Awesome!
+Wrong! I need a new look.
+'Maybe I should try on something else...
+BG_INT_SECURITY_ROOM_NEUTRAL
+HYou and Zack wake up early and catch a train to the Northbridge Airport.
+BZack jiggles his leg nervously while you wait in line at security.
+Hey, try to relax.
+^How can I relax when my boyfriend is about to get on a plane and fly halfway around the world?
+What if I never see him again?
+,Huh? Zack, he's only going for a few months!
+-Yeah, but anything could happen in that time!
+UHe could get caught up in Visa bureaucracy, or slip and fall climbing Machu Picchu...
+GOr worse! He could shack up with a Peruvian hottie and never come home!
+7...I really don't think any of that is going to happen.
+4I know, I know... But I'm just kind of freaking out.
+`I've never felt this way about anyone else before... I don't want to lose what we have together!
+Long distance is tough, but...
+"If anyone can do it, it's you two!
+This is a great opportunity!
+TYou care about each other so much. I know you'll do what it takes to make this work!
+But what if we drift apart?
+\Come on, you've been together a while now. You already have a strong foundation to build on.
+<If anything, this will only make your relationship stronger!
+VYou'll get a chance to grow as individuals and test the strength of your relationship!
+\Are you trying to tell me that this will <i>build character?</i> When did you become my dad?
+TFinding someone special is a wonderful thing, but you have to live for yourself too.
+CBut I want to be with Brandon! How can I be happy if he's not here?
+<Brandon is going to have a great time, so why shouldn't you?
+UYou could take up a new hobby, or go on a trip, or spend more time with your friends.
+@And when he gets back, you'll both have lots of stories to tell.
++I guess I never thought about it like that.
+<If anything, this will only make your relationship stronger!
+You really think so?
+(Trust me, you're gonna get through this.
+MYou finally make it to the front of the line, but a security guard stops you.
+Security
+Ticket please.
+I don't have a ticket.
+Then I can't let you through.
+Please! It's really important!
+Next!
+{You}, what do we do now?
+I'll...
+Flirt with the guard!
+Distract the guard!
+Plead with the guard!
+I Love a Man in Uniform
+&You tried to charm the security guard!
+'Hey, officer... Can I call you officer?
+The name's Halverson, miss.
+%Officer Halverson... My name's {You}.
+Congratulations.
+Officer Halverson
+/It must be a tough job, guarding the terminals.
+$Actually, this is a pretty easy gig.
+Officer Halverson
+LBut I'm sure your back gets stiff from sitting in the same position all day.
+Beats lifting luggage.
+Officer Halverson
+YMaybe we could go back to one of the interrogation rooms, and I could give you a massage?
+...
+Officer Halverson
+3Unless you want to <jiggle>frisk</jiggle> me first?
+ That's quite enough, young lady.
+Officer Halverson
+'I'll have you know I'm happily married.
+Officer Halverson
+0Now, you two either buy some tickets or get out.
+Officer Halverson
+Look, A Distraction!
+ You're a sneaky one, aren't you?
+Uh, officer... Is it officer?
+Halverson, ma'am.
+!Some guy just jumped the barrier.
+Really.
+Officer Halverson
+Yeah. Right behind you.
+Uh-huh.
+Officer Halverson
+Where you're not looking.
+Mmm.
+Officer Halverson
+=He just dropped his suitcase. Looks like it's full of knives!
+Sounds illegal.
+Officer Halverson
+
+Shouldn't you go stop him?
+Not my job.
+Officer Halverson
+PBut... isn't your job <i>literally</i> to keep people from smuggling weapons in?
+FNo, it's to keep kids from trying to sneak past me with stupid tricks.
+Officer Halverson
+0Now, you two either buy some tickets or get out.
+Officer Halverson
+	Desperate
+You're not above grovelling!
+!Listen, officer... Is it officer?
+Halverson, ma'am.
+$You've got to let my friend through!
+Actually, I don't.
+Officer Halverson
+NBut his boyfriend is about to leave for Peru... Can't he at least say goodbye?
+*Look kid, this isn't the end of the world.
+Officer Halverson
+But...
+;He'll either come back for you or you'll find someone else.
+Officer Halverson
+MI was long distance with my girlfriend for five years, and now we're married.
+Officer Halverson
+
+And that was before Skype!
+Officer Halverson
+So suck it up, kiddo.
+Officer Halverson
+Um... Thanks for the pep talk?
+9Anytime. Now, you two either buy some tickets or get out.
+Officer Halverson
+BG_EXT_AIRPORT_TARMAC_NIGHT
+(Defeated, you and Zack exit the airport.
+7I can't believe it... I didn't even get to say goodbye!
+(I'm so sorry, Zack... At least we tried.
+$Yeah... Thanks for the help, anyway.
+OSuddenly, you catch a glimpse of a familiar figure hurrying into the airport...
+Zack! Over there! It's Brandon!
+,What?! He must have gotten stuck in traffic!
+Come on, now's your chance!
+Brandon! Wait!
+Zack! What are you doing here?
+KYou think I'd let you leave without saying goodbye? I just wanted to say...
+MUSIC_COLLEGE_LOVE
+CEven though I'm gonna miss you like hell, I'm really happy for you.
+&Hey, you know I'll be thinking of you.
+You'd better send me postcards!
+)Believe me, I'm gonna flood your mailbox.
+$Flight G608 to Peru is now boarding!
+Intercom
+...
+
+We're gonna be fine, Zack.
+Brandon, I... I love you!
+I love you, too.
+DBrandon pulls Zack into a deep embrace and they share one last kiss.
+1Flight G608 to Peru, doors closing in 20 minutes!
+Intercom
+I gotta go...
+Okay...
+ I'll be back before you know it.
+HBrandon glances back one last time before disappearing into the airport.
+...
+,Come on, Zack. We should get back to campus.
+Yeah... sure.
+ I'm glad you got to see him off.
+,Me too... And it's all thanks to you, {You}.
+No problem."
+main"
+ChapterStart%"
+	CoffeeRunû"
+AnnouncementDinnerµ"
+DormSadnessÝ"
+doClosetò"

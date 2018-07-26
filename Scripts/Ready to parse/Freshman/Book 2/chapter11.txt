@@ -1,0 +1,703 @@
+Character:
+Tyler
+Character:
+Peter
+Character:
+Arjun
+Character:
+Grace
+Character:
+Chris
+Character:
+Abbie
+ENDOFCHARACTERS	TapToContinueCreateVisualMenuAddVisualChoicePortraitPremiumAddVisualChoicePortraitBgPan
+CHAPTER COMPLETE
+tYou've reached the end of the chapter. Restart this chapter to try other choices or continue on to the next chapter.
+Restart Chapter
+Continue On
+
+MUSIC_COLLEGE_TENSE_ACTION
+You
+BG_LIGHTS_AMBIENCE_NIGHT
+Chapter Eleven: Visitors
+The Freshman
+BG_INT_DORM_MAIN_NIGHT
+Peter
+Hello, {You}.
+Grace
+We've heard so much about you!
+HAPPY
+	You have?
+	SURPRISED
+6Of course! You're practically all Kaitlyn talks about.
+Kaitlyn
+<i>Mom!</i>
+:And, of course, we've heard about the rest of you as well.
+Chris
+
+An honor to meet you, sir!
+Zack
+,I can see where Kaitlyn gets her good looks.
+Abbie
+>Come on you guys, let's let Kaitlyn catch up with her parents.
+Tyler
+Good night, Mr. and Mrs. Liao!
+MUSIC_COLLEGE_FUN_CHILL
+ÅYour suitemates all say their goodnights and head off to their rooms. You're about to leave too when Kaitlyn's mom addresses you.
+A{You}, from what we understand, you two have gotten pretty close.
+relationships
+Uh, yeah, I'd say so.
+
+Kaitlyn throws you a look.
+EBut yeah, me and Kaitlyn have been the best of friends since day one!
+SMore like <i>really</i> close. Kaitlyn has been my best friend since our first day!
+@I'm happy to hear that she's made such good friends at Hartfeld.
+`Speaking of good friends, how is Arjun doing? His father said he was excited about the transfer.
+Oh, well...
+Arjun is...
+NEUTRAL
+Doing great!
+Not really around a lot.
+9It's been really cool having him here. He's a lot of fun.
+:That's good to hear. He and Kaitlyn go way back, you know.
+He's a good boy. Incredibly smart, too. Did you know he was treasurer of the National Honor Society when he was in high school?
+3You say that literally every time he comes up, Dad.
+!I didn't know that! Good for him.
+@We're happy to hear that you and Arjun still get along famously.
+DWe've hung out a few times, but it seems like he's made new friends!
+yReally? I'm surprised he hasn't made more of an effort to spend time with Kaitlyn. The two of them go way back, you know.
+CWell, he <i>is</i> new here. He probably just wanted to branch out.
+EThat's a good point. But I do hope you and Arjun stay close, Kaitlyn.
+He's a good boy. Incredibly smart, too. Did you know he was treasurer of the National Honor Society when he was in high school?
+3You say that literally every time he comes up, Dad.
+$Okay, okay. Dad's going to stop now.
+qWe were hoping the three of you would accompany us to see the ballet version of <i>Romeo and Juliet</i> tomorrow!
+The three of us?
+You, Arjun, and {You}.
+Me?
+MYou look to Kaitlyn for direction. She gives you an almost imperceptible nod.
+SOf course! I'd be happy to go to the ballet tomorrow. Thank you for thinking of me.
+
+Wonderful!
+Kaitlyn's mother yawns.
+\Pardon me. It's been a long day, and these late hours don't agree with us <i>old</i> people.
+KI'm just glad I got to see you. We can catch up before the ballet tomorrow?
+4We would love nothing more. We've missed you, honey.
+I've missed you, too.
+[Oh, by the way, we brought some of your things from home for you. They're over by the door.
+#We'll see you tomorrow, sweetheart.
+fKaitlyn's parents take turns kissing her on the forehead and shaking your hand before finally leaving.
+MUSIC_COLLEGE_LOVE
+KKaitlyn shuts the door behind them, turns to you, and lets out a huge sigh.
+Are you alright, Kaitlyn?
+JYeah... I'm glad my parents are here. Just been dealing with a lot lately.
+SAD
+.Kaitlyn picks up one of the boxes by the door.
+Help me carry these to my room?
+!BG_INT_DORM_BEDROOM_KAITLYN_NIGHT
+8You go to Kaitlyn's room and set the boxes on the floor.
+aThanks for agreeing to come to the ballet. There's no way I'll be able to survive it without you.
+No problem.
+PI kind of got the feeling that your parents are trying to set you up with Arjun.
+$Yeah. It wouldn't be the first time.
+}And you've got to love their choice of ballets! The irony! You may be a Juliet, but you're not exactly looking for a Romeo...
+Aren't <i>you</i> my Romeo?
+UI promise not to kill your cousin, if you promise not to take any suspicious potions.
+Agreed.
+dKaitlyn laughs for a moment before frowning, her brow furrowed. She sighs and flops down on her bed.
+What a crazy quarter...
+What do you mean?
+sI have great friends, I have an <i>amazing</i> girlfriend, I was finally starting to feel like I could be myself...
+qI have great friends, I had the starring role in a play, I was finally starting to feel like I could be myself...
+?And then all these people from home had to show up and ruin it!
+ANGRY
+Aw, Kaitlyn...
+
+Come here.
+Let me cheer you up!
+,You hold Kaitlyn tight as she starts to cry.
+qEverything's going to be fine, I promise. I mean, Arjun already knows, and your parents are just visiting, right?
+(At this point, what else could go wrong?
+{You sit there silently for a minute while Kaitlyn cries on your shoulder. Finally, she pulls away and looks you in the eye.
+SYou reach into one of Kaitlyn's boxes of stuff from home and pull out a teddy bear.
+Q<i>Don't worry Kaitlyn. Everything's gonna be a-ok! You're my bestest friend.</i>
+
+Teddy Bear
+Kaitlyn cracks a small smile.
+Thanks, Mr. Bear.
+<You know, seeing him now, Mr. Bear is actually pretty scary.
+What?
+RYou take another look at the bear and realize that it has red eyes and matted fur.
+NHoly crap, Kaitlyn, this is the most terrifying stuffed animal I've ever seen.
+I know, right? Isn't he cute?
+7You both start laughing. After a moment, Kaitlyn sighs.
+<One day, my parents are going to find out. I know they will.
+qAnd I've tried hundreds of times to imagine what that's going to be like, but I honestly can't. And that's scary.
+What if they disown me?
+#Do you really think they'd do that?
+GI don't know! I don't think so? But the fact that they could scares me.
+(You put your hand on Kaitlyn's shoulder.
+Hey, we're all here for you.
+ Chris, Tyler, Abbie, and Zack...
+You kiss Kaitlyn softly.
+*And no matter what, you'll always have me.
+You squeeze her shoulder.
+*And no matter what, you'll always have me.
+Thanks, {You}.
+She pulls you into a tight hug.
++I don't know how I ever got by without you.
+MUSIC_COLLEGE_COMEDY_MISCHIEF
+4Kaitlyn gets off the bed and goes to a box of stuff.
+5Why don't you just leave all of this stuff for later?
+GAre you kidding? It would drive me crazy to just leave it on the floor.
+2Plus, there's all kinds of great memories in here!
+mYou join Kaitlyn in looking through the box and pull out a pile of books, including a sparkly, scented diary.
+!I can't believe they packed that!
+You kept a diary?
+In middle school I did.
+*Oh boy, I hope Mom and Dad didn't read it.
+Why? What's in there?
+LWant to find out? We can read it together. Could be good for a few laughs...
+You'd let me read it?
+Yes! This'll be fun.
+middle_school_diary
+No, thanks...
+kaitlyn
+Relationship Improved
+0You and Kaitlyn's relationship will be affected.
+3I can't wait to see what little Kaitlyn had to say.
+/Don't tease, {You}, or I won't let you read it!
+I can see it now...
+VDear diary, it's Kaitlyn. I had spinach stuck in my braces all day and nobody told me!
+
+I never had <i>braces!</i>
+9Let's crack this thing open, I'm dying with anticipation.
+/I can't do it. I'm already embarrassed for you.
+Oh, it's not <i>that</i> bad!
+@Kaitlyn grabs the diary from you and starts thumbing through it.
+...
+...
+...
+Kaitlyn slams the diary closed.
+	That bad?
+$Forget I ever brought up reading it.
+UDiary? What diary? Let's finish unpacking. We have to get up pretty early tomorrow...
+=You help Kaitlyn unpack her things until late into the night.
+<And... that's the last of it. Thanks for helping out, {You}.
+?Anytime. Now, I'm going to bed before I pass out on your floor.
+6You lean over and press your lips to Kaitlyn's softly.
+I'll see you in the morning.
+DYou head back to your room and fall immediately into a deep sleep...
+unlock_dinner_dress_blue_floral
+$unlock_dinner_dress_white_perforated
+unlock_dinner_dress_cream
+dinner_dress
+You4
+OUTFIT
+$PORTRAIT_CUSTOM_OUTFIT_CAMISOLE_GRAY
+MUSIC_COLLEGE_ACTION_FUN
+ <jiggle>WAKE UP, {You}!</jiggle>
+Wha--?
+BG_INT_DORM_BEDROOM_DAY
+You5
+KaitlynFormal
+CYou open your eyes to see Kaitlyn and Arjun standing over your bed.
+Arjun
+	She's up!
+5{You}, you overslept! The train leaves in 45 minutes.
+	Train...?
+IOh crap, the ballet! Give me just a minute to get dressed. I'll be quick!
+We'll wait for you outside.
+You open up your closet.
+Hmm...
+You1
+You2
+You3
+)PORTRAIT_CUSTOM_OUTFIT_DINNER_BLUE_FLORAL
+.PORTRAIT_CUSTOM_OUTFIT_DINNER_WHITE_PERFORATED
+#PORTRAIT_CUSTOM_OUTFIT_DINNER_CREAM
+!What will you wear to the ballet?
+Confirm
+dinner_dress_best
+Confirm
+dinner_dress_okay
+Confirm
+#I guess this is as good as it gets.
+Hm, not too shabby.
+This is perfect!
+BG_INT_DORM_MAIN_DAY
+pYou hurriedly finish getting ready and go to join Kaitlyn and Arjun, who are already standing by the front door.
+'You spin around to show off your dress.
+So? What do you think?
+WDamn, girl! I don't think I've ever seen someone get dressed up that nicely, that fast!
+You look like a posh socialite.
+1Maybe I'll just walk around saying things like...
+7You clear your throat and say in your fanciest voice...
+M'Oh, yes, I frequent the ballet when I'm not summering in the British Isles.'
+That dress is gorgeous!
+,And my parents will definitely be impressed.
+That's perfect for the ballet!
+7I gotta say, Kaitlyn, your girlfriend cleans up nicely.
+Relationship Improved
+0You and Kaitlyn's relationship will be affected.
+7Did you expect any less from someone <i>I'm</i> dating?
+;Kaitlyn wasn't kidding about the quality of Hartfeld girls.
+0Uh, hello, I'm right about basically everything.
+bBut too bad, Arjun, my bestie is off-limits. You're gonna have to find someone else to drool over!
+5Plus, you know, I'm kind of already dating someone...
+Are we ready to go?
+Yep! Let's do this!
+BG_INT_TRAIN_COMPARTMENT_DAY
+
+MUSIC_COLLEGE_ACTION_CHILL
+^The conversation flows easily on the train, at least, until the topic of last Friday comes up.
+`On the bright side, I don't think I'll ever have a first date that's more awkward than that one.
+I'm glad you two made up.
+GWe had a good talk while <i>someone</i> was snoozing away this morning.
+ìThe Liaos called me last night to invite me to the ballet. And I realized, I couldn't let a case of hurt feelings cancel out years of friendship...
+XPlus, I probably should have seen it coming. No boy ever seemed good enough for Kaitlyn.
+You got that right!
+eThe point is, I support you, and I'll do whatever I can to keep this parent visit from getting weird.
+mI appreciate it, but considering my parents, I'm expecting it to get pretty awkward before act one even ends.
++Don't worry, me and Arjun are on your team.
+BG_EXT_NORTHBRIDGE_DOWNTOWN_DAY
+DA short while later, you arrive at the train station in Northbridge.
+-Your parents said they'd meet us here, right?
+Oh, there they are!
+>You point to a nearby bench where Peter and Grace are sitting.
+Okay, guys, remember: my parents will try as hard as possible to get me and Arjun together. For obvious reasons, that's not going to happen.
+Got it.
+You walk up to the bench.
+Hi there, Mr. and Mrs. Liao!
+(What do I do?)
+Shake their hands.
+	Hug them.
+"You give each of them a quick hug.
+Oh! Hello there, {You}.
+/Did I forget to mention that {You} is a hugger?
+You two have that in common.
+0And a shared affinity for pretty dresses, I see.
+'You give each of them a firm handshake.
+]Such a sturdy grip. Kaitlyn, you could learn a thing or two. This is a job-winning handshake.
+;I think I'll be just fine in the job department, thank you!
+POf course! But with a handshake like this one, who knows where you could end up.
+ Oh, Peter, leave the girl alone.
+gJudging by the lovely dresses the two of you have on, I'd say you're destined for a career on a runway.
+You like it?
+It's beautiful!
+xI feel I should mention that {You} got ready in less than ten minutes this morning, and she still looks like a princess.
+Aw, you're the sweetest.
+uHey, as much as I love talking about pretty dresses, we should head to the theater. The ballet's going to start soon.
+You like it?
+I do.
+9Can you believe she got ready in 10 minutes this morning?
+uHey, as much as I love talking about pretty dresses, we should head to the theater. The ballet's going to start soon.
+4Should we go inside? The show's going to start soon.
+1Ah, brilliant idea, Arjun. Don't want to be late.
+uIt's a short walk to the theater and along the way, Kaitlyn catches her parents up on her winter quarter at Hartfeld.
+,And the play ended up being a total success!
+
+That's wonderful, darling.
+PBut I still think you need more extracurriculars. It'll balance out your resume.
+XPlus, it's a great way to find love. Your father and I met in the high school orchestra.
+5And you were dating that obnoxious Christopher Doyle.
+Are you seeing anyone, {You}?
+=I am, actually. You met him last night. Our suitemate, Chris?
+9Ah, good for you, {You}. He seemed like a nice young man.
+And so handsome, too.
+I am, actually.
+%You'll have to tell us all about him.
+7Maybe I will. Something tells me you'd <i>love</i> him.
+*You grin at Kaitlyn. Her cheeks turn pink.
+8Oh, you don't want to hear about him. He's so... boring!
+Kaitlyn!
+I was just... kidding?
+,To be honest, Mrs. Liao, I'm not quite sure.
+Oh. I'm sorry to hear it...
+The boy must be an idiot.
+
+Thanks, Mr. and Mrs. Liao.
+?Okay, maybe {You}'s love life isn't the best subject right now?
+;Uh, did you all see that news segment on gluten-free diets?
+I'm not actually.
+Oh?
+/I've met some interesting people at Hartfeld...
+9But I'm really just focused on school and myself for now.
+NInspiring! You have a good head on your shoulders. Your parents must be proud.
+@But if <i>I'm</i> not dating someone it's the end of the world?!
+#{You} is not our daughter, Kaitlyn.
+BG_INT_THEATER_NIGHT
+4You arrive at the theater and search for your seats.
+]Ah, here we are. According to our tickets, the order is {You}, me, Arjun, Kaitlyn, and Grace.
+,Kaitlyn shoots you and Arjun panicked looks.
+LActually, I was hoping I'd be able to sit next to Kaitlyn, if that's okay...
+
+Sure! I'll trade with you.
+EArjun, there's no need to do that. I'd be happy to switch with {You}.
+cArjun opens his mouth to protest, but Grace's stern look makes it clear she's not going to hear it.
+WYou all take your seats and Grace and Peter immediately start whispering to each other.
+#Well, that could have gone worse...
+TYeah. But the day's not over yet. I guarantee there's plenty more awkward to come...
+We should...
+Just ignore it.
+Distract them.
+GYou know, like, just change the subject whenever you and Arjun come up.
+@{You}, what do you think I've been doing for the past 18 years?!
+Oh, yeah, right.
+YIf we just keep the conversation going on other topics, you and Arjun will never come up.
+That could totally work!
+8I'll try to keep the conversation on them and not on us.
+$Arjun taps Mr. Liao on the shoulder.
+;So, have either of you seen <i>Romeo and Juliet</i> before?
++Oh, yes, it's our all-time favorite ballet.
+]We used one of the songs for our wedding processional. I'll point it out when they get to it.
+WWe've been telling Kaitlyn she should carry on the tradition. With a nice, smart boy...
+Shhhh! It's starting!
+PAs the lights go down in the theater, you take Kaitlyn's hand between the seats.
+<i>{You}!</i>
+#<i>Don't worry, they can't see.</i>
+kShe throws a nervous glance toward her parents, who are enraptured by the ballet. Kaitlyn relaxes a little.
+}You try to enjoy the ballet, but every time a romantic scene occurs, Mr. Liao glances over at Kaitlyn and Arjun with a smile.
+...
+...
+...
+LAs soon as the lights go up for intermission, Kaitlyn jumps out of her seat.
+2I need to get some fresh air. {You}, come with me?
+	Uh, sure.
+jYou follow her lead and give an uncomfortable smile to Mr. and Mrs. Liao as you pass them on your way out.
+MUSIC_COLLEGE_LOVE_SAD
+HOnce you're out front of the theater, Kaitlyn starts to pace agitatedly.
+wI'm starting to get the sense that your dad wants you to <i>marry</i> Arjun. Like, he's already got a venue picked out.
+qPfft, I wouldn't be surprised. In high school, I <i>literally</i> caught him praying that Arjun would ask me out.
+'She stops pacing and turns to face you.
+<i>Twice.</i>
+.Yikes. So, this is kind of a long time coming.
+Did you ever...
+End up dating Arjun?
+$Try to tell your parents you're gay?
+"You know, like just to try it out.
+
+No, we never dated. But...
+Kaitlyn sighs.
+ We did kiss once in high school.
+Should I be jealous?
+HThe corner of Kaitlyn's mouth quirks up in a smile. She takes your hand.
+LOf course not, {You}. That's so far in the past it's walking with dinosaurs.
+BI <i>knew</i> before I kissed him that I wasn't into him that way.
+MAt the time, I thought it might be the only way to make my dad proud of me...
+9I'm sure your dad is proud of you... How could he not be?
+/You know, like back when you first realized it?
+UOf course I did! At least once a day, I thought, 'Okay, Kaitlyn, here's your chance.'
+And... ?
+<And everytime I thought it was the right time, it never was.
+êI just kept thinking that next time I would tell them. And before I knew it, I was away at college and it didn't seem to matter as much anymore.
+Until Arjun showed up?
+;Kaitlyn takes your hand, a small smile playing on her lips.
+Until <i>you</i> showed up.
+Me?
+oI'd kissed girls before, dated a little bit. But it wasn't until I met you that I knew that I had to tell them.
+mBecause as soon as I really got to know you, all I wanted to do was call my mom and tell her how happy I was.
+0You smile and squeeze her hand tighter in yours.
+LActually, as stupid as it sounds, it started to matter again because of you.
+Me?
+
+Kaitlyn smiles sheepishly.
+ZI don't know if you know this, but I kinda had a <i>massive</i> crush on you last quarter.
+ Yeah... kinda picked up on that.
+ÇOh whatever, that's in the past. But when I really got to know you, all I wanted to do was call my mom and tell her all about you.
+It's all so frustrating!
+&<i>Why</i> is it so hard to tell them?
+xOne day, you will. And when you do, I promise everything will be fine. And I will be here for you every step of the way.
+But until then...
+?You use your intertwined hands to pull her body close to yours.
+3Is there anything I can do to make you feel better?
+)Kaitlyn grins and leans in closer to you.
+ I can think of a thing or two...
+Kaitlyn presses her lips against yours, kissing you deeply. After a minute, you pull away, breathless. Kaitlyn rests her head against yours.
+(I wish I could just tell them about you.
+XI know it's hard, especially since they're in town, but it's not something you can rush.
+Wouldn't that be nice?
+They're my parents.
+)Kaitlyn's voice rises in her frustration.
+OI just want to shake them and shout <i>'I'm gay!'</i> and have it be done with!
+.You glance over Kaitlyn's shoulder and freeze.
+Uh... maybe you don't have to.
+
+K-Kaitlyn?
+MUSIC_COLLEGE_TENSE_SAD
+`Kaitlyn turns around and finds herself face to face with her parents. Her father looks stricken.
++Mom? Dad? I was just... {You} and I were...
+WShe trails off uselessly. There's an uneasy pause as you all wait for someone to speak.
+I...
+5We should go inside. The second act's about to begin.
+jHe turns and stalks away quickly. Kaitlyn's mom tries to stop him, but he shrugs her off and walks inside.
+ Oh no. This is <i>all</i> wrong.
+
+Kaitlyn...
+dBefore you can do anything to comfort her, Kaitlyn's mom walks over and wraps Kaitlyn in a warm hug.
+Mom? You're not mad?
+MMad? No, honey, of course not. Your dad's just a little... late to the party.
+Mrs. Liao...
+Did you know...
+About Kaitlyn?
+All this time?
+I mean, did you know she...
+Likes girls?
+LKaitlyn looks up at her mother's face. Grace smiles sweetly down at Kaitlyn.
+Did you?
+JOf course, baobei. My only daughter? I'd have to be blind not to see it...
+Have you always known?
+I've had my suspicions...
+BAnd you never said anything because you didn't want it to be true.
+
+Stop that.
+6I never said anything because you never said anything!
+And Dad?
+FMrs. Liao pauses, stroking Kaitlyn's hair gently. Finally, she speaks.
+He just needs some time.
+He hates me, doesn't he?
+2Never! You know how your father is about family...
+ZYou're our only daughter. Your father had dreams for you, and a lot of dreams for himself.
+MDreams of a white wedding and grandchildren. A dream he may never get to see.
+But...
+"What about what Kaitlyn dreams of?
+!That dream could still come true!
+!Doesn't that count for something?
+?Of course it does! Why do you think we sent her to this school?
+,Kaitlyn can still get married and have kids!
+Ahem, if I want to.
+QI know this sounds cliche... but you'll understand when you're a parent yourself.
+gMrs. Liao releases Kaitlyn, but keeps a firm grip on her shoulders. She looks Kaitlyn right in the eye.
+8We will <i>always</i> love you, Kaitlyn. No matter what.
+
+But Dad...
+YYour dad won't be upset about this forever, trust me. He just needs some space right now.
+PKaitlyn bites her lip for a moment. Then, she nods. Her mom pats her arm gently.
+;Alright. We should get back in there before act two starts.
+7Actually, I think I'm just gonna head back to Hartfeld.
+Are you sure?
+=You can stay if you want, I just... I can't go back in there.
+9She gives her mother a quick hug and a kiss on the cheek.
+9Can you tell Arjun that I got a stomachache or something?
+
+Kaitlyn...
+JKaitlyn untangles herself from her mother's grasp and starts to back away.
+I just can't.
+&You and Grace watch Kaitlyn walk away.
+HUh, I think I should go, too. Thanks for the... lovely outing Mrs. Liao.
+Don't mention it...
+You turn to head after Kaitlyn.
+Oh! And, {You}?
+"You stop and turn back toward her.
+$Take care of my daughter, would you?
+
+Of course.
+
+You run off after Kaitlyn.
+Kaitlyn! Wait up!
+pKaitlyn doesn't turn but her pace slows to let you catch up. You fall into an uncomfortable silence as you walk.
+So...
+That was interesting...
+Are you okay?
+7I'm guessing that probably didn't go like you imagined.
+...
+%You should trust your mom. Your dad--
+"I know that's a stupid question...
+...
+%Of course you're not okay. Your dad--
+{You}!
+QKaitlyn stops in her tracks and turns to glare at you. After a moment, she sighs.
+6It's just... too soon. Can we just not talk right now?
+Sorry. Whatever you need...
+rYou reach out to try and take Kaitlyn's hand, but she shrugs you off and keeps walking toward the train station...
+eYou wait for Kaitlyn to say more, but she just turns and heads toward the train station in silence...
+lAfter a long, silent train ride, you arrive back at your suite. Kaitlyn turns and goes straight to her room.
+E<i>Yikes.</i> Is anyone cold? It feels like an icy wind just blew in.
+^From down the hall, you hear Kaitlyn's door slam, and you plop down on the couch next to Zack.
++It's <i>really</i> not the time for joking.
+DSerious mode, got it. What happened? Was the ballet <i>that</i> bad?
+6The first half was fine. We left in kind of a hurry...
+6After Kaitlyn... accidentally came out to her parents.
+<jiggle>WHAT?!</jiggle>
+*How does one <i>accidentally</i> come out?
+0You fill Zack in on the events of the afternoon.
+-And then we just sat on the train in silence.
+'Well, don't just sit out here and hide!
+What?
+-She's your girlfriend, dummy. Go talk to her!
+.She's your best friend, dummy. Go talk to her!
+	I'll try.
+"Maybe the second time's the charm.
+5You get off the couch and go knock on Kaitlyn's door.
+Go away!
+Kaitlyn
+Kaitlyn, it's me...
+I'm coming in.
+I'm not leaving.
+TYou open the door and peek inside. Kaitlyn is sitting on her bed, hugging her knees.
+9Is it too much to ask for a little privacy in this place?
+_You lean against the door and start humming, loudly. After a few moments, the door swings open.
+Seriously, {You}?
+QYou squeeze past her and go sit on her bed. She plops down next to you in a huff.
+*What part of go away don't you understand?
+NThe part where my girlfriend is upset and doesn't want to talk to me about it.
+OThe part where my best friend is upset and doesn't want to talk to me about it.
+XKaitlyn groans and falls back against her pillows. She rolls over so her back is to you.
+FPlease, Kaitlyn. I'm so sorry your parents had to find out that way...
+I just want to be here for you.
+"I'm really not in the mood, {You}.
+eDid you see the way my dad looked at me? It was like I was a stranger. Like he didn't even know me...
+Aw, come on, Kaitlyn.
+>You lay down in the bed next to her and put an arm around her.
+RHowever you're feeling, whatever you're thinking about... You can tell me, always.
+You know what, {You}?
+BShe sits up, shrugging her arm off of you and turning to face you.
+WYou seem to be having a real listening problem today, so let me spell this out for you.
+=<pause/>I<pause/> don't<pause/> want<pause/> to<pause/> talk.
+$Sorry! I wasn't trying to be pushy--
+But you <i>are.</i>
+,<pause/>Look, I'm sorry for snapping at you.
+1But when I said I didn't want to talk I meant it.
+?Okay. No talking. So what can I do to take your mind off of it?
+SNothing. I don't want to take my mind off of it. And I don't want to talk about it.
+&I just want to be alone for a while...
+
+Kaitlyn...
+How long is a while?
+Are you breaking up with me?
+Kaitlyn shakes her head sadly.
+EI don't know. But... I think we should put things on pause for a bit.
+Things? What things?
+Us things. Our relationship...
+BI need time to process this. I need time to figure out what to do.
+KAnd I just don't think I can do that while I'm worried about upsetting you.
+After all we've been through?
+TAnd now, we can finally be together without worrying about Arjun and your parents...
+And you're going to end it?
+#Kaitlyn puts her head in her hands.
+Kaitlyn, answer the question.
+Are you breaking up with me?
+PKaitlyn doesn't meet your eye. She picks at the edges of the blanket on her bed.
+I don't know.
+YYou lay down on the bed next to her and stare up at the ceiling. She doesn't move at all.
+PYou're my best friend, and there's nothing you could say that would change that.
+Please, just say something.
+3You know what, {You}? I do have something to say...
+;She sits up abruptly and spins to face you. You sit up too.
+AAnd since you're hard of hearing I'll say it really slow for you.
+=<pause/>I<pause/> don't<pause/> want<pause/> to<pause/> talk.
+But--
+No, no but's.
+FLook, I don't mean to snap at you. But I just really need to be alone.
+:And yeah, you are my best friend. But given our history...
+HI just don't think you're the best person for me to be around right now.
+But Kaitlyn...
+Please. Just... just leave.
+"Kaitlyn lies down again, facedown.
+I...
+TBut instead of finishing your thought, you give Kaitlyn her wish and leave the room.
+Hey, {You}... Everything okay?
+Right now? No.
+Do you want to talk about it?
+You shake your head.
+BNot really. Besides, you've got your hands full with the campaign.
+kYou can say that again. You're okay to help me practice debating tomorrow, right? We can always postpone...
+%Of course. I'll be fine. Don't worry.
+eCan you and Kaitlyn patch things up? And how will Chris fare in the debate? Keep playing to find out!
+ÉYou sit down on Kaitlyn's bed, and she plops down next to you. She peers over your shoulder as you open the diary to a random page.
+9I hope there's nothing <i>too</i> embarrassing in here...
+We're about to find out.
+r<i>Dear Diary,
+
+Dad rented this lame old movie for us to watch tonight. I think it's part of his sports thing.</i>
+Kaitlyn's Diary
+Q<i>Yesterday, he took me to the tennis courts, which I'm AWFUL at by the way.</i>
+Kaitlyn's Diary
+M<i>Now, we have to watch some dumb soccer movie with an even dumber name.</i>
+Kaitlyn's Diary
+V<i>Seriously.</i> Bend it Like Beckham? <i>What do you even</i> bend <i>in soccer?</i>
+Kaitlyn's Diary
+A<i>Ugh, he's calling me downstairs. Gotta go.
+
+Love,
+Kaitlyn.</i>
+Kaitlyn's Diary
+tOh, man, I was <i>such</i> a whiner. And dumb, too. <i>Bend It Like Beckham</i> is, like, one of my favorite movies.
+
+You turn to the next page.
+J<i>Dear Diary,
+
+</i>Bend it Like Beckham <i>is my new favorite movie!!</i>
+Kaitlyn's Diary
+I<i>Dad wants to sign me up for soccer... I guess I'll give it a shot.</i>
+Kaitlyn's Diary
+Y<i>They make it look really fun in the movie, and it'll probably get Dad off my case.</i>
+Kaitlyn's Diary
+So, your dad...
+Is a big sports guy?
+Was on your case a lot?
+Hmm... I don't think so.
+Then why all the sports stuff?
+^I was kind of an awkward kid... I think he thought joining a sport would help me make friends.
+
+And I guess, he was right.
+/Kind of. I mean, I knew that my dad loved me...
+I was just kind of a loner.
+<He thought a sport would break me out of my shell, you know?
+'Yeah, I get that. Did it actually work?
+
+Sort of...
+You flip through a few pages.
+6Oh! First day of soccer practice, this should be good.
+I<i>Dear Diary,
+
+I had my first soccer practice today, and guess what?</i>
+Kaitlyn's Diary
+z<i>Soccer sucks! I got kicked in the shin, like, six times. Plus, Dad wouldn't leave even though it was just practice.</i>
+Kaitlyn's Diary
+l<i>He seemed really happy though. And I made a friend! Her name's Mira, and she likes horror movies too!</i>
+Kaitlyn's Diary
+V<i>She invited me over for a slumber party this weekend. I hope my parents let me.</i>
+Kaitlyn's Diary
+<Kaitlyn bites her lip and shuffles uncomfortably on the bed.
+	You okay?
+*Yeah... It's just, I know what comes next.
+Oh, well, should we stop?
+...No, it's fine. Keep going.
+Okay...
+BYou turn to the next page, take a deep breath, and keep reading...
+q<i>Dear Diary,
+
+last night was... weird. It started out okay. Mira's mom made cookies and we watched a movie.</i>
+Kaitlyn's Diary
+k<i>After her parents went to sleep, though, we played Truth or Dare. I dared Mira to kiss me as a joke.</i>
+Kaitlyn's Diary
+\<i>Only, she actually did it! It was really fast. But... I can't stop thinking about it.</i>
+Kaitlyn's Diary
+"<i>Is something wrong with me?</i>
+Kaitlyn's Diary
+^You notice that Kaitlyn is no longer peering over your shoulder but staring up at the ceiling.
+Was that...
+When you realized it?
+Your first girlfriend?
+That you liked girls?
++Well, not all at once, but basically, yeah.
+[I remember it like it was yesterday. It was like a weight was lifted off of my shoulders...
+(...and then dropped right onto my chest.
+Should I be jealous?
+Of course not.
+9Mira was my first crush, but she was never my girlfriend.
+#We just became really good friends.
+[I think she knew that I had a crush on her, but I was embarrassed so I never said anything.
+9Well, look at you now. You've come a long way since then.
+Yeah. Yeah I have.
+IKaitlyn takes the diary from your hands and sticks it up on a high shelf.
+FNow, let's stop reading this before you get to my 13th birthday party.
+
+What?! Give me that diary!
+;Nope. The moment's passed. Now, come on, help me finish up!"
+main"	
+Start%"
+	TrainRideé"
+Intermission’"
+TheAftermath¢"

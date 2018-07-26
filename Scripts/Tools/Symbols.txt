@@ -8,6 +8,6 @@ BG_PLACENAME			->	Cuando cambia el background, aparece uno de estos (Durante gui
 
 PORTRAIT_CUSTOM			->	Cuando da eleccion de cambio de vestuario (Durante guion)
 
-|||||||||||||Œ|||||||||||||||  -> Simbolos para cargarte
+|||||||||||||Œ||||||||||||||||  -> Simbolos para cargarte
 
 						-> Simbolo para hacer enter

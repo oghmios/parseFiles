@@ -61,12 +61,12 @@ namespace FinalParser {
 	private: System::Windows::Forms::Label^  nameFileLabel;
 	private: System::Windows::Forms::Button^  emulatorCoordButton;
 
-	private: System::Windows::Forms::Label^  assignEmulatorLabel;
+
 	private: System::Windows::Forms::Label^  cordinatesEmuLabel;
 	private: System::Windows::Forms::Label^  coordinatesParserLabel;
 
 
-	private: System::Windows::Forms::Label^  assignParserLabel;
+
 
 	private: System::Windows::Forms::Button^  parserCoordButton;
 	private: System::Windows::Forms::Button^  youButton;
@@ -133,6 +133,11 @@ namespace FinalParser {
 	private: System::Windows::Forms::Button^  finishOptionButton;
 private: System::Windows::Forms::Button^  earlierOptionButton;
 private: System::Windows::Forms::Button^  earlierOptButton;
+private: System::Windows::Forms::Label^  waitinLineLabel;
+private: System::Windows::Forms::Label^  watitingLine;
+private: System::Windows::Forms::Button^  addWaitButton;
+private: System::Windows::Forms::Button^  recoverWaitedButton;
+private: System::Windows::Forms::Button^  finishWatingButton;
 
 
 
@@ -161,10 +166,8 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			this->openDialog = (gcnew System::Windows::Forms::OpenFileDialog());
 			this->nameFileLabel = (gcnew System::Windows::Forms::Label());
 			this->emulatorCoordButton = (gcnew System::Windows::Forms::Button());
-			this->assignEmulatorLabel = (gcnew System::Windows::Forms::Label());
 			this->cordinatesEmuLabel = (gcnew System::Windows::Forms::Label());
 			this->coordinatesParserLabel = (gcnew System::Windows::Forms::Label());
-			this->assignParserLabel = (gcnew System::Windows::Forms::Label());
 			this->parserCoordButton = (gcnew System::Windows::Forms::Button());
 			this->youButton = (gcnew System::Windows::Forms::Button());
 			this->charactersLabel = (gcnew System::Windows::Forms::Label());
@@ -216,6 +219,11 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			this->finishOptionButton = (gcnew System::Windows::Forms::Button());
 			this->earlierOptionButton = (gcnew System::Windows::Forms::Button());
 			this->earlierOptButton = (gcnew System::Windows::Forms::Button());
+			this->waitinLineLabel = (gcnew System::Windows::Forms::Label());
+			this->watitingLine = (gcnew System::Windows::Forms::Label());
+			this->addWaitButton = (gcnew System::Windows::Forms::Button());
+			this->recoverWaitedButton = (gcnew System::Windows::Forms::Button());
+			this->finishWatingButton = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// openButton
@@ -254,7 +262,7 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			// 
 			// emulatorCoordButton
 			// 
-			this->emulatorCoordButton->Location = System::Drawing::Point(74, 101);
+			this->emulatorCoordButton->Location = System::Drawing::Point(81, 76);
 			this->emulatorCoordButton->Name = L"emulatorCoordButton";
 			this->emulatorCoordButton->Size = System::Drawing::Size(75, 23);
 			this->emulatorCoordButton->TabIndex = 3;
@@ -262,21 +270,11 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			this->emulatorCoordButton->UseVisualStyleBackColor = true;
 			this->emulatorCoordButton->Click += gcnew System::EventHandler(this, &parserGUI::emulatorCoordButton_Click);
 			// 
-			// assignEmulatorLabel
-			// 
-			this->assignEmulatorLabel->AutoSize = true;
-			this->assignEmulatorLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->assignEmulatorLabel->Location = System::Drawing::Point(74, 67);
-			this->assignEmulatorLabel->Name = L"assignEmulatorLabel";
-			this->assignEmulatorLabel->Size = System::Drawing::Size(187, 17);
-			this->assignEmulatorLabel->TabIndex = 4;
-			this->assignEmulatorLabel->Text = L"Assign emulator coordinates";
-			// 
 			// cordinatesEmuLabel
 			// 
 			this->cordinatesEmuLabel->AutoSize = true;
 			this->cordinatesEmuLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->cordinatesEmuLabel->Location = System::Drawing::Point(177, 104);
+			this->cordinatesEmuLabel->Location = System::Drawing::Point(184, 79);
 			this->cordinatesEmuLabel->Name = L"cordinatesEmuLabel";
 			this->cordinatesEmuLabel->Size = System::Drawing::Size(84, 17);
 			this->cordinatesEmuLabel->TabIndex = 5;
@@ -286,25 +284,15 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			// 
 			this->coordinatesParserLabel->AutoSize = true;
 			this->coordinatesParserLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->coordinatesParserLabel->Location = System::Drawing::Point(460, 104);
+			this->coordinatesParserLabel->Location = System::Drawing::Point(467, 79);
 			this->coordinatesParserLabel->Name = L"coordinatesParserLabel";
 			this->coordinatesParserLabel->Size = System::Drawing::Size(84, 17);
 			this->coordinatesParserLabel->TabIndex = 8;
 			this->coordinatesParserLabel->Text = L"Coordinates";
 			// 
-			// assignParserLabel
-			// 
-			this->assignParserLabel->AutoSize = true;
-			this->assignParserLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->assignParserLabel->Location = System::Drawing::Point(357, 67);
-			this->assignParserLabel->Name = L"assignParserLabel";
-			this->assignParserLabel->Size = System::Drawing::Size(173, 17);
-			this->assignParserLabel->TabIndex = 7;
-			this->assignParserLabel->Text = L"Assign parser coordinates";
-			// 
 			// parserCoordButton
 			// 
-			this->parserCoordButton->Location = System::Drawing::Point(360, 101);
+			this->parserCoordButton->Location = System::Drawing::Point(367, 76);
 			this->parserCoordButton->Name = L"parserCoordButton";
 			this->parserCoordButton->Size = System::Drawing::Size(75, 23);
 			this->parserCoordButton->TabIndex = 6;
@@ -436,7 +424,7 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			// 
 			this->nextLineButton->Location = System::Drawing::Point(59, 771);
 			this->nextLineButton->Name = L"nextLineButton";
-			this->nextLineButton->Size = System::Drawing::Size(470, 23);
+			this->nextLineButton->Size = System::Drawing::Size(126, 23);
 			this->nextLineButton->TabIndex = 23;
 			this->nextLineButton->Text = L"Next Line(N)";
 			this->nextLineButton->UseVisualStyleBackColor = true;
@@ -466,7 +454,7 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			// 
 			this->splitter1->Location = System::Drawing::Point(0, 0);
 			this->splitter1->Name = L"splitter1";
-			this->splitter1->Size = System::Drawing::Size(3, 868);
+			this->splitter1->Size = System::Drawing::Size(3, 845);
 			this->splitter1->TabIndex = 24;
 			this->splitter1->TabStop = false;
 			// 
@@ -478,7 +466,7 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			// 
 			this->actualLineLabel->AutoSize = true;
 			this->actualLineLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->actualLineLabel->Location = System::Drawing::Point(41, 153);
+			this->actualLineLabel->Location = System::Drawing::Point(40, 115);
 			this->actualLineLabel->Name = L"actualLineLabel";
 			this->actualLineLabel->Size = System::Drawing::Size(77, 17);
 			this->actualLineLabel->TabIndex = 25;
@@ -488,7 +476,7 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			// 
 			this->actualLine->AutoSize = true;
 			this->actualLine->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->actualLine->Location = System::Drawing::Point(141, 153);
+			this->actualLine->Location = System::Drawing::Point(140, 115);
 			this->actualLine->Name = L"actualLine";
 			this->actualLine->Size = System::Drawing::Size(45, 17);
 			this->actualLine->TabIndex = 26;
@@ -506,7 +494,7 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			// 
 			// optionButton
 			// 
-			this->optionButton->Location = System::Drawing::Point(181, 489);
+			this->optionButton->Location = System::Drawing::Point(306, 489);
 			this->optionButton->Name = L"optionButton";
 			this->optionButton->Size = System::Drawing::Size(105, 23);
 			this->optionButton->TabIndex = 28;
@@ -528,7 +516,7 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			// 
 			this->resultingLine->AutoSize = true;
 			this->resultingLine->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->resultingLine->Location = System::Drawing::Point(141, 188);
+			this->resultingLine->Location = System::Drawing::Point(140, 150);
 			this->resultingLine->Name = L"resultingLine";
 			this->resultingLine->Size = System::Drawing::Size(45, 17);
 			this->resultingLine->TabIndex = 30;
@@ -538,7 +526,7 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			// 
 			this->resultingLineLabel->AutoSize = true;
 			this->resultingLineLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->resultingLineLabel->Location = System::Drawing::Point(40, 188);
+			this->resultingLineLabel->Location = System::Drawing::Point(39, 150);
 			this->resultingLineLabel->Name = L"resultingLineLabel";
 			this->resultingLineLabel->Size = System::Drawing::Size(97, 17);
 			this->resultingLineLabel->TabIndex = 31;
@@ -586,11 +574,12 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			// 
 			// premiumOptionButton
 			// 
-			this->premiumOptionButton->Location = System::Drawing::Point(306, 489);
+			this->premiumOptionButton->Enabled = false;
+			this->premiumOptionButton->Location = System::Drawing::Point(427, 489);
 			this->premiumOptionButton->Name = L"premiumOptionButton";
 			this->premiumOptionButton->Size = System::Drawing::Size(105, 23);
 			this->premiumOptionButton->TabIndex = 36;
-			this->premiumOptionButton->Text = L"Premium Option(P)";
+			this->premiumOptionButton->Text = L"NON USED";
 			this->premiumOptionButton->UseVisualStyleBackColor = true;
 			this->premiumOptionButton->Click += gcnew System::EventHandler(this, &parserGUI::premiumOptionButton_Click);
 			// 
@@ -608,7 +597,7 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			// 
 			this->lastLineButton->Location = System::Drawing::Point(59, 815);
 			this->lastLineButton->Name = L"lastLineButton";
-			this->lastLineButton->Size = System::Drawing::Size(470, 23);
+			this->lastLineButton->Size = System::Drawing::Size(126, 23);
 			this->lastLineButton->TabIndex = 38;
 			this->lastLineButton->Text = L"Last Line(L)";
 			this->lastLineButton->UseVisualStyleBackColor = true;
@@ -784,29 +773,88 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			// 
 			// earlierOptionButton
 			// 
+			this->earlierOptionButton->Enabled = false;
 			this->earlierOptionButton->Location = System::Drawing::Point(427, 530);
 			this->earlierOptionButton->Name = L"earlierOptionButton";
 			this->earlierOptionButton->Size = System::Drawing::Size(105, 23);
 			this->earlierOptionButton->TabIndex = 57;
-			this->earlierOptionButton->Text = L"Inser Earlier(,)";
+			this->earlierOptionButton->Text = L"NON USED";
 			this->earlierOptionButton->UseVisualStyleBackColor = true;
 			this->earlierOptionButton->Click += gcnew System::EventHandler(this, &parserGUI::earlierOptionButton_Click);
 			// 
 			// earlierOptButton
 			// 
-			this->earlierOptButton->Location = System::Drawing::Point(427, 489);
+			this->earlierOptButton->Location = System::Drawing::Point(181, 489);
 			this->earlierOptButton->Name = L"earlierOptButton";
 			this->earlierOptButton->Size = System::Drawing::Size(105, 23);
 			this->earlierOptButton->TabIndex = 58;
-			this->earlierOptButton->Text = L"Earlier Option(-)";
+			this->earlierOptButton->Text = L"Timed Choice(-)";
 			this->earlierOptButton->UseVisualStyleBackColor = true;
 			this->earlierOptButton->Click += gcnew System::EventHandler(this, &parserGUI::earlierOptButton_Click);
+			// 
+			// waitinLineLabel
+			// 
+			this->waitinLineLabel->AutoSize = true;
+			this->waitinLineLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
+			this->waitinLineLabel->Location = System::Drawing::Point(40, 187);
+			this->waitinLineLabel->Name = L"waitinLineLabel";
+			this->waitinLineLabel->Size = System::Drawing::Size(85, 17);
+			this->waitinLineLabel->TabIndex = 59;
+			this->waitinLineLabel->Text = L"Waiting line:";
+			// 
+			// watitingLine
+			// 
+			this->watitingLine->AutoSize = true;
+			this->watitingLine->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
+			this->watitingLine->Location = System::Drawing::Point(140, 187);
+			this->watitingLine->Name = L"watitingLine";
+			this->watitingLine->Size = System::Drawing::Size(45, 17);
+			this->watitingLine->TabIndex = 60;
+			this->watitingLine->Text = L"(Line)";
+			// 
+			// addWaitButton
+			// 
+			this->addWaitButton->Enabled = false;
+			this->addWaitButton->Location = System::Drawing::Point(221, 771);
+			this->addWaitButton->Name = L"addWaitButton";
+			this->addWaitButton->Size = System::Drawing::Size(96, 23);
+			this->addWaitButton->TabIndex = 61;
+			this->addWaitButton->Text = L"Add to Wait";
+			this->addWaitButton->UseVisualStyleBackColor = true;
+			this->addWaitButton->Click += gcnew System::EventHandler(this, &parserGUI::addWaitButton_Click);
+			// 
+			// recoverWaitedButton
+			// 
+			this->recoverWaitedButton->Enabled = false;
+			this->recoverWaitedButton->Location = System::Drawing::Point(221, 815);
+			this->recoverWaitedButton->Name = L"recoverWaitedButton";
+			this->recoverWaitedButton->Size = System::Drawing::Size(96, 23);
+			this->recoverWaitedButton->TabIndex = 62;
+			this->recoverWaitedButton->Text = L"Recover Waited";
+			this->recoverWaitedButton->UseVisualStyleBackColor = true;
+			this->recoverWaitedButton->Click += gcnew System::EventHandler(this, &parserGUI::recoverWaitedButton_Click);
+			// 
+			// finishWatingButton
+			// 
+			this->finishWatingButton->Enabled = false;
+			this->finishWatingButton->Location = System::Drawing::Point(347, 792);
+			this->finishWatingButton->Name = L"finishWatingButton";
+			this->finishWatingButton->Size = System::Drawing::Size(95, 23);
+			this->finishWatingButton->TabIndex = 63;
+			this->finishWatingButton->Text = L"Finish Waiting";
+			this->finishWatingButton->UseVisualStyleBackColor = true;
+			this->finishWatingButton->Click += gcnew System::EventHandler(this, &parserGUI::finishWatingButton_Click);
 			// 
 			// parserGUI
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(595, 868);
+			this->ClientSize = System::Drawing::Size(595, 845);
+			this->Controls->Add(this->finishWatingButton);
+			this->Controls->Add(this->recoverWaitedButton);
+			this->Controls->Add(this->addWaitButton);
+			this->Controls->Add(this->watitingLine);
+			this->Controls->Add(this->waitinLineLabel);
 			this->Controls->Add(this->earlierOptButton);
 			this->Controls->Add(this->earlierOptionButton);
 			this->Controls->Add(this->finishOptionButton);
@@ -857,10 +905,8 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			this->Controls->Add(this->charactersLabel);
 			this->Controls->Add(this->youButton);
 			this->Controls->Add(this->coordinatesParserLabel);
-			this->Controls->Add(this->assignParserLabel);
 			this->Controls->Add(this->parserCoordButton);
 			this->Controls->Add(this->cordinatesEmuLabel);
-			this->Controls->Add(this->assignEmulatorLabel);
 			this->Controls->Add(this->emulatorCoordButton);
 			this->Controls->Add(this->nameFileLabel);
 			this->Controls->Add(this->openLabel);
@@ -880,6 +926,7 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 /////////////////////////////////////LOCAL VARIABLES////////////////////////////////////////////
 			//Inicializamos el array de lineas fuera, puesto que vamos a trabajar con él durante toda la ejecución del programa
 			System::Collections::ArrayList fileLines;
+			System::Collections::ArrayList OtherLines;
 			System::Collections::ArrayList finalLines;
 			System::String^ line2Add;
 			System::String^ pausedLine;
@@ -896,6 +943,7 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 			
 			//Declaramos un id para poder controlar la línea del array sobre la cual estamos trabajando
 			int lineID					= 0;
+			bool saveInOtherArray		= false;
 			bool captureCoordinatesEmu	= false;
 			bool captureCoordinatesTer	= false;
 			bool fileopened				= false;
@@ -1716,32 +1764,8 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 					optionToWait8 = actualLine->Text;
 				}
 				break;
-			case 45: // - Earlier option
-				if (optionToWait1 == "non") {
-					optionToWait1 = actualLine->Text;
-					choiceComes = true;
-				}
-				else if (optionToWait2 == "non") {
-					optionToWait2 = actualLine->Text;
-				}
-				else if (optionToWait3 == "non") {
-					optionToWait3 = actualLine->Text;
-				}
-				else if (optionToWait4 == "non") {
-					optionToWait4 = actualLine->Text;
-				}
-				else if (optionToWait5 == "non") {
-					optionToWait5 = actualLine->Text;
-				}
-				else if (optionToWait6 == "non") {
-					optionToWait6 = actualLine->Text;
-				}
-				else if (optionToWait7 == "non") {
-					optionToWait7 = actualLine->Text;
-				}
-				else if (optionToWait8 == "non") {
-					optionToWait8 = actualLine->Text;
-				}
+			case 45: // - Timed Choice
+				line2Add = "Timed Choice; " + actualLine->Text;
 				break;
 			case 83: // S Selected option
 				if (choiceComes) {
@@ -2073,6 +2097,22 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 	private: System::Void saveLine(System::String^ lineToAdd) {
 		finalLines.Add(lineToAdd);
 	}
+	private: System::Void finishWatingButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		saveInOtherArray = false;
+	}
+	private: System::Void addWaitButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		if (!saveInOtherArray) {
+			saveInOtherArray = true;
+
+		}
+		OtherLines.Add(actualLine->Text);
+		watitingLine->Text = static_cast<String^>(OtherLines[OtherLines.Count - 1]);
+		showNextLine();
+	}
+
+	private: System::Void recoverWaitedButton_Click(System::Object^  sender, System::EventArgs^  e) {
+
+	}
 
 	//Create and save csv file
 	private: System::Void saveFile_Click(System::Object^  sender, System::EventArgs^  e) {
@@ -2088,6 +2128,8 @@ private: System::Windows::Forms::Button^  earlierOptButton;
 		csvFile.close();
 		System::Windows::Forms::MessageBox::Show("Saved");
 	}
+
+
 
 
 

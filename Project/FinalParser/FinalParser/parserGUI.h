@@ -1679,18 +1679,18 @@ private: System::Windows::Forms::Button^  colorYouButton;
 		String^ mood = assignMoodFromColor(1);
 		if (mood == "none") {
 			if (choiceComes) {
-				line2Add = "You ; ; ; " + actualLine->Text;
+				line2Add = " ; You ; ; ; " + actualLine->Text;
 			}
 			else {
-				line2Add = "You ; " + actualLine->Text;
+				line2Add = " ; You ; " + actualLine->Text;
 			}
 		}
 		else {
 			if (choiceComes) {
-				line2Add = mood + "; You ; ; ; " + actualLine->Text;
+				line2Add = mood + " ; You ; ; ; " + actualLine->Text;
 			}
 			else {
-				line2Add = mood + "; You ; " + actualLine->Text;
+				line2Add = mood + " ; You ; " + actualLine->Text;
 			}
 		}
 		
@@ -1710,10 +1710,10 @@ private: System::Windows::Forms::Button^  colorYouButton;
 
 	private: System::Void narratorMethod() {
 		if (choiceComes) {
-			line2Add = "Narrator ; ; ; " + actualLine->Text;
+			line2Add = " ; Narrator ; ; ; " + actualLine->Text;
 		}
 		else {
-			line2Add = "Narrator ; " + actualLine->Text;
+			line2Add = " ; Narrator ; " + actualLine->Text;
 		}
 		saveLine(line2Add);
 		resultingLine->Text = line2Add;
@@ -1988,47 +1988,47 @@ private: System::Windows::Forms::Button^  colorYouButton;
 				}
 				break;
 			case 45: // - Timed Choice
-				line2Add = "Timed Choice; " + actualLine->Text;
+				line2Add = " ; Timed Choice; " + actualLine->Text;
 				break;
 			case 83: // S Selected option
 				if (choiceComes) {
 					if (optionToWait1 != "non") {
-						line2Add = "Option ; ; **" + optionToWait1;
+						line2Add = " ; Option ; ; **" + optionToWait1;
 						optionToWait1 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait2 != "non") {
-						line2Add = "Option ; ; **" + optionToWait2;
+						line2Add = " ; Option ; ; **" + optionToWait2;
 						optionToWait2 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait3 != "non") {
-						line2Add = "Option ; ; **" + optionToWait3;
+						line2Add = " ; Option ; ; **" + optionToWait3;
 						optionToWait3 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait4 != "non") {
-						line2Add = "Option ; ; **" + optionToWait4;
+						line2Add = " ; Option ; ; **" + optionToWait4;
 						optionToWait4 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait5 != "non") {
-						line2Add = "Option ; ; **" + optionToWait5;
+						line2Add = " ; Option ; ; **" + optionToWait5;
 						optionToWait5 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait6 != "non") {
-						line2Add = "Option ; ; **" + optionToWait6;
+						line2Add = " ; Option ; ; **" + optionToWait6;
 						optionToWait6 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait7 != "non") {
-						line2Add = "Option ; ; **" + optionToWait7;
+						line2Add = " ; Option ; ; **" + optionToWait7;
 						optionToWait7 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait8 != "non") {
-						line2Add = "Option ; ; **" + optionToWait8;
+						line2Add = " ; Option ; ; **" + optionToWait8;
 						optionToWait8 = "non";
 						boolOption = true;
 					}
@@ -2037,42 +2037,42 @@ private: System::Windows::Forms::Button^  colorYouButton;
 			case 90: // Z Insert the option and wait to insert next sentences
 				if (choiceComes) {
 					if (optionToWait1 != "non") {
-						line2Add = "Option ; ; " + optionToWait1;
+						line2Add = " ; Option ; ; " + optionToWait1;
 						optionToWait1 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait2 != "non") {
-						line2Add = "Option ; ; " + optionToWait2;
+						line2Add = " ; Option ; ; " + optionToWait2;
 						optionToWait2 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait3 != "non") {
-						line2Add = "Option ; ; " + optionToWait3;
+						line2Add = " ; Option ; ; " + optionToWait3;
 						optionToWait3 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait4 != "non") {
-						line2Add = "Option ; ; " + optionToWait4;
+						line2Add = " ; Option ; ; " + optionToWait4;
 						optionToWait4 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait5 != "non") {
-						line2Add = "Option ; ; " + optionToWait5;
+						line2Add = " ; Option ; ; " + optionToWait5;
 						optionToWait5 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait6 != "non") {
-						line2Add = "Option ; ; " + optionToWait6;
+						line2Add = " ; Option ; ; " + optionToWait6;
 						optionToWait6 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait7 != "non") {
-						line2Add = "Option ; ; " + optionToWait7;
+						line2Add = " ; Option ; ; " + optionToWait7;
 						optionToWait7 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait8 != "non") {
-						line2Add = "Option ; ; " + optionToWait8;
+						line2Add = " ; Option ; ; " + optionToWait8;
 						optionToWait8 = "non";
 						boolOption = true;
 					}
@@ -2082,42 +2082,42 @@ private: System::Windows::Forms::Button^  colorYouButton;
 			case 88: // X Premium selected option
 				if (choiceComes) {
 					if (optionToWait1 != "non") {
-						line2Add = "Premium option ; ; **" + optionToWait1;
+						line2Add = " ; Premium option ; ; **" + optionToWait1;
 						optionToWait1 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait2 != "non") {
-						line2Add = "Premium option ; ; **" + optionToWait2;
+						line2Add = " ; Premium option ; ; **" + optionToWait2;
 						optionToWait2 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait3 != "non") {
-						line2Add = "Premium option ; ; **" + optionToWait3;
+						line2Add = " ; Premium option ; ; **" + optionToWait3;
 						optionToWait3 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait4 != "non") {
-						line2Add = "Premium option ; ; **" + optionToWait4;
+						line2Add = " ; Premium option ; ; **" + optionToWait4;
 						optionToWait4 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait5 != "non") {
-						line2Add = "Premium option ; ; **" + optionToWait5;
+						line2Add = " ; Premium option ; ; **" + optionToWait5;
 						optionToWait5 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait6 != "non") {
-						line2Add = "Premium option ; ; **" + optionToWait6;
+						line2Add = " ; Premium option ; ; **" + optionToWait6;
 						optionToWait6 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait7 != "non") {
-						line2Add = "Premium option ; ; **" + optionToWait7;
+						line2Add = " ; Premium option ; ; **" + optionToWait7;
 						optionToWait7 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait8 != "non") {
-						line2Add = "Premium option ; ; **" + optionToWait8;
+						line2Add = " ; Premium option ; ; **" + optionToWait8;
 						optionToWait8 = "non";
 						boolOption = true;
 					}
@@ -2126,42 +2126,42 @@ private: System::Windows::Forms::Button^  colorYouButton;
 			case 44: // , Earlier selected option
 				if (choiceComes) {
 					if (optionToWait1 != "non") {
-						line2Add = "Earlier Option ; ; **" + optionToWait1;
+						line2Add = " ; Earlier Option ; ; **" + optionToWait1;
 						optionToWait1 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait2 != "non") {
-						line2Add = "Earlier Option ; ; **" + optionToWait2;
+						line2Add = " ; Earlier Option ; ; **" + optionToWait2;
 						optionToWait2 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait3 != "non") {
-						line2Add = "Earlier Option ; ; **" + optionToWait3;
+						line2Add = " ; Earlier Option ; ; **" + optionToWait3;
 						optionToWait3 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait4 != "non") {
-						line2Add = "Earlier Option ; ; **" + optionToWait4;
+						line2Add = " ; Earlier Option ; ; **" + optionToWait4;
 						optionToWait4 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait5 != "non") {
-						line2Add = "Earlier Option ; ; **" + optionToWait5;
+						line2Add = " ; Earlier Option ; ; **" + optionToWait5;
 						optionToWait5 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait6 != "non") {
-						line2Add = "Earlier Option ; ; **" + optionToWait6;
+						line2Add = " ; Earlier Option ; ; **" + optionToWait6;
 						optionToWait6 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait7 != "non") {
-						line2Add = "Earlier Option ; ; **" + optionToWait7;
+						line2Add = " ; Earlier Option ; ; **" + optionToWait7;
 						optionToWait7 = "non";
 						boolOption = true;
 					}
 					else if (optionToWait8 != "non") {
-						line2Add = "Earlier Option ; ; **" + optionToWait8;
+						line2Add = " ; Earlier Option ; ; **" + optionToWait8;
 						optionToWait8 = "non";
 						boolOption = true;
 					}
@@ -2182,28 +2182,28 @@ private: System::Windows::Forms::Button^  colorYouButton;
 				break;
 			//// Enviroment ////
 			case 66: // B Background
-				line2Add = "Scene; " + actualLine->Text;
+				line2Add = " ; Scene; " + actualLine->Text;
 				if (choiceComes) {
 					boolOption = true;
 					enviromentWOpt = true;
 				}
 				break;
 			case 77: // M Music
-				line2Add = "Music; " + actualLine->Text;
+				line2Add = " ; Music; " + actualLine->Text;
 				if (choiceComes) {
 					boolOption = true;
 					enviromentWOpt = true;
 				}
 				break;
 			case 89: // Y Customization
-				line2Add = "Customization; " + actualLine->Text;
+				line2Add = " ; Customization; " + actualLine->Text;
 				if (choiceComes) {
 					boolOption = true;
 					enviromentWOpt = true;
 				}
 				break;
 			case 86: // Y Special
-				line2Add = "Special; " + actualLine->Text;
+				line2Add = " ; Special; " + actualLine->Text;
 				if (choiceComes) {
 					boolOption = true;
 					enviromentWOpt = true;
@@ -2310,18 +2310,18 @@ private: System::Windows::Forms::Button^  colorYouButton;
 		String^ mood = assignMoodFromColor(2);
 		if (mood == "none") {
 			if (choiceComes) {
-				line2Add = characterName + "; ; ; " + actualLine->Text;
+				line2Add = " ; " + characterName + "; ; ; " + actualLine->Text;
 			}
 			else {
-				line2Add = characterName + "; " + actualLine->Text;
+				line2Add = " ; " + characterName + "; " + actualLine->Text;
 			}
 		}
 		else {
 			if (choiceComes) {
-				line2Add = mood + "; " + characterName + "; ; ; " + actualLine->Text;
+				line2Add = mood + " ; " + characterName + "; ; ; " + actualLine->Text;
 			}
 			else {
-				line2Add = mood + "; " + characterName + "; " + actualLine->Text;
+				line2Add = mood + " ; " + characterName + "; " + actualLine->Text;
 			}
 		}
 		

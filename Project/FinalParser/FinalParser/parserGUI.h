@@ -1930,7 +1930,7 @@ private: System::Windows::Forms::Button^  colorYouButton;
 		switch (choose) {
 			//// Options ////
 			case 67: // C Choice
-				line2Add = "Choice; " + actualLine->Text;
+				line2Add = " ; Choice; " + actualLine->Text;
 				break;
 			case 79: // O Option
 				if (optionToWait1 == "non") {

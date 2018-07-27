@@ -10,6 +10,7 @@ c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\
   parserGUI.cpp
   parserSource.cpp
   Generating Code...
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
   AssemblyInfo.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
   FinalParser.vcxproj -> C:\Users\Valdes\Desktop\ParseChoices\parseFiles\Project\FinalParser\Debug\FinalParser.exe
   FinalParser.vcxproj -> C:\Users\Valdes\Desktop\ParseChoices\parseFiles\Project\FinalParser\Debug\FinalParser.pdb (Partial PDB)

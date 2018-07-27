@@ -1,12 +1,15 @@
 ﻿  stdafx.cpp
-c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1453): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1459): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1632): warning C4965: implicit box of integer 0; use nullptr or explicit cast
-c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1633): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1521): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1527): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1537): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1606): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1855): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+c:\users\valdes\desktop\parsechoices\parsefiles\project\finalparser\finalparser\parserGUI.h(1856): warning C4965: implicit box of integer 0; use nullptr or explicit cast
   AssemblyInfo.cpp
   FinalParser.cpp
   parserGUI.cpp
   parserSource.cpp
   Generating Code...
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
   FinalParser.vcxproj -> C:\Users\Valdes\Desktop\ParseChoices\parseFiles\Project\FinalParser\Release\FinalParser.exe
   FinalParser.vcxproj -> C:\Users\Valdes\Desktop\ParseChoices\parseFiles\Project\FinalParser\Release\FinalParser.pdb (Full PDB)

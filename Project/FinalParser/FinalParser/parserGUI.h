@@ -9,6 +9,7 @@
 #include <iostream>
 #include <conio.h>
 #include <Windows.h>
+#include <wingdi.h>
 #include <WinUser.h>
 #include <vector>
 
@@ -133,11 +134,21 @@ namespace FinalParser {
 	private: System::Windows::Forms::Button^  finishOptionButton;
 private: System::Windows::Forms::Button^  earlierOptionButton;
 private: System::Windows::Forms::Button^  earlierOptButton;
-private: System::Windows::Forms::Label^  waitinLineLabel;
-private: System::Windows::Forms::Label^  watitingLine;
+
+
+
+
 private: System::Windows::Forms::Button^  addWaitButton;
 private: System::Windows::Forms::Button^  recoverWaitedButton;
 private: System::Windows::Forms::Button^  finishWatingButton;
+private: System::Windows::Forms::Label^  colorLineChars;
+private: System::Windows::Forms::Button^  colorCharsButton;
+
+
+private: System::Windows::Forms::Label^  colorLineYou;
+private: System::Windows::Forms::Button^  colorYouButton;
+
+
 
 
 
@@ -219,11 +230,13 @@ private: System::Windows::Forms::Button^  finishWatingButton;
 			this->finishOptionButton = (gcnew System::Windows::Forms::Button());
 			this->earlierOptionButton = (gcnew System::Windows::Forms::Button());
 			this->earlierOptButton = (gcnew System::Windows::Forms::Button());
-			this->waitinLineLabel = (gcnew System::Windows::Forms::Label());
-			this->watitingLine = (gcnew System::Windows::Forms::Label());
 			this->addWaitButton = (gcnew System::Windows::Forms::Button());
 			this->recoverWaitedButton = (gcnew System::Windows::Forms::Button());
 			this->finishWatingButton = (gcnew System::Windows::Forms::Button());
+			this->colorLineChars = (gcnew System::Windows::Forms::Label());
+			this->colorCharsButton = (gcnew System::Windows::Forms::Button());
+			this->colorLineYou = (gcnew System::Windows::Forms::Label());
+			this->colorYouButton = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// openButton
@@ -792,26 +805,6 @@ private: System::Windows::Forms::Button^  finishWatingButton;
 			this->earlierOptButton->UseVisualStyleBackColor = true;
 			this->earlierOptButton->Click += gcnew System::EventHandler(this, &parserGUI::earlierOptButton_Click);
 			// 
-			// waitinLineLabel
-			// 
-			this->waitinLineLabel->AutoSize = true;
-			this->waitinLineLabel->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->waitinLineLabel->Location = System::Drawing::Point(40, 187);
-			this->waitinLineLabel->Name = L"waitinLineLabel";
-			this->waitinLineLabel->Size = System::Drawing::Size(85, 17);
-			this->waitinLineLabel->TabIndex = 59;
-			this->waitinLineLabel->Text = L"Waiting line:";
-			// 
-			// watitingLine
-			// 
-			this->watitingLine->AutoSize = true;
-			this->watitingLine->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
-			this->watitingLine->Location = System::Drawing::Point(140, 187);
-			this->watitingLine->Name = L"watitingLine";
-			this->watitingLine->Size = System::Drawing::Size(45, 17);
-			this->watitingLine->TabIndex = 60;
-			this->watitingLine->Text = L"(Line)";
-			// 
 			// addWaitButton
 			// 
 			this->addWaitButton->Enabled = false;
@@ -845,16 +838,58 @@ private: System::Windows::Forms::Button^  finishWatingButton;
 			this->finishWatingButton->UseVisualStyleBackColor = true;
 			this->finishWatingButton->Click += gcnew System::EventHandler(this, &parserGUI::finishWatingButton_Click);
 			// 
+			// colorLineChars
+			// 
+			this->colorLineChars->AutoSize = true;
+			this->colorLineChars->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
+			this->colorLineChars->Location = System::Drawing::Point(467, 189);
+			this->colorLineChars->Name = L"colorLineChars";
+			this->colorLineChars->Size = System::Drawing::Size(51, 17);
+			this->colorLineChars->TabIndex = 67;
+			this->colorLineChars->Text = L"(Color)";
+			// 
+			// colorCharsButton
+			// 
+			this->colorCharsButton->Location = System::Drawing::Point(365, 186);
+			this->colorCharsButton->Name = L"colorCharsButton";
+			this->colorCharsButton->Size = System::Drawing::Size(77, 23);
+			this->colorCharsButton->TabIndex = 66;
+			this->colorCharsButton->Text = L"Assign Chars";
+			this->colorCharsButton->UseVisualStyleBackColor = true;
+			this->colorCharsButton->Click += gcnew System::EventHandler(this, &parserGUI::colorCharsButton_Click);
+			// 
+			// colorLineYou
+			// 
+			this->colorLineYou->AutoSize = true;
+			this->colorLineYou->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10));
+			this->colorLineYou->Location = System::Drawing::Point(184, 189);
+			this->colorLineYou->Name = L"colorLineYou";
+			this->colorLineYou->Size = System::Drawing::Size(51, 17);
+			this->colorLineYou->TabIndex = 65;
+			this->colorLineYou->Text = L"(Color)";
+			// 
+			// colorYouButton
+			// 
+			this->colorYouButton->Location = System::Drawing::Point(81, 186);
+			this->colorYouButton->Name = L"colorYouButton";
+			this->colorYouButton->Size = System::Drawing::Size(75, 23);
+			this->colorYouButton->TabIndex = 64;
+			this->colorYouButton->Text = L"Assign You";
+			this->colorYouButton->UseVisualStyleBackColor = true;
+			this->colorYouButton->Click += gcnew System::EventHandler(this, &parserGUI::colorYouButton_Click);
+			// 
 			// parserGUI
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(595, 845);
+			this->Controls->Add(this->colorLineChars);
+			this->Controls->Add(this->colorCharsButton);
+			this->Controls->Add(this->colorLineYou);
+			this->Controls->Add(this->colorYouButton);
 			this->Controls->Add(this->finishWatingButton);
 			this->Controls->Add(this->recoverWaitedButton);
 			this->Controls->Add(this->addWaitButton);
-			this->Controls->Add(this->watitingLine);
-			this->Controls->Add(this->waitinLineLabel);
 			this->Controls->Add(this->earlierOptButton);
 			this->Controls->Add(this->earlierOptionButton);
 			this->Controls->Add(this->finishOptionButton);
@@ -946,6 +981,7 @@ private: System::Windows::Forms::Button^  finishWatingButton;
 			bool saveInOtherArray		= false;
 			bool captureCoordinatesEmu	= false;
 			bool captureCoordinatesTer	= false;
+			bool captureCoordinatesColor= false;
 			bool fileopened				= false;
 			bool pauseLine				= false;
 			bool nextLineWrong			= false;
@@ -957,6 +993,10 @@ private: System::Windows::Forms::Button^  finishWatingButton;
 			double emuY;
 			double terX;
 			double terY;
+			double moodYouX = 0;
+			double moodYouY = 0;
+			double moodCharX = 0;
+			double moodCharY = 0;
 			//Declaramos el archivo csv que vamos a editar
 			
 /////////////////////////////////////OPEN FILE AND ANALIZE/////////////////////////////////////////////////
@@ -1311,20 +1351,39 @@ private: System::Windows::Forms::Button^  finishWatingButton;
 		cordinatesEmuLabel->Text = "Press J to capture";
 		captureCoordinatesEmu = true;
 	}
+	private: System::Void colorYouButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		colorLineYou->Text = "Press K to capture";
+		captureCoordinatesTer = true;
+		captureCoordinatesColor = true;
+	}
+	private: System::Void colorCharsButton_Click(System::Object^  sender, System::EventArgs^  e) {
+		colorLineChars->Text = "Press J to capture";
+		captureCoordinatesEmu = true;
+		captureCoordinatesColor = true;
+	}
 /////////////////////////////////KEYBOARD CONTROLS//////////////////////////////////////////////////////////////////
 	private: System::Void keyboard_KeyDown(Object^ /*sender*/, System::Windows::Forms::KeyEventArgs^ e)
 	{
 		// Capture Emulator Coordinates
 		if (e->KeyCode == Keys::J && captureCoordinatesEmu)
 		{
+
 			POINT p;
 
 			GetCursorPos(&p);
-			emuX = p.x;
+			
+			if (!captureCoordinatesColor) {
+				emuX = p.x;
+				emuY = p.y;
+				cordinatesEmuLabel->Text = "X: " + emuX.ToString() + " Y: " + emuY.ToString();
+			}
+			else {
+				moodCharX = p.x;
+				moodCharY = p.y;
+				colorLineChars->Text = "Picked";
+			}
 
-			emuY = p.y;
-			cordinatesEmuLabel->Text = "X: " + emuX.ToString() + " Y: " + emuY.ToString();
-
+			captureCoordinatesColor = false;
 			captureCoordinatesEmu = false;
 		}
 		// Capture Parser Coordinates
@@ -1333,9 +1392,18 @@ private: System::Windows::Forms::Button^  finishWatingButton;
 			POINT p;
 
 			GetCursorPos(&p);
-			terX = p.x;
-			terY = p.y;
-			coordinatesParserLabel->Text = "X: " + terX.ToString() + " Y: " + terY.ToString();
+			
+			if (!captureCoordinatesColor) {
+				terX = p.x;
+				terY = p.y;
+				coordinatesParserLabel->Text = "X: " + terX.ToString() + " Y: " + terY.ToString();
+			}
+			else {
+				moodYouX = p.x;
+				moodYouY = p.y;
+				colorLineYou->Text = "Picked";
+			}
+			captureCoordinatesColor = false;
 			captureCoordinatesTer = false;
 		}
 		/////// Character keys //////
@@ -1462,15 +1530,170 @@ private: System::Windows::Forms::Button^  finishWatingButton;
 
 	}
 
+	private: String^ assignMoodFromColor(int character) {
+		String^ mood = "none";
+		if (character == 1) {
+			HDC dc = GetDC(NULL);
+			COLORREF color = GetPixel(dc, moodYouX, moodYouY);
+			COLORREF reference = GetNearestColor(dc, color);
+			//System::Drawing::Color color = System::Drawing::Bitmap::GetPixel(emuX, emuY);
+
+			int red = GetRValue(color);
+			int blue = GetBValue(color);
+			int green = GetGValue(color);
+			if (red < 255 && red > 220) { // yellow Surprised
+				if (green < 195 && green > 120) {
+					if (blue < 45 && blue > 15) {
+						//colorLine->Text = "Red: " + red.ToString() + " Green: " + green.ToString() + " Blue: " + blue.ToString();
+						//colorLine->Text = "Is yellow";
+						mood = "Surprised";
+
+					}
+
+				}
+
+			}
+			if (red < 65 && red > 20) { // green Happy
+				if (green < 230 && green > 155) {
+					if (blue < 175 && blue > 130) {
+						//colorLine->Text = "Red: " + red.ToString() + " Green: " + green.ToString() + " Blue: " + blue.ToString();
+						//colorLine->Text = "Is green";
+						mood = "Happy";
+
+					}
+
+				}
+
+			}
+			if (red < 25 && red > 0) { // blue Neutral
+				if (green < 165 && green > 120) {
+					if (blue < 175 && blue > 150) {
+						//colorLine->Text = "Red: " + red.ToString() + " Green: " + green.ToString() + " Blue: " + blue.ToString();
+						//colorLine->Text = "Is blue";
+						mood = "Neutral";
+					}
+
+				}
+
+			}
+			if (red < 80 && red > 5) { // darkblue sad
+				if (green < 125 && green > 40) {
+					if (blue < 145 && blue > 50) {
+						//colorLine->Text = "Red: " + red.ToString() + " Green: " + green.ToString() + " Blue: " + blue.ToString();
+						//colorLine->Text = "Is darkblue";
+						mood = "Sad";
+					}
+
+				}
+
+			}
+			else if (red < 195 && red > 100) { // red annoyed
+				if (green < 80 && green > 10) {
+					if (blue < 125 && blue > 30) {
+						//colorLine->Text = "Red: " + red.ToString() + " Green: " + green.ToString() + " Blue: " + blue.ToString();
+						//colorLine->Text = "Is red";
+						mood = "Annoyed";
+					}
+
+				}
+
+			}
+
+			ReleaseDC(NULL, dc);
+		}
+		else {
+			HDC dc = GetDC(NULL);
+			COLORREF color = GetPixel(dc, moodCharX, moodCharY);
+			COLORREF reference = GetNearestColor(dc, color);
+			//System::Drawing::Color color = System::Drawing::Bitmap::GetPixel(emuX, emuY);
+
+			int red = GetRValue(color);
+			int blue = GetBValue(color);
+			int green = GetGValue(color);
+			if (red < 255 && red > 220) { // yellow Surprised
+				if (green < 195 && green > 120) {
+					if (blue < 45 && blue > 15) {
+						//colorLine->Text = "Red: " + red.ToString() + " Green: " + green.ToString() + " Blue: " + blue.ToString();
+						//colorLineYou->Text = "Yellow";
+						mood = "Surprised";
+
+					}
+
+				}
+
+			}
+			if (red < 65 && red > 20) { // green Happy
+				if (green < 230 && green > 155) {
+					if (blue < 175 && blue > 130) {
+						//colorLine->Text = "Red: " + red.ToString() + " Green: " + green.ToString() + " Blue: " + blue.ToString();
+						//colorLineYou->Text = "Green";
+						mood = "Happy";
+
+					}
+
+				}
+
+			}
+			if (red < 25 && red > 0) { // blue Neutral
+				if (green < 165 && green > 120) {
+					if (blue < 175 && blue > 150) {
+						//colorLine->Text = "Red: " + red.ToString() + " Green: " + green.ToString() + " Blue: " + blue.ToString();
+						//colorLineYou->Text = "Blue";
+						mood = "Neutral";
+					}
+
+				}
+
+			}
+			if (red < 80 && red > 5) { // darkblue sad
+				if (green < 125 && green > 40) {
+					if (blue < 145 && blue > 50) {
+						//colorLine->Text = "Red: " + red.ToString() + " Green: " + green.ToString() + " Blue: " + blue.ToString();
+						//colorLineYou->Text = "Darkblue";
+						mood = "Sad";
+					}
+
+				}
+
+			}
+			else if (red < 195 && red > 100) { // red annoyed
+				if (green < 80 && green > 10) {
+					if (blue < 125 && blue > 30) {
+						//colorLine->Text = "Red: " + red.ToString() + " Green: " + green.ToString() + " Blue: " + blue.ToString();
+						//colorLineYou->Text = "Red";
+						mood = "Annoyed";
+					}
+
+				}
+
+			}
+
+			ReleaseDC(NULL, dc);
+		}
+		return mood;
+	}
+
 ////////////////////////////////////////////BEHAVIOUR METHODS///////////////////////////////////////////////
 	///////// Characters ///////
 	private: System::Void youMethod() {
-		if (choiceComes) {
-			line2Add = "You ; ; ; " + actualLine->Text;
+		String^ mood = assignMoodFromColor(1);
+		if (mood == "none") {
+			if (choiceComes) {
+				line2Add = "You ; ; ; " + actualLine->Text;
+			}
+			else {
+				line2Add = "You ; " + actualLine->Text;
+			}
 		}
 		else {
-			line2Add = "You ; " + actualLine->Text;
+			if (choiceComes) {
+				line2Add = mood + "; You ; ; ; " + actualLine->Text;
+			}
+			else {
+				line2Add = mood + "; You ; " + actualLine->Text;
+			}
 		}
+		
 		saveLine(line2Add);
 		resultingLine->Text = line2Add;
 		if (pauseLine) {
@@ -2084,12 +2307,24 @@ private: System::Windows::Forms::Button^  finishWatingButton;
 		char delimiter = 40;
 		std::vector<std::string> splittedButtonText = split(buttonText, delimiter);
 		String^ characterName = managedNativetoStr(splittedButtonText.at(0));
-		if (choiceComes) {
-			line2Add = characterName + "; ; ; " + actualLine->Text;
+		String^ mood = assignMoodFromColor(2);
+		if (mood == "none") {
+			if (choiceComes) {
+				line2Add = characterName + "; ; ; " + actualLine->Text;
+			}
+			else {
+				line2Add = characterName + "; " + actualLine->Text;
+			}
 		}
 		else {
-			line2Add = characterName + "; " + actualLine->Text;
+			if (choiceComes) {
+				line2Add = mood + "; " + characterName + "; ; ; " + actualLine->Text;
+			}
+			else {
+				line2Add = mood + "; " + characterName + "; " + actualLine->Text;
+			}
 		}
+		
 		saveLine(line2Add);
 		resultingLine->Text = line2Add;
 	}
@@ -2106,7 +2341,7 @@ private: System::Windows::Forms::Button^  finishWatingButton;
 
 		}
 		OtherLines.Add(actualLine->Text);
-		watitingLine->Text = static_cast<String^>(OtherLines[OtherLines.Count - 1]);
+		//watitingLine->Text = static_cast<String^>(OtherLines[OtherLines.Count - 1]);
 		showNextLine();
 	}
 
@@ -2128,6 +2363,7 @@ private: System::Windows::Forms::Button^  finishWatingButton;
 		csvFile.close();
 		System::Windows::Forms::MessageBox::Show("Saved");
 	}
+
 
 
 
